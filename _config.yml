@@ -1,8 +1,7 @@
 lang: "en"
-title: "Leon Paternoster"
+title: "This day’s portion"
 author: "Leon Paternoster" # for blog post attribution
-description: "Head of digital and marketing at Suffolk Libraries. Developer of library self-service systems and simple, fast and friendly websites."
-tagline: "Web, libraries, work, miscellany"
+description: "A blog from Leon Paternoster"
 email: leon.paternoster@zoho.com
 linkedin: https://uk.linkedin.com/in/leonpaternoster
 twitter: https://mobile.twitter.com/leonpaternoster
@@ -15,7 +14,7 @@ logomark: ⚡️
 logoalt: "Lightning bolt logo"
 
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "https://www.leonpaternoster.com" # the base hostname & protocol for your site
+url: "https://www.thisdaysportion.com" # the base hostname & protocol for your site
 
 hide-skip-link: true
 
@@ -65,44 +64,6 @@ defaults:
     values:
         is_page: true
 
--
-    scope:
-      path: ''
-      type: 'notes'
-    values:
-      layout: 'note'
-      is_note: 'true'
-
--
-    scope:
-      path: ''
-      type: 'links'
-    values:
-      layout: 'link'
-      is_link: 'true'
-
-
-collections:
-    notes:
-      output: true
-      permalink: /:collection/:name
-
-    links:
-        output: true
-        permalink: /:collection/:name
-
-
-
-
-# webmentions
-
-# webmentions:
-  # username: www.leonpaternoster.com
-  # cache_folder: _data/webmentions
-  # legacy_domains:
-    # - http://leonpaternoster.com
-    # - http://www.leonpaternoster.com
-
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
@@ -139,9 +100,9 @@ pagination:
   permalink: '/page/:num/' # Pages are html files, linked jekyll extensionless permalink style.
 
   # Optional the title format for the paginated pages (supports :title for original page title, :num for pagination page number, :max for total number of pages)
-  title: ':title (page :num)'
+  title: ':title'
 
-  # Limit how many pagenated pages to create (default: 0, means all)
+  # Limit how many paginated pages to create (default: 0, means all)
   limit: 0
 
   # Optional, defines the field that the posts should be sorted on (omit to default to 'date')
@@ -173,17 +134,6 @@ pagination:
   # Optional, the default name of the index file for generated pages (e.g. 'index.html')
   # Without file extension
   indexpage: 'index'
-
-webmentions:
-  username: https://www.leonpaternoster.com
-  # Use my own cache folder
-  cache_folder: .cache
-  # skip bad URLs for 5 days
-  cache_bad_uris_for: 5
-  # I moved to www and then to https, so…
-  legacy_domains:
-    - http://leonpaternoster.com
-    - http://www.leonpaternoster.com
 
 
 # This is a Netlify file, feel free to delete unless you need it

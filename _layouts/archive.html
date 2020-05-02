@@ -1,0 +1,25 @@
+{% include header.html %}
+
+<div class="measure center">
+
+    {% unless page.hide-title %}
+
+    <h1 class="f2 mb4">{% if page.display-title %}{{ page.display-title }}{% else %}{{ page.title }}{% endif %}</h1>
+
+    {% endunless %}
+
+    {{ content}}
+
+    {% if page.pagination %}
+
+        {% include paginated-list.html %}
+
+    {% else %}
+
+        {% include list.html %}
+
+    {% endif %}
+
+</div>
+
+{% include footer.html %}

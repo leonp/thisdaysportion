@@ -15,6 +15,7 @@
     --link: #0000EE;
     --hover: #0000EE;
     --visited: #357EDD;
+    --focus: #FFB700;
 }
 
 .c-sans-serif {
@@ -225,10 +226,12 @@ td {
 blockquote {
     font-family: $c-sans-serif;
     font-size: 0.875rem;
+    line-height: 1.2;
+    line-height: clamp(1.15em, 2.5vw, 1.25em);
 }
 
 *:focus {
-    outline: 3px solid #FFB700;
+    outline: 3px solid var(--focus);
 }
 
 .top-0 {
@@ -238,7 +241,7 @@ blockquote {
 .c-icon,
 .c-icon:hover {
   color: transparent;
-  text-shadow: 0 0 var(--link);
+  text-shadow: 0 0 var(--accent);
 }
 
 .c-bar::before {

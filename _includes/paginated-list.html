@@ -12,9 +12,9 @@
 
 {% if paginator.total_pages > 1 %}
 
-<footer class="pt3">
+<footer class="pt3 c-sans-serif">
 
-    <div class="flex justify-between mb3 c-sans-serif f6 ttl small-caps tracked b">
+    <div class="flex justify-between f6 ttl small-caps tracked b">
 
         {% if paginator.next_page %}
 
@@ -37,6 +37,8 @@
       {% endif %}
 
     </div>
+
+    <p class="f7 mt0 silver">{{page.pagination_info.curr_page}}/{{page.pagination_info.total_pages}}</p>
 
 </footer>
 

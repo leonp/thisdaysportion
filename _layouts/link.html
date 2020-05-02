@@ -1,0 +1,19 @@
+{% include header.html %}
+
+<article class="h-entry">
+
+    <h1 class="f3 f2-ns tc c-sans-serif mb4 c-lh-title p-name c-linky-visited"><a href="{{ page.link-url }}" class="db">{{ page.title }}</a></h1>
+
+    <p class="mb4 c-linky-underline c-linky-visited">Link: <a href="{{ page.link-url }}"><cite>{{ page.title }}</cite> &rarr;</a></p>
+
+    <div class="e-content c-prose-headings c-hyphens c-linky-visited c-linky-underline entry-content c-body-text">
+
+        {{ content }}
+
+        <p class="mt4 f6 tc c-sans-serif c-linky-underline c-linky-visited">{% if page.link-published %}Originally published <time class="dt-published" datetime="{{ page.link-published | date: "%Y-%m-%d" }}">{{ page.link-published | date: "%b %-d, %Y" }}</time>{% endif %}{% if page.link-author %} by {{ page.link-author }}{% endif %} / <a href="/links/">Links</a></p>
+
+    </div>
+
+</article>
+
+{% include footer.html %}

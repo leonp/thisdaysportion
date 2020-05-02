@@ -1,0 +1,17 @@
+{% include header.html %}
+
+<article class="h-entry">
+
+    <h1 class="f3 f2-ns tc c-sans-serif mb4 c-lh-title p-name">{{ page.title }}</h1>
+
+    <div class="e-content c-prose-headings c-hyphens c-linky-visited c-linky-underline entry-content c-body-text">
+
+        {{ content }}
+
+        <p class="mt4 f6 tc c-sans-serif c-linky-underline c-linky-visited"><time class="dt-published" datetime="{{ page.date | date: "%Y-%m-%d" }}">{{ page.date | date: "%b %-d, %Y" }}</time> / <a href="/notes/">Notes</a></p>
+
+    </div>
+
+</article>
+
+{% include footer.html %}

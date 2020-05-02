@@ -1,0 +1,15 @@
+{% include header.html %}
+
+<article class="measure center">
+
+    {% unless page.hide-title %}
+
+        <h1 class="f2 mb4 p-name">{{ page.title }}</h1>
+
+    {% endunless %}
+
+    {{ content}}
+
+</article>
+
+{% include footer.html %}
