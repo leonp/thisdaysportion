@@ -1,0 +1,40 @@
+        </main>
+
+        <footer class="c-no-print c-sans-serif bt b--light-gray flex justify-between f7">
+
+            <a href="/" class="c-ph pv2">Leon Paternoster</a>
+            <div class="c-ph pv2">2008–{{ "now" | date: "%Y" }}</div>
+
+        </footer>
+
+        <script>
+            var searchToggleElement = document.querySelector(".has-toggle-button");
+            searchToggleElement.addEventListener('click', function() {
+            let expanded = this.getAttribute('aria-expanded') === 'true' || false;
+            this.setAttribute('aria-expanded', !expanded);
+            let thingToToggle = document.querySelector(".toggle-this");
+            thingToToggle.hidden = !thingToToggle.hidden;
+            });
+        </script>
+
+
+        <script>
+            $(document).ready(function() {
+            });
+        </script>
+
+        <script>
+            if (window.netlifyIdentity) {
+            window.netlifyIdentity.on("init", user => {
+                if (!user) {
+                    window.netlifyIdentity.on("login", () => {
+                    document.location.href = "/admin/";
+                });
+                }
+            });
+            }
+        </script>
+
+    </body>
+
+</html>

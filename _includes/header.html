@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+
+<html class="min-vh-100" lang="{{ site.lang }}">
+
+    <head>
+
+        {% if page.is_home %}
+        <title>{{ site.title }}</title>
+        <meta name="description" content="{{ site.description }}">
+        {% elsif page.is_note %}
+        <title>{{ page.excerpt | strip_html | truncatewords: 5 }}&hellip; &#8211; {{ site.title }}</title>
+        {% else %}
+        <title>{{ page.title }} &#8211; {{ site.title }}</title>
+        {% endif %}
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="utf-8">
+        <meta name="author" content="Leon Paternoster">
+        {% if jekyll.environment == "development" %}
+        <meta name="robots" content="noindex, nofollow">
+        {% endif %}
+
+        {% if page.is_post %}
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@leonpaternoster" />
+        <meta name="twitter:title" content="{{ page.title }}" />
+        {% if page.description %}
+        <meta name="twitter:description" content="{{ page.description }}" />
+        {% else %}
+        <meta name="twitter:description" content="{{ page.excerpt  | strip_html }}" />
+        {% endif %}
+        {% if page.img %}
+        <meta name="twitter:image" content="https://www.leonpaternoster.com/images/{{ page.img }}" />
+        <meta name="twitter:image:alt" content="{{ page.alt }}" />
+        {% endif %}
+        {% endif %}
+
+        {% if page.is_post %}
+        <link rel="schema.DCTERMS" href="https://purl.org/dc/terms/">
+        <meta name="DC.Title" content="{{ page.title}}">
+        <meta name="DC.Creator" content="Leon Paternoster">
+        <meta name="DC.Subject" content="{% if page.subject %}{{ page.subject }}{% else %}{{ page.category | capitalize }}{% endif %}">
+        {% if page.description %}<meta name="DC.Description" content="{{ page.description }}">{% endif %}
+        <meta name="DC.Publisher" content="Leon Paternoster">
+        <meta name="DC.Contributor" content="Leon Paternoster">
+        <meta name="DC.Date" content="{{ page.date | date: "%b %-d %Y" }}">
+        <meta name="DC.Language" content="en-gb">
+        {% endif %}
+
+        {% if site.webmention-pingback %}<link rel="pingback" href="{{ site.webmention-pingback }}">{% endif %}
+        {% if site.webmention-mention %}<link rel="webmention" href="{{ site.webmention-mention }}">{% endif %}
+        {% if site.me %}<link href="{{ site.me }}" rel="me">{% endif %}
+
+        <link rel="alternate" type="application/rss+xml" title="{{ site.title }} &#8211; all posts" href="{{ site.url }}/feed/index.xml">
+
+        {% if page.category == 'libraries' or page.title == 'Libraries' %}
+        <link rel="alternate" type="application/rss+xml" title="{{ site.title }} &#8211; posts about libraries" href="/posts/libraries/feed/index.xml">
+        {% endif %}
+
+        {% if page.category == 'politics' or page.title == 'Politics' %}
+        <link rel="alternate" type="application/rss+xml" title="{{ site.title }} &#8211; posts about politics" href="/posts/politics/feed/index.xml">
+        {% endif %}
+
+        {% if page.category == 'thinking' or page.title == 'Thinking' %}
+        <link rel="alternate" type="application/rss+xml" title="{{ site.title }} &#8211; thinking posts" href="/posts/thinking/feed/index.xml">
+        {% endif %}
+
+        {% if page.category == 'web' or page.title == 'Web' %}
+        <link rel="alternate" type="application/rss+xml" title="{{ site.title }} &#8211; posts about the web" href="/posts/web/feed/index.xml">
+        {% endif %}
+
+        {% if page.is_note == 'true' or page.title == 'Notes' %}
+        <link rel="alternate" type="application/rss+xml" title="{{ site.title }} &#8211; notes" href="/notes/feed/index.xml">
+        {% endif %}
+
+        {% if page.is_link == 'true' or page.title == 'Links' %}
+        <link rel="alternate" type="application/rss+xml" title="{{ site.title }} &#8211; links" href="/links/feed/index.xml">
+        {% endif %}
+
+        {% if site.css == 'inline' %}
+        <style>
+        {% capture inline-styles %}
+        {% include style.scss %}
+        {% endcapture %}
+        {{ inline-styles | scssify }}
+        </style>
+        {% else %}
+        <link href="/css/style.css" rel="stylesheet">
+        {% endif %}
+
+        <!-- {% include preload.html %} ~ Hullo. I would make this a Liquid include if I wanted to preload some fonts 🦉 -->
+
+        <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,400;0,700;1,400&family=Inter:wght@400;700&display=swap" rel="stylesheet">
+
+        <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+
+    </head>
+
+    <body class="ma0 pa0 bg-white dark-gray c-serif min-vh-100">
+
+        <a class="c-no-print pv2 c-ph clip dib" href="#content">Skip to content &rarr;</a>
+
+        <nav class="c-no-print bg-white bb b--light-gray c-sticky z-1 top-0">
+
+            <div class="c-sans-serif flex justify-between b">
+
+                {% if site.logomark %}<a class="c-icon rotate-90" href="/" rel="index"><span class="dib pv2 c-ph" role="image" aria-label="{{ logoalt }}">{{ site.logomark }}</span></a>{% endif %}
+
+                {% assign site_pages = site.pages | where: "in_nav", "true" | sort: "order" %}
+
+                {% for this_page in site_pages %}
+
+                <a href="{{ this_page.url }}" class="f7 pv2 c-ph">{% if this_page.nav-title %}{{ this_page.nav-title }}{% else %}{{ this_page.title }}{% endif %}</a>
+
+                {% endfor %}
+
+            </div>
+
+        </nav>
+
+        <main id="content" class="pt4 pt5-ns pb3 c-ph min-vh-100">

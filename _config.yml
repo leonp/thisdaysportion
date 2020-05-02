@@ -1,0 +1,190 @@
+lang: "en"
+title: "Leon Paternoster"
+author: "Leon Paternoster" # for blog post attribution
+description: "Head of digital and marketing at Suffolk Libraries. Developer of library self-service systems and simple, fast and friendly websites."
+tagline: "Web, libraries, work, miscellany"
+email: leon.paternoster@zoho.com
+linkedin: https://uk.linkedin.com/in/leonpaternoster
+twitter: https://mobile.twitter.com/leonpaternoster
+github: https://github.com/leonp/
+microblog: https://micro.blog/leonp/
+webmention-pingback: https://webmention.io/www.leonpaternoster.com/xmlrpc
+webmention-mention: https://webmention.io/www.leonpaternoster.com/webmention
+me: https://micro.blog/leonp/
+logomark: ⚡️
+logoalt: "Lightning bolt logo"
+
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "https://www.leonpaternoster.com" # the base hostname & protocol for your site
+
+hide-skip-link: true
+
+# Build settings
+permalink: /posts/:title/
+
+# Time
+timezone: Europe/London
+
+
+# Include styles inline or link to css file?
+# This has to be set to css: inline for the theme to inline styles
+# Set it to anything else, or remove it, to link to /css/style.class
+css: external
+
+
+# Build settings
+markdown: kramdown
+sass:
+  style: compressed
+
+
+# Defaults
+
+# Enable is_homepost test for posts
+# Enable is_page test for pages
+# Enable is_home test for home page
+# Use {% if page.is_post %} etc.
+
+defaults:
+-
+    scope:
+        path: "/"      # empty string for all files
+    values:
+        is_home: true
+-
+    scope:
+        path: ""
+        type: posts
+    values:
+        is_post: true
+        layout: post
+-
+    scope:
+        path: ""
+        type: pages
+    values:
+        is_page: true
+
+-
+    scope:
+      path: ''
+      type: 'notes'
+    values:
+      layout: 'note'
+      is_note: 'true'
+
+-
+    scope:
+      path: ''
+      type: 'links'
+    values:
+      layout: 'link'
+      is_link: 'true'
+
+
+collections:
+    notes:
+      output: true
+      permalink: /:collection/:name
+
+    links:
+        output: true
+        permalink: /:collection/:name
+
+
+
+
+# webmentions
+
+# webmentions:
+  # username: www.leonpaternoster.com
+  # cache_folder: _data/webmentions
+  # legacy_domains:
+    # - http://leonpaternoster.com
+    # - http://www.leonpaternoster.com
+
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+exclude:
+- Gemfile
+- Gemfile.lock
+- node_modules
+- vendor/bundle/
+- vendor/cache/
+- vendor/gems/
+- vendor/ruby/
+
+
+# Site configuration for the Jekyll 3 Pagination Gem
+# The values here represent the defaults if nothing is set
+pagination:
+
+  # Site-wide kill switch, disabled here it doesn't run at all
+  enabled: true
+
+  # Set to 'true' to enable pagination debugging. This can be enabled in the site config or only for individual pagination pages
+  debug: false
+
+  # The default document collection to paginate if nothing is specified ('posts' is default)
+  collection: 'posts'
+
+  # How many objects per paginated page, used to be `paginate` (default: 0, means all)
+  per_page: 10
+
+  # The permalink structure for the paginated pages (this can be any level deep)
+  #permalink: '/page/:num' # Pages are index.html inside this folder (default)
+  #permalink: '/page/:num.html' # Pages are simple html files
+  permalink: '/page/:num/' # Pages are html files, linked jekyll extensionless permalink style.
+
+  # Optional the title format for the paginated pages (supports :title for original page title, :num for pagination page number, :max for total number of pages)
+  title: ':title (page :num)'
+
+  # Limit how many pagenated pages to create (default: 0, means all)
+  limit: 0
+
+  # Optional, defines the field that the posts should be sorted on (omit to default to 'date')
+  sort_field: 'date'
+
+  # Optional, sorts the posts in reverse order (omit to default decending or sort_reverse: true)
+  sort_reverse: true
+
+  # Optional, the default category to use, omit or just leave this as 'posts' to get a backwards-compatible behavior (all posts)
+  # category: 'posts'
+
+  # Optional, the default tag to use, omit to disable
+  tag: ''
+
+  # Optional, the default locale to use, omit to disable (depends on a field 'locale' to be specified in the posts,
+  # in reality this can be any value, suggested are the Microsoft locale-codes (e.g. en_US, en_GB) or simply the ISO-639 language code )
+  locale: ''
+
+ # Optional,omit or set both before and after to zero to disable.
+ # Controls how the pagination trail for the paginated pages look like.
+  trail:
+    before: 100
+    after: 100
+
+  # Optional, the default file extension for generated pages (e.g html, json, xml).
+  # Internally this is set to html by default
+  extension: html
+
+  # Optional, the default name of the index file for generated pages (e.g. 'index.html')
+  # Without file extension
+  indexpage: 'index'
+
+webmentions:
+  username: https://www.leonpaternoster.com
+  # Use my own cache folder
+  cache_folder: .cache
+  # skip bad URLs for 5 days
+  cache_bad_uris_for: 5
+  # I moved to www and then to https, so…
+  legacy_domains:
+    - http://leonpaternoster.com
+    - http://www.leonpaternoster.com
+
+
+# This is a Netlify file, feel free to delete unless you need it
+include: [_redirects]

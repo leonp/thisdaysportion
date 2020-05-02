@@ -1,0 +1,13 @@
+---
+limit: 10000
+---
+
+{
+    "note": [{% for note in site.notes limit: page.limit %}
+        {
+        "title": "{{ note.title }}",
+        "date": "{{ note.date | date: '%Y-%m-%d' }}",
+        "content": "{{ note.content | strip_newlines | normalize_whitespace | replace: '"', "'" }}",
+        "url": "{{ note.url | absolute_url }}"
+        }{% unless forloop.last %},{% endunless %}{% endfor %}]
+}

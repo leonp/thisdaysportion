@@ -1,0 +1,27 @@
+---
+layout: empty
+hide: true
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title type="text" xml:lang="en">Leon Paternoster</title>
+    <link type="application/atom+xml" href="https://www.leonpaternoster.com/feed/index.xml" rel="self"/>
+    <link type="text" href="https://www.leonpaternoster.com" rel="alternate"/>
+    <updated>{{ site.time | date_to_xmlschema }}</updated>
+    <id>https://www.leonpaternoster.com</id>
+    <author>
+        <name>Leon Paternoster</name>
+    </author>
+    <rights>Copyright (c) Leon Paternoster</rights>
+    {% for post in site.posts limit:20 %}
+    {% if post.layout != 'redirect' %}
+    <entry>
+        <title>{{ post.title }}</title>
+        <link href="http://www.leonpaternoster.com{{ post.url }}"/>
+        <updated>{{ post.date | date_to_xmlschema }}</updated>
+        <id>http://www.leonpaternoster.com{{ post.url }}/</id>
+        <content type="html">{{ post.content | xml_escape }}</content>
+    </entry>
+    {% endif %}
+    {% endfor %}
+</feed>

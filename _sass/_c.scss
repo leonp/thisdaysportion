@@ -1,0 +1,300 @@
+@media screen, projection {
+
+// Define variables in _variables.scss
+// Then create classes that refer to them here
+// Then use these class names in your HTML
+
+// Example: create an alternative sans-serif class
+// Define $c-sans-serif in _variables.scss
+// Then create a c-sans-serif class here
+// Like so:
+
+:root {
+    --ph: 7.5vw;
+    --accent: #0000EE;
+    --link: #0000EE;
+    --hover: #0000EE;
+    --visited: #357EDD;
+}
+
+.c-sans-serif {
+    font-family: $c-sans-serif;
+}
+
+.c-serif {
+    font-family: $c-serif;
+}
+
+html {
+    font-size: 118.75%;
+    font-size: clamp(112.5%, 2.2vw, 125%);
+}
+
+body {
+    line-height: 1.45;
+    line-height: clamp(1.375rem, 2.8vw, 1.45rem);
+}
+
+a {
+    color: var(--link);
+    text-decoration: none;
+}
+
+a:hover,
+a:active {
+    color: var(--hover);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Inter, -apple-system, BlinkMacSystemFont, "segoe ui", "helvetica neue", helvetica, ubuntu, roboto, noto, sans-serif;
+    line-height: 1.2;
+    line-height: clamp(1.15em, 2.5vw, 1.25em);
+}
+
+figure {
+    margin: 0;
+}
+
+figcaption {
+    font-size: 0.875rem;
+    font-family: Inter, -apple-system, BlinkMacSystemFont, "segoe ui", "helvetica neue", helvetica, ubuntu, roboto, noto, sans-serif;
+}
+
+img {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+article h2,
+article h3,
+article h4,
+article h5,
+article h6,
+article dt {
+    margin-top: 2.25rem;
+    margin-bottom: 0;
+}
+
+article h2 {
+    font-size: 1.5rem;
+}
+
+article h3 {
+    font-size: 1.25rem;
+}
+
+article h4 {
+    font-size: 1rem;
+}
+
+article h5 {
+    font-size: 0.875rem;
+}
+
+article p,
+article li {
+    hyphens: auto;
+}
+
+article a {
+    text-decoration: underline;
+    text-decoration: solid underline 2px;
+}
+
+article a:visited {
+    color: var(--visited);
+}
+
+article a:hover,
+article a:active,
+article a:focus {
+    color: var(--hover);
+}
+
+.c-ph {
+    padding-left: var(--ph);
+    padding-right: var(--ph);
+}
+
+.c-bleed {
+    max-width: calc(100% + var(--ph) * 2);
+    margin-left: calc(var(--ph) - (var(--ph) * 2));
+}
+
+.c-sticky {
+    position: sticky;
+}
+
+.c-sans-serif {
+    font-family: Inter, -apple-system, BlinkMacSystemFont, "segoe ui", "helvetica neue", helvetica, ubuntu, roboto, noto, sans-serif;
+}
+
+.c-serif {
+    font-family: "IBM Plex Serif", georgia, serif;
+}
+
+.vid,
+.constrain {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+    margin-bottom: 1.5rem;
+}
+
+.vid iframe,
+.vid object,
+.vid embed,
+.constrain iframe,
+.constrain object,
+.constrain embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+// More defaults
+
+abbr {
+    cursor: help;
+}
+
+figure {
+    margin: auto 0;
+}
+
+code {
+    font-size: 0.875em;
+    font-family: "Fira Mono", "IBM Plex Mono", Consolas, Menlo, "Courier New", monospace;
+}
+
+pre {
+    overflow: auto;
+    padding: 0.25em;
+    background-color: #000;
+    color: #FFA3D7; // Tachyons light-pink
+}
+
+pre code {
+    padding: 0;
+    background-color: inherit;
+    color: #9EEBCF; // Tachyons light-green
+}
+
+hr {
+    overflow: visible; /* For IE */
+    border: none;
+    border-top: medium double #EEE;
+    text-align: center;
+    max-width: 34rem;
+}
+
+table {
+    min-width: 100%;
+    overflow: auto;
+    border-collapse: collapse;
+    table-layout: fixed;
+    font-family: $c-sans-serif;
+}
+
+thead {
+    text-align: left;
+}
+
+th {
+    padding: 0.25rem;
+    border-bottom: 1px solid #EEE;
+    margin: 0;
+}
+
+td {
+    padding: 0.25rem;
+    border-bottom: 1px solid #EEE;
+    margin: 0;
+}
+
+blockquote {
+    font-family: $c-sans-serif;
+    font-size: 0.875rem;
+}
+
+*:focus {
+    outline: 3px solid #FFB700;
+}
+
+.top-0 {
+    top: 0;
+}
+
+.c-icon,
+.c-icon:hover {
+  color: transparent;
+  text-shadow: 0 0 var(--link);
+}
+
+.c-bar::before {
+  content: "";
+  display: block;
+  border-top: 0.375rem solid var(--accent);
+  width: 2.25rem;
+  padding-top: 0.5rem;
+}
+
+
+} // End the enclosing screen/projection media query
+
+
+// Print styles
+
+@media print {
+
+* {
+  background-color: white !important;
+  color: black !important;
+  font-family: $c-serif;
+  line-height: 1.375;
+}
+
+.measure {
+  width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1.1;
+  margin-top: 2em;
+}
+
+.p-name {
+    margin-top: 0;
+}
+
+img {
+  max-width: 100% !important;
+  height: auto !important;
+}
+
+a {
+    text-decoration: none;
+    border-bottom: 1px dotted #AAA;
+}
+
+.c-no-print {
+  display: none;
+}
+
+
+}

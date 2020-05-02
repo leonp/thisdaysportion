@@ -1,0 +1,5 @@
+/:year/:month/:slug  /posts/:slug
+/*   /404/index.html   404
+/archives/ /posts/
+/archive/ /posts/
+/blog/ /posts/

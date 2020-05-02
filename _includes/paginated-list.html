@@ -1,0 +1,43 @@
+<ul class="list mb0 pa0 c-sans-serif">
+
+{% assign items = paginator.posts %}
+
+{% for item in items %}
+
+    <li><a class="db b" href="{{ item.url }}">{{ item.title }}</a><time class="db mb3 silver f6" datetime="{{ item.date | date: "%Y-%m-%d" }}">{{ item.date | date: "%-d %b, %Y" }}</time></li>
+
+{% endfor %}
+
+</ul>
+
+{% if paginator.total_pages > 1 %}
+
+<footer class="pt3">
+
+    <div class="flex justify-between mb3 c-sans-serif f6 ttl small-caps tracked b">
+
+        {% if paginator.next_page %}
+
+            <div>
+
+              <a href="{{ paginator.next_page_path | prepend: site.baseurl }}">&larr; Older</a>
+
+            </div>
+
+        {% endif %}
+
+      {% if paginator.previous_page %}
+
+          <div>
+
+            <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}">Newer &rarr;</a>
+
+          </div>
+
+      {% endif %}
+
+    </div>
+
+</footer>
+
+{% endif %}

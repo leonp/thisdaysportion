@@ -1,0 +1,74 @@
+{% if page.filter %}
+
+    {% assign posts = site.posts | where: page.filter, "true" %}
+
+{% else %}
+
+    {% if page.category == "all" %}
+
+        {% assign posts = site.posts %}
+
+    {% else %}
+
+        {% assign posts = site.posts | where: "category", page.category %}
+
+    {% endif %}
+
+{% endif %}
+
+{% if page.collection %}
+
+    {% assign posts = site.[page.collection] | sort: "date" | reverse %}
+
+{% endif %}
+
+{% if page.annualised %}
+
+    {% for post in posts limit:include.post-limit | default:500 %}
+
+        {% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
+        {% capture next_year %}{{ post.previous.date | date: "%Y" }}{% endcapture %}
+
+        {% if forloop.first %}
+
+        <h2>{{ this_year }}</h2>
+
+        <ul class="list mb0 pa0 c-sans-serif">
+
+        {% endif %}
+
+            <li><a class="db b" href="{{ post.url }}">{{ post.title }}</a><time class="db mb3 silver f6">{{ post.date | date: "%-d %b, %Y" }}</time></li>
+
+        {% if forloop.last %}
+
+        </ul>
+
+        {% else %}
+
+            {% if this_year != next_year %}
+
+            </ul>
+
+            <h2>{{next_year}}</h2>
+
+            <ul class="list mb0 pa0 c-sans-serif">
+
+            {% endif %}
+
+        {% endif %}
+
+    {% endfor %}
+
+{% else %}
+
+    <ul class="list mb0 pa0 c-sans-serif">
+
+    {% for post in posts limit:include.post-limit | default:500 %}
+
+        <li><a class="db b" href="{{ post.url }}">{{ post.title }}</a><time class="db mb3 silver f6">{{ post.date | date: "%-d %b, %Y" }}</time></li>
+
+    {% endfor %}
+
+    </ul>
+
+{% endif %}
