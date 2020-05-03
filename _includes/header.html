@@ -92,8 +92,6 @@
 
         <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,400;0,700;1,400&family=Inter:wght@400;700&display=swap" rel="stylesheet">
 
-        <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-
     </head>
 
     <body class="ma0 pa0 bg-white dark-gray c-serif min-vh-100">
@@ -102,7 +100,7 @@
 
         <nav class="c-no-print bg-white bb b--light-gray c-sticky z-1 top-0">
 
-            <div class="c-sans-serif flex justify-between b">
+            <div class="c-sans-serif flex justify-between">
 
                 {% if site.logomark %}<a class="dib c-icon rotate-90 c-ph pv2" href="/" rel="index"><span role="image" aria-label="{{ site.logoalt }}">{{ site.logomark }}</span></a>{% endif %}
 
@@ -110,7 +108,7 @@
 
                 {% for this_page in site_pages %}
 
-                <a href="{{ this_page.url }}" class="dib f7 pv2 c-ph">{% if this_page.nav-title %}{{ this_page.nav-title }}{% else %}{{ this_page.title }}{% endif %}</a>
+                <a href="{{ this_page.url }}" class="dib pv2 c-ph">{% if this_page.nav-title %}{{ this_page.nav-title }}{% else %}{{ this_page.title }}{% endif %}</a>
 
                 {% endfor %}
 
