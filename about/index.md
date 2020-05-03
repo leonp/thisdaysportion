@@ -18,9 +18,11 @@ If you’d like to get in touch, email _mail@thisdaysportion.com_ Alternatively,
 
 _This day’s portion_?
 
+Ambitious (tone – declamatory):
+
 > Behold, I am about to rain bread from heaven for you, and the people shall go out and gather a day’s portion every day <br><cite>– Exodus 16:4</cite>
 
-And:
+And (personal, referential):
 
 > Little boys are taking over<br>
 They mumble through the grass<br>
