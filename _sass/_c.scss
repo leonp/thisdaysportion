@@ -1,14 +1,5 @@
 @media screen, projection {
 
-// Define variables in _variables.scss
-// Then create classes that refer to them here
-// Then use these class names in your HTML
-
-// Example: create an alternative sans-serif class
-// Define $c-sans-serif in _variables.scss
-// Then create a c-sans-serif class here
-// Like so:
-
 :root {
     --ph: 7.5vw;
     --accent: #0000EE;
@@ -16,14 +7,21 @@
     --hover: #0000EE;
     --visited: #357EDD;
     --focus: #FFB700;
+    --measure: 28rem;
+    --sans-serif: Inter, -apple-system, BlinkMacSystemFont, "segoe ui", "helvetica neue", helvetica, ubuntu, roboto, noto, sans-serif;
+    --serif: "IBM Plex Serif", georgia, serif;
 }
 
 .c-sans-serif {
-    font-family: $c-sans-serif;
+    font-family: var(--sans-serif);
 }
 
 .c-serif {
-    font-family: $c-serif;
+    font-family: var(--serif);
+}
+
+.c-measure {
+    max-width: var(--measure);
 }
 
 html {
@@ -225,6 +223,7 @@ td {
 
 blockquote {
     font-family: $c-sans-serif;
+    font-size: 0.875em;
     padding-left: 1.5rem;
     margin-left: 0;
     margin-right: 0;

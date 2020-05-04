@@ -4,7 +4,7 @@
 
 {% for item in items %}
 
-    <li><a class="db b" href="{{ item.url }}">{{ item.title }}</a><time class="db mb3 silver f6" datetime="{{ item.date | date: "%Y-%m-%d" }}">{{ item.date | date: "%-d %b, %Y" }}</time></li>
+    <li><a class="db b pv1" href="{{ item.url }}">{{ item.title }}</a><time class="db mb3 silver f6" datetime="{{ item.date | date: "%Y-%m-%d" }}">{{ item.date | date: "%-d %b, %Y" }}</time></li>
 
 {% endfor %}
 
