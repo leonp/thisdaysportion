@@ -13,7 +13,7 @@ A quick Google and my fears were confirmed. I was sad, because Kraftwerk mean a 
 
 ***
 
-Kraftwerk originated from the same 70’s German scene as Can, Neu, (K)Cluster <i>et al</i> (Schneider’s first band was was the magnificiently name Pissoff). If you don’t know about what is more or less affectionately termed as <i>[Krautrock](https://en.wikipedia.org/wiki/Krautrock)</i>, you should look into it. It’s wildly experimental, funky, electronic, weird music; far more interesting to my mind than the classical cannon of US/UK rock and roll. And I _love_ Krautrock for its extremeties and difference.
+Kraftwerk originated from the same 70’s German scene as Can, Neu, (K)Cluster <i>et al</i> (Schneider’s first band was the magnificently named Pissoff). If you don’t know about what is more or less affectionately termed as <i>[Krautrock](https://en.wikipedia.org/wiki/Krautrock)</i>, you should look into it. It’s wildly experimental, funky, electronic, weird music; far more interesting to my mind than the classical cannon of US/UK rock and roll. And I _love_ Krautrock for its extremeties and difference.
 
 Around 1972 Kraftwerk begin to _look_ different from other German longhair bands. Schneider dons his suit. Musically, they also veer away from Can and Neu, focusing more on electronic music. It wouldn’t be right to say they were the only band doing this – Cluster’s 1974 <cite>Zuckerzeit</cite> consists of weird synth sounds and broken drum machine patterns – but they were the first band – anywhere – to use the sound of machines to create something purposefully _artificial_.
 
