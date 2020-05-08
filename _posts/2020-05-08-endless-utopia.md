@@ -7,7 +7,7 @@ Florian Schneider died some time last week. Schneider was one of the two founder
 
 {% include figure.html url="kraftwerk.jpg" alt="Black and white shot of Kt=raftwerk dressed in expensive suits and wearing glamorous make up" caption="Schneider (second right) created Kraftwerk’s image. Here they’re an androgynous, cool, very smart, part Germanic, part Soviet quartet wearing expensive suits and make up. What does this mean?" %}
 
-I found out while I was cooking tea in the kitchen. Fittingly enough, I switched the radio on and 6 Music was broadcasting the full-length version of <cite>Autobahn</cite>, the sort of dense, genius piece you only play for yourself once a decade as a treat, that you have to get yourself in the right frame of mind for. But this sort of thing happens in lockdown, and that was cool, until it occurred to me there could be another reason. But nothing on Twitter.
+I found out while I was cooking tea. Fittingly enough, I switched the radio on and 6 Music was broadcasting the full-length version of <cite>Autobahn</cite>, the sort of dense, genius piece you only play for yourself once a decade as a treat, that you have to get yourself in the right frame of mind for. But this sort of thing happens in lockdown, and that was cool, until it occurred to me there could be another reason. But nothing on Twitter.
 
 A quick Google and my fears were confirmed. I was sad, because Kraftwerk mean a lot to me, and I was slightly put out by the lack of social media noise. It was different when Bowie and even [Mark died](https://www.theguardian.com/music/2018/jan/24/mark-e-smith-lead-singer-with-the-fall-dies-aged-60).
 
