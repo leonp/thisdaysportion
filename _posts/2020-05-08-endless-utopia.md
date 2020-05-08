@@ -25,9 +25,9 @@ Freed from notions of organic, “real” music Kraftwerk could explore humour, 
 
 </div>
 
-Which is all wonderful, in and of itself. But what I love about Kraftwerk – and what they mean to me – is how this artifice results in beautiful, utopic music, free from all borders, ego, history, nationalism and constraints, but still capable of sadness. Often this was explicit in song titles such as <cite>Europe Endless</cite>, and in the subject matter of travel, the statelessness of being inbetween things, the joy of cycling. For me, this is what you find in Beethoven and Schubert, but in a language and tone more immediate and meaningful.
+Which is all wonderful, in and of itself. But what I love about Kraftwerk – and what they mean to me – is how this artifice results in beautiful, utopic music, free from all borders, ego, history, nationalism and constraints, but still capable of sadness. An escape from English boorishness and jingoism. Often this was explicit in song titles such as <cite>Europe Endless</cite>, and in the subject matter of travel, the statelessness of being inbetween things, the joy of cycling. For me, this is what you find in Beethoven and Schubert, but in a language and tone more immediate and meaningful.
 
-So, we can laugh at – and therefore overcome – the apparent uptight Germanism of, say, <cite>The Model</cite>, while losing ourselves in the romantic melancholy of <cite>Radioland</cite> (from their best album, Radio-activity):
+So, we can laugh at – and therefore overcome – the uptight, vaguely threatening Germanism of, say, <cite>The Model</cite>, while losing ourselves in the romantic melancholy of <cite>Radioland</cite> (from their best album, Radio-activity):
 
 <div class="vid">
 
@@ -35,4 +35,4 @@ So, we can laugh at – and therefore overcome – the apparent uptight Germanis
 
 </div>
 
-May I suggest you come join me in listening to this on VE Day.
+Why not come join me in listening to this on VE Day.
