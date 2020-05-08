@@ -17,7 +17,7 @@ Kraftwerk originated from the same 70’s German scene as Can, Neu, (K)Cluster <
 
 Around 1972 Kraftwerk begin to _look_ different from other German longhair bands. Schneider dons his suit. Musically, they also veer away from Can and Neu, focusing more on electronic music. It wouldn’t be right to say they were the only band doing this – Cluster’s 1974 <cite>Zuckerzeit</cite> consists of weird synth sounds and broken drum machine patterns – but they were the first band – anywhere – to use the sound of machines to create something purposefully _artificial_.
 
-Freed from notions of organic, “real” music Kraftwerk could explore humour, romanticism, rhythm, complexity, simplicity, minimalism, modernism and history to create genius _art_. Like the most profound art, Kraftwerk contained many apparently contradictory ideas. For example, the electronic instrumentation looks back to the expressionism and modernism of pre-Nazi Germany, while anticipating the future of individual computing devices. Kraftwerk can literally soundtrack a [pocket calculator](https://www.youtube.com/watch?v=eSBybJGZoCU) or a Fritz Lang film:
+Freed from notions of organic, “real” music Kraftwerk could explore humour, romanticism, rhythm, complexity, simplicity, minimalism, modernism and history to create genius _art_. And like the most profound art, Kraftwerk expressed apparently contradictory ideas. For example, the electronic instrumentation looks back to the expressionism and modernism of pre-Nazi Germany, while anticipating the future of individual computing devices. Kraftwerk can literally soundtrack a [pocket calculator](https://www.youtube.com/watch?v=eSBybJGZoCU) or a Fritz Lang film:
 
 <div class="vid">
 

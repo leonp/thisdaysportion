@@ -7,9 +7,9 @@
     --hover: #0000EE;
     --visited: #357EDD;
     --focus: #FFB700;
-    --measure: 28rem;
+    --measure: 29rem;
     --sans-serif: Inter, -apple-system, BlinkMacSystemFont, "segoe ui", "helvetica neue", helvetica, ubuntu, roboto, noto, sans-serif;
-    --serif: "IBM Plex Serif", georgia, serif;
+    --serif: georgia, serif;
 }
 
 .c-sans-serif {
@@ -50,7 +50,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: Inter, -apple-system, BlinkMacSystemFont, "segoe ui", "helvetica neue", helvetica, ubuntu, roboto, noto, sans-serif;
+    font-family: var(--sans-serif);
     line-height: 1.2;
     line-height: clamp(1.15em, 2.5vw, 1.25em);
 }
@@ -61,7 +61,7 @@ figure {
 
 figcaption {
     font-size: 0.875rem;
-    font-family: Inter, -apple-system, BlinkMacSystemFont, "segoe ui", "helvetica neue", helvetica, ubuntu, roboto, noto, sans-serif;
+    font-family: var(--sans-serif);
 }
 
 img {
@@ -130,11 +130,11 @@ article a:focus {
 }
 
 .c-sans-serif {
-    font-family: Inter, -apple-system, BlinkMacSystemFont, "segoe ui", "helvetica neue", helvetica, ubuntu, roboto, noto, sans-serif;
+    font-family: var(--sans-serif);
 }
 
 .c-serif {
-    font-family: "IBM Plex Serif", georgia, serif;
+    font-family: var(--serif);
 }
 
 .vid,
@@ -202,7 +202,7 @@ table {
     overflow: auto;
     border-collapse: collapse;
     table-layout: fixed;
-    font-family: $c-sans-serif;
+    font-family: var(--sans-serif);
 }
 
 thead {
@@ -222,7 +222,7 @@ td {
 }
 
 blockquote {
-    font-family: $c-sans-serif;
+    font-family: var(--sans-serif);
     font-size: 0.875em;
     padding-left: 1.5rem;
     margin-left: 0;
@@ -263,7 +263,7 @@ blockquote {
 * {
   background-color: white !important;
   color: black !important;
-  font-family: $c-serif;
+  font-family: var(--serif);
   line-height: 1.375;
 }
 
