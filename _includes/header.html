@@ -102,7 +102,7 @@
 
             <div class="c-sans-serif flex justify-between f6 ttl small-caps tracked">
 
-                <a class="dib c-icon c-ph pv1" href="/" rel="index">{% if site.logomark %}<span role="image" aria-label="{{ site.logoalt }}">{{ site.logomark }}</span>{% else %}{{ site.title }}</a>{% endif %}
+                <a class="dib c-icon c-ph pv1 b" href="/" rel="index">{% if site.logomark %}<span role="image" aria-label="{{ site.logoalt }}">{{ site.logomark }}</span>{% else %}{{ site.title }}</a>{% endif %}
 
                 {% assign site_pages = site.pages | where: "in_nav", "true" | sort: "order" %}
 
