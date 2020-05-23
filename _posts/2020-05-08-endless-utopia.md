@@ -7,13 +7,13 @@ Florian Schneider died some time last week. Schneider was one of the two founder
 
 {% include figure.html url="kraftwerk.jpg" alt="Black and white shot of Kt=raftwerk dressed in expensive suits and wearing glamorous make up" caption="Schneider (second right) created Kraftwerk’s image. Here they’re an androgynous, cool, very smart, part Germanic, part Soviet quartet wearing expensive suits and make up. What does this mean?" %}
 
-I found out while I was cooking tea. Fittingly enough, I switched the radio on and 6 Music was broadcasting the full-length version of <cite>Autobahn</cite>, the sort of dense piece you only play for yourself once a decade, that you have to get yourself in the right frame of mind for. But this sort of thing happens in lockdown, and that was cool, until it occurred to me there could be another reason. But nothing on Twitter.
+I found out while I was cooking tea. Fittingly enough, I switched the radio on and 6 Music was broadcasting the full-length version of <cite>Autobahn</cite>, a dense piece you only play once in a while, after getting yourself in the right frame of mind. But this sort of thing happens in lockdown, and that was cool, until it occurred to me there could be another reason. But nothing on Twitter.
 
 A quick Google and my fears were confirmed. I was sad, because Kraftwerk mean a lot to me, and I was slightly put out by the lack of social media noise. It was different when Bowie and even [Mark died](https://www.theguardian.com/music/2018/jan/24/mark-e-smith-lead-singer-with-the-fall-dies-aged-60).
 
 ***
 
-Kraftwerk originated from the same 70’s German scene as Can, Neu, (K)Cluster <i>et al</i> (Schneider’s first band was the magnificently named Pissoff). If you don’t know about what is more or less affectionately termed as <i>[Krautrock](https://en.wikipedia.org/wiki/Krautrock)</i>, you should look into it. It’s wildly experimental, funky, electronic, weird music; far more interesting to my mind than the classical cannon of US/UK rock and roll. And I _love_ Krautrock for its extremeties and difference.
+Kraftwerk originated from the same 70’s German scene as Can, Neu, (K)Cluster <i>et al</i> (Schneider’s first band was the magnificently named Pissoff). If you don’t know about what is more or less affectionately termed <i>[Krautrock](https://en.wikipedia.org/wiki/Krautrock)</i>, you should look into it. It’s wildly experimental, funky, electronic, weird music; far more interesting to my mind than the cannon of US/UK rock and roll. And I _love_ Krautrock for its difference.
 
 Around 1973 Kraftwerk begin to _look_ different from other German longhair bands. On the cover of <cite>Ralf und Florian</cite>, Hütter looks like an engineer and Schneider the factory owner. Musically, they veer away from Can and Neu, focusing more on electronics. It wouldn’t be right to say they were the only band doing this – Cluster’s 1974 [<cite>Zuckerzeit</cite>](https://en.wikipedia.org/wiki/Zuckerzeit) consists of weird synth sounds and broken drum machine patterns – but they were the first band – anywhere – to use the sound of machines to create something purposefully _artificial_.
 
@@ -27,7 +27,7 @@ Freed from notions of organic, “real” music Kraftwerk could explore humour, 
 
 Which is all wonderful, in and of itself. But what I love about Kraftwerk – and what they mean to me – is how this artifice results in beautiful, utopic music, free from all borders, ego, history, nationalism and constraints, but still capable of sadness. An escape from English boorishness and jingoism. Often this was explicit in song titles such as <cite>Europe Endless</cite>, and in the subject matter of travel, the statelessness of being inbetween things, the joy of cycling. For me, this is what you find in Beethoven and Schubert, but in a language and tone more immediate and meaningful.
 
-So, we can laugh at – and therefore overcome – the uptight, vaguely threatening Germanism of, say, <cite>The Model</cite>, while losing ourselves in the romantic melancholy of <cite>Radioland</cite> (from their best album, Radio-activity):
+So, we can enjoy from a slightly ironic distance – and therefore overcome – the uptight Germanism of, say, <cite>The Model</cite>, while losing ourselves in the romantic melancholy of <cite>Radioland</cite> (from their best album, Radio-activity):
 
 <div class="vid">
 
