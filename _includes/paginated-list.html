@@ -1,14 +1,18 @@
-<ul class="list mb0 pa0 c-sans-serif">
-
 {% assign items = paginator.posts %}
 
 {% for item in items %}
 
-    <li><a class="db b pv1" href="{{ item.url }}">{{ item.title }}</a><time class="db mb3 silver f6" datetime="{{ item.date | date: "%Y-%m-%d" }}">{{ item.date | date: "%-d %b, %Y" }}</time></li>
+    <article class="mb4">
+
+        <h2 class="f4 ma0"><a class="db no-underline" href="{{ item.url }}">{{ item.title }}</a></h2>
+
+        <time class="db mv1 silver f6" datetime="{{ item.date | date: "%Y-%m-%d" }}">{{ item.date | date: "%-d %b, %Y" }}</time>
+
+        <p class="ma0">{{ item.excerpt | strip_html }}</p>
+
+    </article>
 
 {% endfor %}
-
-</ul>
 
 {% if paginator.total_pages > 1 %}
 
