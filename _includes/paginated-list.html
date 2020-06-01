@@ -8,7 +8,7 @@
 
         <time class="db mv1 silver f6" datetime="{{ item.date | date: "%Y-%m-%d" }}">{{ item.date | date: "%-d %b, %Y" }}</time>
 
-        <p class="ma0">{{ item.excerpt | strip_html }}</p>
+        <p class="ma0">{% if item.sub %}{{ item.sub }}{% else %}{{ item.excerpt | strip_html }}{% endif %}</p>
 
     </article>
 

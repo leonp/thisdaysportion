@@ -1,6 +1,7 @@
 ---
 title: "Kraftwerk: Future Music from Germany"
 category: thinking
+sub: "Schütte’s book is good, until it gets to 1986, which is when the new music more or less stops. Yet Kraftwerk’s great albums are more relevant than at any time in the last three decades."
 ---
 
 I’ve been wanting to read [Uwe Schütte](https://research.aston.ac.uk/en/persons/uwe-sch%C3%BCtte)’s <cite>Kraftwerk: Future Music from Germany</cite> ever since I became aware of the book via [The Quietus’s review](https://thequietus.com/articles/27899-kraftwerk-future-music-from-germany-uwe-schtte-review).
