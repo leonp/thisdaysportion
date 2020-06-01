@@ -20,6 +20,10 @@
     font-family: var(--serif);
 }
 
+.c-bg-accent {
+  background-color: var(--accent);
+}
+
 .c-measure {
     max-width: var(--measure);
 }
@@ -123,6 +127,11 @@ article a:focus {
 .c-bleed {
     max-width: calc(100% + var(--ph) * 2);
     margin-left: calc(var(--ph) - (var(--ph) * 2));
+}
+
+.c-bleed-full {
+  margin-left: calc(var(--ph) - (var(--ph) * 2));
+  margin-right: calc(var(--ph) - (var(--ph) * 2));
 }
 
 .c-sticky {

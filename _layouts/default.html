@@ -1,14 +1,32 @@
 {% include header.html %}
 
-<article class="c-measure center">
+<article>
 
     {% unless page.hide-title %}
 
-        <h1 class="f2 mb4 p-name">{{ page.title }}</h1>
+    <div class="c-bg-accent white c-ph pv5 mb3 mb4-ns c-bleed-full">
+
+      <div class="c-measure center">
+
+        <h1 class="f3 f2-ns ma0 p-name">{{ page.title }}</h1>
+
+        {% if page.sub %}
+
+        <p class="f6 mt1 mb0">{{ page.sub }}</p>
+
+        {% endif %}
+
+      </div>
+
+    </div>
 
     {% endunless %}
 
-    {{ content}}
+    <div class="c-measure center{% if page.hide-title %} pt3{% endif %}">
+
+      {{ content}}
+
+    </div>
 
 </article>
 

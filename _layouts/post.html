@@ -1,16 +1,34 @@
 {% include header.html %}
 
-<article class="c-measure center h-entry">
+<article class="h-entry">
 
-    <h1 class="f2 b--light-gray mb4 p-name">{{ page.title }}</h1>
+  <div class="c-bg-accent white c-ph pv5 mb3 mb4-ns c-bleed-full">
 
-    {{ content }}
+    <div class="c-measure center">
 
-    <footer class="f7 mt4 c-sans-serif">
+      <h1 class="f3 f2-ns ma0 p-name">{{ page.title }}</h1>
 
-        <p>– <time class="dt-published" datetime="{{ page.date | date: "%Y-%m-%d" }}">{{ page.date | date: "%-d %b, %Y" }}</time></p>
+      {% if page.sub %}
 
-    </footer>
+      <p class="f6 mt1 mb0">{{ page.sub }}</p>
+
+      {% endif %}
+
+    </div>
+
+  </div>
+
+  <div class="c-measure center">
+
+  {{ content }}
+
+  </div>
+
+  <footer class="f7 mt4 c-sans-serif">
+
+      <p>– <time class="dt-published" datetime="{{ page.date | date: "%Y-%m-%d" }}">{{ page.date | date: "%-d %b, %Y" }}</time></p>
+
+  </footer>
 
 </article>
 
