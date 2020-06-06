@@ -138,6 +138,12 @@ article a:focus {
     position: sticky;
 }
 
+@media #{$breakpoint-not-small} {
+    .c-unstick-ns {
+        position: relative;
+    }
+}
+
 .c-sans-serif {
     font-family: var(--sans-serif);
 }

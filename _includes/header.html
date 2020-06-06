@@ -98,19 +98,23 @@
 
         <a class="c-no-print pv2 c-ph clip dib" href="#content">Skip to content &rarr;</a>
 
-        <nav class="c-no-print bg-white bb b--light-gray c-sticky z-1 top-0">
+        <nav class="c-no-print bg-white bb b--light-gray c-sticky c-unstick-ns z-1 top-0">
 
-            <div class="c-sans-serif flex justify-between f7 ttl small-caps tracked">
+            <div class="c-ph">
 
-                <a class="dib c-icon c-ph pv1 b" href="/" rel="index">{% if site.logomark %}<span role="image" aria-label="{{ site.logoalt }}">{{ site.logomark }}</span>{% else %}{{ site.title }}</a>{% endif %}
+                <div class="c-measure center c-sans-serif flex justify-between ttl small-caps tracked">
 
-                {% assign site_pages = site.pages | where: "in_nav", "true" | sort: "order" %}
+                    <a class="dib c-icon pv2 pv3-ns b f7" href="/" rel="index">{% if site.logomark %}<span role="image" aria-label="{{ site.logoalt }}">{{ site.logomark }}</span>{% else %}{{ site.title }}</a>{% endif %}
 
-                {% for this_page in site_pages %}
+                    {% assign site_pages = site.pages | where: "in_nav", "true" | sort: "order" %}
 
-                <a href="{{ this_page.url }}" class="dib pv1 c-ph">{% if this_page.nav-title %}{{ this_page.nav-title }}{% else %}{{ this_page.title }}{% endif %}</a>
+                    {% for this_page in site_pages %}
 
-                {% endfor %}
+                    <a href="{{ this_page.url }}" class="dib pv2 pv3-ns f7">{% if this_page.nav-title %}{{ this_page.nav-title }}{% else %}{{ this_page.title }}{% endif %}</a>
+
+                    {% endfor %}
+
+                </div>
 
             </div>
 
