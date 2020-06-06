@@ -10,11 +10,19 @@ underlined-links: true
 hyphens: true
 ---
 
-This is the blog of [Leon Paternoster](https://www.leonpaternoster.com). The views expressed here are my own; they’re not representative of my employer unless explicitly stated. Disclaimers are difficult.
+This is my blog, and I am [Leon Paternoster](https://www.leonpaternoster.com). The views expressed here are my own; they’re not representative of my employer unless explicitly stated.
 
-I write about lots of things – mainly designing and building things online, but also politics, books, music and other cultural _stuff_.
+Disclaimers are odd/difficult/a sign of something wrong.
 
-If you’d like to get in touch, email _mail@thisdaysportion.com_ Alternatively, you can follow me on Twitter: [@leonpaternoster](https://twitter.com/leonpaternoster/). Please note my account is locked. I’m also on LinkedIn, but the whole point of this website is to not be like I’m on LinkedIn.
+I write about lots of things – mainly designing and building things online, but also politics, books, music and other cultural _stuff_. I like constructing sentences
+
+I used to post everything to leonpaternoster.com, but that’s now just where you find the work me. The world has become more LinkedInified, or perhaps I’ve just got older — careers progress, older posts become a bit of a no-no work wise and everything gets dumped elsewhere, i.e. here. I still fundamentally _believe_ in blogging and, at the very least, writing and hitting publish is good for me.
+
+If you’d like to get in touch, email _mail@thisdaysportion.com_ Alternatively, you can follow me on Twitter: [@leonpaternoster](https://twitter.com/leonpaternoster/) where I have a locked account. Better still, contact me on [micro.blog](https://micro.blog/leonp) — I auto-post there at the moment, but I do keep an eye on it and I’m taking longer and longer hiatuses from Twitter.
+
+I’m also on LinkedIn, but the whole point of this website is to not be like I’m on LinkedIn.
+
+<hr>
 
 _This day’s portion_?
 
