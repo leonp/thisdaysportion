@@ -175,6 +175,11 @@ article a:focus {
     height: 100%;
 }
 
+.c-remove-ios-borders {
+    -webkit-appearance: none;
+    border-radius: 0;
+}
+
 
 // More defaults
 
