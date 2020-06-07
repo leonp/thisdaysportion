@@ -12,7 +12,7 @@ hyphens: true
 sub: "Every post ever written in a simple unordered list, just in case you don’t like pagination."
 ---
 
-<form class="mb4" method="get" action="http://www.google.com/search">
+<form class="mb4" method="get" action="https://www.google.com/search">
 
     <input type="hidden" name="sitesearch" value="thisdaysportion.com">
 
