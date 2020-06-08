@@ -20,7 +20,7 @@ sub: "Every post ever written in a simple unordered list, just in case you donâ€
 
     <div class="flex">
 
-        <input type="search" name="q" id="q" class="f5 w-100 c-sans-serif border-box ph1 pv2 ba b--light-silver c-remove-ios-borders">
+        <input type="search" autocapitalize="off" name="q" id="q" class="f5 w-100 c-sans-serif border-box ph1 pv2 ba b--light-silver c-remove-ios-borders">
 
         <button type="submit" class="f5 pa2 c-sans-serif pointer ba b--light-silver c-bg-accent white b c-remove-ios-borders">Search</button>
 
