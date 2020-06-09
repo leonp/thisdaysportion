@@ -3,13 +3,13 @@ layout: archive
 category: all
 title: Posts
 footer: true
-order: 2
-in_nav: false
+order: 3
+in_nav: true
 visited-links: true
 prose-headings: true
 underlined-links: true
 hyphens: true
-sub: "Every post ever written in a simple unordered list, just in case you don’t like pagination."
+sub: "Every post ever written in a simple list, just in case you don’t like pagination."
 ---
 
 <form class="mb4" method="get" action="https://www.google.com/search">

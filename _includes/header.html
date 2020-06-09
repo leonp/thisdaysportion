@@ -98,7 +98,7 @@
 
         <a class="c-no-print pv2 c-ph clip dib" href="#content">Skip to content &rarr;</a>
 
-        <nav class="c-no-print bg-white bb b--light-gray c-sticky c-unstick-ns z-1 top-0">
+        <div class="c-no-print bg-white bb b--light-gray c-sticky c-unstick-ns z-1 top-0">
 
             <div class="c-ph">
 
@@ -106,18 +106,12 @@
 
                     <a class="dib c-icon pv2 pv3-ns b f7" href="/" rel="index">{% if site.logomark %}<span role="image" aria-label="{{ site.logoalt }}">{{ site.logomark }}</span>{% else %}{{ site.title }}</a>{% endif %}
 
-                    {% assign site_pages = site.pages | where: "in_nav", "true" | sort: "order" %}
-
-                    {% for this_page in site_pages %}
-
-                    <a href="{{ this_page.url }}" class="dib pv2 pv3-ns f7">{% if this_page.nav-title %}{{ this_page.nav-title }}{% else %}{{ this_page.title }}{% endif %}</a>
-
-                    {% endfor %}
+                    <a href="/feed/index.xml" class="dib pv2 pv3-ns f7">RSS</a>
 
                 </div>
 
             </div>
 
-        </nav>
+        </div>
 
         <main id="content" class="pb3 c-ph min-vh-100">
