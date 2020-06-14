@@ -37,6 +37,16 @@ sass:
   style: compressed
 
 
+collections:
+    notes:
+      output: true
+      permalink: /:collection/:name
+
+    links:
+        output: true
+        permalink: /:collection/:name
+
+
 # Defaults
 
 # Enable is_homepost test for posts
@@ -63,6 +73,22 @@ defaults:
         type: pages
     values:
         is_page: true
+
+-
+    scope:
+      path: ''
+      type: 'notes'
+    values:
+      layout: 'note'
+      is_note: 'true'
+
+-
+    scope:
+      path: ''
+      type: 'links'
+    values:
+      layout: 'link'
+      is_link: 'true'
 
 
 # Exclude from processing.

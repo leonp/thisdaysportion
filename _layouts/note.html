@@ -2,15 +2,31 @@
 
 <article class="h-entry">
 
-    <h1 class="f3 f2-ns tc c-sans-serif mb4 c-lh-title p-name">{{ page.title }}</h1>
+  <div class="c-ph pv5 mb3 mb4-ns c-bleed-full">
 
-    <div class="e-content c-prose-headings c-hyphens c-linky-visited c-linky-underline entry-content c-body-text">
+    <div class="c-measure center">
 
-        {{ content }}
-
-        <p class="mt4 f6 tc c-sans-serif c-linky-underline c-linky-visited"><time class="dt-published" datetime="{{ page.date | date: "%Y-%m-%d" }}">{{ page.date | date: "%b %-d, %Y" }}</time> / <a href="/notes/">Notes</a></p>
+      <h1 class="f4 f3-ns ma0 p-name">{{ page.title }}</h1>
 
     </div>
+
+  </div>
+
+  <div class="c-measure center">
+
+  {{ content }}
+
+  </div>
+
+  <footer class="f7 mt4 c-sans-serif">
+
+      <div class="c-measure center">
+
+        <p>– <time class="i" datetime="{{ page.date | date: "%Y-%m-%d" }}">{{ page.date | date: "%-d %b, %Y" }}</time></p>
+
+      </div>
+
+  </footer>
 
 </article>
 
