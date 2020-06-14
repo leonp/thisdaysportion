@@ -1,0 +1,29 @@
+---
+layout: empty
+hide: true
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title type="text" xml:lang="en">This day’s portion — Links</title>
+    <link type="application/atom+xml" href="https://www.thisdaysportion.com/links/feed/index.xml" rel="self"/>
+    <link type="text" href="https://www.thisdaysportion.com/links/" rel="alternate"/>
+    <updated>{{ site.time | date_to_xmlschema }}</updated>
+    <id>https://www.thisdaysportion.com</id>
+    <author><name>Leon Paternoster</name></author>
+    <rights>Copyright (c) Leon Paternoster</rights>
+
+    {% assign links = site.links | reverse %}
+
+    {% for link in links %}
+
+          <entry>
+              <title>{{ link.title }}</title>
+              <link href="{{ link.link-url }}"/>
+              <updated>{{ link.date | date_to_xmlschema }}</updated>
+              <id>https://www.thisdaysportion.com{{ link.url }}/</id>
+              <content type="html">{{ link.content | xml_escape | truncate: 200 }}</content>
+          </entry>
+
+    {% endfor %}
+
+</feed>

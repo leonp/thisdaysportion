@@ -1,15 +1,14 @@
 ---
 layout: archive
-category: all
-title: Posts
+title: Notes
+collection: notes
 footer: true
-order: 3
+order: 5
 in_nav: true
 visited-links: true
 prose-headings: true
 underlined-links: true
 hyphens: true
-sub: "Every post ever written in a simple list, just in case you don’t like pagination."
 ---
 
 {% include search-form.html %}

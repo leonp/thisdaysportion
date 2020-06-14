@@ -8,7 +8,7 @@
 
         {% assign posts = site.posts %}
 
-    {% else %}
+    {% elsif page.category %}
 
         {% assign posts = site.posts | where: "category", page.category %}
 
