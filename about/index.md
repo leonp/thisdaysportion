@@ -14,7 +14,7 @@ This is my blog, and I am [Leon Paternoster](https://www.leonpaternoster.com). T
 
 Disclaimers are odd/difficult/a sign of something wrong.
 
-I write about lots of things – mainly designing and building things online, but also politics, books, music and other cultural _stuff_. I like constructing sentences
+I write about lots of things – mainly designing and building things online, but also politics, books, music and other cultural _stuff_.
 
 I used to post everything to leonpaternoster.com, but that’s now just where you find the work me. The world has become more LinkedInified, or perhaps I’ve just got older — careers progress, older posts become a bit of a no-no work wise and everything gets dumped elsewhere, i.e. here. I still fundamentally _believe_ in blogging and, at the very least, writing and hitting publish is good for me.
 

@@ -1,20 +1,26 @@
         </main>
 
-        <footer class="c-ph c-no-print c-sans-serif bt b--light-gray f7">
+        <footer class="c-ph c-no-print c-sans-serif bt b--light-gray f7 pb2">
 
-          <nav>
+            <div class="c-measure center">
 
-            {% assign site_pages = site.pages | where: "in_nav", "true" | sort: "order" %}
+                <nav>
 
-            {% for this_page in site_pages %}
+                    <a href="/" class="dib pv1 mr2 mr3-ns f7">Home</a>
 
-            <a href="{{ this_page.url }}" class="dib pv2 pv3-ns mr2 mr3-ns f7">{% if this_page.nav-title %}{{ this_page.nav-title }}{% else %}{{ this_page.title }}{% endif %}</a>
+                    {% assign site_pages = site.pages | where: "in_nav", "true" | sort: "order" %}
 
-            {% endfor %}
+                    {% for this_page in site_pages %}
 
-          </nav>
+                    <a href="{{ this_page.url }}" class="dib pv1 mr2 mr3-ns f7">{% if this_page.nav-title %}{{ this_page.nav-title }}{% else %}{{ this_page.title }}{% endif %}</a>
 
-          <div>A blog: 2008–{{ "now" | date: "%Y" }}</div>
+                    {% endfor %}
+
+                </nav>
+
+                <div>A blog: 2008–{{ "now" | date: "%Y" }}</div>
+
+            </div>
 
         </footer>
 
