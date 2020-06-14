@@ -10,7 +10,7 @@ hide: true
     <updated>{{ site.time | date_to_xmlschema }}</updated>
     <id>https://www.thisdaysportion.com</id>
     <author>
-        <name>Leon Paternoster</name>
+        <name>This day’s portion — Leon Paternoster</name>
     </author>
     <rights>Copyright (c) Leon Paternoster</rights>
     {% for post in site.posts limit:20 %}
