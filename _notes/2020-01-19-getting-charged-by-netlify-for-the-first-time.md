@@ -1,5 +1,4 @@
 ---
-layout: note
 title: Getting charged by Netlify for the first time
 date: 2020-01-19T20:32:05.831Z
 ---
