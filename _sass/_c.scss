@@ -7,9 +7,9 @@
     --hover: #0000EE;
     --visited: #357EDD;
     --focus: #FFB700;
-    --measure: 29rem;
-    --sans-serif: "Fira Sans", "Public Sans", "Avenir Next", Avenir, -apple-system, BlinkMacSystemFont, "segoe ui", "helvetica neue", helvetica, ubuntu, roboto, noto, sans-serif;
-    --serif: "Fira Sans", "Public Sans", "Avenir Next", Avenir, -apple-system, BlinkMacSystemFont, "segoe ui", "helvetica neue", helvetica, ubuntu, roboto, noto, sans-serif;
+    --measure: 34rem;
+    --sans-serif: Graphik, "Public Sans", "Avenir Next", Avenir, -apple-system, BlinkMacSystemFont, "segoe ui", "helvetica neue", helvetica, ubuntu, roboto, noto, sans-serif;
+    --serif: Graphik, "Public Sans", "Avenir Next", Avenir, -apple-system, BlinkMacSystemFont, "segoe ui", "helvetica neue", helvetica, ubuntu, roboto, noto, sans-serif;
 }
 
 .c-sans-serif {
@@ -30,7 +30,7 @@
 
 html {
     font-size: 118.75%;
-    font-size: clamp(118.75%, 2.2vw, 125%);
+    font-size: clamp(118.75%, 2.3vw, 131.25%);
 }
 
 body {
