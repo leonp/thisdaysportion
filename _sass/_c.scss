@@ -8,8 +8,8 @@
     --visited: #357EDD;
     --focus: #FFB700;
     --measure: 34rem;
-    --sans-serif: Graphik, "Public Sans", "Avenir Next", Avenir, -apple-system, BlinkMacSystemFont, "segoe ui", "helvetica neue", helvetica, ubuntu, roboto, noto, sans-serif;
-    --serif: Graphik, "Public Sans", "Avenir Next", Avenir, -apple-system, BlinkMacSystemFont, "segoe ui", "helvetica neue", helvetica, ubuntu, roboto, noto, sans-serif;
+    --sans-serif: "Public Sans", "Avenir Next", Avenir, -apple-system, BlinkMacSystemFont, "segoe ui", "helvetica neue", helvetica, ubuntu, roboto, noto, sans-serif;
+    --serif: "Public Sans", "Avenir Next", Avenir, -apple-system, BlinkMacSystemFont, "segoe ui", "helvetica neue", helvetica, ubuntu, roboto, noto, sans-serif;
 }
 
 .c-sans-serif {
@@ -35,7 +35,7 @@ html {
 
 body {
     line-height: 1.45;
-    line-height: clamp(1.375rem, 2.8vw, 1.45rem);
+    line-height: clamp(1.375em, 2.8vw, 1.5em);
 }
 
 a {
