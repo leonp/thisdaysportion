@@ -18,7 +18,7 @@ hide: true
 
           <entry>
               <title>{{ link.title }}</title>
-              <link href="{{ link.link-url }}"/>
+              <link href="https://www.thisdaysportion.com{{ link.url }}"/>
               <updated>{{ link.date | date_to_xmlschema }}</updated>
               <id>https://www.thisdaysportion.com{{ link.url }}/</id>
               <content type="html">{{ link.content | xml_escape | truncate: 200 }}</content>
