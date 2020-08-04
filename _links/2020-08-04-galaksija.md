@@ -5,4 +5,4 @@ link-url: https://jacobinmag.com/2020/08/computer-yugoslavia-galaksija-voja-anto
 link-author: Michael Eby
 ---
 
-This is a charming story of how Yugoslavia bootstrpped its own PC industry – open source, assembled at home, 4kb memory – and established a proto-internet involving DJ transmissions and cassettes. You can see why Galaksijas pass hands for thousands of dollars these days, which of course just makes for more melancholia.
+This is a charming story of how Yugoslavia bootstrapped its own PC industry – open source, assembled at home, 4kb memory – and established a proto-internet involving DJ transmissions and cassettes. You can see why Galaksijas pass hands for thousands of dollars these days, which of course just makes for more melancholia.
