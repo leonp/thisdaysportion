@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<html class="min-vh-100" lang="{{ site.lang }}">
+<html lang="{{ site.lang }}">
 
     <head>
 
@@ -8,9 +8,9 @@
         <title>{{ site.title }}</title>
         <meta name="description" content="{{ site.description }}">
         {% elsif page.is_note %}
-        <title>{{ page.excerpt | strip_html | truncatewords: 5 }}&hellip; &#8211; {{ site.title }}</title>
+        <title>{{ page.excerpt | strip_html | truncatewords: 5 }}&hellip; – {{ site.title }}</title>
         {% else %}
-        <title>{{ page.title }} &#8211; {{ site.title }}</title>
+        <title>{{ page.title }} – {{ site.title }}</title>
         {% endif %}
 
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -51,30 +51,30 @@
         {% if site.webmention-mention %}<link rel="webmention" href="{{ site.webmention-mention }}">{% endif %}
         {% if site.me %}<link href="{{ site.me }}" rel="me">{% endif %}
 
-        <link rel="alternate" type="application/rss+xml" title="{{ site.title }} &#8211; all posts" href="{{ site.url }}/feed/index.xml">
+        <link rel="alternate" type="application/rss+xml" title="{{ site.title }} – all posts" href="{{ site.url }}/feed/index.xml">
 
         {% if page.category == 'libraries' or page.title == 'Libraries' %}
-        <link rel="alternate" type="application/rss+xml" title="{{ site.title }} &#8211; posts about libraries" href="/posts/libraries/feed/index.xml">
+        <link rel="alternate" type="application/rss+xml" title="{{ site.title }} – posts about libraries" href="/posts/libraries/feed/index.xml">
         {% endif %}
 
         {% if page.category == 'politics' or page.title == 'Politics' %}
-        <link rel="alternate" type="application/rss+xml" title="{{ site.title }} &#8211; posts about politics" href="/posts/politics/feed/index.xml">
+        <link rel="alternate" type="application/rss+xml" title="{{ site.title }} – posts about politics" href="/posts/politics/feed/index.xml">
         {% endif %}
 
         {% if page.category == 'thinking' or page.title == 'Thinking' %}
-        <link rel="alternate" type="application/rss+xml" title="{{ site.title }} &#8211; thinking posts" href="/posts/thinking/feed/index.xml">
+        <link rel="alternate" type="application/rss+xml" title="{{ site.title }} – thinking posts" href="/posts/thinking/feed/index.xml">
         {% endif %}
 
         {% if page.category == 'web' or page.title == 'Web' %}
-        <link rel="alternate" type="application/rss+xml" title="{{ site.title }} &#8211; posts about the web" href="/posts/web/feed/index.xml">
+        <link rel="alternate" type="application/rss+xml" title="{{ site.title }} – posts about the web" href="/posts/web/feed/index.xml">
         {% endif %}
 
         {% if page.is_note == 'true' or page.title == 'Notes' %}
-        <link rel="alternate" type="application/rss+xml" title="{{ site.title }} &#8211; notes" href="/notes/feed/index.xml">
+        <link rel="alternate" type="application/rss+xml" title="{{ site.title }} – notes" href="/notes/feed/index.xml">
         {% endif %}
 
         {% if page.is_link == 'true' or page.title == 'Links' %}
-        <link rel="alternate" type="application/rss+xml" title="{{ site.title }} &#8211; links" href="/links/feed/index.xml">
+        <link rel="alternate" type="application/rss+xml" title="{{ site.title }} – links" href="/links/feed/index.xml">
         {% endif %}
 
         {% if site.css == 'inline' %}
@@ -94,26 +94,25 @@
 
     </head>
 
-    <body class="ma0 pa0 bg-white dark-gray c-serif min-vh-100">
+    <body class="ma0 pa0 bg-white dark-gray c-serif">
 
         <a class="c-no-print pv2 c-ph clip dib" href="#content">Skip to content</a>
-
         <a class="c-no-print pv2 c-ph clip dib" href="#nav">Skip to navigation</a>
 
-        <div class="c-no-print bg-white bb b--light-gray c-sticky c-unstick-ns z-1 top-0">
+        <div class="c-no-print">
 
             <div class="c-ph">
 
-                <div class="c-measure center c-sans-serif flex justify-between ttl small-caps tracked">
+                <header class="c-measure center">
 
-                    <a class="dib c-icon pv2 pv3-ns b f6" href="/" rel="index">{% if site.logomark %}<span role="image" aria-label="{{ site.logoalt }}">{{ site.logomark }}</span>{% else %}{{ site.title }}</a>{% endif %}
+                    <h1 class="lh-title f6 normal ttl small-caps tracked dark-gray no-underline"><a class="db pv1" href="/" rel="index">{{ site.title }}</a></h1>
 
-                    <a href="/feed/index.xml" class="dib pv2 pv3-ns f6">RSS</a>
+                    <p class="mt0 i">Web, politics, books, German experimental music – <a href="/feed/index.xml">RSS</a></p>
 
-                </div>
+                </header>
 
             </div>
 
         </div>
 
-        <main id="content" class="pb3 c-ph min-vh-100">
+        <main id="content" class="pb3 c-ph">
