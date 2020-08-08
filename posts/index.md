@@ -1,5 +1,5 @@
 ---
-layout: archive
+layout: default
 category: all
 title: Posts
 footer: true
@@ -9,7 +9,7 @@ visited-links: true
 prose-headings: true
 underlined-links: true
 hyphens: true
-sub: "Every post ever written in a simple list, just in case you don’t like pagination."
+sub: "Because your URL structure should point to a page every time, right?"
 ---
 
 {% include search-form.html %}

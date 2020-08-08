@@ -2,15 +2,15 @@
 
 <article class="h-entry">
 
-  <div class="c-bg-accent white c-ph pv5 pv6-l mb3 mb4-ns c-bleed-full">
+  <div class="mt5 mt6-l mb4">
 
     <div class="c-measure center">
 
-      <h1 class="f3 f2-ns ma0 p-name">{{ page.title }}</h1>
+      <h1 class="f3 f2-ns fw9 ma0 p-name">{{ page.title }}</h1>
 
       {% if page.sub %}
 
-      <p class="f6 mt2 mb0">{{ page.sub }}</p>
+      <p class="i mb0">{{ page.sub }}</p>
 
       {% endif %}
 
@@ -24,11 +24,11 @@
 
   </div>
 
-  <footer class="f7 mt4 c-sans-serif">
+  <footer class="f6 mt4">
 
       <div class="c-measure center">
 
-        <p>– <time class="i" datetime="{{ page.date | date: "%Y-%m-%d" }}">{{ page.date | date: "%-d %b, %Y" }}</time></p>
+        <p>— <time datetime="{{ page.date | date: "%Y-%m-%d" }}">{{ page.date | date: "%-d %b, %Y" }}</time></p>
 
       </div>
 

@@ -1,24 +1,24 @@
         </main>
 
-        <footer class="c-ph c-no-print c-sans-serif bt b--light-gray f7 pb2">
+        <footer class="c-ph c-no-print f7 pb2 pt4">
 
             <div class="c-measure center">
 
                 <nav id="nav">
 
-                    <a href="/" class="dib pv1 mr2 mr3-ns f7">Home</a>
+                    <a href="/" class="no-underline underline-hover dib pv1 mr2 mr3-ns f7">Home</a>
 
                     {% assign site_pages = site.pages | where: "in_nav", "true" | sort: "order" %}
 
                     {% for this_page in site_pages %}
 
-                    <a href="{{ this_page.url }}" class="dib pv1 mr2 mr3-ns f7">{% if this_page.nav-title %}{{ this_page.nav-title }}{% else %}{{ this_page.title }}{% endif %}</a>
+                    <a href="{{ this_page.url }}" class="no-underline underline-hover dib pv1 mr2 mr3-ns f7">{% if this_page.nav-title %}{{ this_page.nav-title }}{% else %}{{ this_page.title }}{% endif %}</a>
 
                     {% endfor %}
 
                 </nav>
 
-                <div>A blog: 2008–{{ "now" | date: "%Y" }}</div>
+                <div class="pv3">2008–{{ "now" | date: "%Y" }}</div>
 
             </div>
 

@@ -6,7 +6,7 @@
 
         <div class="c-measure center">
 
-            <h1 class="f4 f3-ns ma0 p-name"><a href="{{ page.link-url }}" class="db">{{ page.title }}</a></h1>
+            <h1 class="f4 f3-ns fw9 ma0 p-name"><a href="{{ page.link-url }}" class="db">{{ page.title }}</a></h1>
 
         </div>
 
@@ -18,11 +18,13 @@
 
     </div>
 
-    <footer class="f7 mt4 c-sans-serif">
+    <footer class="mt4">
 
         <div class="c-measure center">
 
-            <p>{% if page.link-published %}Originally published <time class="dt-published" datetime="{{ page.link-published | date: "%Y-%m-%d" }}">{{ page.link-published | date: "%b %-d, %Y" }}</time>{% endif %}{% if page.link-author %} by {{ page.link-author }} / {% endif %}<a href="/links/">Links</a></p>
+            <p>Permalink: <a class="i" href="{{ page.link-url }}">{{ page.title }}</a></p>
+
+            <p class="f7">{% if page.link-published %}Originally published <time class="dt-published" datetime="{{ page.link-published | date: "%Y-%m-%d" }}">{{ page.link-published | date: "%b %-d, %Y" }}</time>{% endif %}{% if page.link-author %} by {{ page.link-author }} / {% endif %}<a href="/links/">Links</a></p>
 
         </div>
 
