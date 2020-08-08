@@ -35,6 +35,21 @@
         {% endif %}
         {% endif %}
 
+        {% if page.is_link %}
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@leonpaternoster" />
+        <meta name="twitter:title" content="{{ page.title }}" />
+        {% if page.description %}
+        <meta name="twitter:description" content="{{ page.description }}" />
+        {% else %}
+        <meta name="twitter:description" content="{{ page.excerpt  | strip_html }}" />
+        {% endif %}
+        {% if page.img %}
+        <meta name="twitter:image" content="https://www.thisdaysportion.com/images/{{ page.img }}" />
+        <meta name="twitter:image:alt" content="{{ page.alt }}" />
+        {% endif %}
+        {% endif %}
+
         {% if page.is_post %}
         <link rel="schema.DCTERMS" href="https://purl.org/dc/terms/">
         <meta name="DC.Title" content="{{ page.title}}">
