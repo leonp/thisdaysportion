@@ -2,14 +2,40 @@
 
 :root {
     --ph: 7.5vw;
+    --measure: 25rem;
+    --sans-serif: -apple-system, BlinkMacSystemFont, "segoe ui", "helvetica neue", helvetica, ubuntu, roboto, noto, sans-serif;
+    --serif: "Source Serif Pro", georgia, serif;
     --accent: #D5008F;  // Tachyons dark-pink
     --link: #000;
     --hover: #D5008F; // Tachyons dark-pink
     --visited: #555; // Tachyons pink
     --focus: #D5008F; // Tachyons dark-pink
-    --measure: 27rem;
-    --sans-serif: -apple-system, BlinkMacSystemFont, "segoe ui", "helvetica neue", helvetica, ubuntu, roboto, noto, sans-serif;
-    --serif: "Source Serif Pro", georgia, serif;
+    --background: #FFF; // Tachyons dark-gray
+    --foreground: #333; // Tachyons moon-gray
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --accent: #FFB700;  // Tachyons dark-pink
+        --link: #FFF;
+        --hover: #FFB700; // Tachyons dark-pink
+        --visited: #AAA; // Tachyons pink
+        --focus: #FFB700; // Tachyons dark-pink
+        --background: #333; // Tachyons dark-gray
+        --foreground: #CCC; // Tachyons moon-gray
+    }
+    html {
+        -moz-osx-font-smoothing: grayscale;
+        osx-font-smoothing: grayscale;
+    }
+}
+
+.c-background {
+    background-color: var(--background);
+}
+
+.c-foreground {
+    color: var(--foreground);
 }
 
 .c-sans-serif {
@@ -24,6 +50,10 @@
   background-color: var(--accent);
 }
 
+.c-accent {
+    color: var(--accent);
+}
+
 .c-measure {
     max-width: var(--measure);
 }
@@ -35,8 +65,6 @@
 html {
     font-size: 118.75%;
     font-size: clamp(118.75%, 2.3vw, 131.25%);
-    /* -moz-osx-font-smoothing: grayscale;
-    osx-font-smoothing: grayscale; */
 }
 
 body {
@@ -63,6 +91,7 @@ h5,
 h6 {
     line-height: 1.2;
     line-height: clamp(1.15em, 2.5vw, 1.25em);
+    color: var(--link);
 }
 
 figure {
