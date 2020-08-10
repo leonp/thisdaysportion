@@ -21,6 +21,8 @@ is_home: true
 
 </ul>
 
+**[All posts](/posts/)**
+
 
 ## Latest links
 
@@ -36,6 +38,8 @@ is_home: true
 
 </ul>
 
+**[All links](/links/)**
+
 ## Latest notes
 
 {% assign notes = site.notes | sort: "date" | reverse %}
@@ -49,3 +53,5 @@ is_home: true
 {% endfor %}
 
 </ul>
+
+**[All notes](/notes/)**
