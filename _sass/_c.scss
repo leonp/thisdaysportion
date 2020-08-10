@@ -3,9 +3,9 @@
 :root {
     --ph: 7.5vw;
     --accent: #D5008F;  // Tachyons dark-pink
-    --link: #00449E;
+    --link: #000;
     --hover: #D5008F; // Tachyons dark-pink
-    --visited: #357EDD; // Tachyons dpink
+    --visited: #555; // Tachyons pink
     --focus: #D5008F; // Tachyons dark-pink
     --measure: 27rem;
     --sans-serif: -apple-system, BlinkMacSystemFont, "segoe ui", "helvetica neue", helvetica, ubuntu, roboto, noto, sans-serif;
@@ -35,8 +35,8 @@
 html {
     font-size: 118.75%;
     font-size: clamp(118.75%, 2.3vw, 131.25%);
-    -moz-osx-font-smoothing: grayscale;
-    osx-font-smoothing: grayscale;
+    /* -moz-osx-font-smoothing: grayscale;
+    osx-font-smoothing: grayscale; */
 }
 
 body {
@@ -46,8 +46,8 @@ body {
 
 a {
     color: var(--link);
-    text-decoration: underline;
     text-decoration-thickness: 2px;
+    text-decoration-color: var(--accent);
 }
 
 a:hover,
