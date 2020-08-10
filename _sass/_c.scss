@@ -3,9 +3,9 @@
 :root {
     --ph: 7.5vw;
     --accent: #D5008F;  // Tachyons dark-pink
-    --link: #D5008F; // Tachyons dark-pink
+    --link: #000;
     --hover: #D5008F; // Tachyons dark-pink
-    --visited: #FF80CC; // Tachyons dpink
+    --visited: #555; // Tachyons dpink
     --focus: #D5008F; // Tachyons dark-pink
     --measure: 27rem;
     --sans-serif: -apple-system, BlinkMacSystemFont, "segoe ui", "helvetica neue", helvetica, ubuntu, roboto, noto, sans-serif;
@@ -47,7 +47,6 @@ body {
 a {
     color: var(--link);
     text-decoration: underline;
-    text-decoration: solid underline 2px var(--accent);
 }
 
 a:hover,
