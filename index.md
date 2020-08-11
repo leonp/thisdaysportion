@@ -9,11 +9,11 @@ is_home: true
 
 ## Latest posts
 
-{% assign posts = site.posts | sort: "date" | reverse | limit:5 %}
+{% assign posts = site.posts | sort: "date" | reverse %}
 
 <ul class="list mb0 pa0">
 
-{% for post in posts | limit:5 %}
+{% for post in posts limit:5 %}
 
     <li><a class="db no-underline pv1" href="{{ post.url }}">{{ post.title }}</a><!-- <time class="db mb3 silver f6">{{ post.date | date: "%-d %b, %Y" }}</time> --></li>
 
@@ -30,7 +30,7 @@ is_home: true
 
 <ul class="list mb0 pa0">
 
-{% for link in links | limit:5 %}
+{% for link in links limit:5 %}
 
     <li><a class="db no-underline pv1" href="{{ link.url }}">{{ link.title }}</a><!-- <time class="db mb3 silver f6">{{ post.date | date: "%-d %b, %Y" }}</time> --></li>
 
@@ -46,7 +46,7 @@ is_home: true
 
 <ul class="list mb0 pa0">
 
-{% for note in notes | limit:5 %}
+{% for note in notes limit:5 %}
 
     <li><a class="db no-underline pv1" href="{{ note.url }}">{{ note.title }}</a><!-- <time class="db mb3 silver f6">{{ post.date | date: "%-d %b, %Y" }}</time> --></li>
 
