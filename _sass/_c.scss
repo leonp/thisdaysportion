@@ -25,6 +25,7 @@
         --foreground: #CCC; // Tachyons moon-gray
     }
     html {
+        font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
         osx-font-smoothing: grayscale;
     }
