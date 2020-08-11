@@ -17,7 +17,7 @@ Here’s a screenshot of an RSS reader app called [NetNewsWire](https://ranchero
 
 {% include figure.html url="netnewswire.jpg" alt="Screenshot of the NetNewsWire app." caption="NetNewsWire is an RSS reader for MacOS. Note how it looks like an email app." %}
 
-RSS feeds are simply web addresses. You can find my feed at [https://www.thisdaysportion.com/feed/index.xml](/feed/index.xml). Give your RSS reader the feed web address and it’ll do the rest for you. Often, all you need is the website address, and the RSS reader will automagically find the RSS feed.
+RSS feeds are simply files that you can find at a web address. My feed is at [https://www.thisdaysportion.com/feed/index.xml](/feed/index.xml). Give your RSS reader the feed web address and it’ll do the rest for you. Often, all you need is the website address, and the RSS reader will automagically find the RSS feed.
 
 ## Why use RSS?
 
