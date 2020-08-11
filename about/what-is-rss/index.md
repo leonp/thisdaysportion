@@ -13,7 +13,7 @@ Let’s say you find my [Static works](/posts/static/) post interesting and feel
 
 In order to subscribe to an RSS feed you’ll need an RSS _reader_. Think of this as something like the service you use to get your email. It can either be through a website (just like you can get your email at `gmail.com`) or an app (just like the gmail app).
 
-Here’s a screenshot of an RSS reader called [NetNewsWire](https://ranchero.com/netnewswire/). Note how it looks like an email app. In the first column there’s a list of all the feeds I’ve subscribed to. In the middle column there’s a list of all the posts published in the feed I’ve selected. In the third column you can read the actual article (yes, you don’t even have to visit the website itself).
+Here’s a screenshot of an RSS reader app called [NetNewsWire](https://ranchero.com/netnewswire/). Note how it looks like an email app. In the first column there’s a list of all the feeds I’ve subscribed to. In the middle column there’s a list of all the posts published in the feed I’ve selected. In the third column you can read the actual article (yes, you don’t even have to visit the website itself).
 
 {% include figure.html url="netnewswire.jpg" alt="Screenshot of the NetNewsWire app." caption="NetNewsWire is an RSS reader for MacOS. Note how it looks like an email app." %}
 
@@ -36,3 +36,17 @@ If you are interested in reading what people or organisations publish on their o
 You can, of course, publish articles on Facebook, Instagram and even Twitter (through a thread), which is what these organisations want you to do. The problem with publishing directly to Facebook <i>et al</i> is that they then _own_ your content and can scrape, algorithmise, monetise or even delete it. In these times, who wants to contribute to Facebook’s profits — and the problems they cause?
 
 Also — who knows — perhaps our websites will outlast Twitter and Facebook.
+
+## Getting started with RSS
+
+I’ve used these services and apps in the past; all have been good:
+
+- [Inoreader](https://www.inoreader.com/)
+- [Feedly](https://feedly.com/i/welcome)
+- [Reeder](https://www.reederapp.com/) (MacOS and iOS only)
+- [NetNewsWire](https://ranchero.com/netnewswire/) (MacOS and iOS only)
+
+You may be surprised at how many websites offer an RSS service, even if they don’t advertise it. Try a browser plugin that’ll expose any RSS feeds for you, or even add a reader to your browser:
+
+- [Firefox RSS add-ons](https://addons.mozilla.org/en-US/firefox/search/?platform=mac&q=rss)
+- [Chrome RSS extensions](https://chrome.google.com/webstore/search/rss)
