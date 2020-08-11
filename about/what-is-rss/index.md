@@ -27,7 +27,7 @@ Lots of social media and websites allow you to _subscribe_ to content. Facebook,
 
 I don’t use Facebook, so you’d need to subscribe to either my (protected) Twitter account, or the relatively obscure [micro.blog](https://micro.blog/leonp) service to get notified whenever I publish anything new.
 
-## An RSS reader provides a single place to collect lots of content
+### An RSS reader provides a single place to collect lots of content
 
 If you are interested in reading what people or organisations publish on their own websites, an RSS reader provides an instant list of _everything_ you’re subscribed to. You only need to refer to one service to get instant updates from hundreds or even thousands of sources, such as one person blogs, newspapers or tech websites.
 
