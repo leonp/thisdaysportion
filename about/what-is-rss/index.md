@@ -7,7 +7,7 @@ underlined-links: true
 hyphens: true
 ---
 
-RSS (short for Really Simple Syndication) provides a way for readers to subscribe to content, usually blog posts. By subscribing, readers don’t have to keep visiting the source of the content (normally a website) to check for something new.
+RSS (short for Really Simple Syndication) provides a way for readers to subscribe to content. This is often blog posts, but it could be [news articles by category](https://www.theguardian.com/world/coronavirus-outbreak/rss), [articles published by a particular newspaper author](http://www.guardian.co.uk/profile/adityachakrabortty/rss) or even [a social media stream](https://micro.blog/posts/leonp). By subscribing, readers don’t have to keep visiting the source of the content (normally a website) to check for something new.
 
 Let’s say you find my [Static works](/posts/static/) post interesting and feel it’d be worth keeping an eye out for anything new I write. Instead of visiting `https://www.thisdaysportion.com` every day to see if I’ve published a new post, you can subscribe to the RSS _feed_. The feed is updated whenever I publish something new.
 
