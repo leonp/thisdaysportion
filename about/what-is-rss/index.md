@@ -31,6 +31,10 @@ I don’t use Facebook, so you’d need to subscribe to either my (protected) Tw
 
 If you are interested in reading what people or organisations publish on their own websites, an RSS reader provides an instant list of _everything_ you’re subscribed to. You only need to refer to one service to get instant updates from hundreds or even thousands of sources, such as one person blogs, newspapers or tech websites.
 
+### RSS removes noise
+
+As the above screenshot shows, RSS readers can provide a stripped down view of an article, similar to Safari and Firefox’s reader views. Also, if you’re following a social media account for updates, links to articles and blog posts come amid all the other _stuff_. Being able to focus on the "high quality" content is particularly useful if you're researching a subject, or you use blog posts to fuel your professional development.
+
 ### RSS helps authors keep their own content and publish it away from social media
 
 You can, of course, publish articles on Facebook, Instagram and even Twitter (through a thread), which is what these organisations want you to do. The problem with publishing directly to Facebook <i>et al</i> is that they then _own_ your content and can scrape, algorithmise, monetise or even delete it. In these times, who wants to contribute to Facebook’s profits — and the problems they cause?

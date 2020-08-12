@@ -107,6 +107,10 @@ img {
     margin: 0;
 }
 
+article {
+    word-break: break-all;
+}
+
 article h2,
 article h3,
 article h4,
@@ -236,6 +240,7 @@ figure {
 code {
     font-size: 0.875em;
     font-family: "Fira Mono", "IBM Plex Mono", Consolas, Menlo, "Courier New", monospace;
+    color: var(--accent);
 }
 
 pre {
