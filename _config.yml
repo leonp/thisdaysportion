@@ -36,7 +36,7 @@ markdown: kramdown
 sass:
   style: compressed
 
-
+# Collections
 collections:
     notes:
       output: true
@@ -46,14 +46,16 @@ collections:
         output: true
         permalink: /:collection/:name
 
+# Plugins
+plugins:
+  - jekyll-get-json
+  - jekyll-datapage-generator
 
 # Defaults
-
 # Enable is_homepost test for posts
 # Enable is_page test for pages
 # Enable is_home test for home page
 # Use {% if page.is_post %} etc.
-
 defaults:
 -
     scope:
@@ -109,7 +111,7 @@ exclude:
 pagination:
 
   # Site-wide kill switch, disabled here it doesn't run at all
-  enabled: true
+  enabled: false
 
   # Set to 'true' to enable pagination debugging. This can be enabled in the site config or only for individual pagination pages
   debug: false
@@ -161,6 +163,18 @@ pagination:
   # Without file extension
   indexpage: 'index'
 
+# jekyll-get-api settings
+jekyll_get_json:
+  - data: microblogs
+    json: 'https://micro.blog/posts/leonp'
+    cache: false
+
+# Data page generator
+page_gen:
+  - data: 'microblogs.items'
+    template: 'micro'
+    name: 'id'
+    dir: 'microblog'
 
 # This is a Netlify file, feel free to delete unless you need it
 include: [_redirects]

@@ -2,9 +2,9 @@
 layout: archive
 title: Links
 collection: links
-footer: true
+footer: false
 order: 4
-in_nav: true
+in_nav: false
 visited-links: true
 prose-headings: true
 underlined-links: true
