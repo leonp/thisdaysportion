@@ -23,35 +23,3 @@ is_home: true
 
 **[All posts](/posts/)**
 
-
-## Latest links
-
-{% assign links = site.links | sort: "date" | reverse %}
-
-<ul class="list mb0 pa0">
-
-{% for link in links limit:5 %}
-
-    <li><a class="db no-underline pv1" href="{{ link.url }}">{{ link.title }}</a><!-- <time class="db mb3 silver f6">{{ post.date | date: "%-d %b, %Y" }}</time> --></li>
-
-{% endfor %}
-
-</ul>
-
-**[All links](/links/)**
-
-## Latest notes
-
-{% assign notes = site.notes | sort: "date" | reverse %}
-
-<ul class="list mb0 pa0">
-
-{% for note in notes limit:5 %}
-
-    <li><a class="db no-underline pv1" href="{{ note.url }}">{{ note.title }}</a><!-- <time class="db mb3 silver f6">{{ post.date | date: "%-d %b, %Y" }}</time> --></li>
-
-{% endfor %}
-
-</ul>
-
-**[All notes](/notes/)**
