@@ -166,14 +166,14 @@ pagination:
 # jekyll-get-api settings
 jekyll_get_json:
   - data: microblogs
-    json: 'https://micro.blog/posts/leonp'
+    json: 'https://leonp.micro.blog/feed.json'
     cache: false
 
 # Data page generator
 page_gen:
   - data: 'microblogs.items'
     template: 'micro'
-    name: 'id'
+    name: 'date_published'
     dir: 'microblog'
 
 # This is a Netlify file, feel free to delete unless you need it

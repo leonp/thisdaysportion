@@ -14,11 +14,11 @@ Everything I post to [micro.blog](https://micro.blog). That includes links, note
 
 {% assign microblogs = site.data.microblogs.items %}
 
-<ul class="list pa0">
+<ul class="flex justify-between f6 list pa0">
 
 {% for microblog in microblogs %}
 
-	<li><a class="dib pv1" href="/microblog/{{ microblog.id }}/">{{ microblog.id }}</a> — <time>{{ microblog.date_published | date: "%-d/%-m/%Y" }}</time></li>
+	<li class="w-50 w-30-ns"><a class="db pv1" href="/microblog/{{ microblog.date_published | remove: ":" | remove: "+" | downcase }}/">{{ microblog.date_published | date: "%-d/%-m/%Y %H:%M" }}</a></li>
 
 {% endfor %}
 
