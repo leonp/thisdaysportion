@@ -39,7 +39,7 @@
 
         {% endif %}
 
-            <li><a class="db no-underline pv1" href="{{ post.url }}">{{ post.title }}</a><!-- <time class="db mb3 silver f6">{{ post.date | date: "%-d %b, %Y" }}</time> --></li>
+            <li><a class="dib pv1" href="{{ post.url }}">{{ post.title }}</a><!-- <time class="db mb3 silver f6">{{ post.date | date: "%-d %b, %Y" }}</time> --></li>
 
         {% if forloop.last %}
 
@@ -67,7 +67,7 @@
 
     {% for post in posts limit:include.post-limit | default:500 %}
 
-        <li><a class="db no-underline pv1" href="{{ post.url }}">{{ post.title }}</a><!-- <time class="db mb3 silver f6">{{ post.date | date: "%-d %b, %Y" }}</time> --></li>
+        <li><a class="dib pv1" href="{{ post.url }}">{{ post.title }}</a><!-- <time class="db mb3 silver f6">{{ post.date | date: "%-d %b, %Y" }}</time> --></li>
 
     {% endfor %}
 

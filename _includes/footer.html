@@ -4,21 +4,7 @@
 
             <div class="c-measure center">
 
-                <nav id="nav">
-
-                    <a href="/" class="no-underline underline-hover dib pv1 mr2 mr3-ns f7">Home</a>
-
-                    {% assign site_pages = site.pages | where: "in_nav", "true" | sort: "order" %}
-
-                    {% for this_page in site_pages %}
-
-                    <a href="{{ this_page.url }}" class="no-underline underline-hover dib pv1 mr2 mr3-ns f7">{% if this_page.nav-title %}{{ this_page.nav-title }}{% else %}{{ this_page.title }}{% endif %}</a>
-
-                    {% endfor %}
-
-                </nav>
-
-                <div class="pv3">2008–{{ "now" | date: "%Y" }} — <a class="dib pv1" href="/feed/index.xml">RSS feed</a> ~ <a href="/about/what-is-rss/" class="dib pv1">What’s RSS?</a></div>
+                <div class="pv3">2008–{{ "now" | date: "%Y" }} / <a href="/about" class="dib pv1">About</a> / <a class="dib pv1" href="/feed/index.xml">RSS feed</a> ~ <a href="/about/what-is-rss/" class="dib pv1">What’s RSS?</a></div>
 
             </div>
 

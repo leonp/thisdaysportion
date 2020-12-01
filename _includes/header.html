@@ -116,15 +116,23 @@
         <a class="c-no-print pv2 c-ph clip dib" href="#content">Skip to content</a>
         <a class="c-no-print pv2 c-ph clip dib" href="#nav">Skip to navigation</a>
 
-        <header class="c-no-print flex justify-between items-center">
+        <header class="c-ph c-no-print flex justify-between items-center">
 
-            <div class="tl"><a href="/" rel="index" class="tc dib pv3 c-ph f4 f3-ns no-underline c-accent"><span role="img" aria-label="A star" title="Go to the home page" class="dib">★</span></a></div>
+            <div><a href="/" rel="index" class="dib pv3 pr2 pr3-ns no-underline c-accent"><span role="img" aria-label="A star" title="Go to the home page" class="dib">★</span></a></div>
 
-            <!-- <h1 class="lh-title f6 normal ttl small-caps tracked dark-gray no-underline mb0"><a class="pv1 dark-gray hover-dark-gray" href="/" rel="index">{{ site.title }}</a></h1>
+            <nav class="flex items-center">
 
-            <p class="f6 mt0 i">Web, politics, books, German experimental music – <a class="dark-gray hover-dark-gray fs-normal" href="/feed/index.xml">RSS</a></p> -->
+                {% assign pages = site.pages | where: "in_nav", true %}
 
-            <div><a class="f6 dib pv3 c-ph" href="/feed/index.xml">Subscribe to RSS</a></div>
+                {% for this_page in pages %}
+
+                    <a href="{{ this_page.url }}" class="dib pv3 pr2 pr3-ns{% if this_page.url == page.url %} c-accent{% endif %}">{{ this_page.title }}</a>
+
+                {% endfor %}
+
+                <a class="dib pv3" href="/feed/index.xml">RSS</a>
+
+            </nav>
 
         </header>
 
