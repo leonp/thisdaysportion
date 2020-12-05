@@ -1,0 +1,52 @@
+---
+layout: default
+title: Microblog
+footer: true
+order: 5
+in_nav: true
+visited-links: true
+prose-headings: true
+underlined-links: true
+hyphens: true
+---
+
+{% assign microblogs = site.data.microblogs.items %}
+
+<ul class="f6 list pa0">
+
+{% for microblog in microblogs limit: 10 %}
+
+	<li>
+
+		<a class="db pv1" href="/microblog/{{ microblog.date_published | remove: ":" | remove: "+" | downcase }}/"><time>{{ microblog.date_published | date: "%-d/%-m/%Y %H:%M" }}</time></a>
+
+	</li>
+
+{% endfor %}
+
+</ul>
+
+{% if microblogs.size > 10 %}
+
+<details>
+
+	<summary class="pointer f6">See the rest</summary>
+
+	<ul class="f6 list pa0">
+
+	{% for microblog in microblogs offset: 10 %}
+
+		<li>
+
+			<a class="db pv1" href="/microblog/{{ microblog.date_published | remove: ":" | remove: "+" | downcase }}/"><time>{{ microblog.date_published | date: "%-d/%-m/%Y %H:%M" }}</time></a>
+
+		</li>
+
+	{% endfor %}
+
+	</ul>
+
+</details>
+
+{% endif %}
+

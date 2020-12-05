@@ -23,9 +23,8 @@ gem "jekyll"
 group :jekyll_plugins do
    gem "jekyll-paginate-v2"
    gem "jekyll-datapage-generator"
+   gem "jekyll-get-json", "~> 0.0.2"
    # gem "jekyll-feed", "~> 0.6"
    # gem "therubyracer"
    # gem "jekyll-webmention_io"
 end
-
-gem "jekyll-get-json", "~> 0.0.2"

@@ -77,7 +77,8 @@ body {
     /* line-height: clamp(1.375em, 2.8vw, 1.45em); */
 }
 
-a {
+a,
+summary {
     color: var(--link);
     text-decoration-thickness: 2px;
     text-decoration-color: var(--accent);
