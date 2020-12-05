@@ -20,9 +20,9 @@ hyphens: true
 
 {% for microblog in microblogs limit: 10 %}
 
-	<li>
+	<li class="flex items-center">
 
-		<a class="db pv1" href="/microblog/{{ microblog.date_published | remove: ":" | remove: "+" | downcase }}/"><time>{{ microblog.date_published | date: "%-d/%-m/%Y %H:%M" }}</time></a>
+		<span role="img" aria-label="{% if microblog.content_html contains "img " %}Camera{% elsif microblog.content_html contains "blockquote" %}Quote{% else %}Note{% endif %}" class="pv1 pr2">{% if microblog.content_html contains "img " %}📷{% elsif microblog.content_html contains "blockquote" %}💬{% else %}📝{% endif %}</span><a class="db pv1" href="/microblog/{{ microblog.date_published | remove: ":" | remove: "+" | downcase }}/"><time>{{ microblog.date_published | date: "%-d/%-m/%Y %H:%M" }}</time></a>
 
 	</li>
 
@@ -40,9 +40,9 @@ hyphens: true
 
 	{% for microblog in microblogs offset: 10 %}
 
-		<li>
+		<li class="flex items-center">
 
-			<a class="db pv1" href="/microblog/{{ microblog.date_published | remove: ":" | remove: "+" | downcase }}/"><time>{{ microblog.date_published | date: "%-d/%-m/%Y %H:%M" }}</time></a>
+			<span role="img" aria-label="{% if microblog.content_html contains "img " %}Camera{% elsif microblog.content_html contains "blockquote" %}Quote{% else %}Note{% endif %}" class="pv1 pr2">{% if microblog.content_html contains "img " %}📷{% elsif microblog.content_html contains "blockquote" %}💬{% else %}📝{% endif %}</span><a class="db pv1" href="/microblog/{{ microblog.date_published | remove: ":" | remove: "+" | downcase }}/"><time>{{ microblog.date_published | date: "%-d/%-m/%Y %H:%M" }}</time></a>
 
 		</li>
 
