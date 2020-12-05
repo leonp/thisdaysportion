@@ -12,6 +12,10 @@ hyphens: true
 
 {% assign microblogs = site.data.microblogs.items %}
 
+{% assign total_posts = microblogs.size %}
+
+<p>A grand total of {{ total_posts }} notes, pictures and links, and growing.</p>
+
 <ul class="f6 list pa0">
 
 {% for microblog in microblogs limit: 10 %}
@@ -30,7 +34,7 @@ hyphens: true
 
 <details>
 
-	<summary class="pointer f6">See the rest</summary>
+	<summary class="pointer f6">Show the remaining {{ total_posts | minus: 10 }}</summary>
 
 	<ul class="f6 list pa0">
 
