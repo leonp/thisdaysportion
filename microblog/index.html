@@ -14,7 +14,7 @@ hyphens: true
 
 {% assign total_posts = microblogs.size %}
 
-<p>A grand total of {{ total_posts }} notes, pictures and links, and growing.</p>
+<p>A grand total of {{ total_posts }} <span role="img" aria-label="Note">📝</span> notes, <span role="img" aria-label="Camera">📷</span> pictures and <span role="img" aria-label="Quote">💬</span> quotes.</p>
 
 <ul class="f6 list pa0">
 
@@ -34,7 +34,7 @@ hyphens: true
 
 <details>
 
-	<summary class="pointer f6">Show the remaining {{ total_posts | minus: 10 }}</summary>
+	<summary class="pointer f6 pv2">Show the remaining {{ total_posts | minus: 10 }}</summary>
 
 	<ul class="f6 list pa0">
 
