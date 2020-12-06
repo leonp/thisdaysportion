@@ -16,13 +16,13 @@ hyphens: true
 
 <p>A grand total of {{ total_posts }} <span role="img" aria-label="Note">📝</span> notes, <span role="img" aria-label="Camera">📷</span> pictures and <span role="img" aria-label="Quote">💬</span> quotes.</p>
 
-<ul class="f6 list pa0">
+<ul class="f7 f6-ns list pa0">
 
 {% for microblog in microblogs limit: 10 %}
 
 	<li class="flex items-center">
 
-		<span role="img" aria-label="{% if microblog.content_html contains "img " %}Camera{% elsif microblog.content_html contains "blockquote" %}Quote{% else %}Note{% endif %}" class="pv1 pr2">{% if microblog.content_html contains "img " %}📷{% elsif microblog.content_html contains "blockquote" %}💬{% else %}📝{% endif %}</span><a class="db pv1" href="/microblog/{{ microblog.date_published | remove: ":" | remove: "+" | downcase }}/"><time>{{ microblog.date_published | date: "%-d/%-m/%Y %H:%M" }}</time></a>
+		<span role="img" aria-label="{% if microblog.content_html contains "img " %}Camera{% elsif microblog.content_html contains "blockquote" %}Quote{% else %}Note{% endif %}" class="pv1 pr2">{% if microblog.content_html contains "img " %}📷{% elsif microblog.content_html contains "blockquote" %}💬{% else %}📝{% endif %}</span><a class="db pv1" href="/microblog/{{ microblog.date_published | remove: ":" | remove: "+" | downcase }}/">{% if microblog.title %}{{ microblog.title }} — {% endif %}<time>{{ microblog.date_published | date: "%-d/%-m/%Y %H:%M" }}</time></a>
 
 	</li>
 
@@ -36,13 +36,13 @@ hyphens: true
 
 	<summary class="pointer f6 pv2">Show the remaining {{ total_posts | minus: 10 }}</summary>
 
-	<ul class="f6 list pa0">
+	<ul class="f7 f6-ns list pa0">
 
 	{% for microblog in microblogs offset: 10 %}
 
 		<li class="flex items-center">
 
-			<span role="img" aria-label="{% if microblog.content_html contains "img " %}Camera{% elsif microblog.content_html contains "blockquote" %}Quote{% else %}Note{% endif %}" class="pv1 pr2">{% if microblog.content_html contains "img " %}📷{% elsif microblog.content_html contains "blockquote" %}💬{% else %}📝{% endif %}</span><a class="db pv1" href="/microblog/{{ microblog.date_published | remove: ":" | remove: "+" | downcase }}/"><time>{{ microblog.date_published | date: "%-d/%-m/%Y %H:%M" }}</time></a>
+			<span role="img" aria-label="{% if microblog.content_html contains "img " %}Camera{% elsif microblog.content_html contains "blockquote" %}Quote{% else %}Note{% endif %}" class="pv1 pr2">{% if microblog.content_html contains "img " %}📷{% elsif microblog.content_html contains "blockquote" %}💬{% else %}📝{% endif %}</span><a class="db pv1" href="/microblog/{{ microblog.date_published | remove: ":" | remove: "+" | downcase }}/">{% if microblog.title %}{{ microblog.title }} — {% endif %}<time>{{ microblog.date_published | date: "%-d/%-m/%Y %H:%M" }}</time></a>
 
 		</li>
 
