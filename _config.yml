@@ -166,7 +166,7 @@ pagination:
 # jekyll-get-api settings
 jekyll_get_json:
   - data: microblogs
-    json: 'https://leonp.micro.blog/feed.json'
+    json: 'https://micro.blog/posts/leonp'
     cache: false
 
 # Data page generator
