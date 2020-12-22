@@ -174,7 +174,7 @@ page_gen:
   - data: 'wp_posts'
     template: 'wp'
     name: 'slug'
-    dir: 'wp'
+    dir: 'microblog'
 
 # This is a Netlify file, feel free to delete unless you need it
 include: [_redirects]
