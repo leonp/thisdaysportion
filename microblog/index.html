@@ -16,9 +16,9 @@ hyphens: true
 
 {% for this_wp_post in all_wp_posts %}
 
-	<li>
+	<li class="mb3">
 
-		{% if this_wp_post.title.rendered %}{{ this_wp_post.title.rendered | truncate: 40 }} {% endif %}<time><a class="dib pv1" href="/wp/{{ this_wp_post.slug }}">{{ this_wp_post.date | date: "%d/%m/%Y" }}</a></time>
+		{% if this_wp_post.title.rendered %}{{ this_wp_post.title.rendered }} {% endif %}<time class="db"><a class="dib" href="/wp/{{ this_wp_post.slug }}">{{ this_wp_post.date | date: "%d/%m/%Y" }}</a></time>
 
 	</li>
 
