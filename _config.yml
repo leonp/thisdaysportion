@@ -165,16 +165,16 @@ pagination:
 
 # jekyll-get-api settings
 jekyll_get_json:
-  - data: microblogs
-    json: 'https://micro.blog/posts/leonp'
-    cache: false
+  - data: wp_posts
+    json: 'https://public-api.wordpress.com/wp/v2/sites/kjzabc.wordpress.com/posts?per_page=100'
+    cache: true
 
 # Data page generator
 page_gen:
-  - data: 'microblogs.items'
-    template: 'micro'
-    name: 'date_published'
-    dir: 'microblog'
+  - data: 'wp_posts'
+    template: 'wp'
+    name: 'slug'
+    dir: 'wp'
 
 # This is a Netlify file, feel free to delete unless you need it
 include: [_redirects]

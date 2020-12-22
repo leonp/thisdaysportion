@@ -1,0 +1,37 @@
+{% include header.html %}
+
+<article class="h-entry">
+
+  <div class="mt4 mt5-l mb4">
+
+  <div class="c-measure center">
+
+	  <h1 class="f2 lh-title">{{ page.title.rendered }}</h1>
+
+  	{% assign all_wp_posts = site.data.wp_posts %}
+
+  	{% for this_wp_post in all_wp_posts %}
+
+  	{% if page.slug == this_wp_post.slug %}
+
+  	{{ this_wp_post.content.rendered }}
+
+  	{% endif %}
+
+  	{% endfor %}
+
+	  <footer class="f6 mt4">
+
+	      <div class="c-measure center">
+
+	        <p>– <time datetime="{{ page.date_published | date: "%Y-%m-%d" }}">{{ page.date | date: "%-d %b, %Y" }}</time> / <a href="/microblog/">Microblog</a></p></p>
+
+	      </div>
+
+	  </footer>
+
+	 </div>
+
+</article>
+
+{% include footer.html %}

@@ -10,67 +10,19 @@ underlined-links: true
 hyphens: true
 ---
 
-{% assign microblogs = site.data.microblogs.items %}
+{% assign all_wp_posts = site.data.wp_posts %}
 
-{% assign total_posts = microblogs.size %}
+<ul class="f6 list pa0">
 
-<p>A grand total of {{ total_posts }} <span role="img" aria-label="Note">📝</span> notes, <span role="img" aria-label="Camera">📷</span> pictures and <span role="img" aria-label="Quote">💬</span> quotes.</p>
+{% for this_wp_post in all_wp_posts %}
 
-<ul class="f7 f6-ns list pa0">
+	<li>
 
-{% for microblog in microblogs limit: 10 %}
-
-	<li class="flex items-start lh-title mb2">
-
-		<span role="img" aria-label="{% if microblog.content_html contains "img " %}Camera{% elsif microblog.content_html contains "blockquote" %}Quote{% else %}Note{% endif %}" class="pv1 pr2">{% if microblog.content_html contains "img " %}📷{% elsif microblog.content_html contains "blockquote" %}💬{% else %}📝{% endif %}</span>
-
-		{% if microblog.title %}
-
-		<span><a class="db pv1" href="/microblog/{{ microblog.date_published | remove: ":" | remove: "+" | downcase }}/">{{ microblog.title }}</a><time>{{ microblog.date_published | date: "%-d/%-m/%Y" }}</time></span>
-
-		{% else %}
-
-		<span><a class="db pv1" href="/microblog/{{ microblog.date_published | remove: ":" | remove: "+" | downcase }}/">{{ microblog.content_html | strip_html | truncate: 30 }}</a><time>{{ microblog.date_published | date: "%-d/%-m/%Y" }}</time></a></span>
-
-		{% endif %}
+		{% if this_wp_post.title.rendered %}{{ this_wp_post.title.rendered | truncate: 40 }} {% endif %}<time><a class="dib pv1" href="/wp/{{ this_wp_post.slug }}">{{ this_wp_post.date | date: "%d/%m/%Y" }}</a></time>
 
 	</li>
 
 {% endfor %}
 
 </ul>
-
-{% if microblogs.size > 10 %}
-
-<details>
-
-	<summary class="pointer f6 pv2">Show the remaining {{ total_posts | minus: 10 }}</summary>
-
-	<ul class="f7 f6-ns list pa0">
-
-	{% for microblog in microblogs offset: 10 %}
-
-		<li class="flex items-start lh-title mb2">
-
-			<span role="img" aria-label="{% if microblog.content_html contains "img " %}Camera{% elsif microblog.content_html contains "blockquote" %}Quote{% else %}Note{% endif %}" class="pv1 pr2">{% if microblog.content_html contains "img " %}📷{% elsif microblog.content_html contains "blockquote" %}💬{% else %}📝{% endif %}</span>
-
-			{% if microblog.title %}
-
-			<span><a class="db pv1" href="/microblog/{{ microblog.date_published | remove: ":" | remove: "+" | downcase }}/">{{ microblog.title }}</a><time>{{ microblog.date_published | date: "%-d/%-m/%Y" }}</time></span>
-
-			{% else %}
-
-			<a class="db pv1" href="/microblog/{{ microblog.date_published | remove: ":" | remove: "+" | downcase }}/"><time>{{ microblog.date_published | date: "%-d/%-m/%Y" }}</time></a>
-
-			{% endif %}
-
-		</li>
-
-	{% endfor %}
-
-	</ul>
-
-</details>
-
-{% endif %}
 
