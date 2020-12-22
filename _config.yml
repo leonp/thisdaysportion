@@ -168,6 +168,9 @@ jekyll_get_json:
   - data: wp_posts
     json: 'https://public-api.wordpress.com/wp/v2/sites/kjzabc.wordpress.com/posts?per_page=100'
     cache: true
+  - data: wp_comments
+    json: 'https://public-api.wordpress.com/wp/v2/sites/kjzabc.wordpress.com/comments'
+    cache: true
 
 # Data page generator
 page_gen:

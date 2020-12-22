@@ -16,6 +16,8 @@
 
   	{{ this_wp_post.content.rendered }}
 
+    {% assign this_post_id = this_wp_post.id %}
+
   	{% endif %}
 
   	{% endfor %}
@@ -25,6 +27,40 @@
 	      <div class="c-measure center">
 
 	        <p>– <time datetime="{{ page.date_published | date: "%Y-%m-%d" }}">{{ page.date | date: "%-d %b, %Y" }}</time> / <a href="/microblog/">Microblog</a></p></p>
+
+          <h2>Comments</h2>
+
+          {% assign all_wp_comments = site.data.wp_comments | where_exp: "comment", "comment.post == this_post_id" %}
+
+          {% if all_wp_comments.size > 0 %}
+
+            {% for comment in all_wp_comments %}
+
+              <article>
+
+                {% if comment.author_name.size > 0 %}
+
+                <h3>{{ comment.author_name }}</h3>
+
+                {% else %}
+
+                <h3>Anonymous</h3>
+
+                {% endif %}
+
+                <p class="f6"><time>{{ comment.date | date: "%-d %b, %Y" }}</time></p>
+
+                {{ comment.content.rendered }}
+
+              </article>
+
+            {% endfor %}
+
+          {% else %}
+
+            <p>No comments.</p>
+
+          {% endif %}
 
 	      </div>
 
