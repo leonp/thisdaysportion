@@ -3,7 +3,7 @@ layout: default
 title: "Home"
 order: 1
 in_nav: true
-sub: Notebooks out.
+sub: Notebooks out. Blog posts, articles, microblogs, pictures, links.
 display-title: "This day’s portion"
 nav-title: "Home"
 is_home: true
