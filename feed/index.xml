@@ -13,15 +13,23 @@ hide: true
         <name>This day’s portion — Leon Paternoster</name>
     </author>
     <rights>Copyright (c) Leon Paternoster</rights>
-    {% for post in site.posts limit:20 %}
-    {% if post.layout != 'redirect' %}
-    <entry>
-        <title>{{ post.title }}</title>
-        <link href="http://www.thisdaysportion.com{{ post.url }}"/>
-        <updated>{{ post.date | date_to_xmlschema }}</updated>
-        <id>http://www.thisdaysportion.com{{ post.url }}/</id>
-        <content type="html">{{ post.content | xml_escape }}</content>
-    </entry>
-    {% endif %}
+
+    {% assign notes = site.notes | reverse %}
+    {% assign links = site.links | reverse %}
+    {% assign posts = site.posts %}
+
+    {% assign everything = notes | concat: links | concat: posts | sort: "date" | reverse %}
+
+    {% for entry in everything limit:20 %}
+
+          <entry>
+              <title>{{ entry.title | escape }}</title>
+              <link href="https://www.thisdaysportion.com{{ entry.url }}"/>
+              <updated>{{ entry.date | date_to_xmlschema }}</updated>
+              <id>https://www.thisdaysportion.com{{ entry.url }}/</id>
+              <content type="html">{{ entry.content | xml_escape }}</content>
+          </entry>
+
     {% endfor %}
+
 </feed>
