@@ -8,7 +8,7 @@
 
       <div class="">
 
-        <h1 class="f3 f2-ns c-sans-serif ma0 p-name">{{ page.title }}</h1>
+        <h1 class="f3 f2-ns c-sans-serif ma0 p-name">{% if page.display-title %}{{ page.display-title }}{% else %}{{ page.title }}{% endif %}</h1>
 
         {% if page.sub %}
 
@@ -24,7 +24,7 @@
 
     <div class="c-measure {% if page.hide-title %} pt3{% endif %}">
 
-      {{ content}}
+      {{ content }}
 
     </div>
 
