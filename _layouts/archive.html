@@ -4,13 +4,13 @@
 
   <div class="mt4 mt5-l mb4">
 
-    <div class="c-measure center">
+    <div class="">
 
-      <h1 class="f3 f2-ns fw9 ma0">{% if page.display-title %}{{ page.display-title }}{% else %}{{ page.title }}{% endif %}</h1>
+      <h1 class="f3 f2-ns c-sans-serif ma0">{% if page.display-title %}{{ page.display-title }}{% else %}{{ page.title }}{% endif %}</h1>
 
       {% if page.sub %}
 
-      <p class="i mb0">{{ page.sub }}</p>
+      <p class="f4 mb0">{{ page.sub }}</p>
 
       {% endif %}
 
@@ -20,7 +20,7 @@
 
 {% endunless %}
 
-  <div class="c-measure center pt3">
+  <div class="c-measure pt3">
 
     {{ content}}
 

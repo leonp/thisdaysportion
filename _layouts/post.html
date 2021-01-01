@@ -4,13 +4,13 @@
 
   <div class="mt4 mt5-l mb4">
 
-    <div class="c-measure center">
+    <div class="">
 
-      <h1 class="f3 f2-ns fw9 ma0 p-name">{{ page.title }}</h1>
+      <h1 class="f3 f2-ns c-sans-serif ma0 p-name">{{ page.title }}</h1>
 
       {% if page.sub %}
 
-      <p class="i mb0">{{ page.sub }}</p>
+      <p class="f4 mb0">{{ page.sub }}</p>
 
       {% endif %}
 
@@ -18,7 +18,7 @@
 
   </div>
 
-  <div class="c-measure center">
+  <div class="c-measure">
 
   {{ content }}
 
@@ -26,7 +26,7 @@
 
   <footer class="f6 mt4">
 
-      <div class="c-measure center">
+      <div class="c-measure">
 
         <p>— <time datetime="{{ page.date | date: "%Y-%m-%d" }}">{{ page.date | date: "%-d %b, %Y" }}</time> / <a href="/posts/">Posts</a></p>
 

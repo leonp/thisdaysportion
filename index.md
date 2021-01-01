@@ -15,7 +15,7 @@ is_home: true
 
 {% for post in posts limit:5 %}
 
-    <li><a class="db no-underline pv1" href="{{ post.url }}">{{ post.title }}</a><!-- <time class="db mb3 silver f6">{{ post.date | date: "%-d %b, %Y" }}</time> --></li>
+    <li><a class="db pv1" href="{{ post.url }}">{{ post.title }}</a><!-- <time class="db mb3 silver f6">{{ post.date | date: "%-d %b, %Y" }}</time> --></li>
 
 {% endfor %}
 

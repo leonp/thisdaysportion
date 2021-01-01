@@ -4,17 +4,17 @@
     --ph: 7.5vw;
     --measure: 30rem;
     --sans-serif: -apple-system, BlinkMacSystemFont, "segoe ui", "helvetica neue", helvetica, ubuntu, roboto, noto, sans-serif;
-    --serif: "Source Serif Pro", georgia, serif;
-    --accent: #D5008F;  // Tachyons dark-pink
+    --serif: georgia, serif;
+    --accent: #357EDD;  // Tachyons dark-pink
     --link: #000;
-    --hover: #D5008F; // Tachyons dark-pink
+    --hover: #357EDD; // Tachyons dark-pink
     --visited: #555; // Tachyons pink
-    --focus: #D5008F; // Tachyons dark-pink
+    --focus: #357EDD; // Tachyons dark-pink
     --background: #FFF; // Tachyons dark-gray
     --foreground: #333; // Tachyons moon-gray
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
     :root {
         --accent: #FFB700;  // Tachyons dark-pink
         --link: #FFF;
@@ -28,7 +28,7 @@
         -moz-osx-font-smoothing: grayscale;
         osx-font-smoothing: grayscale;
     }
-}
+} */
 
 .c-background {
     background-color: var(--background);
@@ -68,12 +68,12 @@
 }
 
 html {
-    font-size: 118.75%;
-    font-size: clamp(118.75%, 2.3vw, 131.25%);
+    font-size: 106.25%;
+    font-size: clamp(106.25%, 2.3vw, 118.75%);
 }
 
 body {
-    line-height: 1.45;
+    line-height: 1.4;
     /* line-height: clamp(1.375em, 2.8vw, 1.45em); */
 }
 
@@ -132,7 +132,7 @@ article dt,
 .c-headings dt {
     margin-top: 2.25rem;
     margin-bottom: 0;
-    font-weight: 900;
+    font-family: var(--sans-serif);
 }
 
 article h2,
