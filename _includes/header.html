@@ -114,9 +114,9 @@
         <a class="c-no-print pv2 c-ph clip dib" href="#content">Skip to content</a>
         <a class="c-no-print pv2 c-ph clip dib" href="#nav">Skip to navigation</a>
 
-        <header class="f6 c-ph c-no-print flex justify-between items-center">
+        <header class="f6 c-ph bg-light-gray c-no-print flex-ns justify-between-ns items-center">
 
-            <div><a href="/" rel="index" class="dib pv3 pr2 pr3-ns">This day’s portion</a></div>
+            <div><a href="/" rel="index" class="dib pv1 pv3-ns b">This day’s portion</a></div>
 
             <nav class="flex items-center">
 
@@ -124,7 +124,7 @@
 
                 {% for this_page in pages %}
 
-                    <a href="{{ this_page.url }}" class="dib pv3 pr2 pr3-ns{% if this_page.url == page.url %} c-accent{% endif %}">{{ this_page.title }}</a>
+                    <a href="{{ this_page.url }}" class="dib pv1 pv3-ns pr2 pr3-ns{% if this_page.url == page.url %} c-accent{% endif %}">{{ this_page.title }}</a>
 
                 {% endfor %}
 

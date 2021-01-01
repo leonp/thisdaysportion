@@ -1,6 +1,8 @@
 ---
 layout: default
-title: "This day’s portion"
+title: "Home"
+order: 1
+in_nav: true
 sub: Notebooks out.
 display-title: "This day’s portion"
 nav-title: "Home"
