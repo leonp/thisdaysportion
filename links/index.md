@@ -9,6 +9,7 @@ visited-links: true
 prose-headings: true
 underlined-links: true
 hyphens: true
+annualised: true
 ---
 
 {% include search-form.html %}
