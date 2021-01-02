@@ -3,7 +3,7 @@ layout: default
 title: "Home"
 order: 1
 in_nav: true
-sub: Notebooks out. Articles, pictures, notes, links — anything I (being Leon Paternoster) don’t publish on my “professional” site.
+sub: Notebooks out! I’m Leon, and this is where I publish non-work articles, pictures, notes, links — anything I don’t publish on my “professional” site.
 display-title: "This day’s portion"
 nav-title: "Home"
 is_home: true
