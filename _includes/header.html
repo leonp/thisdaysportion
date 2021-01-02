@@ -114,21 +114,21 @@
         <a class="c-target c-no-print pv2 c-ph clip dib" href="#content">Skip to content</a>
         <a class="c-target c-no-print pv2 c-ph clip dib" href="#nav">Skip to navigation</a>
 
-        <header class="f6 c-ph bg-light-gray c-no-print flex-ns items-center">
+        <header class="f6 bg-light-gray bb b--moon-gray c-no-print flex-ns items-center">
 
-            <div><a href="/" rel="index" class="dib pv1 pv3-ns b mr3-ns">This day’s portion</a></div>
+            <div class="c-pl bb b--moon-gray bn-ns"><a href="/" rel="index" class="dib pv2 pv3-ns b mr3-ns">This day’s portion</a></div>
 
-            <nav class="flex items-center">
+            <nav class="c-ph flex items-center">
 
                 {% assign pages = site.pages | where: "in_nav", true | sort: "order" %}
 
                 {% for this_page in pages %}
 
-                    <a href="{{ this_page.url }}" class="dib pv1 pv3-ns mr2 mr3-ns{% if this_page.url == page.url %} c-accent{% endif %}">{{ this_page.title }}</a>
+                    <a href="{{ this_page.url }}" class="dib pv2 pv3-ns mr2 mr3-ns{% if this_page.url == page.url %} c-accent{% endif %}">{{ this_page.title }}</a>
 
                 {% endfor %}
 
-                <a class="dib pv3" href="/feed/index.xml">RSS</a>
+                <a class="dib pv2 pv3-ns" href="/feed/index.xml">RSS</a>
 
             </nav>
 

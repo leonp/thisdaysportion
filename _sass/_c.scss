@@ -2,6 +2,8 @@
 
 :root {
     --ph: 7.5vw;
+    --pr: 7.5vw;
+    --pl: 7.5vw;
     --measure: 30rem;
     --sans-serif: -apple-system, BlinkMacSystemFont, "segoe ui", "helvetica neue", helvetica, ubuntu, roboto, noto, sans-serif;
     --serif: georgia, serif;
@@ -176,6 +178,14 @@ article a:hover,
 article a:active,
 article a:focus {
     color: var(--hover);
+}
+
+.c-pr {
+    padding-right: var(--pr);
+}
+
+.c-pl {
+    padding-left: var(--pl);
 }
 
 .c-ph {
