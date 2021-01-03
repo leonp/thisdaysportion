@@ -5,7 +5,7 @@
     --pr: 7.5vw;
     --pl: 7.5vw;
     --measure: 30rem;
-    --sans-serif: -apple-system, BlinkMacSystemFont, "segoe ui", "helvetica neue", helvetica, ubuntu, roboto, noto, sans-serif;
+    --sans-serif: "Public Sans", -apple-system, BlinkMacSystemFont, "segoe ui", "helvetica neue", helvetica, ubuntu, roboto, noto, sans-serif;
     --serif: georgia, serif;
     --accent: #357EDD;  // Tachyons dark-pink
     --link: #000;
@@ -27,8 +27,8 @@
         --foreground: #CCC; // Tachyons moon-gray
     }
     html {
-        -moz-osx-font-smoothing: grayscale;
         osx-font-smoothing: grayscale;
+        scroll-behavior: smooth;
     }
 } */
 
@@ -78,6 +78,7 @@
 html {
     font-size: 106.25%;
     font-size: clamp(106.25%, 2.3vw, 118.75%);
+    scroll-behavior: smooth;
 }
 
 body {
@@ -320,7 +321,7 @@ blockquote {
 }
 
 *:focus {
-    outline: 3px solid var(--focus);
+    outline: 3px solid var(--focus) !important;
 }
 
 .top-0 {
