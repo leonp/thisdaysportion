@@ -26,6 +26,10 @@
 
             <p class="f7">{% if page.link-published %}Originally published <time class="dt-published" datetime="{{ page.link-published | date: "%Y-%m-%d" }}">{{ page.link-published | date: "%b %-d, %Y" }}</time>{% endif %}{% if page.link-author %} by {{ page.link-author }} / {% endif %}<a href="/links/">Links</a></p>
 
+            <h2 class="f4 mb3">Add a comment</h2>
+
+            {% include comment-form.html %}
+
         </div>
 
     </footer>
