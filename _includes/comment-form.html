@@ -2,23 +2,28 @@
 
 <form name="comments" method="POST" netlify-honeypot="bot-field" data-netlify="true" action="/thanks/">
 
-  <p class="lh-title f7">All fields required. I won’t publish or share your email address – I just need it to get in touch to clarify anything.</p>
+  <p class="lh-title f7"><strong>Required fields marked <span class="dark-red">*</span></strong>. I won’t publish or share your email address – I just need it to get in touch to clarify anything.</p>
 
   <div class="clip">
     <label for="bot-field">Add something interesting only if you’re not a human</label>
     <input name="bot-field">
   </div>
 
-  <input name="slug" hidden class="dn" value="{{ page.slug }}">
-
-  <label for="name" class="db f7 lh-title mb1">Name</label>
+  <label for="name" class="db f7 lh-title mb1">Name <span class="dark-red">*</span></label>
   <input autocorrect="off" required class="border-box pa1 c-sans-serif ba b--moon-gray db mb3 w-100" type="text" name="name" id="name">
 
-  <label for="email" class="db f7 lh-title mb1">Email</label>
+  <label for="email" class="db f7 lh-title mb1">Email <span class="dark-red">*</span></label>
   <input required autocapitalize="none" class="border-box pa1 c-sans-serif ba b--moon-gray db mb3 w-100" type="email" name="email" id="email">
 
-  <label for="comment" class="db f7 lh-title mb1">Message</label>
+  <label for="website" class="db f7 lh-title mb1">Your website</label>
+  <input autocapitalize="none" class="border-box pa1 c-sans-serif ba b--moon-gray db mb3 w-100" type="text" name="website" id="website">
+
+  <label for="comment" class="db f7 lh-title mb1">Message <span class="dark-red">*</span></label>
   <textarea required class="border-box pa1 c-sans-serif ba b--moon-gray db mb2 vh-50 vh-25-ns w-100" name="comment" id="comment"></textarea>
+
+  <input name="slug" hidden class="dn" value="{{ page.slug }}">
+
+  <input name="uri" hidden class="dn" value="https://www.thisdaysportion.com/{{ page.url }}">
   
   <button class="f6 b pa2 ba b--moon-gray bg-blue hover-bg-dark-blue white pointer c-remove-ios-borders" type="submit">Submit comment</button>
 
