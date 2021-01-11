@@ -171,6 +171,9 @@ jekyll_get_json:
   - data: wp_comments
     json: 'https://public-api.wordpress.com/wp/v2/sites/kjzabc.wordpress.com/comments'
     cache: true
+  - data: airtable_comments
+    json: 'https://api.airtable.com/v0/appLAOCtEichPh1fp/Table%201?api_key=keycctTiw9uYaVvP9'
+    cache: true
 
 # Data page generator
 page_gen:

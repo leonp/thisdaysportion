@@ -1,4 +1,4 @@
-<h2 class="f4 mb3">Add a comment</h2>
+<h2 id="commentary" class="f4 mb3">Add a comment</h2>
 
 <form name="comments" method="POST" netlify-honeypot="bot-field" data-netlify="true" action="/thanks/">
 
@@ -28,3 +28,38 @@
   <button class="f6 b pa2 ba b--moon-gray bg-blue hover-bg-dark-blue white pointer c-remove-ios-borders" type="submit">Submit comment</button>
 
 </form>
+
+<h3 class="mb3">Comments</h3>
+
+{% assign comments_present = false %}
+
+{% assign all_airtable_comments = site.data.airtable_comments.records %}
+
+{% for comment in all_airtable_comments %}
+
+  {% if comment.fields.slug == page.slug %}
+
+    {% assign comments_present = true %}
+
+    <p>{{ comment_counter }}</p>
+
+    <article class="pa2 ba b--moon-gray mb3">
+
+      <h4 class="f5 mt0 mb1">{{ comment.fields.Name }}</h4>
+
+      <p class="mt0 mb1 f7">{{ comment.createdTime | date: "%-d %b, %Y" }}</p>
+
+      {{ comment.fields.comment | strip_html | markdownify }}
+
+    </article>
+
+  {% endif %}
+
+{% endfor %}
+
+{% if comments_present == false %}
+
+  <p>None <span role="img" aria-label="An owl, wise">🦉</span>.</p>
+
+{% endif %}
+

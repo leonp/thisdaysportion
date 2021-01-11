@@ -33,3 +33,27 @@ Let’s see if comments are retrieved from the WordPress API:
 
 {% endfor %}
 
+## And let’s see if comments are retrieved from the Airtable API
+
+{% assign all_airtable_comments = site.data.airtable_comments.records %}
+
+Size of Airtable array: {{ all_airtable_comments.size }}
+
+{% for comment in all_airtable_comments %}
+
+<article>
+
+	<ul class="mt0 mb3 pa0 list">
+
+		<li>Name: {{ comment.fields.Name }}</li>
+		<li>Commented on slug: {{ comment.fields.slug }}</li>
+		<li>Which has a link of: {{ comment.fields.uri }}</li>
+		<li>Date: {{ comment.createdTime | date: "%d/%m/%Y" }}</li>
+		<li>Comment: {{ comment.fields.comment | strip_html | markdownify  }}</li>
+
+	</ul>
+
+</article>
+
+{% endfor %}
+
