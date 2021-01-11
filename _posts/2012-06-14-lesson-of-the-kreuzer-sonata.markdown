@@ -5,7 +5,7 @@ title: Lesson of The Kreuzer Sonata
 category: thinking
 ---
 
-![A colour photo of Tolstoy](http://upload.wikimedia.org/wikipedia/commons/c/c6/L.N.Tolstoy_Prokudin-Gorsky.jpg)
+![A colour photo of Tolstoy](https://upload.wikimedia.org/wikipedia/commons/c/c6/L.N.Tolstoy_Prokudin-Gorsky.jpg)
 
 Some inbetween reading while I consider my next move.
 

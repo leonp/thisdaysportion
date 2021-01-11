@@ -4,7 +4,7 @@ title: WordPress, me and Oxmetifan 20
 category: web
 ---
 
-This blog is run on software called [Jekyll](http://jekyllrb.com/), which I couldn't be happier with. It's simple, flexible and fast &#8211; you build the site on your PC before uploading it to a server, rather than creating it on the fly with a database and PHP or similar.
+This blog is run on software called [Jekyll](https://jekyllrb.com/), which I couldn't be happier with. It's simple, flexible and fast &#8211; you build the site on your PC before uploading it to a server, rather than creating it on the fly with a database and PHP or similar.
 
 The speed is great, but you also get a security benefit: there's no server-side scripting or database for hackers to wheedle their way into.
 

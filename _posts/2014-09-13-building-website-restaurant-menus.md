@@ -7,7 +7,7 @@ category: web
 
 We were looking for somewhere to eat in Ipswich and its environs and trawled through a few restaurant websites, which  is rarely a pleasurable experience. Apart from the <abbr title="Information Architecture">IA</abbr> problems (<i>where's the menu?</i>) and gigantic sliders of mashed potato, the most common annoyance is the menu.
 
-Usually, restaurants approach menus in one of two ways. The first is to link to a <abbr title="Portable Document Format">PDF</abbr>, the second (and worse) is to <a href="http://www.tuddenhamfountain.co.uk/menus/">put an image on the page</a>. It's pretty rare for a restaurant to publish <a href="http://cultcafe.co.uk/menu">an honest to goodness <abbr title="HyperText Markup Language">HTML</abbr> menu</a>.
+Usually, restaurants approach menus in one of two ways. The first is to link to a <abbr title="Portable Document Format">PDF</abbr>, the second (and worse) is to <a href="https://www.tuddenhamfountain.co.uk/menus/">put an image on the page</a>. It's pretty rare for a restaurant to publish <a href="https://cultcafe.co.uk/menu">an honest to goodness <abbr title="HyperText Markup Language">HTML</abbr> menu</a>.
 
 Using an image of text instead of text is bad for lots of reasons &#8211; a real web sin. Apart from the fact you make your menu inaccessible to anyone using a screen reader &#8211; and by extension to search engines &#8211; text in images scale poorly. If you do use them, your menu won't be readable on a phone.
 

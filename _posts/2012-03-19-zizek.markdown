@@ -6,7 +6,7 @@ review-title: "Have Michael Hardt and Antonio Negri rewritten The Communist Mani
 review-author: "Slavoj Žižek"
 ---
 
-[A Žižek essay I've restyled on my website](http://leonpaternoster.com/labs/zizek.html) because it's unreadable on the original website.
+[A Žižek essay I've restyled on my website](https://leonpaternoster.com/labs/zizek.html) because it's unreadable on the original website.
 
 The answer to the essay's title, according to Slavoj Žižek, is _no_, but that's unimportant because that's not what he's interested in.
 

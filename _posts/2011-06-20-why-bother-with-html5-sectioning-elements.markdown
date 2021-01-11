@@ -4,7 +4,7 @@ title: An HTML5 challenge (which lead me to think &#8211; Why bother with HTML5 
 category: web
 ---
 
-[David asked for suggestions on how to markup a list of albums using HTML5](http://twitter.com/#!/BrightEyesDavid/statuses/82742770497892353). Each album includes the following information:
+[David asked for suggestions on how to markup a list of albums using HTML5](https://twitter.com/#!/BrightEyesDavid/statuses/82742770497892353). Each album includes the following information:
 
 - album name
 - artist name
@@ -14,7 +14,7 @@ As with all things HTML5, there are several ways to approach this problem (you m
 
 ## Using article
 
-I had a vague idea that each album entry could be syndicated as it passed [the _would it make sense in an RSS feed_ test](http://html5doctor.com/the-article-element/).
+I had a vague idea that each album entry could be syndicated as it passed [the _would it make sense in an RSS feed_ test](https://html5doctor.com/the-article-element/).
 
 But David specified a list, so I discounted this approach.
 
@@ -22,7 +22,7 @@ But David specified a list, so I discounted this approach.
 
 David suggested using a description list, which would appear to fit the bill perfectly as the data consists of a collection of names (album titles) and bits of information (or _values_) grouped under these names (artist and cover image).
 
-The HTML5 spec is quite flexible as [the `dt` doesn't have to be a term](http://html5doctor.com/the-dl-element/).
+The HTML5 spec is quite flexible as [the `dt` doesn't have to be a term](https://html5doctor.com/the-dl-element/).
 
 
 I argued against this on the grounds that titles are better rendered as headings and I wasn't sure that it's ‘valid’ to place images within `dd` tags. (Although I'm no longer convinced that this is the case.)
@@ -32,17 +32,17 @@ And the list is ordered, which suggests:
 ## Using ol
 
 
-This makes sense in that we can suggest an order to our list. As a bonus, HTML5 allows us to place block level elements within inline elements ([with some caveats](http://dev.w3.org/html5/spec/Overview.html#restrictions-on-content-models-and-on-attribute-values). It's never simple).
+This makes sense in that we can suggest an order to our list. As a bonus, HTML5 allows us to place block level elements within inline elements ([with some caveats](https://dev.w3.org/html5/spec/Overview.html#restrictions-on-content-models-and-on-attribute-values). It's never simple).
 
 I think this is probably the best approach (although you may feel differently).
 
 Now, this is all fun, but it does make me think _what do these new elements actually bring us apart from more to think about?_
 
-After all, we could add some [microdata](http://en.wikipedia.org/wiki/Microdata_(HTML5)) or some such to our markup in order to make it more visible to Google. We could style a microformat to make it more visually meaningful.
+After all, we could add some [microdata](https://en.wikipedia.org/wiki/Microdata_(HTML5)) or some such to our markup in order to make it more visible to Google. We could style a microformat to make it more visually meaningful.
 
-I can think of no real world value in using `article` over, say, `<div class="hentry">` when the use of `article` just generates (admittedly interesting) [discussions about semantics](http://html5doctor.com/the-article-element/).
+I can think of no real world value in using `article` over, say, `<div class="hentry">` when the use of `article` just generates (admittedly interesting) [discussions about semantics](https://html5doctor.com/the-article-element/).
 
-More seriously, [HTML5 makes it difficult to structure documents properly](http://www.456bereastreet.com/archive/201106/on_using_h1_for_all_heading_levels_in_html5/), and, of course, Internet Explorer (pre–version 9) needs a javascript injection to get it playing nicely.
+More seriously, [HTML5 makes it difficult to structure documents properly](https://www.456bereastreet.com/archive/201106/on_using_h1_for_all_heading_levels_in_html5/), and, of course, Internet Explorer (pre–version 9) needs a javascript injection to get it playing nicely.
 
 ## A sensible approach to HTML5
 

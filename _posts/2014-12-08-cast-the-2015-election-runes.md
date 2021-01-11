@@ -4,7 +4,7 @@ title: Cast the 2015 election runes
 category: politics
 ---
 
-Worth following [Election Forecast](http://electionforecast.co.uk/), a website that crunches the numbers and spits out a regular prediction of the 2015 general election results.
+Worth following [Election Forecast](https://electionforecast.co.uk/), a website that crunches the numbers and spits out a regular prediction of the 2015 general election results.
 
 Now, you'd be forgiven for thinking the UKIP are about to sweep to power, but even though they've won the last couple of byelections, they won't win more than a handful of seats. Of course, they _may_ affect lots of other results, but there's another party that'll have a bigger say.
 

@@ -9,9 +9,9 @@ We're making some changes to our website. Nothing _too_ major from a user's poin
 
 I do want to make big changes to the back end. In 2013 I didn't use <abbr title="Syntatically awesome stylesheets">SASS</abbr> and I hadn't got my head around abstracting <abbr title="Cascading stylesheets">CSS</abbr>, which means the styles are a mess and I've built way too many WordPress templates.
 
-I could improve the CSS structure within WordPress, but I'd also like to make everything a bit more streamlined, quicker and more secure. We currently use 10 plugins, including (excellent) [caching](http://wp-rocket.me/) and [firewall](https://sucuri.net/) services, but the main purpose of these is to implement static website features. Which raises the question <i>why not build a static site</i>?
+I could improve the CSS structure within WordPress, but I'd also like to make everything a bit more streamlined, quicker and more secure. We currently use 10 plugins, including (excellent) [caching](https://wp-rocket.me/) and [firewall](https://sucuri.net/) services, but the main purpose of these is to implement static website features. Which raises the question <i>why not build a static site</i>?
 
-As I've been using [Jekyll](http://jekyllrb.com) on this site since 2013 it seems the most obvious candidate.
+As I've been using [Jekyll](https://jekyllrb.com) on this site since 2013 it seems the most obvious candidate.
 
 ## It's madness using Jekyll (or Hugo, or Octopress, or Pelican)
 
@@ -82,4 +82,4 @@ When you have a static site the only way in is via your FTP and/or Netlify/Githu
 
 ## Experimenting
 
-Over the last few days I've been figuring out time, locations and events in Jekyll. Here's what [a library website built using a static site generator](http://dev.suffolklibraries.co.uk) could look like. If I do decide to take the plunge, I'll post how I did it here.
+Over the last few days I've been figuring out time, locations and events in Jekyll. Here's what [a library website built using a static site generator](https://dev.suffolklibraries.co.uk) could look like. If I do decide to take the plunge, I'll post how I did it here.

@@ -4,7 +4,7 @@ title: How I became rich and used the benefits system to claim subsidies only fo
 category: politics
 ---
 
-Reader, I am rich. And, because I've been gaming the benefits system, [George Osborne is about to crackdown on me](http://news.sky.com/story/1513430/crackdown-on-rich-council-house-tenants). Ask those marvelous Sky News journalists. [And the ones at LBC](http://www.lbc.co.uk/crackdown-on-rich-council-house-tenants-112348). And the millions of other high quality websites fed news by Sky.
+Reader, I am rich. And, because I've been gaming the benefits system, [George Osborne is about to crackdown on me](https://news.sky.com/story/1513430/crackdown-on-rich-council-house-tenants). Ask those marvelous Sky News journalists. [And the ones at LBC](https://www.lbc.co.uk/crackdown-on-rich-council-house-tenants-112348). And the millions of other high quality websites fed news by Sky.
 
 Me, Bob Crow and Frank Dobson. Bastards all.
 

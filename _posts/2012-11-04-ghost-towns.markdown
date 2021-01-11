@@ -4,7 +4,7 @@ title: Ghost towns
 category: thinking
 ---
 
-Does anyone actually come from [Aldeburgh, Southwold or Woodbridge](http://goo.gl/maps/aiqU6)? I ask because I've visited all three recently and overheard the same clipped accents discuss house conversions and restaurants. A former colleague has just moved to Woodbridge and built a house there.
+Does anyone actually come from [Aldeburgh, Southwold or Woodbridge](https://goo.gl/maps/aiqU6)? I ask because I've visited all three recently and overheard the same clipped accents discuss house conversions and restaurants. A former colleague has just moved to Woodbridge and built a house there.
 
 Some towns make their living from tourism, but some exist in a permanent state of visitation. The locals seem to have no real roots in the area beyond expensive property and a love of the local ham.
 

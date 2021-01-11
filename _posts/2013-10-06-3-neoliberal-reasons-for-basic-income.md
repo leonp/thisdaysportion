@@ -10,7 +10,7 @@ It serves as a thought experiment &#8211; what if the role of the state wasn't t
 
 For example *what is the right's attitude to BCI*?
 
-Your instinct says *the right will absolutely hate* a BCI, and you probably wouldn't be mistaken. It doesn't exactly fit in with <a href="http://www.bbc.co.uk/news/uk-politics-24327470">Gideon's <em>something for nothing culture</em> rhetoric</a>, and its main UK proponents are various leftwingers and the Green Party.
+Your instinct says *the right will absolutely hate* a BCI, and you probably wouldn't be mistaken. It doesn't exactly fit in with <a href="https://www.bbc.co.uk/news/uk-politics-24327470">Gideon's <em>something for nothing culture</em> rhetoric</a>, and its main UK proponents are various leftwingers and the Green Party.
 
 But there's no inherent reason for the right to adopt a punitive attitude to welfare. If the starting point of any welfare system is *how do we encourage entrpreneuralism*? (how I hate that word) or *how do we minimise state bureacracy*?, or even *how do we encourage people to work*? then BCI becomes a lot more attractive.
 
@@ -36,13 +36,13 @@ The current income support and tax credits system is a Kafkaesque bureaucracy of
 
 If *everyone* receives BCI regardless of age, marital status, income and employment status, there's nothing to process except a weekly or monthly payment. No signing on, back to work schemes or changes in circumstances forms.
 
-In the UK, <a href="http://www.citizensincome.org/filelibrary/Archived%20Publications/Citizen%27s%20Income%20booklet%202013.doc">BCI would save &pound;7 billion per year in tax credits and income support administration costs</a> (Word doc).
+In the UK, <a href="https://www.citizensincome.org/filelibrary/Archived%20Publications/Citizen%27s%20Income%20booklet%202013.doc">BCI would save &pound;7 billion per year in tax credits and income support administration costs</a> (Word doc).
 
 ## 3. It makes it easier to liberalise employment laws and create a &#8216;free&#8217; market
 
 The right argues minimum hour contracts, a minimum wage and redundancy protection rights &#8216;stifle&#8217; business growth.
 
-While far more &#8216;protective&#8217; countries than the UK seem to manage perfectly well (Germany, most obviously), other traditionally <a href="http://en.wikipedia.org/wiki/Denmark#Public_policy">social democratic countries such as Denmark have adopted an even more neoliberal approach</a>.
+While far more &#8216;protective&#8217; countries than the UK seem to manage perfectly well (Germany, most obviously), other traditionally <a href="https://en.wikipedia.org/wiki/Denmark#Public_policy">social democratic countries such as Denmark have adopted an even more neoliberal approach</a>.
 
 Unlike the UK, Denmark has extremely high unemployment benefit levels. In effect, there's a contract between the state, workers and employers. Employers can hire and fire at will, but workers don't face ruinous consequences if they lose their jobs.
 

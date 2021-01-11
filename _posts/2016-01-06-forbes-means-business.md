@@ -5,7 +5,7 @@ category: web
 ---
 
 <i>Is it worth getting bothered about the
-[Forbes' full screen hijack](http://www.troyhunt.com/2016/01/its-2016-already-how-are-websites-still.html)?</i> I wondered. After all, this is [Forbes](http://forbes.com), a magazine for those people working in what we call _business_. And business is all about pretending you're interested in all sorts of irrelevant things, and that lots of important things have something to do with business.
+[Forbes' full screen hijack](https://www.troyhunt.com/2016/01/its-2016-already-how-are-websites-still.html)?</i> I wondered. After all, this is [Forbes](https://forbes.com), a magazine for those people working in what we call _business_. And business is all about pretending you're interested in all sorts of irrelevant things, and that lots of important things have something to do with business.
 
 <figure>
 

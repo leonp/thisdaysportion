@@ -12,7 +12,7 @@ Apart from the hassle of getting them from room A to B, keeping them charged, st
 
 <figure class="figure alignnone">
 
-<img class="full-bleed wp-image-55 size-full" src="http://leonpaternoster.com/wp-content/uploads/2013/10/ipads.jpg" alt="Some iPads in a docking station" width="800" height="503" />
+<img class="full-bleed wp-image-55 size-full" src="https://leonpaternoster.com/wp-content/uploads/2013/10/ipads.jpg" alt="Some iPads in a docking station" width="800" height="503" />
 
 <figcaption class="secondary figcaption">Some iPads, docked nicely and recharging, yesterday. Your task is to move all of these to your classroom using 4 responsible children.</figcaption>
 
@@ -22,8 +22,8 @@ The one thing an iPad *is* good for is research: it&#8217;s quicker to whip out 
 
 Of course, you don&#8217;t *need* an iPad to do research. A [Hudl][4] – 119 quid compared with 269 for an iPad mini – is more than adequate. But [in education as elsewhere, Apple is king][5]. And an iPad looks better in all those publicity shots.
 
- [1]: http://digital.hechingerreport.org/content/the-inside-story-on-la-schools-ipad-rollout-a-colossal-disaster_914/
- [2]: http://twitter.com/joeclark
+ [1]: https://digital.hechingerreport.org/content/the-inside-story-on-la-schools-ipad-rollout-a-colossal-disaster_914/
+ [2]: https://twitter.com/joeclark
  [3]: https://www.google.co.uk/search?q=battle+of+mametz+wood
- [4]: http://www.tesco.com/direct/hudl/
- [5]: http://www.apple.com/uk/education/ipad/
+ [4]: https://www.tesco.com/direct/hudl/
+ [5]: https://www.apple.com/uk/education/ipad/

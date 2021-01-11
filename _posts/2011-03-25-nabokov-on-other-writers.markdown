@@ -10,7 +10,7 @@ It descends into unrealism after the first section but, once you accept the book
 
 On the other hand, I'm with Vlad 99% on Tolstoy: _Anna Karenina_ and _Ivan Ilyich_ are pretty much unparalleled in _any_ literature, and _War and Peace_ is patchier. The -1% comes from _The Kreuzer Sonata_. I love this story, VN really doesn't.
 
-In other news: [Summerhill](http://en.wikipedia.org/wiki/Summerhill_School) (near Leiston) is based on Tolstoy's Yasnaya Polyana school, and _Oh, Whistle, and I'll Come to You, My Lad_ was set in Felixstowe. I wasn't looking for Suffolk this evening, but somehow found it.
+In other news: [Summerhill](https://en.wikipedia.org/wiki/Summerhill_School) (near Leiston) is based on Tolstoy's Yasnaya Polyana school, and _Oh, Whistle, and I'll Come to You, My Lad_ was set in Felixstowe. I wasn't looking for Suffolk this evening, but somehow found it.
 
 I've always thought Ipswich deserves a literature. After all, Suffolk isn't just Dunwich, Sebald and Britten.
 

@@ -14,7 +14,7 @@ Granted, what we mean by "content" is vague. A blog post is different from a lis
 
 **If users don't care about a complex layout then why should the people making web pages? Why do we bother creating griddy layouts at all when it means more work and more code?**
 
-(Actually, [a few designers have argued just this](http://www.heydonworks.com/article/on-writing-less-damn-code).)
+(Actually, [a few designers have argued just this](https://www.heydonworks.com/article/on-writing-less-damn-code).)
 
 Hidde acknowledges the main reason for implementing grids is to keep on-brand: <q>Some brand design guidelines come with specific grids that content needs to be layed [<i>sic</i>] out in.</q> In other words, it's not users who demand grids, but marketing departments.
 

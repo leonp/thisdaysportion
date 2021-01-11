@@ -23,7 +23,7 @@ The Labour Party *is* largely pragmatic because it thinks the electorate in marg
 
 There&#8217;s something in Labour that says you have to *believe* in the argument behind a policy, even when it&#8217;s apostasy. One of the many advantages the Tory party holds over Labour is its understanding that it&#8217;s all tactics: Only the goal matters.
 
- [1]: http://www.bbc.co.uk/news/uk-politics-28389816
- [2]: http://stumblingandmumbling.typepad.com/stumbling_and_mumbling/2014/07/internalizing-constraints.html
- [3]: http://www.taxresearch.org.uk/Blog/2014/07/22/do-you-have-to-put-your-head-in-the-sand-to-want-to-be-chancellor/
+ [1]: https://www.bbc.co.uk/news/uk-politics-28389816
+ [2]: https://stumblingandmumbling.typepad.com/stumbling_and_mumbling/2014/07/internalizing-constraints.html
+ [3]: https://www.taxresearch.org.uk/Blog/2014/07/22/do-you-have-to-put-your-head-in-the-sand-to-want-to-be-chancellor/
  [4]: https://twitter.com/theloveofwilde/status/490916605199917057

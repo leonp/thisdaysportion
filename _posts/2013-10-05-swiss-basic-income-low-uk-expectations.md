@@ -4,7 +4,7 @@ title: Low expectations
 category: politics
 ---
 
-> Switzerland will hold a vote on whether to introduce a basic income for all adults, in a further sign of growing public activism over pay inequality since the financial crisis. A grassroots committee is calling for all adults in Switzerland to receive an unconditional income of 2,500 Swiss francs (2,800 <abbr title="US dollars">USD</abbr>) per month from the state, with the aim of providing a financial safety net for the population. <cite><a href="http://www.reuters.com/article/2013/10/04/us-swiss-pay-idUSBRE9930O620131004">Reuters</a></cite> via <a href="https://twitter.com/basicincome_uk">Basic Income UK</a>
+> Switzerland will hold a vote on whether to introduce a basic income for all adults, in a further sign of growing public activism over pay inequality since the financial crisis. A grassroots committee is calling for all adults in Switzerland to receive an unconditional income of 2,500 Swiss francs (2,800 <abbr title="US dollars">USD</abbr>) per month from the state, with the aim of providing a financial safety net for the population. <cite><a href="https://www.reuters.com/article/2013/10/04/us-swiss-pay-idUSBRE9930O620131004">Reuters</a></cite> via <a href="https://twitter.com/basicincome_uk">Basic Income UK</a>
 
 As you're no doubt very bored of hearing, I'm interested in the idea of a Basic Citizen Income: a non&#8211;withdrawable, non&#8211;means tested income for every UK citizen, regardless of employment status, age and marital status.
 

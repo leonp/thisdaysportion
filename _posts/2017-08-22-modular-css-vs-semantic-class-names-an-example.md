@@ -145,7 +145,7 @@ This isn't very [DRY](https://code.tutsplus.com/tutorials/3-key-software-princip
 
 Class names aren't meant to be semantic; they mean nothing to machines. They're meant to aid styling. However, as appearance aids meaning&hellip;
 
-If by _semantic_ you mean machine-readable, you should [use a schema](http://schema.org/BlogPosting) instead.
+If by _semantic_ you mean machine-readable, you should [use a schema](https://schema.org/BlogPosting) instead.
 
 ### Conclusion
 

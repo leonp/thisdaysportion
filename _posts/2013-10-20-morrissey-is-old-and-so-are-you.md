@@ -7,7 +7,7 @@ title: Morrissey, you and me
 Well, *I* liked this spirited [Morrissey/40&#8211;somethings hatchet job](www.theguardian.com/commentisfree/2013/oct/19/bigmouth-morrissey-strikes-again):
 
 <blockquote><p>The class that he now represents &#8211; a middle&#8211;aged, capital&#8211;rich, metropolitan elite &#8211; doesn't give a toss about you. They've proved it in every way it is possible to prove.</p>
-<p>Where's the new Morrissey? When will we hear from him, or her, or them? When will working&#8211;class, young people realise they are being robbed blind and that there is not a soul in power who represents their interests? Rise up, young people, because you have nothing to lose but your disenfranchised future and an extra grand a year in rent. <cite><a href="http://www.theguardian.com/commentisfree/2013/oct/19/bigmouth-morrissey-strikes-again">Morrissey, you're a fraud</a></cite>&thinsp;&#8212;&thinsp;Carole Cadwalladr</p></blockquote>
+<p>Where's the new Morrissey? When will we hear from him, or her, or them? When will working&#8211;class, young people realise they are being robbed blind and that there is not a soul in power who represents their interests? Rise up, young people, because you have nothing to lose but your disenfranchised future and an extra grand a year in rent. <cite><a href="https://www.theguardian.com/commentisfree/2013/oct/19/bigmouth-morrissey-strikes-again">Morrissey, you're a fraud</a></cite>&thinsp;&#8212;&thinsp;Carole Cadwalladr</p></blockquote>
 
 <img src="https://dl.dropboxusercontent.com/u/6144461/assets/images/smiths.jpg" class="bleed" alt="The Smiths">
 

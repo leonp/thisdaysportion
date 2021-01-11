@@ -5,7 +5,7 @@ excerpt: Interpreting what customers actually need from your website through met
 category: web
 ---
 
-> There is a type of product that does require lots and lots of content marketing and will continue to require such marketing long into the future. The type of product where the more you learn about what it’s made of, the less likely you are to buy it. Thus, the product’s manufacturers must create a ‘brand’ that is as far away from the actual product as possible. Coca Cola and Red Bull are good examples of such brands. <cite>[Less content marketing, more quality content](http://www.gerrymcgovern.com/new-thinking/less-content-marketing-more-quality-content)</cite>
+> There is a type of product that does require lots and lots of content marketing and will continue to require such marketing long into the future. The type of product where the more you learn about what it’s made of, the less likely you are to buy it. Thus, the product’s manufacturers must create a ‘brand’ that is as far away from the actual product as possible. Coca Cola and Red Bull are good examples of such brands. <cite>[Less content marketing, more quality content](https://www.gerrymcgovern.com/new-thinking/less-content-marketing-more-quality-content)</cite>
 
 Yes, see the [Red Bull Content Pool](https://www.redbullcontentpool.com/content/international).
 

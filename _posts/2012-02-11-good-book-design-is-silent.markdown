@@ -28,11 +28,11 @@ But the designer's main job is to honour the text and get out of the way of the 
 
 So the best textual design is both readable and interchangeable. Take the Penguin Classics range:
 
-![Photo of Dracula and The Idiot](http://leonpaternoster.com/wp-content/uploads/2012/02/victorian.jpg)
+![Photo of Dracula and The Idiot](https://leonpaternoster.com/wp-content/uploads/2012/02/victorian.jpg)
 
 The design tells us about the publisher rather than the text itself. Even better, Penguin's Swiss era:
 
-![Photo of Franny and Zooey by Salinger](http://leonpaternoster.com/wp-content/uploads/2012/02/salinger.jpg)
+![Photo of Franny and Zooey by Salinger](https://leonpaternoster.com/wp-content/uploads/2012/02/salinger.jpg)
 
 In fact you could argue that this silent design reaches its apogee with the e–reader, when the text has become completely decoupled from its container.
 

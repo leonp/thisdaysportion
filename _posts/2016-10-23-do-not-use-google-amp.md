@@ -6,7 +6,7 @@ category: web
 
 There are lots of reasons not to use [Google's Accelerated Mobile Pages](https://www.ampproject.org/) (AMP). Yet respected, huge traffic sites like <cite>Ars Technica</cite> are doing just that:
 
-> &hellip; sites that publish AMP pages are effectively ceding control over their content to Google&hellip; Why would any website turn their entire mobile audience — a majority share of their total audience, for many sites today — over to Google? <cite><a href="http://daringfireball.net/linked/2016/10/21/google-amp">Why do websites publish AMP pages?</a></cite>
+> &hellip; sites that publish AMP pages are effectively ceding control over their content to Google&hellip; Why would any website turn their entire mobile audience — a majority share of their total audience, for many sites today — over to Google? <cite><a href="https://daringfireball.net/linked/2016/10/21/google-amp">Why do websites publish AMP pages?</a></cite>
 
 We're entering a realm of doublespeak, where no-one admits the _real_ reasons for AMP's existence and use.
 

@@ -4,7 +4,7 @@ title: 16 pixels
 category: web
 ---
 
-[Interesting article that rehashes why body copy should be sized at a minimum of 16 pixels](http://www.smashingmagazine.com/2011/10/07/16-pixels-body-copy-anything-less-costly-mistake/) (you really should read the [original, revolutionary piece](http://www.informationarchitects.jp/en/100e2r/). It's why I bother with websites.)
+[Interesting article that rehashes why body copy should be sized at a minimum of 16 pixels](https://www.smashingmagazine.com/2011/10/07/16-pixels-body-copy-anything-less-costly-mistake/) (you really should read the [original, revolutionary piece](https://www.informationarchitects.jp/en/100e2r/). It's why I bother with websites.)
 
 The comments reveal some designer disdain for large type. But there are some relevant criticisms as well.
 

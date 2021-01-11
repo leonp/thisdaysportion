@@ -7,7 +7,7 @@ title: Google's infantile big brain
 category: libraries
 ---
 
-If you haven't seen it already, you really should catch up with [Google and the World Brain](http://www.worldbrainthefilm.com/), a Ben Lewis film aired on BBC 4.
+If you haven't seen it already, you really should catch up with [Google and the World Brain](https://www.worldbrainthefilm.com/), a Ben Lewis film aired on BBC 4.
 
 Forget about the office bean bags and Galaxian machines. It's not just low tax revenues that should worry you about Google.
 
@@ -23,7 +23,7 @@ We should resist this easy to organise view of the world – knowledge is an act
 
 ## Internet commentators are generally idiots
 
-The film does interview some smart commentators, such as [Jaron Lanier](http://www.jaronlanier.com/) and [Evgeney Morozov](http://www.evgenymorozov.com/), but Google has its misguided supporters. [Kevin Kelly](http://www.kk.org/) had me swearing at the TV.
+The film does interview some smart commentators, such as [Jaron Lanier](https://www.jaronlanier.com/) and [Evgeney Morozov](https://www.evgenymorozov.com/), but Google has its misguided supporters. [Kevin Kelly](https://www.kk.org/) had me swearing at the TV.
 
 Perhaps one of the most insidious, wrong–headed consequences of the Star Trek view of culture is that artists do not own their work because “all knowledge is remixed”. As a consequence it's just fine to come along, copy books and sell them on the internet.
 
@@ -31,4 +31,4 @@ We need to beware programmers when they step beyond scripting. Copying code from
 
 ## Libraries should share their knowledge themselves
 
-Thanks to the heroic efforts of [Jean–Noel Jeanneney](http://en.wikipedia.org/wiki/Jean-No%C3%ABl_Jeanneney) and others, libraries have woken up to Google's wrongness. There are millions of ancient, out of copyright texts that are ripe for publication on the internet. We don't need Google to act as a middle man: Try [Europeana](http://www.europeana.eu/portal/) instead.
+Thanks to the heroic efforts of [Jean–Noel Jeanneney](https://en.wikipedia.org/wiki/Jean-No%C3%ABl_Jeanneney) and others, libraries have woken up to Google's wrongness. There are millions of ancient, out of copyright texts that are ripe for publication on the internet. We don't need Google to act as a middle man: Try [Europeana](https://www.europeana.eu/portal/) instead.

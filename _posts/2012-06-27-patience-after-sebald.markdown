@@ -22,7 +22,7 @@ I hadn't realised that these dog days are related to the dog star, so the Suffol
 
 > Egyptians based their calendar on the heliacal rising of Sirius [the dog star], namely the day it becomes visible just before sunrise after moving far enough away from the glare of the Sun. This occurred just before the annual flooding of the Nile and the summer solstice, after a 70-day absence from the skies. The hieroglyph for Sothis features a star and a triangle. Sothis was identified with the great goddess Isis, who formed a part of a triad with her husband Osiris and their son Horus, while the 70-day period symbolised the passing of Isis and Osiris through the duat (Egyptian underworld). [Note Thomas Browne's msuings on the funeral urns and their coins for the journey over the Styx.]
 
-> The ancient Greeks observed that the appearance of Sirius heralded the hot and dry summer, and feared that it caused plants to wilt, men to weaken, and women to become aroused. Due to its brightness, Sirius would have been noted to twinkle more in the unsettled weather conditions of early summer. <cite>[Wikipedia](http://en.wikipedia.org/wiki/Sirius)</cite>
+> The ancient Greeks observed that the appearance of Sirius heralded the hot and dry summer, and feared that it caused plants to wilt, men to weaken, and women to become aroused. Due to its brightness, Sirius would have been noted to twinkle more in the unsettled weather conditions of early summer. <cite>[Wikipedia](https://en.wikipedia.org/wiki/Sirius)</cite>
 
 The Rings of Saturn _is_ the ebb and flow between the present and the past, the here and the there; a beautiful meditation on entropy.
 

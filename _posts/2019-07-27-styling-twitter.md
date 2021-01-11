@@ -11,7 +11,7 @@ I’ve been using the mobile Twitter site instead of the OS X app on my laptop f
 
 `<h1 class="f6 mb4 mb5-ns mb6-l pa2 pv3-ns ph3-ns ph4-l c-lh-title bg-white">`
 
-&hellip; you can at least glean some purpose in them (they set `margin-bottom`, `background-color` etc.) or even [look up what they mean](http://tachyons.io/docs/). The Twitter markup is not saying anything to _humans_ at all -- it's markup for robots by robots, a semaphore that speaks only to itself, a cacophony of whirring signs and impulses. It's rude. _It lacks soul_.
+&hellip; you can at least glean some purpose in them (they set `margin-bottom`, `background-color` etc.) or even [look up what they mean](https://tachyons.io/docs/). The Twitter markup is not saying anything to _humans_ at all -- it's markup for robots by robots, a semaphore that speaks only to itself, a cacophony of whirring signs and impulses. It's rude. _It lacks soul_.
 
 Not that this matters, necessarily.
 

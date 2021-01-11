@@ -6,7 +6,7 @@ category: web
 
 I refer specifically to a news story about US swimmer Michael Phelps. Not all of the techniques apply to all forms of web writing, but many do, and most can be adapted in some way to make articles more readable.
 
-![Screenshot of the BBC's page](http://farm4.static.flickr.com/3055/2764123353_258961373d_o.jpg)
+![Screenshot of the BBC's page](https://farm4.static.flickr.com/3055/2764123353_258961373d_o.jpg)
 
 
 ### What the BBC does so well:
@@ -23,7 +23,7 @@ The BBC news website underwent a recent redesign. Unlike the BBC home page's red
 #### Emphasis and colour aren't overdone
 
 
-![The headline is simple: bigger, but with no unnecessary emphasis](http://farm4.static.flickr.com/3266/2759699706_9215de3981_o.jpg)
+![The headline is simple: bigger, but with no unnecessary emphasis](https://farm4.static.flickr.com/3266/2759699706_9215de3981_o.jpg)
 
 Headings are indicated by a larger font size and a slightly different font face (24 pixel Arial as opposed to the 13 pixel Verdana used for body copy). These simple typographical alterations serve to indicate the **purpose** of the heading without distracting from a large quanitity of content: the designers chose not to use colour or bolding. Similarly, **links** are a conventional blue, making their purpose immeadiately clear. Using blue allows the BBC to avoid underlines: lots of underlined links can distract the reader from the content.
 
@@ -43,7 +43,7 @@ No humour, punning or alliteration - just 5 words that tell you _who_, _where_ a
 #### The article is interactive
 
 
-![The BBC places a video or other interactive element at the top of its stories](http://farm4.static.flickr.com/3018/2759663090_ac96fc3655_o.jpg)
+![The BBC places a video or other interactive element at the top of its stories](https://farm4.static.flickr.com/3018/2759663090_ac96fc3655_o.jpg)
 
 
 The first element readers encounter after the headline isn't a paragraph; it's a video, with an enticing play button placed slap bang in the middle of it. This is not a passive text - readers are encouraged to _do_ things rather than absorb large swathes of text. Similarly, readers are offered a wide range of links to click and **explore**, and another video further down the text.
@@ -55,9 +55,9 @@ The first element readers encounter after the headline isn't a paragraph; it's a
 #### Links are contextual
 
 
-![The story sidebar. Just 4 links closely related to the current story](http://farm4.static.flickr.com/3031/2759662988_7261a32eff_o.jpg)
+![The story sidebar. Just 4 links closely related to the current story](https://farm4.static.flickr.com/3031/2759662988_7261a32eff_o.jpg)
 
-![A list of links related to the same story available from other sources](http://farm4.static.flickr.com/3154/2759663018_7cf2a0c9ec_o.jpg)
+![A list of links related to the same story available from other sources](https://farm4.static.flickr.com/3154/2759663018_7cf2a0c9ec_o.jpg)
 
 
 A BBC logo placed top left provides the only universal link on the page - everything else is related to the current story, encouraging the reader to follow a **narrative** through the site. Even the left–hand sidebar alters according to the page's content, acting as a sort of vertical breadcrumb. The right–hand sidebar offers a wide range of links **related** directly to the story; firstly, a list of BBC headlines (again, all informative and less than 5 words long), secondly a list of external sites and lastly links to related stories from other news providers.
@@ -86,7 +86,7 @@ Most of the paragraphs in the story consist of just **1 sentence**, never more t
 #### Pull quotes
 
 
-![BBC pullquote: note the light blue background colour, reversed out heading and link](http://farm4.static.flickr.com/3102/2758822341_baa77665d8_o.jpg)
+![BBC pullquote: note the light blue background colour, reversed out heading and link](https://farm4.static.flickr.com/3102/2758822341_baa77665d8_o.jpg)
 
 
 A pull quote is a quote that is literally pulled from the main body of the text. It is often, but doesn't have to be, from a person involved in the story. Its purpose is manifold: it provides both 'human interest' and typographical **variation** — in the BBC story it has a different background colour from the main body copy and employs a simple graphic. The BBC enhances the pull quote in this article by making it a link to a message board, once again making the story as interactive as possible, and adding a feeling of inclusion.
@@ -106,4 +106,4 @@ Criticisms are minor, but I would perhaps use a conventional, horizontal **bread
 
 The BBC doesn't use ornamentation to display its content; instead, a thougtful layout, **logical** typography and attention to sensible writing conventions allow the excellent content to entertain and inform.
 
-If you liked this post, you might want to read about [6 newspaper writing techniques for the web](http://leonpaternoster.com/2008/07/6-newspaper-writing-techniques-for-the-web/).
+If you liked this post, you might want to read about [6 newspaper writing techniques for the web](https://leonpaternoster.com/2008/07/6-newspaper-writing-techniques-for-the-web/).

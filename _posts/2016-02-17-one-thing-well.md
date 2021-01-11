@@ -5,7 +5,7 @@ category: web
 excerpt: Doing one thing well is obvious good advice. But what is that thing and how do you communicate it?
 ---
 
-> Specialize. Put in the effort to be the best—or one of—at something. &#8220;Full service&#8220; is not a positive.&thinsp;&#8212;&thinsp; <cite>[Oil change and pizza, Dan Mall](http://danielmall.com/articles/oil-change-pizza/)</cite>
+> Specialize. Put in the effort to be the best—or one of—at something. &#8220;Full service&#8220; is not a positive.&thinsp;&#8212;&thinsp; <cite>[Oil change and pizza, Dan Mall](https://danielmall.com/articles/oil-change-pizza/)</cite>
 
 Quite liked this riff on the old _do one thing well_ and it chimed with something I've been trying to get my head around for a while.
 

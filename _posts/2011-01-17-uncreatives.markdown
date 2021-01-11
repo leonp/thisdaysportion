@@ -12,7 +12,7 @@ There's a lot of references to creativity in my world at the moment, most of the
 
 Joyce Emerson is a monster; Patty occupies the lowest rung in the family due to her preference for athletics over the liberal arts, while her sisters become actresses (mainly unemployed) and the book (which is largely Patty's autobiography but has a clear authorial voice) pokes lots of fun at them. While the largely (so far) sympathetic Richard Katz is a musician he makes his money through manual labour; his successful band isn't the hopelessly indie, sloganising Traumatics, it's the homely, country and western Walnut Surprise.
 
-In the blog world I read and enjoyed this post on [how skilful, workaday copy has its place alongside the _creative_ stuff](http://www.abccopywriting.com/blog/2011/01/17/uncreative-and-proud/). Writers — and the people that employ writers — see copy that simply _works_ as somehow beneath them or something that lacks the wow factor. Professionally I agree with this stance, and can sympathise with the reaction uncreative copy elicits from disappointed colleagues (_where are the adjectives?!_).
+In the blog world I read and enjoyed this post on [how skilful, workaday copy has its place alongside the _creative_ stuff](https://www.abccopywriting.com/blog/2011/01/17/uncreative-and-proud/). Writers — and the people that employ writers — see copy that simply _works_ as somehow beneath them or something that lacks the wow factor. Professionally I agree with this stance, and can sympathise with the reaction uncreative copy elicits from disappointed colleagues (_where are the adjectives?!_).
 
 So this is the week of uncreativity. Celebrate.
 

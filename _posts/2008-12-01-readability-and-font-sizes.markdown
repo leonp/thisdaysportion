@@ -14,7 +14,7 @@ What is a 'good' font size for reading from a screen?  Lots of variables:
 - measure of paragraph
 - reader's taste
 
-I've always assumed that larger font size = more readable, but having read [Vivien's critique of my website](http://www.inspirationbit.com/design-critique-leon-paternoster), [comments on the iA site](http://informationarchitects.jp/100e2r/) and through listening to my work colleagues, I'm not so sure.
+I've always assumed that larger font size = more readable, but having read [Vivien's critique of my website](https://www.inspirationbit.com/design-critique-leon-paternoster), [comments on the iA site](https://informationarchitects.jp/100e2r/) and through listening to my work colleagues, I'm not so sure.
 
 Can anyone point to any research on this?
 

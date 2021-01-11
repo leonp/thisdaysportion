@@ -8,7 +8,7 @@ History repeats itself quickly in the world of web design – it seems like only
 
 Fast forward to 2014 and we&#8217;re making the [same criticisms][2]: poor font choice, tiny, indistinct type, bugginess. Add some really slow loading and unresponsiveness and you have 2014&#8242;s version (although to be fair the site sort of adjusts to my Nexus phone – I&#8217;m guessing it sniffs rather than scales).
 
-[<img class="full-bleed" src="http://leonpaternoster.com/wp-content/uploads/2014/07/do.jpg" alt="Screenshot of the Design Observer website" width="860" height="444" />][3]
+[<img class="full-bleed" src="https://leonpaternoster.com/wp-content/uploads/2014/07/do.jpg" alt="Screenshot of the Design Observer website" width="860" height="444" />][3]
 
 <p class="figcaption"><cite>Design Observer</cite>: Let me count the ways</p>
 
@@ -18,7 +18,7 @@ Who exactly is it for? Older design veterans who don&#8217;t deal in the grubby 
 
 If you dig seeing paragraphs set in Archer on screen, and like small blocks of text, and spend your day on a Mac with a large screen, <cite>Design Observer</cite> has been *designed* just for you.
 
- [1]: http://blog.fawny.org/2009/08/12/mock-do-1/
- [2]: http://typographica.org/on-typography/questions-for-the-new-design-observer/
- [3]: http://designobserver.com
+ [1]: https://blog.fawny.org/2009/08/12/mock-do-1/
+ [2]: https://typographica.org/on-typography/questions-for-the-new-design-observer/
+ [3]: https://designobserver.com
  [4]: https://news.layervault.com/comments/78785

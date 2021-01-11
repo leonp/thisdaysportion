@@ -4,7 +4,7 @@ title: Unintelligible business language #1
 category: web
 ---
 
-I actually rather like the design of [this site](http://www.optimasgroup.com/), but one does have to wonder if the writers have written for human beings before:
+I actually rather like the design of [this site](https://www.optimasgroup.com/), but one does have to wonder if the writers have written for human beings before:
 
 > We help business owners intelligently align their business mission, strategic direction, and tactical implementation.
 

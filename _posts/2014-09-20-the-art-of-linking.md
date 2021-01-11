@@ -10,7 +10,7 @@ You only need to follow one rule to get links right:
 
 _When you write link text, make sure it makes sense on its own._
 
-It's surprising how many <a href="http://stumblingandmumbling.typepad.com/stumbling_and_mumbling/2014/09/economists-as-food-experts.html">good writers get links wrong</a>.
+It's surprising how many <a href="https://stumblingandmumbling.typepad.com/stumbling_and_mumbling/2014/09/economists-as-food-experts.html">good writers get links wrong</a>.
 
 An example. You want to link to your organisation's annual report PDF (rather than publish an HTML version, but that's a different story). Many people write:
 

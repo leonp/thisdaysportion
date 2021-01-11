@@ -94,18 +94,18 @@ If you know the basics of WordPress theme creation then you should know enough t
 
 (Incidentally, you may ask *why Jekyll?* Well, Mr Hyde is Dr Jekyll&#8217;s ugly, evil alter ego. Jekyll lets you present your civilised face to the world while keeping all your ugly, evil stuff on your PC.)
 
- [1]: http://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Dr_Jekyll_and_Mr_Hyde_poster_edit2.jpg/1280px-Dr_Jekyll_and_Mr_Hyde_poster_edit2.jpg
- [2]: http://jekyllrb.com/
- [3]: http://daringfireball.net/projects/markdown/
- [4]: http://liquidmarkup.org/
+ [1]: https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Dr_Jekyll_and_Mr_Hyde_poster_edit2.jpg/1280px-Dr_Jekyll_and_Mr_Hyde_poster_edit2.jpg
+ [2]: https://jekyllrb.com/
+ [3]: https://daringfireball.net/projects/markdown/
+ [4]: https://liquidmarkup.org/
  [5]: https://lh3.googleusercontent.com/-k8NAPsBc5Cw/Ucc0YEhoc6I/AAAAAAAAB7Y/X_eVVYvNI7E/w600-h457-no/terminal.jpg
- [6]: http://www.ruby-lang.org/en/downloads/
- [7]: http://jekyllrb.com/docs/installation/
- [8]: http://www.madhur.co.in/blog/2011/09/01/runningjekyllwindows.html
+ [6]: https://www.ruby-lang.org/en/downloads/
+ [7]: https://jekyllrb.com/docs/installation/
+ [8]: https://www.madhur.co.in/blog/2011/09/01/runningjekyllwindows.html
  [9]: https://github.com/thomasf/exitwp
- [10]: http://leonpaternoster.com/2013/06/replicating-year-month-wordpress-urls-in-jekyll/
- [11]: http://vitobotta.com/how-to-migrate-from-wordpress-to-jekyll/#atom-rss-feed
- [12]: http://vvv.tobiassjosten.net/jekyll/jekyll-sitemap-without-plugins/
+ [10]: https://leonpaternoster.com/2013/06/replicating-year-month-wordpress-urls-in-jekyll/
+ [11]: https://vitobotta.com/how-to-migrate-from-wordpress-to-jekyll/#atom-rss-feed
+ [12]: https://vvv.tobiassjosten.net/jekyll/jekyll-sitemap-without-plugins/
  [13]: https://lh6.googleusercontent.com/-T8befFQMJaI/UcctGFRlmwI/AAAAAAAAB60/FN_9adEUxEQ/w761-h480-no/pingdom.jpg
 
  *[HTML]: HyperText Markup Language

@@ -4,7 +4,7 @@ title: Setting up WordPress style year and month URLs in Jekyll
 category: web
 ---
 
-Just a quick note to mark my move from WordPress to <a href="http://jekyllrb.com/">Jekyll</a>.
+Just a quick note to mark my move from WordPress to <a href="https://jekyllrb.com/">Jekyll</a>.
 
 If you were using this common WordPress permalink structure:
 

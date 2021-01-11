@@ -5,7 +5,7 @@ category: web
 description: "What's the best foreground/background colour combination for reading from a screen? Unfortunately, there's no simple answer."
 ---
 
-I'd changed the foreground/background combination on this site, which had been dark grey on white for eight years, mainly because I'd liked this piece on [how the web became unreadable](https://backchannel.com/how-the-web-became-unreadable-a781ddc711b6#.17po1hr1d), which argues that there's nothing wrong with a 'crisp' black on white for reading from a screen (and that true black isn't true black anyway). At the time of writing I'm `#000` on a creamy `#FFFCEB` (or [washed yellow, according to Tachyons](http://tachyons.io/docs/themes/skins/)).
+I'd changed the foreground/background combination on this site, which had been dark grey on white for eight years, mainly because I'd liked this piece on [how the web became unreadable](https://backchannel.com/how-the-web-became-unreadable-a781ddc711b6#.17po1hr1d), which argues that there's nothing wrong with a 'crisp' black on white for reading from a screen (and that true black isn't true black anyway). At the time of writing I'm `#000` on a creamy `#FFFCEB` (or [washed yellow, according to Tachyons](https://tachyons.io/docs/themes/skins/)).
 
 I'd also read something on the work site about how [readers with Irlen syndrome can find a white background stressful](https://www.suffolklibraries.co.uk/parents-carers-and-children/dyslexia-irlen/).
 

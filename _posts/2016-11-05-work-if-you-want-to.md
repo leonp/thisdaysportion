@@ -28,4 +28,4 @@ Over the last 20 years I no doubt would have chosen not to work some of them. Fa
 
 On the other hand, 20 years without working would have been worse. I want more money. I've enjoyed building websites, working in schools and for a library service.
 
-I suspect most of us feel that many would _choose_ unemployment over work (there's a revealing truth in there, of course); that the country would soon fall apart as we spent our days in bed, getting up only to watch [Doctors](http://www.bbc.co.uk/programmes/b006mh9v). But is that true? If there's a real benefit to work beyond not living in total poverty, work is a good choice &#8211; when it's available. But it should be a _choice_.
+I suspect most of us feel that many would _choose_ unemployment over work (there's a revealing truth in there, of course); that the country would soon fall apart as we spent our days in bed, getting up only to watch [Doctors](https://www.bbc.co.uk/programmes/b006mh9v). But is that true? If there's a real benefit to work beyond not living in total poverty, work is a good choice &#8211; when it's available. But it should be a _choice_.

@@ -4,7 +4,7 @@ title: Introducing the Scherzo theme for WordPress
 category: web
 ---
 
-**[Get the latest version of Scherzo](http://leonpaternoster.com/wp-themes/).**
+**[Get the latest version of Scherzo](https://leonpaternoster.com/wp-themes/).**
 
 ## Installation
 
@@ -12,4 +12,4 @@ Install in the normal way, i.e. extract the scherzo.zip file and upload it to yo
 
 ## Responsive layout
 
-Scherzo will scale to fit any screen width. This means you can view the theme on mobile devices without installing any plugins. To see how it works either [view the live demo](http://leonpaternoster.com/scherzo) on a mobile phone or shrink your browser window.
+Scherzo will scale to fit any screen width. This means you can view the theme on mobile devices without installing any plugins. To see how it works either [view the live demo](https://leonpaternoster.com/scherzo) on a mobile phone or shrink your browser window.

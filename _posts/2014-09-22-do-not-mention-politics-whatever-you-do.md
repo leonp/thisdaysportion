@@ -4,7 +4,7 @@ title: Whatever you do, don't mention politics if you're marketing yourself
 category: politics
 ---
 
-I've been reading Matt Gemmell's blog recently, which is definitely worth subscribing to if you're interested in writing (and <a href="/2014/09/writing-to-order/">I am interested in writing</a>). I particularly enjoyed these recent articles on <a href="http://mattgemmell.com/independence/">Scottish independence</a> and <a href="http://mattgemmell.com/fan-fiction/">fan fiction</a>.
+I've been reading Matt Gemmell's blog recently, which is definitely worth subscribing to if you're interested in writing (and <a href="/2014/09/writing-to-order/">I am interested in writing</a>). I particularly enjoyed these recent articles on <a href="https://mattgemmell.com/independence/">Scottish independence</a> and <a href="https://mattgemmell.com/fan-fiction/">fan fiction</a>.
 
 The Scotland piece starts with a warning: he's going to talk about politics. This is something he never does.
 

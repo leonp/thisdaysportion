@@ -4,11 +4,11 @@ title: Fight and Challenge Everything (yourselves)
 category: politics
 ---
 
-It's good to see tax evasion and the ineptitude of <abbr title="Her Majesty's Revenue and Customs">HMRC</abbr> getting lots of publicity at the moment, including this [programme and article by actor Greg Wise](http://www.theguardian.com/commentisfree/2016/feb/07/hmrc-tax-avoidance-dispatches-greg-wise-channel-4).
+It's good to see tax evasion and the ineptitude of <abbr title="Her Majesty's Revenue and Customs">HMRC</abbr> getting lots of publicity at the moment, including this [programme and article by actor Greg Wise](https://www.theguardian.com/commentisfree/2016/feb/07/hmrc-tax-avoidance-dispatches-greg-wise-channel-4).
 
 I speak from experience here. Over the last year or so, HMRC has sent me threatening letters about tax credits I was apparently overpaid from 2009-2012. This was the first I'd heard of a &pound;3000 debt, but it's pay up or go to prison.
 
-Ironically enough, it's hard to pay HMRC. Call hold times stretch beyond 1 hour &#8211; that's if you get through at all. [Not surprising when the government has cut 11,000 HMRC jobs since 2010](http://www.theguardian.com/politics/2015/nov/12/hmrc-staff-braced-for-thousands-of-job-cuts-if-tax-offices-close).
+Ironically enough, it's hard to pay HMRC. Call hold times stretch beyond 1 hour &#8211; that's if you get through at all. [Not surprising when the government has cut 11,000 HMRC jobs since 2010](https://www.theguardian.com/politics/2015/nov/12/hmrc-staff-braced-for-thousands-of-job-cuts-if-tax-offices-close).
 
 This is, of course, [another Gideon shakedown of low to middle earners](/2015/07/how-i-got-rich-benefits-crackdown/), a part of his bizarre, doomed efforts to &#8216;pay off our debts&#8217;. Sending out millions of automated, threatening letters to people without the means to hire a good lawyer is a lot simpler than making the likes of Google, Amazon and Facebook cough up.
 

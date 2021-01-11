@@ -35,8 +35,8 @@ However, I confidently predict that mobile devices will be good for attention sp
 
 Of course, there’s no objective evidence in this (longish) article. All I can say is that I read more, and in more detail, than I did in the past, and I’ve spent a *lot* of time online over the last few years. And I’m also reading more of [The Guardian][5] than ever on my humble mobile device.
 
- [1]: http://idratherbewriting.com/2011/01/21/contemporary-reading-behaviors-favor-short-formats/
- [2]: http://en.wikipedia.org/wiki/History_of_television#Television_sets
- [3]: http://www.useit.com/alertbox/articles-not-blogs.html
- [4]: http://www.poemhunter.com/poem/television/
- [5]: http://m.guardian.co.uk/
+ [1]: https://idratherbewriting.com/2011/01/21/contemporary-reading-behaviors-favor-short-formats/
+ [2]: https://en.wikipedia.org/wiki/History_of_television#Television_sets
+ [3]: https://www.useit.com/alertbox/articles-not-blogs.html
+ [4]: https://www.poemhunter.com/poem/television/
+ [5]: https://m.guardian.co.uk/

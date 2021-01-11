@@ -6,7 +6,7 @@ review-title: Freedom
 review-author: Jonathon Franzen
 ---
 
-I've been somewhat gushing but unspecific in my praise for _Freedom_. [I do like the book because of its satire of liberal mores](http://theother.leonpaternoster.com/uncreatives), but there's more to it.
+I've been somewhat gushing but unspecific in my praise for _Freedom_. [I do like the book because of its satire of liberal mores](https://theother.leonpaternoster.com/uncreatives), but there's more to it.
 
 Take the structure. The first section (_Good Neighbors_) gradually moves from a somewhat gossipy, externalised, almost mocking view of the Berglunds to something more personal and moving. The opening sentences
 

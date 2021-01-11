@@ -5,7 +5,7 @@ category: web
 
 Penguin founder Allen Lane hired Jan Tschichold to design the publisher’s book covers in 1947. Tschichold made an immediate impact:
 
-> “…nothing compared to storm when Jan Tschichold arrived. Mild-mannered man with an inflexible character. Screams heard from Edinburgh to Ipswich and from Aylesbury to Bungay.” This was the result of Tschichold’s immediate effort to raise the standard of undisciplined English typesetting; to his frustration, Tschichold found himself obliged to treat the compositor not as a craftsman but as a machine, by specifying precise measurements for the spaces between each combination of letters in a title. It was the only way to get the results he desired. <cite><a href="http://www.guardian.co.uk/artanddesign/2008/dec/05/jan-tschichold-typography">Jan Tschichold: A titan of typography</a></cite>
+> “…nothing compared to storm when Jan Tschichold arrived. Mild-mannered man with an inflexible character. Screams heard from Edinburgh to Ipswich and from Aylesbury to Bungay.” This was the result of Tschichold’s immediate effort to raise the standard of undisciplined English typesetting; to his frustration, Tschichold found himself obliged to treat the compositor not as a craftsman but as a machine, by specifying precise measurements for the spaces between each combination of letters in a title. It was the only way to get the results he desired. <cite><a href="https://www.guardian.co.uk/artanddesign/2008/dec/05/jan-tschichold-typography">Jan Tschichold: A titan of typography</a></cite>
 
 So there you have it; the Ipswich Jan Tschichold link.
 
@@ -23,7 +23,7 @@ Apparently, Tschichold became disillusioned with sans serifs after the Nazis ado
 
 Anyway, there’s politics in the letterforms.
 
- [1]: http://informationarchitects.net/blog/learning-to-see/
- [2]: http://v4.jasonsantamaria.com/articles/change-of-heart/
- [3]: http://www.fonts.com/font/linotype/futura
- [4]: http://www.time.com/time/business/article/0%2C8599%2C1919127%2C00.html
+ [1]: https://informationarchitects.net/blog/learning-to-see/
+ [2]: https://v4.jasonsantamaria.com/articles/change-of-heart/
+ [3]: https://www.fonts.com/font/linotype/futura
+ [4]: https://www.time.com/time/business/article/0%2C8599%2C1919127%2C00.html

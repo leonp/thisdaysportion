@@ -37,6 +37,6 @@ As for reason 6, for all the talk of Green surges and UKIP byelection wins, they
 
 The general election is only one part of our democracy. Although local elections are also decided on a first past the post basis, the small scale, low turnout and dreaded protest vote mean you'll see plenty of UKIP, Green and independent councillors.
 
-The Greens and UKIP _do_ hold a lot of indirect power &#8211; if only because, ironically enough, they scare the main parties with the _threat_ of eating into the core vote. That's one of the main reasons the Tories have turned rightward in the last couple of years and Labour will [start making more environmental, vaguely leftwing  noises](http://www.theguardian.com/commentisfree/2015/jan/22/labour-green-surge-renationalise-railways-living-wage-pr-referendum).
+The Greens and UKIP _do_ hold a lot of indirect power &#8211; if only because, ironically enough, they scare the main parties with the _threat_ of eating into the core vote. That's one of the main reasons the Tories have turned rightward in the last couple of years and Labour will [start making more environmental, vaguely leftwing  noises](https://www.theguardian.com/commentisfree/2015/jan/22/labour-green-surge-renationalise-railways-living-wage-pr-referendum).
 
 If I was interested in a fringe party I'd join it, canvas, blog and attend the meetings. I'd also vote tactically in general elections.

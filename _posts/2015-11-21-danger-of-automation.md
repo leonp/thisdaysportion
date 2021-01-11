@@ -9,7 +9,7 @@ Software automates, which saves us time, money and tedium. Without it, updating 
 
 However, we fear the machines taking over, the power of the algorithm. Automating the wrong things is already causing complex problems beyond unemployment. The mess that newspapers have got themselves in over income and performance are down to offloading their advertising to some machine somewhere or other:
 
-> As opposed to coming up with solutions to innovate around advertising, we sacrificed user experience for a couple of bucks on a CPM [cost per thousand]. When our users moved to mobile, we tried to do the same thing, where it’s even more intrusive. [Whether] it’s the ad format or the data being captured or the data use, it’s hard to love online advertising. <cite>[To Fight Ad Blocking, Build Better Ads](http://niemanreports.org/articles/to-fight-ad-blocking-build-better-ads/)</cite>
+> As opposed to coming up with solutions to innovate around advertising, we sacrificed user experience for a couple of bucks on a CPM [cost per thousand]. When our users moved to mobile, we tried to do the same thing, where it’s even more intrusive. [Whether] it’s the ad format or the data being captured or the data use, it’s hard to love online advertising. <cite>[To Fight Ad Blocking, Build Better Ads](https://niemanreports.org/articles/to-fight-ad-blocking-build-better-ads/)</cite>
 
 Automation is clearly the right tool for processing lots of information, such as branch library details. But when it comes to making judgements or adding value in some way, it becomes more fuzzy. While Amazon can make useful suggestions based on what you and others have browsed and bought before you don't really want to offload your advertising to a machine, especially one owned by a shady third party.
 
@@ -21,7 +21,7 @@ There's a related question of distance, trust and brand here. We _know_ the peop
 
 This is the main advantage libraries have over the likes of Google and Amazon: we're people you know and can relate to. Our motives are clear: we're not flogging you anything.
 
-Unfortunately, we see overautomation creeping into the library world. While library management systems are a million miles from using complex algorithms, systems such as [Open+](http://www.bibliotheca.com/3/index.php/en-uk/our-solutions/24-hour-library-open) are used to replace library staff rather than extend opening hours.
+Unfortunately, we see overautomation creeping into the library world. While library management systems are a million miles from using complex algorithms, systems such as [Open+](https://www.bibliotheca.com/3/index.php/en-uk/our-solutions/24-hour-library-open) are used to replace library staff rather than extend opening hours.
 
 **We need to be wary of reducing libraries to places that just dispense books**. I can order a bestseller from Amazon and have it on my Kindle in 3 clicks and 30 seconds, or at my house the same day. Travelling to a library and borrowing the same book involves far more effort, and I'll have to make the return journey within 3 weeks.
 

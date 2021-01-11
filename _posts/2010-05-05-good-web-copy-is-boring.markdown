@@ -27,7 +27,7 @@ On paper (or screen) it may _seem_ boring, and a million miles from the original
 # Getting the boring message across
 
 
-Ben Locker explains how [clients don't value simple copy](http://benlocker.co.uk/the-best-copywriting-so-simple-people-wont-pay-for-it/). I try and demonstrate its purpose to colleagues by:
+Ben Locker explains how [clients don't value simple copy](https://benlocker.co.uk/the-best-copywriting-so-simple-people-wont-pay-for-it/). I try and demonstrate its purpose to colleagues by:
 
 - involving them in the content writing process by showing them drafts and explaining why I've made certain decisions
 - sitting them in on some simple, low–fi user testing. It doesn't have to be related to whatever it is they're interested in; witnessing how impatient real people are in real web situations is often an eye opener

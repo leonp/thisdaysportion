@@ -10,4 +10,4 @@ Just in case you were wondering how it&#8217;s done:
 
 Assuming a company will always try and find the most favourable tax regime, what&#8217;s the answer to this problem? (If, like me, you do indeed think it is a problem.) Is it to shame the company into handing over tax? How likely will this work?
 
- [1]: http://radicalsoapbox.com/vodafones-tax-credit-17-4-billion/
+ [1]: https://radicalsoapbox.com/vodafones-tax-credit-17-4-billion/

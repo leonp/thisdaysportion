@@ -4,7 +4,7 @@ title: How to write a factually dubious but potent blog post
 category: web
 ---
 
-I’m referring to [this article about… well, what _exactly_ it’s about I’m not sure](http://www.goodlibraryguide.com/blog/archives/2013/06/amazon_and_goog.html), but it's a superlative 167 words.
+I’m referring to [this article about… well, what _exactly_ it’s about I’m not sure](https://www.goodlibraryguide.com/blog/archives/2013/06/amazon_and_goog.html), but it's a superlative 167 words.
 
 9 killer techniques in 167 words (91 fewer than I could manage talking about it):
 

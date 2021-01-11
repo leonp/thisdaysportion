@@ -4,7 +4,7 @@ title: Write edit build publish edit build republish
 category: thinking
 ---
 
-> But I am not very responsible about editing. What happens instead is that I write, edit a bit, and then publish a post. Then I read it live on my site and inevitably find typos, ugly phrasing, errors of fact, and all the rest of it. That prompts an annoying cycle of editing, rebuilding&hellip; waiting&hellip; and re&#8211;reading online. I shouldn’t do this. Instead, I should `rake isolate[]` like a reasonable person and only build when I’m finished. Experience says I will not do this, however. &#8212; Kieran Healey, <cite><a href="http://kieranhealy.org/blog/archives/2014/02/24/powered-by-hugo/">Powered by Hugo</a></cite>
+> But I am not very responsible about editing. What happens instead is that I write, edit a bit, and then publish a post. Then I read it live on my site and inevitably find typos, ugly phrasing, errors of fact, and all the rest of it. That prompts an annoying cycle of editing, rebuilding&hellip; waiting&hellip; and re&#8211;reading online. I shouldn’t do this. Instead, I should `rake isolate[]` like a reasonable person and only build when I’m finished. Experience says I will not do this, however. &#8212; Kieran Healey, <cite><a href="https://kieranhealy.org/blog/archives/2014/02/24/powered-by-hugo/">Powered by Hugo</a></cite>
 
 This is pretty much my experience of writing blog posts, although I probably do a bit more editing before typing `git push origin master`. I try and get it just right first time, and I'm pretty good at spotting a typo, even when I've perpetrated it, but for some reason it takes actual publication to really sharpen my editorial senses.
 

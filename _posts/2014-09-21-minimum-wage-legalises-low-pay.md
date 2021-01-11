@@ -8,11 +8,11 @@ If you're over 21, the national minimum wage will increase to &pound;6.50 an hou
 
 You will be able to claim tax credits of around &pound;48 a month, if you're single.
 
-Ed Miliband says <a href="http://www.theguardian.com/society/2014/sep/20/miliband-pledges-rise-poorest-workers-labour-uk">Labour will increase the minimum wage to &pound;8 an hour by 2020</a>, which equates to &pound;1071.29 net pay a month (and around &pound;142 a month tax and NI).
+Ed Miliband says <a href="https://www.theguardian.com/society/2014/sep/20/miliband-pledges-rise-poorest-workers-labour-uk">Labour will increase the minimum wage to &pound;8 an hour by 2020</a>, which equates to &pound;1071.29 net pay a month (and around &pound;142 a month tax and NI).
 
 So the country's social democratic party is proposing that if you work full time, you'll earn just under &pound;1100 a month. Under the current calculations, you won't receive any tax credits. That's &pound;1100 to cover rent, food, clothes, transport, bills and council tax. That doesn't include a pension or any entertainment.
 
-The <a href="http://www.home.co.uk/for_rent/ipswich/current_rents?location=ipswich">median rent in Ipswich at the moment is &pound;559 a month</a>. Council tax for a band A property is &pound;89.39. Let's put aside &pound;100 for bills. That makes your basic outgoings &pound;748.39 a month, leaving &pound;351.61 for food, clothes, transport, entertainment, pension, insurance etc. You won't be saving.
+The <a href="https://www.home.co.uk/for_rent/ipswich/current_rents?location=ipswich">median rent in Ipswich at the moment is &pound;559 a month</a>. Council tax for a band A property is &pound;89.39. Let's put aside &pound;100 for bills. That makes your basic outgoings &pound;748.39 a month, leaving &pound;351.61 for food, clothes, transport, entertainment, pension, insurance etc. You won't be saving.
 
 You see the basic problem here? Labour's modest increase (around 4.1% a year) is still a million miles from making pay commensurate with costs.
 

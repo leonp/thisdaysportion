@@ -6,7 +6,7 @@ review-title: The Killing
 review-author:  Søren Sveistrup
 ---
 
-One of the few good things about never going out at the weekend is BBC4 and Scandanavian cop shows. For years the channel has been treating middle aged parents to _Wallander_; a rambling detective show with a lovable central character, a mildly psychotic set of villains and some A grade landcapes and interior design. (Presumably middle class [Ystad](http://www.visitsweden.com/sweden/Regions--Cities/Southern-Sweden/Culture/Ystad--Kurt-Wallander/)'s property prices have suffered due to the Baghdad like murder rate.)
+One of the few good things about never going out at the weekend is BBC4 and Scandanavian cop shows. For years the channel has been treating middle aged parents to _Wallander_; a rambling detective show with a lovable central character, a mildly psychotic set of villains and some A grade landcapes and interior design. (Presumably middle class [Ystad](https://www.visitsweden.com/sweden/Regions--Cities/Southern-Sweden/Culture/Ystad--Kurt-Wallander/)'s property prices have suffered due to the Baghdad like murder rate.)
 
 Last night the channel introduced us to _The Killing_ (Danish _Forbrydelsen_), a cop show set in Copenhagen.
 

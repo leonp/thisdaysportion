@@ -26,9 +26,9 @@ Magazines consist of discreet articles that discuss a particular topic in some d
 
 Journals, on the other hand, focus on an individual's experience. He or she may be an expert in a particular field, but his or her personality will act as a prism for their experience. The blog's identity is inextricable from the author's.
 
-[caption id="attachment_639" align="aligncenter" width="590" caption="Jason Santa Maria's blog: magazine or journal?"]![Jason Santa Maria's blog: magazine or journal or what?](http://leonpaternoster.com/wp-content/uploads/2009/05/jsm.jpg)[/caption]
+[caption id="attachment_639" align="aligncenter" width="590" caption="Jason Santa Maria's blog: magazine or journal?"]![Jason Santa Maria's blog: magazine or journal or what?](https://leonpaternoster.com/wp-content/uploads/2009/05/jsm.jpg)[/caption]
 
-Journals are far more likely to go off topic, while posts will not have such a clearly defined, consistent subject matter as magazine articles. Indeed, the language used in journals will not be as structured or conventional (although not necessarily more informal) than that used in magazines. Journals employ more of a [stream of consciousness](http://en.wikipedia.org/wiki/Stream_of_consciousness_(narrative_mode)).
+Journals are far more likely to go off topic, while posts will not have such a clearly defined, consistent subject matter as magazine articles. Indeed, the language used in journals will not be as structured or conventional (although not necessarily more informal) than that used in magazines. Journals employ more of a [stream of consciousness](https://en.wikipedia.org/wiki/Stream_of_consciousness_(narrative_mode)).
 
 
 ### Design and structure
@@ -40,7 +40,7 @@ Journals allow readers to 'dive straight in': the front page of a journal may co
 
 Journals often use less imagery, or whizzy graphical effects: they perhaps look 'plainer'.
 
-[caption id="attachment_640" align="aligncenter" width="590" caption="Daring Fireball - a journal"]![Daring Fireball - a journal](http://leonpaternoster.com/wp-content/uploads/2009/05/daring.jpg)[/caption]
+[caption id="attachment_640" align="aligncenter" width="590" caption="Daring Fireball - a journal"]![Daring Fireball - a journal](https://leonpaternoster.com/wp-content/uploads/2009/05/daring.jpg)[/caption]
 
 
 ### Taxonomy

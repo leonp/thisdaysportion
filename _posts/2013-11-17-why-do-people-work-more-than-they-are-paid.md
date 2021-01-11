@@ -4,7 +4,7 @@ title: Why do we work unpaid hours?
 category: politics
 ---
 
-> Enough. If an employer hires me to do a job, it means they have deemed me qualified to do it. If I cannot complete the task required in the hours for which I am paid, I am being conned. <cite><a href="http://www.theguardian.com/commentisfree/2013/nov/17/hard-work-pay-good-job">Hard-working? If you pay me, I'll do a good job. That's the deal</a></cite>
+> Enough. If an employer hires me to do a job, it means they have deemed me qualified to do it. If I cannot complete the task required in the hours for which I am paid, I am being conned. <cite><a href="https://www.theguardian.com/commentisfree/2013/nov/17/hard-work-pay-good-job">Hard-working? If you pay me, I'll do a good job. That's the deal</a></cite>
 
 The same article cites <abbr title="Trade Union Council">TUC</abbr> research claiming 1 in 5 workers puts in an extra day's unpaid work a week.
 
@@ -19,6 +19,6 @@ But I've met plenty of people who willingly put in the extra hours when it's obv
 
 Perhaps we've lost belief in the work we do. In the past work required skills learnt through study or experience, or we did things our employers wouldn't do in a million years.
 
-Now &#8211; unless you're a teacher, nurse or something similar &#8211; we're just a bundle of transferable skills working in more or less pleasant offices. How do we *prove* our value when we feel <a href="http://www.strikemag.org/bullshit-jobs/">what we're doing is pointless</a>?
+Now &#8211; unless you're a teacher, nurse or something similar &#8211; we're just a bundle of transferable skills working in more or less pleasant offices. How do we *prove* our value when we feel <a href="https://www.strikemag.org/bullshit-jobs/">what we're doing is pointless</a>?
 
-There is, of course, a delicious irony here. While we don't value what we're doing, we do more of it, and <a href="http://blogs.ft.com/westminster/2013/09/tory-ministers-try-to-flog-the-phrase-hardworking-to-death/">make more of a virtue out of it</a>.
+There is, of course, a delicious irony here. While we don't value what we're doing, we do more of it, and <a href="https://blogs.ft.com/westminster/2013/09/tory-ministers-try-to-flog-the-phrase-hardworking-to-death/">make more of a virtue out of it</a>.

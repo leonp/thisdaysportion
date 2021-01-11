@@ -14,9 +14,9 @@ I'm no design guru, but I've been banging on about the poor design of online new
 
 To fill grids, fill pages, trawl through categories and archives, retweet, like, digg, stumble upon or whatever. But not actually just read.
 
-But that appears to be changing. The reason is technological – screens are getting smaller and you just can't fit as much stuff on them – but, [as Drawar notes, it's happening nonetheless](http://journal.drawar.com/d/less-distractions-more-pageviews-go-figure/).
+But that appears to be changing. The reason is technological – screens are getting smaller and you just can't fit as much stuff on them – but, [as Drawar notes, it's happening nonetheless](https://journal.drawar.com/d/less-distractions-more-pageviews-go-figure/).
 
-The much heralded [Boston Globe](http://www.bostonglobe.com) doesn't look too unlike [Andy Rutledge's infamous New York Times redux](http://andyrutledge.com/news-redux.php). And [Today's Guardian](http://guardian.gyford.com/) gets it spot on.
+The much heralded [Boston Globe](https://www.bostonglobe.com) doesn't look too unlike [Andy Rutledge's infamous New York Times redux](https://andyrutledge.com/news-redux.php). And [Today's Guardian](https://guardian.gyford.com/) gets it spot on.
 
 The thing is that newspaper websites don't have to _do_ anything to take advantage of social media, comments and hyperlinks. That's all part of the web anyway.
 

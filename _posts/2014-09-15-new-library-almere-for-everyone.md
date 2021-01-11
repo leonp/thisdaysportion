@@ -5,11 +5,11 @@ excerpt: The Almere library looks like somewhere anyone would like to spend a fe
 category: libraries
 ---
 
-Noted: an <a href="http://www.shareable.net/blog/how-a-new-dutch-library-smashed-attendance-records">article on the <i>Nieuwe Bibliotheek</i> in the Dutch town of Almere</a>.
+Noted: an <a href="https://www.shareable.net/blog/how-a-new-dutch-library-smashed-attendance-records">article on the <i>Nieuwe Bibliotheek</i> in the Dutch town of Almere</a>.
 
 This is what you want libraries to look like:
 
-<img src="http://www.shareable.net/sites/default/files/NewLibrary2.jpg" alt="A busy, modern coffee bar" height="388" width="600">
+<img src="https://www.shareable.net/sites/default/files/NewLibrary2.jpg" alt="A busy, modern coffee bar" height="388" width="600">
 
 <p class="figcaption">A coffee bar in the Almere New Library</p>
 
@@ -17,6 +17,6 @@ I wonder if this approach to libraries is common in Dutch and other European tow
 
 This is all noble and important work, but it's primarily aimed at *helping* certain groups in some way. What about people who don't really need help? Who just want to enjoy some time in a library.
 
-That's what I like about the Almere New Library, and I hear <a href="http://www.publiclibrariesnews.com/practitioners/big-new-libraries-manchester">similar good things about British libraries</a>. They're just somewhere you, or anybody, would like to go; better than, say, Starbucks.
+That's what I like about the Almere New Library, and I hear <a href="https://www.publiclibrariesnews.com/practitioners/big-new-libraries-manchester">similar good things about British libraries</a>. They're just somewhere you, or anybody, would like to go; better than, say, Starbucks.
 
 In other words, libraries should be a <a href="/2014/09/in-praise-of-universality/">universal</a> service.

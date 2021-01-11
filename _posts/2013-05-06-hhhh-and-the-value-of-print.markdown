@@ -11,9 +11,9 @@ review-author: Laurent Binet
 He [Hitler] was reportedly seen throwing himself to the floor and chewing the edge of the carpet. Among people still hostile to Nazism, these demented fits quickly earned him the name _Teppichfresser_ (_Carpet Eater_). Laurent Binet, HHhH.
 
 
-HHhH is the story of [Reinhard Heydrich](http://en.wikipedia.org/wiki/Reinhard_Heydrich)'s assassination in 1942. Or rather, it's the story of the assassination and the story of writing the story. Depicting monstrous characters like Heydrich, Himmler and Göring is difficult. We enjoy reading grotesque scenes in the same way we enjoy reading horror, while we ignore the artifice, selection and judgement involved in writing history (or historical fiction), and the fact that something incredibly evil _really_ happened. This is fiction that isn't just fiction.
+HHhH is the story of [Reinhard Heydrich](https://en.wikipedia.org/wiki/Reinhard_Heydrich)'s assassination in 1942. Or rather, it's the story of the assassination and the story of writing the story. Depicting monstrous characters like Heydrich, Himmler and Göring is difficult. We enjoy reading grotesque scenes in the same way we enjoy reading horror, while we ignore the artifice, selection and judgement involved in writing history (or historical fiction), and the fact that something incredibly evil _really_ happened. This is fiction that isn't just fiction.
 
-While reading HHhH I came across this comprehensive [review of the research into the differences between reading from paper and screens](http://www.scientificamerican.com/article.cfm?id=reading-paper-screens&page=1). It's fascinating stuff, and I liked the melancholic tone.
+While reading HHhH I came across this comprehensive [review of the research into the differences between reading from paper and screens](https://www.scientificamerican.com/article.cfm?id=reading-paper-screens&page=1). It's fascinating stuff, and I liked the melancholic tone.
 
 HHhH is the first book I've paid for on my Kindle, apart from a volume of Emily Dickinson. Poetry takes a lot of care to set on an ereader, more than was put into my downloaded edition.
 

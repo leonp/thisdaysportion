@@ -4,9 +4,9 @@ title: Why business writing is rubbish
 category: web
 ---
 
-If you write anything for business, or you're interested in writing at all, it's well worth subscribing to the [Good Copy, Bad Copy](http://www.dorisandbertie.com/goodcopybadcopy/) blog.
+If you write anything for business, or you're interested in writing at all, it's well worth subscribing to the [Good Copy, Bad Copy](https://www.dorisandbertie.com/goodcopybadcopy/) blog.
 
-Recently [Clare analysed and rewrote a passage of bad business writing](http://www.dorisandbertie.com/goodcopybadcopy/2011/06/14/business-writers-heres-why-you-really-need-to-master-the-parts-of-speech/), providing some excellent advice in the process.
+Recently [Clare analysed and rewrote a passage of bad business writing](https://www.dorisandbertie.com/goodcopybadcopy/2011/06/14/business-writers-heres-why-you-really-need-to-master-the-parts-of-speech/), providing some excellent advice in the process.
 
 In my job I often have to extract content from press releases, an unerring source of bad writing. Clare's post and my own press release experiences lead me to think about _why_ people write so badly.
 
@@ -16,7 +16,7 @@ I suspect that in many organisations the person who is responsible for product/s
 
 Or, worse still, the sales department is responsible.
 
-You **don't need an English degree** in order to write well. Anyone with a [GCSE](http://en.wikipedia.org/wiki/General_Certificate_of_Secondary_Education) in English Language understands the parts of speech and the difference between active and passive voices.
+You **don't need an English degree** in order to write well. Anyone with a [GCSE](https://en.wikipedia.org/wiki/General_Certificate_of_Secondary_Education) in English Language understands the parts of speech and the difference between active and passive voices.
 
 But you need to know when to use certain **techniques**, and which practices will make you difficult to understand and create the **wrong impression**. These are skills that need learning and exercising.
 
@@ -55,7 +55,7 @@ Estate agents are usually terrible writers. Except when it comes to the nitty gr
 > _KITCHEN_
 > 10’1 (3.07) x 8’ (2.44)
 
-Inset lights.  Double glazed window to rear.  Single drainer sink unit with mixer tap.  Fitted electric hob (AEG).  Fitted electric oven (AEG). Extractor hood.  Aluminium style splashbacks. Range of eye level units.  Range of base units with cupboards and drawers.  Tiled splashback.  Space for washing machine and fridge/freezer. [Jonathan Waters](http://www.jonathanwaters.co.uk/ipswich/pages/property/viewproperty.cfm?id=2473)
+Inset lights.  Double glazed window to rear.  Single drainer sink unit with mixer tap.  Fitted electric hob (AEG).  Fitted electric oven (AEG). Extractor hood.  Aluminium style splashbacks. Range of eye level units.  Range of base units with cupboards and drawers.  Tiled splashback.  Space for washing machine and fridge/freezer. [Jonathan Waters](https://www.jonathanwaters.co.uk/ipswich/pages/property/viewproperty.cfm?id=2473)
 
 
 Note the punchy sentence fragments and the descriptive, concrete adjectives (_fitted_, _inset_ and _tiled_) that provide essential details, rather than talk up the kitchen. There's no waffle here, which makes the passage seem trustworthy.

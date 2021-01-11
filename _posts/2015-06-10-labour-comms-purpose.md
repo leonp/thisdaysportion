@@ -4,9 +4,9 @@ title: Labour's problems are only partly about how it talks
 category: politics
 ---
 
-[Sunny makes a good point about _some_ leftwing communication](http://labourlist.org/2015/06/we-failed-to-defeat-the-tories-because-the-left-has-stopped-understanding-the-public/), quoting Podemos' Pablo Iglesias:
+[Sunny makes a good point about _some_ leftwing communication](https://labourlist.org/2015/06/we-failed-to-defeat-the-tories-because-the-left-has-stopped-understanding-the-public/), quoting Podemos' Pablo Iglesias:
 
-> The enemy wants nothing more than to laugh at you. You can wear a T-shirt with the hammer and sickle. You can even carry a huge flag, and then go back home with your flag, all while the enemy laughs at you. Because the people, the workers, they prefer the enemy to you. They believe him. They understand him when he speaks. They don’t understand you. And maybe you are right! <cite>[We failed to defeat the Tories because the left has stopped understanding the public](http://labourlist.org/2015/06/we-failed-to-defeat-the-tories-because-the-left-has-stopped-understanding-the-public/)</cite>
+> The enemy wants nothing more than to laugh at you. You can wear a T-shirt with the hammer and sickle. You can even carry a huge flag, and then go back home with your flag, all while the enemy laughs at you. Because the people, the workers, they prefer the enemy to you. They believe him. They understand him when he speaks. They don’t understand you. And maybe you are right! <cite>[We failed to defeat the Tories because the left has stopped understanding the public](https://labourlist.org/2015/06/we-failed-to-defeat-the-tories-because-the-left-has-stopped-understanding-the-public/)</cite>
 
 And he's right. I've seen plenty of lefties really struggle to express their ideas without implying _but can't you see it, you fool!_ - that's if they manage to actually talk to anyone at all in 4 million 'conversations'.
 

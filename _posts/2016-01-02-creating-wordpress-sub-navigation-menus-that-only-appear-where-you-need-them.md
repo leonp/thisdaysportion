@@ -6,7 +6,7 @@ category: web
 
 It's a bit of a mouthful and hard to explain, but if you build a relatively complex work website you'll appreciate this.
 
-At Suffolk Libraries we build microsites that sit within the main site. Often, these will have their own sub navigation. Take <a href="http://suffolklibraries.co.uk/community-services/literacy-books-and-reading-team-for-schools">our schools service</a>:
+At Suffolk Libraries we build microsites that sit within the main site. Often, these will have their own sub navigation. Take <a href="https://suffolklibraries.co.uk/community-services/literacy-books-and-reading-team-for-schools">our schools service</a>:
 
 <figure class="figure">
 

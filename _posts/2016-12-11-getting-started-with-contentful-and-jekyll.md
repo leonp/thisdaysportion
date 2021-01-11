@@ -8,7 +8,7 @@ article: true
 excerpt: "Contentful is a CMS based on an API, providing a non-technical editing environment for web writers. Here's how it works with Jekyll, a static site generator."
 ---
 
-[Contentful](http://contentful.com), if you're unaware, is a platform agnostic Content Management System (CMS). You use its <abbr title="Application Programming Interface">API</abbr> to pull content into a website or app. There are several reasons for using Contentful instead of/in addition to a CMS:
+[Contentful](https://contentful.com), if you're unaware, is a platform agnostic Content Management System (CMS). You use its <abbr title="Application Programming Interface">API</abbr> to pull content into a website or app. There are several reasons for using Contentful instead of/in addition to a CMS:
 
 - With a closed CMS such as WordPress you can only publish content to your website. While you can use <abbr title="Really Simple Syndication">RSS</abbr> to pull that content into something else, the Contentful API gives you access to _all_ content types and fields in easy to read and parse json.
 - If you move your website away from WordPress you have to get all the content into a new system. Contentful has your content ready to access via the API, which should make for a less disruptive, long-winded process.
@@ -16,7 +16,7 @@ excerpt: "Contentful is a CMS based on an API, providing a non-technical editing
 
 We use Jekyll at work and publish with a text editor, command line and Git. That's OK for our web team of two as we don't need (or want) many other people publishing to our website. However, if you're running a site with lots of distributed writers, editors and publishers, this set up is far from ideal. You'll want something a little less technical.
 
-Even we'd like the option of adding a news story without having to fire up a terminal &#8211; we could publish on a phone or tablet, for example, or the comms manager could post a news story in an emergency. While we can use [Prose](http://prose.io) or even edit files directly in Github, a proper editor would be a lot more useful.
+Even we'd like the option of adding a news story without having to fire up a terminal &#8211; we could publish on a phone or tablet, for example, or the comms manager could post a news story in an emergency. While we can use [Prose](https://prose.io) or even edit files directly in Github, a proper editor would be a lot more useful.
 
 So I decided to test Jekyll and Contentful.
 

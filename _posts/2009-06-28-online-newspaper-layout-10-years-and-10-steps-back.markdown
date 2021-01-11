@@ -6,7 +6,7 @@ category: web
 
 This image has been doing the rounds on Twitter recently:
 
-[caption id="attachment_715" align="aligncenter" width="590" caption="Online newspapers: now and then (from http://imgur.com/gQouk.jpg). More ads and more stuff in 2009."]![Online newspapers: now and then (from http://imgur.com/gQouk.jpg). More ads and more stuff in 2009.](http://leonpaternoster.com/wp-content/uploads/2009/06/online-newspaper-layouts.jpg)[/caption]
+[caption id="attachment_715" align="aligncenter" width="590" caption="Online newspapers: now and then (from https://imgur.com/gQouk.jpg). More ads and more stuff in 2009."]![Online newspapers: now and then (from https://imgur.com/gQouk.jpg). More ads and more stuff in 2009.](https://leonpaternoster.com/wp-content/uploads/2009/06/online-newspaper-layouts.jpg)[/caption]
 
 I think it's hard to deny the point the picture's making: there's too much worthless _stuff _in modern online newspaper design. Of course, it's not all bad: the text in the old article would probably be set in 8 pixel verdana with 1.2em leading and a measure of 35 words. The ads would flash 'YOUR COMPUTER HAS BEEN INFECTED WITH A VIRUS!!!!!. CLICK HERE TO WIN!!!!'.
 
@@ -21,7 +21,7 @@ I think we can ascribe this visual confusion to four causes:
 
 
 
-  1. newspaper publishers don't trust readers to visit their site and _find_ information, so they put (and I'm not exaggerating in the case of [The Guardian](http://guardian.co.uk)) 75+ stories on the front page
+  1. newspaper publishers don't trust readers to visit their site and _find_ information, so they put (and I'm not exaggerating in the case of [The Guardian](https://guardian.co.uk)) 75+ stories on the front page
 
 
   2. publishers need to generate revenue through advertising and, while there's nothing wrong with ads _per se_, online advertising is still relatively immature and driven by click rates. Ads therefore tend to flash, intrude and use OVER-EXCITED language to try and attract attention among all the newspaper stuff.
@@ -33,7 +33,7 @@ I think we can ascribe this visual confusion to four causes:
   4. this mass of stuff has coincided with the develpment of complex CSS techniques that mirror print conventions, such as grid-based design. As publishers want to publish lots of _stuff_ they'll happily use 16 colums
 
 
-[caption id="attachment_721" align="aligncenter" width="590" caption="New York Times: the basic typography is great, but the text has to snake around the 'social' options and the adverts"]![New York Times: the typography is great, but the text has to snake around the 'social' options and the ads](http://leonpaternoster.com/wp-content/uploads/2009/06/nytimes.jpg)[/caption]
+[caption id="attachment_721" align="aligncenter" width="590" caption="New York Times: the basic typography is great, but the text has to snake around the 'social' options and the adverts"]![New York Times: the typography is great, but the text has to snake around the 'social' options and the ads](https://leonpaternoster.com/wp-content/uploads/2009/06/nytimes.jpg)[/caption]
 
 
 ## Putting content first
@@ -45,7 +45,7 @@ So how could we improve online newspaper design?
 ### Organise site content properly
 
 
-The print verisons of newspapers provide a clear, simple pointer as to how online content could be organised. [The Guardian's website](http://guardian.co.uk) has a header navbar with 25 links. The print version is divided into [six clear sections](http://leonpaternoster.com/2008/09/simplifying-the-guardians-header/): news, sport, business, commentary, listings and G2. By dividing the website into a manageable number of sections and exercising a bit more editorial judgment on the front page, readers could be guided through content, and the layout simplified.
+The print verisons of newspapers provide a clear, simple pointer as to how online content could be organised. [The Guardian's website](https://guardian.co.uk) has a header navbar with 25 links. The print version is divided into [six clear sections](https://leonpaternoster.com/2008/09/simplifying-the-guardians-header/): news, sport, business, commentary, listings and G2. By dividing the website into a manageable number of sections and exercising a bit more editorial judgment on the front page, readers could be guided through content, and the layout simplified.
 
 
 ### Rethink comments and commentators and let readers digg/tweet/facebook content themselves
@@ -55,7 +55,7 @@ Some comments are insightful. Lots are not. And it's nearly impossible for reade
 
 Alternatively, online publishers should once again turn to the print world for guidance and moderate comments so that only the representative and/or particularly useful remain. In time, commentators will only comment if they're particularly inspired or knowledgeable enough to do so, and the general quality of the commentary will perhaps increase.
 
-[caption id="attachment_722" align="aligncenter" width="590" caption="The Times. Again, the basic typography is good, but too many columns and too much 'stuff' means the ads have to fight for attention"]![The Times. Again, the basic typography is good, but too many columns and too much 'stuff' means the ads have to fight for attention](http://leonpaternoster.com/wp-content/uploads/2009/06/times.jpg)[/caption]
+[caption id="attachment_722" align="aligncenter" width="590" caption="The Times. Again, the basic typography is good, but too many columns and too much 'stuff' means the ads have to fight for attention"]![The Times. Again, the basic typography is good, but too many columns and too much 'stuff' means the ads have to fight for attention](https://leonpaternoster.com/wp-content/uploads/2009/06/times.jpg)[/caption]
 
 
 ### Give ads proper placement and allow them to mature

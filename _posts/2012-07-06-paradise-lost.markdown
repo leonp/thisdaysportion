@@ -12,7 +12,7 @@ I wonder if I would have enjoyed Paradise Lost if I'd have studied it at sixth f
 
 On the other hand, I don't think I'd have understood it or enjoyed it like I do now.
 
-![The Creation of Man, engraving from the 1688 edition, by John Baptist Medina](http://upload.wikimedia.org/wikipedia/commons/b/b8/MedinaPL3.jpg)
+![The Creation of Man, engraving from the 1688 edition, by John Baptist Medina](https://upload.wikimedia.org/wikipedia/commons/b/b8/MedinaPL3.jpg)
 
 It's surprisingly easy to read. There's a story. And the poetry rumbles round and round, dizzyingly, like a spell.
 

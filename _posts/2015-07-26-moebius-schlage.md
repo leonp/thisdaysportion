@@ -14,7 +14,7 @@ One of the many wonderful things about Cluster was their other worldliness. I me
 
 <div class="vid"><iframe width="853" height="480" src="https://www.youtube.com/embed/fQ8jMR_JTfE?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe></div>
 
-Secondly, the music sits resolutely outside the US and British traditions of experimental rock music. No echo of Bo Diddley, Jerry Lee Lewis or Little Richard, even though Moebius was [amazed when he first heard Chuck Berry](http://blog.frieze.com/interview-dieter-moebius/) and admired the Velvet Underground.
+Secondly, the music sits resolutely outside the US and British traditions of experimental rock music. No echo of Bo Diddley, Jerry Lee Lewis or Little Richard, even though Moebius was [amazed when he first heard Chuck Berry](https://blog.frieze.com/interview-dieter-moebius/) and admired the Velvet Underground.
 
 To Moebius, Elvis was [<i>Schlage</i>](https://en.wikipedia.org/wiki/Schlager_music) (Schlage was West Germany's easy listening. It's slightly disconcerting watching this clip when you consider what was happening in the country just 15&#8211;20 years before):
 

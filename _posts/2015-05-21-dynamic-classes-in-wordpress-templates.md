@@ -9,7 +9,7 @@ _How to generate page specific class names in a WordPress template, making it ea
 
 At work we use WordPress to run our main website. We've built a child theme that includes lots of custom templates so we can build non&#8211;standard of pages.
 
-One such template is `custom-hero.php`. It calls the site header and displays the page excerpt on top of the custom image, should the page author have specified an excerpt and image in the WordPress page editor. You can see it in action on our [Summer Reading Challenge](http://suffolklibraries.co.uk/events-activities/summer-reading-challenge-2015) page.
+One such template is `custom-hero.php`. It calls the site header and displays the page excerpt on top of the custom image, should the page author have specified an excerpt and image in the WordPress page editor. You can see it in action on our [Summer Reading Challenge](https://suffolklibraries.co.uk/events-activities/summer-reading-challenge-2015) page.
 
 If you build a new page you'll get some default styling. The hero image caption has a corporate purple background (`#642D91`) and is positioned in the bottom left of its containing `div`. The page title is centred and inherits the default heading `font-weight`.
 
@@ -21,7 +21,7 @@ One way we could do this is by creating another WordPress custom template (`cust
 
 We want our template to spit out <abbr title="HyperText Markup Language">HTML</abbr> with a static, default set of class names and something dynamically generated that's unique to the page.
 
-Take a look at the `figcaption` classes on the [Summer Reading Challenge](http://suffolklibraries.co.uk/events-activities/summer-reading-challenge-2015) page for an example:
+Take a look at the `figcaption` classes on the [Summer Reading Challenge](https://suffolklibraries.co.uk/events-activities/summer-reading-challenge-2015) page for an example:
 
 `class="sl-hero-splash-text sl-hero-splash-text-summer-reading-challenge-2015"`
 

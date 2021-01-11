@@ -7,7 +7,7 @@ alt: Theresa May projected onto BBC Broadcasting House along with the Tory exit 
 excerpt: "Proper social democracy is back, despite pessimists like me. Time to get behind Jeremy Corbyn unconditionally."
 ---
 
-So Labour wasn’t destroyed and [the Tories failed to even get a parliamentary majority](http://www.bbc.co.uk/news/election/2017/results). Politics changed over the space of a few hours: the Tories made minor gains in the North and Midlands, and Labour went and won [my hometown](http://www.bbc.co.uk/news/politics/constituencies/E14000761) and even traditionally deeply Tory places like [Canterbury](http://www.bbc.co.uk/news/politics/constituencies/E14000619).
+So Labour wasn’t destroyed and [the Tories failed to even get a parliamentary majority](https://www.bbc.co.uk/news/election/2017/results). Politics changed over the space of a few hours: the Tories made minor gains in the North and Midlands, and Labour went and won [my hometown](https://www.bbc.co.uk/news/politics/constituencies/E14000761) and even traditionally deeply Tory places like [Canterbury](https://www.bbc.co.uk/news/politics/constituencies/E14000619).
 
 [I thought the Labour party was in danger of extinction](/2017/04/ge2017/); instead, it’s back and in rude health, apparently reanimated by a combination of new younger voters in university towns, returning UKIP voters and middle class folk who simply liked Corbyn’s message. The Tories are beautifully, utterly _fucked_, hemmed in by a dead leader, its right wing, its remainer left wing, the DUP and a complete lack of talent and ideas beyond being UKIP.
 

@@ -8,7 +8,7 @@ I had 700 words queued up yesterday evening, full of optimism over Syriza and ho
 
 My basic argument was it's time to drop the idealistic _CI will change your life and allow everyone to become artists_ rhetoric and concentrate on specific, practical areas; for example, how CI can make work benefits more efficient and better at helping people work. I thought I'd been very clever and suggested we could even use a bit of _hardworking_ rhetoric around them. The time seemed right for CI.
 
-I even published the damn thing and was about to tweet a link when this [<cite>Guardian</cite> article announced the UK's main CI proponent, Dr Malcolm Torry, had found some serious problems](http://www.theguardian.com/politics/2015/jan/27/green-party-citizens-income-policy-hits-poor) with the maths. Very serious, in fact &#8211; it turns out a fifth of the poorest 20% of the country would be around 10% worse off.
+I even published the damn thing and was about to tweet a link when this [<cite>Guardian</cite> article announced the UK's main CI proponent, Dr Malcolm Torry, had found some serious problems](https://www.theguardian.com/politics/2015/jan/27/green-party-citizens-income-policy-hits-poor) with the maths. Very serious, in fact &#8211; it turns out a fifth of the poorest 20% of the country would be around 10% worse off.
 
 Dr Torry has made [two alternative proposals](hhttps://www.iser.essex.ac.uk/research/publications/working-papers/euromod/em17-14), both of which involve some element of means testing. Of course, the beauty of a 'pure' CI is that there's no means testing at all: everyone gets it.
 

@@ -4,7 +4,7 @@ title: The news isn&#8217;t free but we act as if it is
 category: thinking
 ---
 
-> I really wouldn’t pay for any type of news because as a citizen it’s my right to know the news. &#8212;&thinsp;<cite>[Millennials say keeping up with the news is important to them — but good luck getting them to pay for it](http://www.niemanlab.org/2015/03/millennials-say-keeping-up-with-the-news-is-important-to-them-but-good-luck-getting-them-to-pay-for-it/)</cite>
+> I really wouldn’t pay for any type of news because as a citizen it’s my right to know the news. &#8212;&thinsp;<cite>[Millennials say keeping up with the news is important to them — but good luck getting them to pay for it](https://www.niemanlab.org/2015/03/millennials-say-keeping-up-with-the-news-is-important-to-them-but-good-luck-getting-them-to-pay-for-it/)</cite>
 
 This is idiocy, of course; it assumes the news somehow just exists, free of investigation, interpretation and communication, in the same way as water and oil. In fact, air would provide a better analogy, because we do at least expect to pay for water and oil.
 

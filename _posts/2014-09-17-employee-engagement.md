@@ -6,7 +6,7 @@ category: politics
 
 We had training at work today, where we talked about _employee engagement_; a buzzphrase that seems to have lasted a few years now. Let's define it as how bothered people are about the job they do and who they work for.
 
-The trainers quoted a piece of research I was vaguely familiar with (I think a previous employer contributed): <cite><a href="http://www.engageforsuccess.org/wp-content/uploads/2012/09/file52215.pdf">Engaging for success: Enhancing performance through employee engagement</a></cite> (PDF).
+The trainers quoted a piece of research I was vaguely familiar with (I think a previous employer contributed): <cite><a href="https://www.engageforsuccess.org/wp-content/uploads/2012/09/file52215.pdf">Engaging for success: Enhancing performance through employee engagement</a></cite> (PDF).
 
 You'll probably find the conclusions pretty inane: organisations with engaged employees do better than those whose employees can't be arsed, and lots of UK employees aren't engaged. I think we were meant to be surprised by the fact that less than 30% of workers are &#8220;engaged&#8221; (and 20% are &#8220;actively disengaged&#8221; i.e. dislike their employer so much they're willing to do it harm).
 

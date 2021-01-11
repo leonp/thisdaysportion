@@ -4,7 +4,7 @@ title: Wainright typography
 category: thinking
 ---
 
-Referring to [A Wainright](http://en.wikipedia.org/wiki/Alfred_Wainwright); a rather likeable if somewhat stereotypically uptight Englishman who was famous for writing guides to walking in the Lake District. Mr Wainright visited London once, and didn't like it.
+Referring to [A Wainright](https://en.wikipedia.org/wiki/Alfred_Wainwright); a rather likeable if somewhat stereotypically uptight Englishman who was famous for writing guides to walking in the Lake District. Mr Wainright visited London once, and didn't like it.
 
 <figure class="ma0">
 

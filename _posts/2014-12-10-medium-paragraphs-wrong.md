@@ -16,6 +16,6 @@ Really? I think so. Too much reaching between lines. These big gaps break up the
 
 As a consequence, Medium looks like a Word document, which sits uncomfortably with the cool colours and tasteful typeface (Freight Text). Better, I think, to aim for a space between paragraphs of around half the line height (16 and 28 pixels in my case).
 
-I generally head to Joe Clark for his view on these things, only to find he'd made exactly [the same point a few months back](http://blog.fawny.org/2014/08/27/underlined/), only better. So it goes.
+I generally head to Joe Clark for his view on these things, only to find he'd made exactly [the same point a few months back](https://blog.fawny.org/2014/08/27/underlined/), only better. So it goes.
 
 However, I disagree with using `text-indent` instead of a space, although I couldn't tell you _why_ no space between paragraphs doesn't work for me on a screen.

@@ -30,9 +30,9 @@ It seems that providing services across disparate domains and services has becom
 
 I suspect this will pose the main challenge in my website redesign. Is there anyone out there with experience of dealing with OPACs? I guess screen scraping is an option. Or is there actually a way to do subdomains and separate websites well?
 
- [1]: http://suffolklibraries.co.uk
+ [1]: https://suffolklibraries.co.uk
  [2]: https://librarycatalogue.manchester.gov.uk
  [3]: https://library-opac.birmingham.gov.uk/cgi-bin/spydus.exe/MSGTRN/OPAC/HOME
- [4]: http://nypl.bibliocommons.com/
- [5]: http://www.nngroup.com/articles/top-10-ia-mistakes/
- [6]: http://manchesterdownload.lib.overdrive.com/
+ [4]: https://nypl.bibliocommons.com/
+ [5]: https://www.nngroup.com/articles/top-10-ia-mistakes/
+ [6]: https://manchesterdownload.lib.overdrive.com/

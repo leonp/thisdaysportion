@@ -13,7 +13,7 @@ Libraries exhibit varies degrees of paternalism. I _can_ see why councils block 
 
 More bizarrely, you can't even use Facebook in some library services, presumably because it's not _improving_ enough.
 
-Anyway, we came up with a <a href="http://suffolklibraries.co.uk/help/what-we-filter-on-public-pcs-and-our-wifi-service">_what we block_ policy</a>. I reckon it's about right:
+Anyway, we came up with a <a href="https://suffolklibraries.co.uk/help/what-we-filter-on-public-pcs-and-our-wifi-service">_what we block_ policy</a>. I reckon it's about right:
 
 <blockquote>
 

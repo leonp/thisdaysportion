@@ -12,4 +12,4 @@ A mild co-incidence: after posting [something about Paternoster Square](/2011/02
 
 I say _mild_: Ackroyd's books are often set in the city of London. I guess I may have chosen this one because I'd been thinking about Paternoster Square the day before. On the other hand, it was the only unread book I could find on Monday morning.
 
-Of course, coincidence and cycles are common Ackroyd themes, and it's oddly appropriate that his books have changed so little over time (the first I read was _[Hawksmoor](http://en.wikipedia.org/wiki/Hawksmoor_(novel))_, published in 1985. The time, eh.) There's also conspiracy, cults, piss and shit and violence. Lots of violence. It's a great read.
+Of course, coincidence and cycles are common Ackroyd themes, and it's oddly appropriate that his books have changed so little over time (the first I read was _[Hawksmoor](https://en.wikipedia.org/wiki/Hawksmoor_(novel))_, published in 1985. The time, eh.) There's also conspiracy, cults, piss and shit and violence. Lots of violence. It's a great read.

@@ -3,7 +3,7 @@ title: The end of The Deck
 category: web
 ---
 
-A couple of months ago, Coudal Partners announced [the end of The Deck](http://decknetwork.net/index.php), a web advertising service established back in 2006. In turn, several well known web design/writers wrote [warm obituaries](https://daringfireball.net/2017/03/the_deck_adieu).
+A couple of months ago, Coudal Partners announced [the end of The Deck](https://decknetwork.net/index.php), a web advertising service established back in 2006. In turn, several well known web design/writers wrote [warm obituaries](https://daringfireball.net/2017/03/the_deck_adieu).
 
 The Deck positioned itself away from mainstream online advertising. It didn't track users with javascript or cookies, and the ads themselves were "tasteful", consisting of a small image, short text and a link to the advertiser's landing page. Perhaps most importantly, it operated in a small, fertile _designer_ market and had personal contacts within that market (early beneficiaries were Daring Fireball and kottke.org)
 

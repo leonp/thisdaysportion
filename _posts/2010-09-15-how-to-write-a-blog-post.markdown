@@ -13,11 +13,11 @@ Obvious, but you must want to write stuff. There are literally millions of blogs
 3. **Disatisfaction and annoyance**: whether you're talented, knowledgeable and experienced is largely unimportant; you're unhappy with the state of something and you want to draw attention to it and change it
 
 
-Without one of these motives you're going to find it hard publishing articles. Why not [share your exciting links](http://leonpaternoster.com/2010/03/why-i-dont-like-tumblr-posterous/) with the world by starting a [Tumblog](http://tumblr.com)?
+Without one of these motives you're going to find it hard publishing articles. Why not [share your exciting links](https://leonpaternoster.com/2010/03/why-i-dont-like-tumblr-posterous/) with the world by starting a [Tumblog](https://tumblr.com)?
 
 ## 2. Think about your subject
 
-Assuming you want to write and topics come freely to you,a bit of thinking and [fermentation](http://en.wikipedia.org/wiki/Fermentation_(wine)) time is a good thing. Turn your subject over in your mind and refine the arguments. Does what you're saying make sense? Is it just posturing? Is it worth posting? Should you write about a related subject? What sort of images can you use?
+Assuming you want to write and topics come freely to you,a bit of thinking and [fermentation](https://en.wikipedia.org/wiki/Fermentation_(wine)) time is a good thing. Turn your subject over in your mind and refine the arguments. Does what you're saying make sense? Is it just posturing? Is it worth posting? Should you write about a related subject? What sort of images can you use?
 
 ## 3. Write an outline
 

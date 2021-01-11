@@ -6,7 +6,7 @@ category: politics
 
 Now, we all know a basic citizen income will never happen in the UK, because of <a href="/2013/09/basic-income/">our punitive attitude to benefits</a>. However, it's interesting to look at how it would affect us *if* we actually created a system that supported people regardless of their circumstances. We can but dream.
 
-The following scenarios and figures are based on <a href="http://www.citizensincome.org/MoneyforEveryone.htm">Dr Malcolm Torry's work for the Citizen's Income Trust</a> (see Appendix 16). He claims the proposals are revenue neutral.
+The following scenarios and figures are based on <a href="https://www.citizensincome.org/MoneyforEveryone.htm">Dr Malcolm Torry's work for the Citizen's Income Trust</a> (see Appendix 16). He claims the proposals are revenue neutral.
 
 The state would give every citizen a fixed income regardless of their salary, pension, investment income, age and marital status. Dr Torry proposes income levels based on current income support and pension credit rates:
 
@@ -66,7 +66,7 @@ A citizen income would drastically improve financial security, work and study fl
 
 C brings up three children on their own. Their youngest child has turned 5, which means they have to move to <a href="https://www.gov.uk/employment-support-allowance/what-youll-get">Employment and Support Allowance (ESA)</a> benefit of &pound;71.70 a week.
 
-After 13 weeks they'll be put into a sinisterly named &#8220;work related activity group&#8221; and face sanctions if they don't attend job interviews or do &#8220;work&#8211;related activity&#8221;. <a href="http://www.adviceguide.org.uk/wales/benefits_w/benefits_sick_or_disabled_people_and_carers_ew/employment_and_support_allowance.htm#work-related_activity">Work related activity</a> is work for free (also known as <a href="http://www.boycottworkfare.org/">workfare</a>).
+After 13 weeks they'll be put into a sinisterly named &#8220;work related activity group&#8221; and face sanctions if they don't attend job interviews or do &#8220;work&#8211;related activity&#8221;. <a href="https://www.adviceguide.org.uk/wales/benefits_w/benefits_sick_or_disabled_people_and_carers_ew/employment_and_support_allowance.htm#work-related_activity">Work related activity</a> is work for free (also known as <a href="https://www.boycottworkfare.org/">workfare</a>).
 
 They currently claim &pound;376.11 a month child tax credits and &pound;204.10 child benefit. Total income is &pound;890.91 a month.
 

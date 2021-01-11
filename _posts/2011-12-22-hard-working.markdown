@@ -6,9 +6,9 @@ category: politics
 
 On the division between the _hard–working_ and the jobless.
 
-An excuse for all sorts of outrageous behaviour. The latest is [a change in the housing benefit rules](http://ipswichspy.wordpress.com/2011/12/19/homeless-new-year-threat-of-coalition-benefit-cuts/), which will mean hundreds of unemployed Ipswich people will be £34 a week worse off and, as a consequence, out of their homes.
+An excuse for all sorts of outrageous behaviour. The latest is [a change in the housing benefit rules](https://ipswichspy.wordpress.com/2011/12/19/homeless-new-year-threat-of-coalition-benefit-cuts/), which will mean hundreds of unemployed Ipswich people will be £34 a week worse off and, as a consequence, out of their homes.
 
-Our Tory MP [Ben Gummer](http://www.bengummer.com/) supports this change. Here's his reasoning:
+Our Tory MP [Ben Gummer](https://www.bengummer.com/) supports this change. Here's his reasoning:
 
 
 > In principle I support the government’s proposals as they will restore a degree of fairness to the system. Many employed single people who are not eligible to receive housing benefit have to rent a room in shared accommodation. In some cases, they do so well beyond the age of thirty-five. I do not think it is fair, therefore, that those who depend on benefits can afford to live alone when hard working people who prize their independence and save diligently are prevented from doing so. To continue these high payments to such people is both unfair and unsustainable. Ben Gummer, Ipswich Spy

@@ -14,8 +14,8 @@ Instead, we thought we'd give it a day or two. Just to get used to it.
 
 And we did. Now, whenever I see a smaller TV it feels miniature, like something you'd find in a doll's house. I even ask people if their usual TV has broken.
 
-It's exactly the same with font sizes. Just a few years ago [most websites used 12 pixel body copy](http://leonpaternoster.com/2008/07/smashing-magazines-ideal-blog-layout/). If you see 12 pixels today it looks cramped and dated. And yet we were able to read articles back then.
+It's exactly the same with font sizes. Just a few years ago [most websites used 12 pixel body copy](https://leonpaternoster.com/2008/07/smashing-magazines-ideal-blog-layout/). If you see 12 pixels today it looks cramped and dated. And yet we were able to read articles back then.
 
-Conversely, [when Zeldman started using 24 pixels](http://leonpaternoster.com/2012/04/why-most-websites-are-still-rubbish/) it was like getting a new TV. It felt aggressive. We wanted the old size for a bit. But as more sites use a 20+ pixel font we get used to it.
+Conversely, [when Zeldman started using 24 pixels](https://leonpaternoster.com/2012/04/why-most-websites-are-still-rubbish/) it was like getting a new TV. It felt aggressive. We wanted the old size for a bit. But as more sites use a 20+ pixel font we get used to it.
 
 I think web readers are resilient. Although font size is no doubt related to readability, using 12 pixels won't stop anyone from understanding your text. However, use 20+ pixels and you'll make reading more comfortable. Less work for readers results in a better _experience_.

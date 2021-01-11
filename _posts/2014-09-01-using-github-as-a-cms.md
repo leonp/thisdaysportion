@@ -12,7 +12,7 @@ But then I tried some website edits using Github itself, rather than <a href="/2
 
 At work there's me and a couple of web agents who publish events to the website. We use WordPress as our CMS.
 
-I chose WordPress because a) I know it pretty well and b) there's always a plugin to reach for. We use <a href="http://wp-events-plugin.com/">WP Events Manager</a> extensively, which is very good indeed.
+I chose WordPress because a) I know it pretty well and b) there's always a plugin to reach for. We use <a href="https://wp-events-plugin.com/">WP Events Manager</a> extensively, which is very good indeed.
 
 That's great, but WordPress does pose some fundamental problems; for a start, it's not actually that good for adding and editing content. The whole *posts* terminology, its blogging roots and the messy <em>New post</em> form can confuse editors. I can see why.
 
@@ -56,4 +56,4 @@ All of which sounds relatively simple.
 - *Front matter*. A post often requires just `title` and `layout` fields, but if you were creating an event, you'd need a lot more. Would editors remember what to add, and use the correct format?
 - *Previewing content*. In Github you just write the content and commit &#8211; there's no intermediate stage.
 
-There seems to be a lot that could go wrong in this system, but, if you could get it to work, I think it'd be a really simple and secure way to manage a website. And there's <a href="http://prose.io/#about">Prose</a> to perhaps make it all possible.
+There seems to be a lot that could go wrong in this system, but, if you could get it to work, I think it'd be a really simple and secure way to manage a website. And there's <a href="https://prose.io/#about">Prose</a> to perhaps make it all possible.
