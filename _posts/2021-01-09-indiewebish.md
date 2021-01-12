@@ -40,6 +40,8 @@ None, really. I get the odd reply to an autoposted tweet, nowt through `micro.bl
 
 I _should_ really host any conversation on my website via good old comment forms; again, this would be a lot simpler with a `wordpress.com` website, and it’s something I did back in 2008-13. I’m planning to use the [Netlify forms API](https://open-api.netlify.com/#tag/form) to implement comments on this static site (yet more tinkering), and then I want to handle _all_ responses via [webmentions](https://indieweb.org/webmention.io), obviating the need to use Twitter at all.
 
+(**Update**: I have rigged up a Netlify forms, Zapier, Airtable comments system. Try it out below!)
+
 I’ve not really been bothered about comments and replies for a while – I locked my Twitter account several years back, which limits any response to posts to your current followers. The _why_ of posting itself is a different question.
 
 

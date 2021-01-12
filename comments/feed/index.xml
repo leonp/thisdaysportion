@@ -1,0 +1,31 @@
+---
+layout: empty
+hide: true
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title type="text" xml:lang="en">Comments feed — This day’s portion</title>
+    <description>An RSS feed for all comments made on This Day’s Portion.</description>
+    <link type="application/atom+xml" href="https://www.thisdaysportion.com/comments/feed/index.xml" rel="self"/>
+    <link type="text/html" href="https://www.thisdaysportion.com" rel="alternate"/>
+    <updated>{{ site.time | date_to_xmlschema }}</updated>
+    <id>https://www.thisdaysportion.com/</id>
+    <author><name>This day’s portion — Leon Paternoster</name></author>
+    <rights>Copyright (c) Leon Paternoster</rights>
+    <docs>https://www.thisdaysportion.com/about/what-is-rss/</docs>
+
+    {% assign all_airtable_comments = site.data.airtable_comments.records %}
+
+    {% for entry in all_airtable_comments %}
+
+          <entry>
+              <title>{{ entry.fields.Name }} on {{ entry.fields.slug }}</title>
+              <link href="{{ entry.fields.uri }}#{{ entry.id }}"/>
+              <updated>{{ entry.createdTime | date_to_xmlschema }}</updated>
+              <id>{{ entry.fields.id }}</id>
+              <content type="html">{{ entry.fields.comment | strip_html | markdownify | xml_escape }}</content>
+          </entry>
+
+    {% endfor %}
+
+</feed>

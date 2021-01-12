@@ -45,7 +45,7 @@
 
     <article class="pa2 ba b--moon-gray mb3">
 
-      <h4 class="f5 mt0 mb1">{{ comment.fields.Name }}</h4>
+      <h4 id="{{ comment.id }}" class="f5 mt0 mb1">{{ comment.fields.Name }}</h4>
 
       <p class="mt0 mb1 f7">{{ comment.createdTime | date: "%-d %b, %Y" }}</p>
 
