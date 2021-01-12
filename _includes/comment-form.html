@@ -18,8 +18,8 @@
   <label for="website" class="db f7 lh-title mb1">Your website</label>
   <input autocapitalize="none" class="border-box pa1 c-sans-serif ba b--moon-gray db mb3 w-100" type="text" name="website" id="website">
 
-  <label for="comment" class="db f7 lh-title mb1">Message <span class="dark-red">*</span></label>
-  <textarea required class="border-box pa1 c-sans-serif ba b--moon-gray db mb2 vh-50 vh-25-ns w-100" name="comment" id="comment"></textarea>
+  <label for="comment" class="db f7 lh-title mb1">Comment <span class="dark-red">*</span> (use <a href="https://www.markdownguide.org/cheat-sheet/">Markdown</a> to format text)</label>
+  <textarea required class="border-box pa1 ba b--moon-gray db mb2 vh-50 vh-25-ns w-100 c-monospace" name="comment" id="comment"></textarea>
 
   <input name="slug" hidden class="dn" value="{{ page.slug }}">
 
@@ -33,7 +33,7 @@
 
 {% assign comments_present = false %}
 
-{% assign all_airtable_comments = site.data.airtable_comments.records %}
+{% assign all_airtable_comments = site.data.airtable_comments.records | sort: "createdTime" | reverse %}
 
 {% for comment in all_airtable_comments %}
 
@@ -47,7 +47,7 @@
 
       <h4 id="{{ comment.id }}" class="f5 mt0 mb1">{{ comment.fields.Name }}</h4>
 
-      <p class="mt0 mb1 f7">{{ comment.createdTime | date: "%-d %b, %Y" }}</p>
+      <p class="mt0 mb1 f7">{{ comment.createdTime | date: "%-d %b, %Y %H:%M" }}</p>
 
       {{ comment.fields.comment | strip_html | markdownify }}
 

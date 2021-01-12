@@ -7,6 +7,7 @@
     --measure: 30rem;
     --sans-serif: "Public Sans", -apple-system, BlinkMacSystemFont, "segoe ui", "helvetica neue", helvetica, ubuntu, roboto, noto, sans-serif;
     --serif: georgia, serif;
+    --monospace: "IBM Plex Mono", "Fira Code", "Menlo", "Courier New", monospace;
     --accent: #357EDD;  // Tachyons dark-pink
     --link: #000;
     --hover: #357EDD; // Tachyons dark-pink
@@ -46,6 +47,10 @@
 
 .c-serif {
     font-family: var(--serif);
+}
+
+.c-monospace {
+    font-family: var(--monospace);
 }
 
 .c-bg-accent {
@@ -263,7 +268,7 @@ figure {
 
 code {
     font-size: 0.875em;
-    font-family: "Fira Mono", "IBM Plex Mono", Consolas, Menlo, "Courier New", monospace;
+    font-family: var(--monospace);
     color: var(--accent);
 }
 
