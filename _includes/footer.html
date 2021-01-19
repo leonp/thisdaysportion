@@ -10,7 +10,9 @@
 
         </footer>
 
-        <script src="/js/jekyll-search.js"></script>
+        {% if page.is_search %}
+
+        <script src="/js/jekyll-search.min.js"></script>
         <script>
 			var sjs = SimpleJekyllSearch({
 			searchInput: document.getElementById('search-input'),
@@ -20,6 +22,8 @@
 			noResultsText: 'No results, I’m afraid. Check your spelling or try a different word or phrase.'
 			})
 		</script>
+
+		{% endif %}
 
     </body>
 

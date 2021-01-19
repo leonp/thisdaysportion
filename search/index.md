@@ -8,6 +8,7 @@ visited-links: true
 prose-headings: true
 underlined-links: true
 hyphens: true
+is_search: true
 ---
 
 <form class="mb3">
