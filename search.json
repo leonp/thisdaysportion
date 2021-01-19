@@ -1,0 +1,21 @@
+---
+layout: none
+---
+
+{% assign notes = site.notes | reverse %}
+{% assign links = site.links | reverse %}
+{% assign posts = site.posts %}
+
+{% assign everything = notes | concat: links | concat: posts | sort: "date" | reverse %}
+
+
+[
+  {% for entry in everything %}
+    {
+      "title"    : "{{ entry.title | escape }}",
+      "url"      : "{{ entry.url }}",
+      "date"     : "{{ entry.date }}",
+      "content"  : "{{ entry.content | strip_html | url_encode }}"
+    } {% unless forloop.last %},{% endunless %}
+  {% endfor %}
+]

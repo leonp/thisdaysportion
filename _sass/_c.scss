@@ -347,6 +347,17 @@ blockquote {
   padding-top: 0.5rem;
 }
 
+// Serach results
+
+#results-container li {
+    font-size: 1.25rem;
+}
+
+#results-container li a {
+    display: block;
+    padding: 0.25rem 0;
+}
+
 
 } // End the enclosing screen/projection media query
 

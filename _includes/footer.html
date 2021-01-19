@@ -10,6 +10,17 @@
 
         </footer>
 
+        <script src="/js/jekyll-search.js"></script>
+        <script>
+			var sjs = SimpleJekyllSearch({
+			searchInput: document.getElementById('search-input'),
+			resultsContainer: document.getElementById('results-container'),
+			json: '/search.json',
+			searchResultTemplate: '<div class="mb3"><div class="mb1"><a class="db pv1" href="{url}">{title}</a></div></div>',
+			noResultsText: 'No results, I’m afraid. Check your spelling or try a different word or phrase.'
+			})
+		</script>
+
     </body>
 
 </html>
