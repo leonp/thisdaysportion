@@ -199,10 +199,9 @@ article a:focus {
     padding-right: var(--ph);
 }
 
-.c-bleed {
-    /* max-width: calc(100% + var(--ph) * 2);
-    margin-left: calc(var(--ph) - (var(--ph) * 2)); */
-    max-width: calc(100vw - var(--ph));
+.c-constrain-most .c-bleed {
+    max-width: calc(100% + var(--ph) * 2);
+    margin-left: calc(var(--ph) - (var(--ph) * 2));
 }
 
 .c-bleed-full {
