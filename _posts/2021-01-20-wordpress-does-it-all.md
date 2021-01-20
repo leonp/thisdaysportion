@@ -4,7 +4,7 @@ category: web
 sub: "It’d be quite cool reading about someone making the journey from, say, Gatsby, to the exciting blogging platform known as WordPress. Better still, it’d be good writing something that wasn’t about making a static site do all the things that WordPress does without any effort."
 ---
 
-I was about to write a post about implementing search on a static site, this after spending a day implementing a rustic comments system on a static site.
+I was going to write a post about implementing search on a static site, this after spending a day implementing a rustic comments system on a static site.
 
 (Incidentally, actual _search_ on static sites, as opposed to javascript fuelled filtering, is really quite poor compared to sending a traditional search query to a database and getting some more or less relevant results back.)
 
