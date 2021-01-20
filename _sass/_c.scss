@@ -200,8 +200,9 @@ article a:focus {
 }
 
 .c-bleed {
-    max-width: calc(100% + var(--ph) * 2);
-    margin-left: calc(var(--ph) - (var(--ph) * 2));
+    /* max-width: calc(100% + var(--ph) * 2);
+    margin-left: calc(var(--ph) - (var(--ph) * 2)); */
+    max-width: calc(100vw - var(--ph));
 }
 
 .c-bleed-full {
@@ -211,6 +212,23 @@ article a:focus {
 
 .c-sticky {
     position: sticky;
+}
+
+.c-constrain-most * {
+    max-width: var(--measure);
+}
+
+.c-constrain-most figure,
+.c-constrain-most img,
+.c-constrain-most .vid,
+.c-constrain-most .constrain,
+.c-constrain-most .vid iframe,
+.c-constrain-most .vid object,
+.c-constrain-most .vid embed,
+.c-constrain-most .constrain iframe,
+.c-constrain-most .constrain object,
+.c-constrain-most .constrain embed {
+    max-width: 100%;
 }
 
 @media #{$breakpoint-not-small} {
@@ -393,6 +411,7 @@ h6 {
 
 img {
   max-width: 100% !important;
+  margin: 0;
   height: auto !important;
 }
 
