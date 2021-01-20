@@ -3,14 +3,16 @@
 <article class="h-entry">
 
   <header class="mt4 mt5-l mb4">
-    
-    <h1 class="f4 f3-ns c-sans-serif ma0 p-name">{{ page.title }}</h1>
 
-    <p class="mb0 f6"><span role="img" aria-label="Comment bubble">💬</span> <a href="#commentary">Comments</a></p>
+    <div class="f6 c-lh-title"><a class="pv1" href="/">Home</a> → <a class="pv1" href="/notes/">Notes</a></div>
+    
+    <h1 class="mt2 f4 f3-ns c-sans-serif ma0 p-name">{{ page.title }}</h1>
+
+    <p class="mb0 f6"><time datetime="{{ page.date | date: "%Y-%m-%d" }}">{{ page.date | date: "%-d %b, %Y" }}</time> / <span role="img" aria-label="Comment bubble">💬</span> <a href="#commentary">Comments</a></p>
 
   </header>
 
-  <div class="c-measure">
+  <div class="c-constrain-most">
 
   {{ content }}
 
@@ -19,8 +21,6 @@
   <footer class="f6 mt4">
 
       <div class="c-measure">
-
-        <p>– <time datetime="{{ page.date | date: "%Y-%m-%d" }}">{{ page.date | date: "%-d %b, %Y" }}</time> / <a href="/notes/">Notes</a></p></p>
 
         {% include comment-form.html %}
 

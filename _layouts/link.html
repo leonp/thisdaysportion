@@ -4,9 +4,11 @@
 
     <header class="mt4 mt5-l mb4">
 
-        <h1 class="f4 f3-ns c-sans-serif ma0 p-name"><a href="{{ page.link-url }}" class="db">{{ page.title }}</a></h1>
+        <div class="f6 c-lh-title"><a class="pv1" href="/">Home</a> → <a class="pv1" href="/links/">Links</a></div>
 
-        <p class="mb0 f6"><span role="img" aria-label="Comment bubble">💬</span> <a href="#commentary">Comments</a></p>
+        <h1 class="mt2 f4 f3-ns c-sans-serif ma0 p-name"><a href="{{ page.link-url }}" class="db">{{ page.title }}</a></h1>
+
+        <p class="mb0 f6"><time datetime="{{ page.date | date: "%Y-%m-%d" }}">{{ page.date | date: "%-d %b, %Y" }}</time> / <span role="img" aria-label="Comment bubble">💬</span> <a href="#commentary">Comments</a></p>
 
     </header>
 
@@ -22,7 +24,7 @@
 
             <p>Permalink: <strong><a href="{{ page.link-url }}">{{ page.title }}</a></strong></p>
 
-            <p class="f7">{% if page.link-published %}Originally published <time class="dt-published" datetime="{{ page.link-published | date: "%Y-%m-%d" }}">{{ page.link-published | date: "%b %-d, %Y" }}</time>{% endif %}{% if page.link-author %} by {{ page.link-author }} / {% endif %}<a href="/links/">Links</a></p>
+            <p class="f7">{% if page.link-published %}Originally published <time class="dt-published" datetime="{{ page.link-published | date: "%Y-%m-%d" }}">{{ page.link-published | date: "%-d %b, %Y" }}</time>{% endif %}{% if page.link-author %} by {{ page.link-author }} / {% endif %}<a href="/links/">Links</a></p>
 
             {% include comment-form.html %}
 
