@@ -2,7 +2,7 @@
 title: The Investigation – the best Scandinoir drama for ages
 ---
 
-Fuck me, ten years ago _to the day_ I was blogging about [a brilliant new Danish drama called <cite>The Killing</cite>](/posts/the-killing-forbrydelsen/).
+Blimey, ten years ago _to the day_ I was blogging about [a brilliant new Danish drama called <cite>The Killing</cite>](/posts/the-killing-forbrydelsen/).
 
 Since then, _most_ TV noir, regardless of where it’s from, has become dull: clichéd, unpleasant and downright pornographic in its glorification of serial killers and imprisoned women. But [<cite>The Investigation</cite>](https://www.bbc.co.uk/iplayer/episodes/p09343kb/the-investigation), which debuted on BBC Two last night, looks like it might be up there with <cite>The Killing</cite>.
 
