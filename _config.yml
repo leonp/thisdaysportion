@@ -1,3 +1,8 @@
+# NB: this site is available on Github
+# It’s not a theme, so if you are using it
+# You’ll need to play around with/remove
+# Some of these settings
+
 lang: "en"
 title: "This day’s portion"
 author: "Leon Paternoster" # for blog post attribution
@@ -10,6 +15,8 @@ microblog: https://micro.blog/leonp/
 webmention-pingback: https://webmention.io/www.thisdaysportion.com/xmlrpc
 webmention-mention: https://webmention.io/www.thisdaysportion.com/webmention
 me: https://micro.blog/leonp/
+
+# Some logomark settings. See header.html include to see what this does.
 # logomark: ✩
 # logoalt: "Star logo"
 
@@ -55,7 +62,7 @@ plugins:
 # Enable is_homepost test for posts
 # Enable is_page test for pages
 # Enable is_home test for home page
-# Use {% if page.is_post %} etc.
+# Use {% if page.is_post %}, {% if page.is_note %} etc.
 defaults:
 -
     scope:
@@ -104,6 +111,17 @@ exclude:
 - vendor/cache/
 - vendor/gems/
 - vendor/ruby/
+
+
+# PLUGIN SETTINGS
+# YOU MAY NOT NEED THESE!
+
+# jekyll-get-json fetches comments from an Airtable API
+# Data Page Generator enables page creation from Jekyll data collections
+# Because Jekyll doesn’t allow page creation from data 🤷
+# I only need this if I’m fetching posts from
+# the WordPress or micro.blog APIs
+# You can see it in action at /microblog
 
 
 # Site configuration for the Jekyll 3 Pagination Gem
@@ -163,7 +181,7 @@ pagination:
   # Without file extension
   indexpage: 'index'
 
-# jekyll-get-api settings
+# jekyll-get-json settings
 jekyll_get_json:
   - data: wp_posts
     json: 'https://public-api.wordpress.com/wp/v2/sites/kjzabc.wordpress.com/posts?per_page=100'
