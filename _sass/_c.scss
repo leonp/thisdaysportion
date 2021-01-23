@@ -219,6 +219,7 @@ article a:focus {
 
 .c-constrain-most figure,
 .c-constrain-most img,
+.c-constrain-most pre,
 .c-constrain-most .vid,
 .c-constrain-most .constrain,
 .c-constrain-most .vid iframe,
@@ -291,9 +292,9 @@ code {
 
 pre {
     overflow: auto;
-    padding: 0.25em;
+    padding: 1em;
     background-color: #000;
-    color: #FFA3D7; // Tachyons light-pink
+    color: #9EEBCF; // Tachyons light-green
 }
 
 pre code {
