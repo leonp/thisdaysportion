@@ -13,9 +13,9 @@ You’re free to use this site however you like, with the following provisos:
 
 This repo contains a ton of personalisations that I’d either remove or make into global variables if it was a Jekyll theme. I use Github and Netlify to manage and host the site, so there are a few settings that help get that working.
 
-I’d certainly be a bit more assisduous about using global variables to create things like the RSS feeds. You have been warned.
+I’d certainly be a bit more assisduous about using global variables to create things like the RSS feeds, and I’d use a few more `if so and so exists then print so and so` wrappers. You have been warned.
 
-If you do want to use it for your own website, you’ll need to make some changes so you don’t end up doing things like displaying comments from [This Days Portion](https://www.thisdaysportion.com).
+If you do want to use it for your own website, you’ll need to make some changes so you don’t end up doing things like displaying comments from [This Day’s Portion](https://www.thisdaysportion.com).
 
 The *_config.yml_* file is relatively well commented, so that should help you. The `_includes` folder is self-explanatory.
 
