@@ -13,7 +13,7 @@ is_search: true
 
 <label for="search-input" class="db f7 mb1">Type some words for instant search results:</label>
 
-<input type="text" autocapitalize="off" name="search-input" id="search-input" class="f5 w-100 c-sans-serif border-box ph1 pv2 ba b--light-silver c-remove-ios-borders">
+<input type="text" autocapitalize="off" name="search-input" id="search-input" class="c-bg c-bg-search f4-ns w-100 c-sans-serif border-box pl4 pr1 pv2 ba b--light-silver c-remove-ios-borders">
 
 </form>
 

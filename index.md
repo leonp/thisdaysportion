@@ -7,6 +7,7 @@ sub: Notebooks out! I’m Leon, and this is where I publish non-work articles, p
 display-title: "This day’s portion"
 nav-title: "Home"
 is_home: true
+is_wide: true
 ---
 
 ## Latest

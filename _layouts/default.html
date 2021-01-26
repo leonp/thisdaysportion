@@ -22,7 +22,7 @@
 
     {% endunless %}
 
-    <div class="c-measure {% if page.hide-title %} pt3{% endif %}">
+    <div class="{% if page.is_wide %}c-constrain-most{% else %}c-measure{% endif %}{% if page.hide-title %} pt3{% endif %}">
 
       {{ content }}
 

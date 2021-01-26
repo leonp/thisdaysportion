@@ -227,7 +227,8 @@ article a:focus {
 .c-constrain-most .vid embed,
 .c-constrain-most .constrain iframe,
 .c-constrain-most .constrain object,
-.c-constrain-most .constrain embed {
+.c-constrain-most .constrain embed,
+.🦉 .c-constrain-most * {
     max-width: 100%;
 }
 
@@ -271,6 +272,16 @@ article a:focus {
 .c-remove-ios-borders {
     -webkit-appearance: none;
     border-radius: 0;
+}
+
+.c-bg {
+    background-repeat: no-repeat;
+    background-size: 1em;
+    background-position: center left;
+}
+
+.c-bg-search {
+    background-image: url(/images/icons/search.svg);
 }
 
 

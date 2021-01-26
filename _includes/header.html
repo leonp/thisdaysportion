@@ -107,7 +107,7 @@
 
     </head>
 
-    <body class="ma0 pa0 c-background c-foreground c-sans-serif">
+    <body class="ma0 pa0 c-background c-foreground c-sans-serif {% if page.is_home %}🦉{% else %}{{ page.url }}{% endif %}">
 
         <a class="f6 c-target c-no-print pv2 c-ph clip dib" href="#content">Skip to content</a>
 
