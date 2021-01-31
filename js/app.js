@@ -1,0 +1,1 @@
+document.getElementById('home').classList.toggle('c-no-js');

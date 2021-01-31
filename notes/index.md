@@ -11,5 +11,3 @@ underlined-links: true
 hyphens: true
 annualised: true
 ---
-
-{% include search-form.html %}

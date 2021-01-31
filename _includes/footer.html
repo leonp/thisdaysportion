@@ -16,14 +16,10 @@
 			searchInput: document.getElementById('search-input'),
 			resultsContainer: document.getElementById('results-container'),
 			json: '/search.json',
-			searchResultTemplate: '<div class="bg-dark-blue hover-bg-dark-gray white bt b--white"><a class="db pa2 white hover-white no-underline" href="{url}">{title}</a></div>',
-			noResultsText: '<div class="bg-light-gray pa2">No results, I’m afraid. Check your spelling or try a different word or phrase.</div>'
+			searchResultTemplate: '<div role="option" class="bg-dark-blue hover-bg-dark-gray white bt b--white"><a class="db pa2 white hover-white no-underline" href="{url}">{title}</a></div>',
+			noResultsText: '<div class="bg-dark-blue white pa2">No results, I’m afraid. Check your spelling or try a different word or phrase.</div>'
 			})
 		</script>
-
-		<script>
-            document.body.className += " c-js";
-        </script>
 
     </body>
 

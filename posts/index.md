@@ -7,5 +7,3 @@ order: 3
 in_nav: true
 annualised: true
 ---
-
-{% include search-form.html %}

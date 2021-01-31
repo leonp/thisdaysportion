@@ -88,8 +88,12 @@
     box-sizing: content-box;
 }
 
-.c-max-vh-50 {
+.c-max-vh-10 {
     max-height: 10em;
+}
+
+.c-no-js .c-hide-if-no-js {
+    display: none;
 }
 
 html {
