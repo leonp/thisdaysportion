@@ -103,13 +103,16 @@
         <link href="/css/style.css" rel="stylesheet">
         {% endif %}
 
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@0,400;0,700;0,900;1,400&display=swap" rel="stylesheet">
+
         <script src="/js/alpine.min.js"></script>
 
         <!-- ~ Hullo. I would make this a Liquid include if I wanted to preload some fonts 🦉 -->
 
     </head>
 
-    <body class="ma0 pa0 c-background c-foreground c-sans-serif {% if page.is_home %}🦉{% else %}{{ page.slug }}{% endif %}">
+    <body class="ma0 pa0 c-background c-foreground c-serif {% if page.is_home %}🦉{% else %}{{ page.slug }}{% endif %}">
 
         <a class="f6 c-target c-no-print pv2 c-ph clip dib" href="#content">Skip to content</a>
 

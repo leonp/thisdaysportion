@@ -4,9 +4,9 @@
     --ph: 7.5vw;
     --pr: 7.5vw;
     --pl: 7.5vw;
-    --measure: 30rem;
+    --measure: 33rem;
     --sans-serif: "Public Sans", -apple-system, BlinkMacSystemFont, "segoe ui", "helvetica neue", helvetica, ubuntu, roboto, noto, sans-serif;
-    --serif: georgia, serif;
+    --serif: "Source Serif Pro", georgia, serif;
     --monospace: "IBM Plex Mono", "Fira Code", "Menlo", "Courier New", monospace;
     --accent: #357EDD;  // Tachyons dark-pink
     --link: #000;
@@ -81,8 +81,8 @@
 }
 
 html {
-    font-size: 106.25%;
-    font-size: clamp(106.25%, 2.3vw, 118.75%);
+    font-size: 118.75%;
+    font-size: clamp(118.75%, 2.3vw, 125%);
     scroll-behavior: smooth;
 }
 
@@ -146,7 +146,8 @@ article dt,
 .c-headings dt {
     margin-top: 2.25rem;
     margin-bottom: 0;
-    font-family: var(--sans-serif);
+    font-family: var(--serif);
+    font-weight: 900;
 }
 
 article h2,
