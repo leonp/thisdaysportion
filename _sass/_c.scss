@@ -80,6 +80,14 @@
     columns: 2;
 }
 
+.c-outline-offset {
+    outline-offset: 0.5em;
+}
+
+.c-content-box {
+    box-sizing: content-box;
+}
+
 html {
     font-size: 118.75%;
     font-size: clamp(118.75%, 2.3vw, 125%);
@@ -278,11 +286,11 @@ article a:focus {
 .c-bg {
     background-repeat: no-repeat;
     background-size: 1em;
-    background-position: center left;
 }
 
 .c-bg-search {
     background-image: url(/images/icons/search.svg);
+    background-position: 0.375em;
 }
 
 

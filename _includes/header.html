@@ -93,6 +93,8 @@
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@0,400;0,700;0,900;1,400&display=swap" rel="stylesheet">
 
+        <script src="/js/alpine.min.js" defer></script>
+
         <!-- ~ Hullo. I would make this a Liquid include if I wanted to preload some fonts 🦉 -->
 
     </head>
@@ -101,23 +103,43 @@
 
         <a class="f6 c-target c-no-print pv2 c-ph clip dib" href="#content">Skip to content</a>
 
-        <header class="f6 bg-light-gray bb b--moon-gray c-no-print flex-l items-center">
+        <header class="f6 bg-light-gray bb b--moon-gray c-no-print c-ph">
 
-            <div class="c-pl bb b--moon-gray bn-l"><a href="/" rel="index" class="dib pv2 pv3-ns b mr3-l">This day’s portion</a></div>
+            <div class="flex-l justify-between-l items-center">
 
-            <nav class="c-ph flex items-center">
+                <div class="w-60-l flex-l">
 
-                {% assign pages = site.pages | where: "in_nav", true | sort: "order" %}
+                    <div class="mr3-l bb b--moon-gray bn-l"><a href="/" rel="index" class="dib pv2 pv3-ns b">This day’s portion</a></div>
 
-                {% for this_page in pages %}
+                    <nav class="mr3-l flex items-center">
 
-                    <a href="{{ this_page.url }}" class="dib pv2 pv3-ns mr2 mr3-ns{% if this_page.url == page.url %} c-accent{% endif %}">{{ this_page.title }}</a>
+                        {% assign pages = site.pages | where: "in_nav", true | sort: "order" %}
 
-                {% endfor %}
+                        {% for this_page in pages %}
 
-                <a class="dib pv2 pv3-ns" href="/feed/index.xml">RSS</a>
+                            <a href="{{ this_page.url }}" class="dib pv2 pv3-l mr2 mr3-ns{% if this_page.url == page.url %} c-accent{% endif %}">{{ this_page.title }}</a>
 
-            </nav>
+                        {% endfor %}
+
+                        <a class="dib pv2 pv3-l" href="/feed/index.xml">RSS</a>
+
+                    </nav>
+
+                </div>
+
+                <form class="w-40-l pb3 pb0-l tr-l relative">
+
+                    <label for="search-input" class="clip db f7 mb1">Type some words for instant search results:</label>
+
+                    <input type="text" autocapitalize="off" name="search-input" id="search-input" class="c-bg c-bg-search w-100 c-sans-serif pl4 pr1 pv1 ba b--light-silver c-remove-ios-borders">
+
+                    <div class="mb2 tl absolute w-100 left-0 top-1 c-sans-serif" id="results-container">
+
+                    </div>
+
+                </form>
+
+            </div>
 
         </header>
 

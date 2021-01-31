@@ -10,20 +10,16 @@
 
         </footer>
 
-        {% if page.is_search %}
-
         <script src="/js/jekyll-search.min.js"></script>
         <script>
 			var sjs = SimpleJekyllSearch({
 			searchInput: document.getElementById('search-input'),
 			resultsContainer: document.getElementById('results-container'),
 			json: '/search.json',
-			searchResultTemplate: '<div class="mb3"><div class="mb1"><a class="db pv1" href="{url}">{title}</a></div></div>',
-			noResultsText: 'No results, I’m afraid. Check your spelling or try a different word or phrase.'
+			searchResultTemplate: '<div class="bg-dark-blue hover-bg-dark-gray white bt b--white"><a class="db pa2 white hover-white no-underline" href="{url}">{title}</a></div>',
+			noResultsText: '<div class="bg-light-gray pa2">No results, I’m afraid. Check your spelling or try a different word or phrase.</div>'
 			})
 		</script>
-
-		{% endif %}
 
 		<script>
             document.body.className += " c-js";
