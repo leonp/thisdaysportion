@@ -1,6 +1,6 @@
 ---
 
-title: Murder in the cathedral &#8211; on Labour's tragedy (more Hamlet, really)
+title: Murder in the cathedral – on Labour's tragedy (more Hamlet, really)
 category: politics
 ---
 

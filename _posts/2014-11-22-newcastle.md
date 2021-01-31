@@ -1,6 +1,5 @@
 ---
-title: Newcastle, Sports Direct &amp; Wonga &#8211; I'm not a huge fan
-
+title: Newcastle, Sports Direct and Wonga – a working class club
 category: politics
 ---
 

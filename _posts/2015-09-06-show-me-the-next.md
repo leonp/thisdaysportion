@@ -1,6 +1,6 @@
 ---
 
-title: Show me the Next &#8211; genius concept, needs better content
+title: Show me the Next – genius concept, needs better content
 category: web
 ---
 

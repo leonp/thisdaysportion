@@ -1,6 +1,6 @@
 ---
 
-title: Container housing &#8211; Right solution, wrong problem
+title: Container housing – Right solution, wrong problem
 category: politics
 ---
 

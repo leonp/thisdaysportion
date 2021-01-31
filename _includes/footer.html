@@ -16,8 +16,9 @@
 			searchInput: document.getElementById('search-input'),
 			resultsContainer: document.getElementById('results-container'),
 			json: '/search.json',
-			searchResultTemplate: '<div role="option" class="bg-dark-blue hover-bg-dark-gray white bt b--white"><a class="db pa2 white hover-white no-underline" href="{url}">{title}</a></div>',
-			noResultsText: '<div class="bg-dark-blue white pa2">No results, I’m afraid. Check your spelling or try a different word or phrase.</div>'
+			searchResultTemplate: '<div role="option" class="f6 bg-light-gray bt b--light-silver"><a class="db pv1 ph2" href="{url}">{title}</a><time class="f7 db ph2 pb2">{date}</time></div>',
+			noResultsText: '<div class="bg-light-gray pa2">No results, I’m afraid. Check your spelling or try a different word or phrase.</div>',
+			limit: '20'
 			})
 		</script>
 
