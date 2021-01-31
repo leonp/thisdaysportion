@@ -88,6 +88,10 @@
     box-sizing: content-box;
 }
 
+.c-max-vh-50 {
+    max-height: 10em;
+}
+
 html {
     font-size: 118.75%;
     font-size: clamp(118.75%, 2.3vw, 125%);

@@ -103,13 +103,13 @@
 
         <a class="f6 c-target c-no-print pv2 c-ph clip dib" href="#content">Skip to content</a>
 
-        <header class="f6 bg-light-gray bb b--moon-gray c-no-print c-ph">
+        <header class="f6 bg-light-gray bb b--moon-gray c-sans-serif c-no-print c-ph">
 
             <div class="flex-l justify-between-l items-center">
 
                 <div class="w-60-l flex-l">
 
-                    <div class="mr3-l bb b--moon-gray bn-l"><a href="/" rel="index" class="dib pv2 pv3-ns b">This day’s portion</a></div>
+                    <div class="mr3-l bb b--moon-gray bn-l"><a href="/" rel="index" class="dib pv2 b">This day’s portion</a></div>
 
                     <nav class="mr3-l flex items-center">
 
@@ -117,11 +117,11 @@
 
                         {% for this_page in pages %}
 
-                            <a href="{{ this_page.url }}" class="dib pv2 pv3-l mr2 mr3-ns{% if this_page.url == page.url %} c-accent{% endif %}">{{ this_page.title }}</a>
+                            <a href="{{ this_page.url }}" class="dib pv2 mr2 mr3-ns{% if this_page.url == page.url %} c-accent{% endif %}">{{ this_page.title }}</a>
 
                         {% endfor %}
 
-                        <a class="dib pv2 pv3-l" href="/feed/index.xml">RSS</a>
+                        <a class="dib pv2" href="/feed/index.xml">RSS</a>
 
                     </nav>
 
@@ -133,7 +133,7 @@
 
                     <input type="text" autocapitalize="off" name="search-input" id="search-input" class="c-bg c-bg-search w-100 c-sans-serif pl4 pr1 pv1 ba b--light-silver c-remove-ios-borders">
 
-                    <div class="mb2 tl absolute w-100 left-0 top-1 c-sans-serif" id="results-container">
+                    <div class="mb2 tl absolute w-100 left-0 top-1 c-sans-serif c-max-vh-50 overflow-x-hidden overflow-y-scroll" id="results-container">
 
                     </div>
 
