@@ -20,7 +20,7 @@
         <meta name="robots" content="noindex, nofollow">
         {% endif %}
 
-        {% if page.is_post %}
+        {% if page.is_post or page.is_note or page.is_link %}
         <meta name="twitter:card" content="summary" />
         <meta name="twitter:site" content="@leonpaternoster" />
         <meta name="twitter:title" content="{{ page.title }}" />
@@ -35,27 +35,12 @@
         {% endif %}
         {% endif %}
 
-        {% if page.is_link %}
-        <meta name="twitter:card" content="summary" />
-        <meta name="twitter:site" content="@leonpaternoster" />
-        <meta name="twitter:title" content="{{ page.title }}" />
-        {% if page.description %}
-        <meta name="twitter:description" content="{{ page.description }}" />
-        {% else %}
-        <meta name="twitter:description" content="{{ page.excerpt  | strip_html }}" />
-        {% endif %}
-        {% if page.img %}
-        <meta name="twitter:image" content="https://www.thisdaysportion.com/images/{{ page.img }}" />
-        <meta name="twitter:image:alt" content="{{ page.alt }}" />
-        {% endif %}
-        {% endif %}
-
-        {% if page.is_post %}
+        {% if page.is_post or page.is_note or page.is_link %}
         <link rel="schema.DCTERMS" href="https://purl.org/dc/terms/">
         <meta name="DC.Title" content="{{ page.title}}">
         <meta name="DC.Creator" content="Leon Paternoster">
         <meta name="DC.Subject" content="{% if page.subject %}{{ page.subject }}{% else %}{{ page.category | capitalize }}{% endif %}">
-        {% if page.description %}<meta name="DC.Description" content="{{ page.description }}">{% endif %}
+        {% if page.description %}<meta name="DC.Description" content="{{ page.description | strip_html }}">{% elsif page.sub %}<meta name="DC.Description" content="{{ page.sub | strip_html  }}">{% else %}<meta name="DC.Description" content="{{ page.excerpt | strip_html  }}">{% endif %}
         <meta name="DC.Publisher" content="Leon Paternoster">
         <meta name="DC.Contributor" content="Leon Paternoster">
         <meta name="DC.Date" content="{{ page.date | date: "%b %-d %Y" }}">
@@ -104,9 +89,7 @@
         {% endif %}
 
         <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@0,400;0,700;0,900;1,400&display=swap" rel="stylesheet">
-
-        <script src="/js/alpine.min.js"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@0,400;0,700;0,900;1,400&display=swap" rel="stylesheet">
 
         <!-- ~ Hullo. I would make this a Liquid include if I wanted to preload some fonts 🦉 -->
 
