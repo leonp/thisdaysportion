@@ -14,7 +14,6 @@ github: https://github.com/leonp/
 microblog: https://micro.blog/leonp/
 webmention-pingback: https://webmention.io/www.thisdaysportion.com/xmlrpc
 webmention-mention: https://webmention.io/www.thisdaysportion.com/webmention
-me: https://micro.blog/leonp/
 
 # Some logomark settings. See header.html include to see what this does.
 # logomark: ✩
