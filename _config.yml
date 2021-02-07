@@ -34,7 +34,7 @@ timezone: Europe/London
 # Include styles inline or link to css file?
 # This has to be set to css: inline for the theme to inline styles
 # Set it to anything else, or remove it, to link to /css/style.class
-css: external
+css: inline
 
 
 # Build settings
