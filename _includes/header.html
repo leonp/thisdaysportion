@@ -116,13 +116,15 @@
 
                         {% endfor %}
 
-                        <a class="dib pv2" href="/feed/index.xml">RSS</a>
+                        <a class="dib pv2 mr2 mr3-ns" href="/feed/index.xml">RSS</a>
+
+                        <a href="/search" class="c-bg c-bg-search c-bg-in-nav dib pv2 {% if this_page.url == page.url %} c-accent{% endif %}">Search</a>
 
                     </nav>
 
                 </div>
 
-                <form class="w-40-l pb3 pb0-l tr-l relative c-hide-if-no-js">
+                <!-- <form class="w-40-l pb3 pb0-l tr-l relative c-hide-if-no-js">
 
                     <label for="search-input" class="clip db f7 mb1">Type some words for instant search results:</label>
 
@@ -152,7 +154,7 @@
 
                     </form>
 
-                </noscript>
+                </noscript> -->
 
             </div>
 

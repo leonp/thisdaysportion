@@ -305,7 +305,16 @@ article a:focus {
 
 .c-bg-search {
     background-image: url(/images/icons/search.svg);
+}
+
+.c-bg-in-input {
     background-position: 0.375em;
+}
+
+.c-bg-in-nav {
+    padding-right: 1.1em;
+    background-position: right;
+    background-size: 0.875em;
 }
 
 
