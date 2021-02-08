@@ -92,6 +92,12 @@
     max-height: 10em;
 }
 
+@media #{$breakpoint-not-small} {
+    .c-max-vh-10 {
+        max-height: 20em;
+    }
+}
+
 .c-no-js .c-hide-if-no-js {
     display: none;
 }
