@@ -4,7 +4,7 @@ hide: true
 ---
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <title type="text" xml:lang="en">This day’s portion (a blog from Leon Paternoster)</title>
+    <title type="text" xml:lang="en">This day’s portion – micro.blog feed</title>
     <description>The personal blog of Leon Paternoster. This is a feed especially made for micro.blog, where titles are removed from notes and links.</description>
     <link type="application/atom+xml" href="https://www.thisdaysportion.com/feed/index.xml" rel="self"/>
     <link type="text/html" href="https://www.thisdaysportion.com" rel="alternate"/>
