@@ -211,6 +211,12 @@ article a:focus {
     padding-left: var(--pl);
 }
 
+@media #{$breakpoint-large} {
+    .c-pl-n-l {
+        padding-left: 0;
+    }
+}
+
 .c-ph {
     padding-left: var(--ph);
     padding-right: var(--ph);
@@ -398,7 +404,7 @@ blockquote {
 .c-icon,
 .c-icon:hover {
   color: transparent;
-  text-shadow: 0 0 var(--accent);
+  text-shadow: 0 0 #333;
 }
 
 .c-bar::before {

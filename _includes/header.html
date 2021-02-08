@@ -98,63 +98,27 @@
 
         <a class="f6 c-target c-no-print pv2 c-ph clip dib" href="#content">Skip to content</a>
 
-        <header class="f6 f7-ns bg-light-gray bb b--moon-gray c-sans-serif c-no-print c-ph">
+        <header class="f6 bg-light-gray bb b--moon-gray c-sans-serif c-no-print">
 
-            <div class="flex-l justify-between-l items-center">
+            <div class="flex-l items-center">
 
-                <div class="w-60-l flex-l">
+                <div class="mr3-l bb b--moon-gray bn-l c-pl"><a href="/" rel="index" class="dib pv2 b">This day’s portion</a></div>
 
-                    <div class="mr3-l bb b--moon-gray bn-l"><a href="/" rel="index" class="dib pv2 b">This day’s portion</a></div>
+                <nav class="mr3-l flex items-center c-pr c-pl c-pl-n-l">
 
-                    <nav class="mr3-l flex items-center">
+                    {% assign pages = site.pages | where: "in_nav", true | sort: "order" %}
 
-                        {% assign pages = site.pages | where: "in_nav", true | sort: "order" %}
+                    {% for this_page in pages %}
 
-                        {% for this_page in pages %}
+                        <a href="{{ this_page.url }}" class="dib pv2 mr2 mr3-ns{% if this_page.url == page.url %} c-accent{% endif %}">{{ this_page.title }}</a>
 
-                            <a href="{{ this_page.url }}" class="dib pv2 mr2 mr3-ns{% if this_page.url == page.url %} c-accent{% endif %}">{{ this_page.title }}</a>
+                    {% endfor %}
 
-                        {% endfor %}
+                    <a class="dib pv2 mr2 mr3-ns" href="/feed/index.xml">RSS</a>
 
-                        <a class="dib pv2 mr2 mr3-ns" href="/feed/index.xml">RSS</a>
+                    <a href="/search" class="no-underline dib pv2 {% if this_page.url == page.url %} c-accent{% endif %}"><span role="img" aria-label="Search">🔍</span></a>
 
-                        <a href="/search" class="c-bg c-bg-search c-bg-in-nav dib pv2 {% if this_page.url == page.url %} c-accent{% endif %}">Search</a>
-
-                    </nav>
-
-                </div>
-
-                <!-- <form class="w-40-l pb3 pb0-l tr-l relative c-hide-if-no-js">
-
-                    <label for="search-input" class="clip db f7 mb1">Type some words for instant search results:</label>
-
-                    <input type="text" role="combobox" autocapitalize="off" name="search-input" id="search-input" class="c-bg c-bg-search w-100 c-sans-serif pl4 pr1 pv1 ba b--light-silver c-remove-ios-borders">
-
-                    <div role="listbox" class="mb2 tl absolute w-100 left-0 top-1 c-sans-serif c-max-vh-10 overflow-x-hidden overflow-y-scroll" id="results-container">
-
-                    </div>
-
-                </form>
-
-                <noscript>
-
-                    <form class="w-40-l pb3 pb0-l tr-l" method="get" action="https://www.google.com/search">
-
-                        <input type="hidden" name="sitesearch" value="thisdaysportion.com">
-
-                        <label for="q" class="clip db f7">Search this site with Google:</label>
-
-                        <div class="flex border-box w-100">
-
-                            <input type="search" autocapitalize="off" name="q" id="q" class="c-sans-serif pa1 ba b--light-silver c-remove-ios-borders f7 w-80 w-auto-l">
-
-                            <button type="submit" class="f6 pa1 ba b--moon-gray bg-dark-blue hover-bg-dark-gray white pointer c-remove-ios-borders f7 w-20 w-auto-l">Search</button>
-
-                        </div>
-
-                    </form>
-
-                </noscript> -->
+                </nav>
 
             </div>
 
