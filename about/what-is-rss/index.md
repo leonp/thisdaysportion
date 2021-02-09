@@ -5,6 +5,7 @@ visited-links: true
 prose-headings: true
 underlined-links: true
 hyphens: true
+is_wide: true
 ---
 
 RSS (short for Really Simple Syndication) provides a way for readers to subscribe to content. This is often blog posts, but it could be [news articles by category](https://www.theguardian.com/world/coronavirus-outbreak/rss), [articles published by a particular newspaper author](http://www.guardian.co.uk/profile/adityachakrabortty/rss) or even [a social media stream](https://micro.blog/posts/leonp). By subscribing, readers don’t have to keep visiting the source of the content (normally a website) to check for something new.
