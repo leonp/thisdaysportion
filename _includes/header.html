@@ -105,7 +105,7 @@
 
             <div class="flex-l items-center">
 
-                <div class="mr3-l bb b--moon-gray bn-l c-pl"><a href="/" rel="index" class="db dib-l pv2 b">This day’s portion</a></div>
+                <div class="mr3-l bb b--moon-gray bn-l c-pl"><a href="/" rel="index" class="dark-gray db dib-l pv2 b">This day’s portion</a></div>
 
                 <nav class="mr3-l flex items-center flex-wrap c-pr c-pl c-pl-n-l">
 
@@ -113,11 +113,11 @@
 
                     {% for this_page in pages %}
 
-                        <a href="{{ this_page.url }}" class="dib pv2 mr2 mr3-ns{% if this_page.url == page.url %} c-accent{% endif %}">{{ this_page.title }}</a>
+                        <a href="{{ this_page.url }}" class="dark-gray dib pv2 mr2 mr3-ns{% if this_page.url == page.url %} c-accent{% endif %}">{{ this_page.title }}</a>
 
                     {% endfor %}
 
-                    <a class="dib pv2 mr2 mr3-ns" href="/feed/index.xml">RSS</a>
+                    <a class="dark-gray dib pv2 mr2 mr3-ns" href="/feed/index.xml">RSS</a>
 
                     <a href="/search" class="no-underline dib pa2"><span role="img" aria-label="Search">🔍</span></a>
 
