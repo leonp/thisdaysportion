@@ -27,7 +27,6 @@ hide: true
               <link href="https://www.thisdaysportion.com{{ entry.url }}"/>
               <updated>{{ entry.date | date_to_xmlschema }}</updated>
               <id>https://www.thisdaysportion.com{{ entry.url }}</id>
-
               {% capture description %}{{ entry.title | escape | truncate: 60 }}: {{ entry.excerpt | strip_html | truncate: 190 }}{% endcapture %}
               <description>{{ description }}</description>
               <content type="html">{{ entry.content | xml_escape }}</content>
