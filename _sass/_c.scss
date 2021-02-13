@@ -5,7 +5,7 @@
     --pr: 7.5vw;
     --pl: 7.5vw;
     --measure: 36rem;
-    --sans-serif: "IBM Plex Sans", -apple-system, BlinkMacSystemFont, "segoe ui", "helvetica neue", helvetica, ubuntu, roboto, noto, sans-serif;
+    --sans-serif: Inter, -apple-system, BlinkMacSystemFont, "segoe ui", "helvetica neue", helvetica, ubuntu, roboto, noto, sans-serif;
     --serif: "IBM Plex Serif", georgia, serif;
     --monospace: "IBM Plex Mono", "Fira Code", "Menlo", "Courier New", monospace;
     --accent: #357EDD;  // Tachyons dark-pink
@@ -17,7 +17,7 @@
     --foreground: #222;
 }
 
-/* @media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: dark) {
     :root {
         --accent: #FFB700;  // Tachyons dark-pink
         --link: #FFF;
@@ -31,7 +31,7 @@
         osx-font-smoothing: grayscale;
         scroll-behavior: smooth;
     }
-} */
+}
 
 .c-background {
     background-color: var(--background);
@@ -426,7 +426,7 @@ blockquote {
   padding-top: 0.5rem;
 }
 
-// Serach results
+// Search results
 
 #results-container li {
     font-size: 1.25rem;

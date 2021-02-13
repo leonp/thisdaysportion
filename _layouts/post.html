@@ -2,17 +2,17 @@
 
 <article class="h-entry">
 
-  <header class="mt4 mt5-l mb4 c-sans-serif">
+  <header class="mt4 mt5-l mb4 c-constrain-most">
 
       <div class="f6 c-lh-title"><a class="pv1" href="/">Home</a> → <a class="pv1" href="/posts/">Posts</a></div>
 
-      <h1 class="mt2 f3 f2-ns ma0 p-name measure">{{ page.title }}</h1>
+      <h1 class="mt2 f3 f2-ns ma0 p-name">{{ page.title }}</h1>
 
       <p class="mb0 f6"><time datetime="{{ page.date | date: "%Y-%m-%d" }}">{{ page.date | date: "%-d %b, %Y" }}</time> / <span role="img" aria-label="Comment bubble">💬</span> <a href="#commentary">Comments</a></p>
 
       {% if page.sub %}
 
-      <p class="f5 f4-ns mb0 pb3 pb0-ns bb b--light-gray bn-ns measure">{{ page.sub }}</p>
+      <p class="f5 f4-ns mb0 pb3 pb0-ns bb b--light-gray bn-ns">{{ page.sub }}</p>
 
       {% endif %}
 
@@ -27,6 +27,8 @@
   <footer class="f6 mt4">
 
     <div class="c-measure">
+
+      <p><strong>Liked this? <a href="/feed/index.xml">Subscribe to the RSS</a> feed or <a href="https://micro.blog/leonp">follow me on micro.blog</a>.</strong></p>
 
       {% include comment-form.html %}
 
