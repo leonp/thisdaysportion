@@ -6,6 +6,8 @@ visited-links: true
 prose-headings: true
 underlined-links: true
 hyphens: true
+is_search: true
+hide-title: true
 ---
 
 <form class="c-sans-serif w-100 pb3 pb0-l relative c-hide-if-no-js">
