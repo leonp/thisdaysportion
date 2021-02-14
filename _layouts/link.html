@@ -22,11 +22,11 @@
 
         <div class="c-measure">
 
-            <p><strong>Liked this? <a href="/feed/index.xml">Subscribe to the RSS feed</a> or <a href="https://micro.blog/leonp">follow me on micro.blog</a>.</strong></p>
-
             <p>Permalink: <strong><a href="{{ page.link-url }}">{{ page.title }}</a></strong></p>
 
             <p class="f7">{% if page.link-published %}Originally published <time class="dt-published" datetime="{{ page.link-published | date: "%Y-%m-%d" }}">{{ page.link-published | date: "%-d %b, %Y" }}</time>{% endif %}{% if page.link-author %} by {{ page.link-author }} / {% endif %}<a href="/links/">Links</a></p>
+
+            <p><strong>Liked this? <a href="/feed/index.xml">Subscribe to the RSS feed</a> or <a href="https://micro.blog/leonp">follow me on micro.blog</a>.</strong></p>
 
             {% include comment-form.html %}
 

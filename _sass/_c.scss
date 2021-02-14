@@ -35,6 +35,22 @@
     }
 }
 
+html {
+    font-size: 118.75%;
+    font-size: clamp(118.75%, 2.2vw, 131.25%);
+    scroll-behavior: smooth;
+}
+
+body {
+    line-height: 1.375;
+}
+
+@media #{$breakpoint-not-small} {
+    body {
+        line-height: 1.45;
+    }
+}
+
 .c-background {
     background-color: var(--background);
 }
@@ -106,22 +122,6 @@
 
 .c-no-js .c-hide-if-no-js {
     display: none;
-}
-
-html {
-    font-size: 118.75%;
-    font-size: clamp(118.75%, 2.3vw, 137.5%);
-    scroll-behavior: smooth;
-}
-
-body {
-    line-height: 1.375;
-}
-
-@media #{$breakpoint-not-small} {
-    body {
-        line-height: 1.45;
-    }
 }
 
 a,
