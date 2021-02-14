@@ -185,12 +185,26 @@ article dt,
 
 article h2,
 .c-headings h2 {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
+}
+
+@media #{$breakpoint-not-small} {
+    article h2,
+    .c-headings h2 {
+        font-size: 1.5rem;
+    }
 }
 
 article h3,
 .c-headings h3 {
-    font-size: 1.25rem;
+    font-size: 1rem;
+}
+
+@media #{$breakpoint-not-small} {
+    article h3,
+    .c-headings h3 {
+        font-size: 1.25rem;
+    }
 }
 
 article h4,
