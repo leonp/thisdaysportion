@@ -12,17 +12,21 @@
 
         </footer>
 
+        {% if page.is_search %}
+
         <script src="/js/jekyll-search.min.js"></script>
         <script>
 			var sjs = SimpleJekyllSearch({
 			searchInput: document.getElementById('search-input'),
 			resultsContainer: document.getElementById('results-container'),
 			json: '/search.json',
-			searchResultTemplate: '<div role="option" class="f6 bg-light-gray bt b--light-silver"><a class="db pv1 ph2" href="{url}">{title}</a><time class="f7 db ph2 pb2">{date}</time></div>',
-			noResultsText: '<div class="bg-light-gray pa2">No results, I’m afraid. Check your spelling or try a different word or phrase.</div>',
+			searchResultTemplate: '<div role="option" class="f6 c-secondary-background bt b--light-silver"><a class="db pv1 ph2" href="{url}">{title}</a><time class="f7 db ph2 pb2">{date}</time></div>',
+			noResultsText: '<div class="c-secondary-background pa2">No results, I’m afraid. Check your spelling or try a different word or phrase.</div>',
 			limit: '20'
 			})
 		</script>
+
+		{% endif %}
 
     </body>
 

@@ -15,6 +15,7 @@
     --focus: #357EDD; // Tachyons dark-pink
     --background: #FFF; // Tachyons dark-gray
     --foreground: #222;
+    --secondary-background: #EEE; // Tachyons light-gray
 }
 
 @media (prefers-color-scheme: dark) {
@@ -26,6 +27,7 @@
         --focus: #FFB700; // Tachyons dark-pink
         --background: #333; // Tachyons dark-gray
         --foreground: #CCC; // Tachyons moon-gray
+        --secondary-background: #555; // Tachyons mid-gray
     }
     html {
         osx-font-smoothing: grayscale;
@@ -35,6 +37,10 @@
 
 .c-background {
     background-color: var(--background);
+}
+
+.c-secondary-background {
+    background-color: var(--secondary-background);
 }
 
 .c-foreground {
