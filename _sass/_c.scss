@@ -16,6 +16,7 @@
     --background: #FFF; // Tachyons dark-gray
     --foreground: #222;
     --secondary-background: #EEE; // Tachyons light-gray
+    --rule-color: #CCC; // Tachyons moon-gray 
 }
 
 @media (prefers-color-scheme: dark) {
@@ -28,6 +29,7 @@
         --background: #333; // Tachyons dark-gray
         --foreground: #CCC; // Tachyons moon-gray
         --secondary-background: #555; // Tachyons mid-gray
+        --rule-color: #777; // Tachyons gray
     }
     html {
         osx-font-smoothing: grayscale;
@@ -85,6 +87,10 @@ body {
 
 .c-measure {
     max-width: var(--measure);
+}
+
+.c-border {
+    border-color: var(--rule-color);
 }
 
 .c-drop-shadow {

@@ -2,7 +2,7 @@
 title: Remarkable 2 tablet
 ---
 
-Think I would really like this [Remarkable 2 tablet](https://remarkable.com/).
+Think I would like this [Remarkable 2 tablet](https://remarkable.com/).
 
 {% include figure.html url="remarkable.webp" alt="The Remarkable 2 tablet is very thin." caption="Remarkable 2 tablet" %}
 
