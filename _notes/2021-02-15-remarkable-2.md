@@ -10,4 +10,6 @@ I had a real need to sketch a simple diagram of a website section today – the 
 
 But £567 for a tablet (including the pen and a cover) that does one thing. That’s only ten quid cheaper than an iPad Air.
 
+(Also, I quite like [noting these sort of things for posterity](/notes/2016-01-27-wileyfox-swift).)
+
 
