@@ -286,6 +286,7 @@ article a:focus {
 
 .c-constrain-most figure,
 .c-constrain-most img,
+.c-constrain-most hr,
 .c-constrain-most pre,
 .c-constrain-most .vid,
 .c-constrain-most .constrain,
@@ -394,8 +395,8 @@ hr {
     overflow: visible; /* For IE */
     border: none;
     border-top: medium double #EEE;
-    text-align: center;
-    max-width: 34rem;
+    margin: 0;
+    border-color: var(--rule-color);
 }
 
 table {
