@@ -8,7 +8,7 @@
 
       {% if page.sub %}
 
-      <p class="f4 mb0 measure">{{ page.sub }}</p>
+      <p class="f5 f4-ns mb0 pb3 pb0-ns bb b--light-gray bn-ns">{{ page.sub }}</p>
 
       {% endif %}
 
@@ -16,20 +16,16 @@
 
 {% endunless %}
 
-  <div class="pt3">
+{{ content}}
 
-    {{ content}}
+{% if page.pagination %}
 
-    {% if page.pagination %}
+    {% include paginated-list.html %}
 
-        {% include paginated-list.html %}
+{% else %}
 
-    {% else %}
+    {% include list.html %}
 
-        {% include list.html %}
-
-    {% endif %}
-
-  </div>
+{% endif %}
 
 {% include footer.html %}
