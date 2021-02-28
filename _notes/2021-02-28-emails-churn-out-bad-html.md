@@ -6,7 +6,7 @@ In my last note on how [it’s better to use the web rather than email as means 
 
 Emails are notoriously awful when it comes to generating semantic content. Here’s what the Hey! World service produces. No `<p>`s:
 
-{% include figure.html url="hey-world.jpg" alt="Screenshot of the code produced by Hey World with lots of br tags." caption="I guess the service could parse emails to write out more semantic HTML?" %}
+{% include figure.html url="hey-world.jpg" alt="Screenshot of the code produced by Hey World with lots of br tags." caption="Note: Hey World is very much an experiment at the mo, and I guess it’ll be possible to generate ‘proper’ HTML if it develops." %}
 
 Also, what happens when I want to include an image in my post, or anything beyond very simple text?
 
