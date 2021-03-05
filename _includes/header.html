@@ -103,11 +103,11 @@
 
         <header class="f7 f6-ns c-secondary-background bb b--moon-gray c-border c-no-print">
 
-            <div class="flex-l items-center">
+            <div class="flex-l items-center justify-between-l">
 
                 <div class="mr3-l bb b--moon-gray c-border bn-l c-pl"><a href="/" rel="index" class="db dib-l pv2 b">This day’s portion</a></div>
 
-                <nav class="mr3-l flex items-center flex-wrap c-pr c-pl c-pl-n-l">
+                <nav class="mr3-l flex items-center flex-wrap c-pr">
 
                     {% assign pages = site.pages | where: "in_nav", true | sort: "order" %}
 
@@ -119,7 +119,7 @@
 
                     <a class="dib pv2 mr2 mr3-ns" href="/feed/index.xml">RSS</a>
 
-                    <a href="/search" class="no-underline dib pa2"><span role="img" aria-label="Search">🔍</span></a>
+                    <a href="/search" class="no-underline dib pv2"><span role="img" aria-label="Search">🔍</span></a>
 
                 </nav>
 

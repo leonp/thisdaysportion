@@ -1,31 +1,35 @@
 {% include header.html %}
 
-{% unless page.hide-title %}
+<div class="c-measure center">
 
-  <div class="mt4 mt5-l mb4 c-constrain-most">
+	{% unless page.hide-title %}
 
-      <h1 class="f3 f2-ns ma0">{% if page.display-title %}{{ page.display-title }}{% else %}{{ page.title }}{% endif %}</h1>
+	  <div class="mt4 mt5-l mb4 c-constrain-most">
 
-      {% if page.sub %}
+	      <h1 class="f3 f2-ns ma0">{% if page.display-title %}{{ page.display-title }}{% else %}{{ page.title }}{% endif %}</h1>
 
-      <p class="f5 f4-ns mb0 pb3 pb0-ns bb b--light-gray bn-ns">{{ page.sub }}</p>
+	      {% if page.sub %}
 
-      {% endif %}
+	      <p class="f5 f4-ns mb0 pb3 pb0-ns bb b--light-gray bn-ns">{{ page.sub }}</p>
 
-  </div>
+	      {% endif %}
 
-{% endunless %}
+	  </div>
 
-{{ content}}
+	{% endunless %}
 
-{% if page.pagination %}
+	{{ content}}
 
-    {% include paginated-list.html %}
+	{% if page.pagination %}
 
-{% else %}
+	    {% include paginated-list.html %}
 
-    {% include list.html %}
+	{% else %}
 
-{% endif %}
+	    {% include list.html %}
 
-{% include footer.html %}
+	{% endif %}
+
+	{% include footer.html %}
+
+</div>

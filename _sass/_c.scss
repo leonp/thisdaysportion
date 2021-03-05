@@ -251,28 +251,14 @@ article a:focus {
     .c-pl-n-l {
         padding-left: 0;
     }
+    .c-pr-n-l {
+        padding-right: 0;
+    }
 }
 
 .c-ph {
     padding-left: var(--ph);
     padding-right: var(--ph);
-}
-
-.c-constrain-most .c-bleed {
-    max-width: calc(100% + var(--ph) * 2);
-    margin-left: calc(var(--ph) - (var(--ph) * 2));
-}
-
-@media #{$breakpoint-large} {
-    .c-constrain-most .c-bleed {
-        max-width: 100%;
-        margin-left: 0;
-    }
-}
-
-.c-bleed-full {
-  margin-left: calc(var(--ph) - (var(--ph) * 2));
-  margin-right: calc(var(--ph) - (var(--ph) * 2));
 }
 
 .c-sticky {
@@ -297,6 +283,16 @@ article a:focus {
 .c-constrain-most .constrain embed,
 .🦉 .c-constrain-most * {
     max-width: 100%;
+}
+
+.c-constrain-most .c-bleed {
+    max-width: calc(100% + var(--ph) * 2);
+    margin-left: calc(var(--ph) - (var(--ph) * 2));
+}
+
+.c-bleed-full {
+  margin-left: calc(var(--ph) - (var(--ph) * 2));
+  margin-right: calc(var(--ph) - (var(--ph) * 2));
 }
 
 @media #{$breakpoint-not-small} {
