@@ -1,7 +1,7 @@
 ---
 title: "Moon in a Dead Eye by Pascal Garnier"
 category: thinking
-sub: "Garnier is a riot, all done in 160 pages."
+sub: "Garnier is a riot, all done in 160 pages of slangy, sharp ultimately apocalyptic madness. Also: Richard Osman ripped the plot off shamlessly."
 ---
 
 I discovered Pascal Garnier serendipitously, shovelling five or so books from a library shelf into a bag before a trip up to somewhere or other flogging [our self-service system](https://dootrix.com/verso/).

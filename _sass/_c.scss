@@ -5,7 +5,7 @@
     --pr: 7.5vw;
     --pl: 7.5vw;
     --measure: 32rem;
-    --sans-serif: -apple-system, BlinkMacSystemFont, "segoe ui", "helvetica neue", helvetica, ubuntu, roboto, noto, sans-serif;
+    --sans-serif: "IBM Plex Sans", -apple-system, BlinkMacSystemFont, "segoe ui", "helvetica neue", helvetica, ubuntu, roboto, noto, sans-serif;
     --serif: "IBM Plex Serif", georgia, serif;
     --monospace: "IBM Plex Mono", "Fira Code", "Menlo", "Courier New", monospace;
     --accent: #357EDD;  // Tachyons dark-pink
@@ -444,7 +444,7 @@ blockquote {
 .c-icon,
 .c-icon:hover {
   color: transparent;
-  text-shadow: 0 0 #333;
+  text-shadow: 0 0 var(--link);
 }
 
 .c-bar::before {

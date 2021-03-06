@@ -2,13 +2,11 @@
 
 <article class="h-entry c-measure center">
 
-    <header class="mt4 mt5-l mb4 c-constrain-most">
+    <header class="mt4 mt5-m mt6-l mb4 c-constrain-most">
 
-        <div class="f6 c-lh-title"><a class="pv1" href="/">Home</a> → <a class="pv1" href="/links/">Links</a></div>
+        <h1 class="f4 f3-ns ma0 p-name"><a href="{{ page.link-url }}" class="db">{{ page.title }}</a></h1>
 
-        <h1 class="mt2 f4 f3-ns ma0 p-name"><a href="{{ page.link-url }}" class="db">{{ page.title }}</a></h1>
-
-        <p class="mb0 f6"><time datetime="{{ page.date | date: "%Y-%m-%d" }}">{{ page.date | date: "%-d %b, %Y" }}</time> / <span role="img" aria-label="Comment bubble">💬</span> <a href="#commentary">Comments</a></p>
+        <p class="mb0 f6 c-sans-serif"><time datetime="{{ page.date | date: "%Y-%m-%d" }}">{{ page.date | date: "%-d %b, %Y" }}</time> / <span role="img" aria-label="Comment bubble">💬</span> <a href="#commentary">Comments</a></p>
 
     </header>
 
@@ -26,7 +24,7 @@
 
             <p class="f7">{% if page.link-published %}Originally published <time class="dt-published" datetime="{{ page.link-published | date: "%Y-%m-%d" }}">{{ page.link-published | date: "%-d %b, %Y" }}</time>{% endif %}{% if page.link-author %} by {{ page.link-author }} / {% endif %}<a href="/links/">Links</a></p>
 
-            <p><strong>Liked this? <a href="/feed/index.xml">Subscribe to the RSS feed</a> or <a href="https://micro.blog/leonp">follow me on micro.blog</a>.</strong></p>
+            <p class="c-sans-serif"><strong>Liked this? <a href="/feed/index.xml">Subscribe to the RSS feed</a> or <a href="https://micro.blog/leonp">follow me on micro.blog</a>.</strong></p>
 
             {% include comment-form.html %}
 

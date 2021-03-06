@@ -2,13 +2,23 @@
 
 {% for item in items %}
 
-    <article class="mb4">
+    <article class="pv4">
 
-        <h2 class="f4 ma0"><a class="db no-underline" href="{{ item.url }}">{{ item.title }}</a></h2>
+        {% if item.is_post %}
 
-        <time class="db mv1 silver f6" datetime="{{ item.date | date: "%Y-%m-%d" }}">{{ item.date | date: "%-d %b, %Y" }}</time>
+          <h2 class="f3 ma0"><a class="db" href="{{ item.url }}">{{ item.title }}</a></h2>
 
-        <p class="ma0">{% if item.sub %}{{ item.sub }}{% else %}{{ item.excerpt | strip_html }}{% endif %}</p>
+          <time class="c-sans-serif db mv2 f6" datetime="{{ item.date | date: "%Y-%m-%d" }}">{{ item.date | date: "%-d %b, %Y" }}</time>
+
+          <p class="ma0">{% if item.sub %}{{ item.sub }}{% else %}{{ item.excerpt | strip_html }}{% endif %}</p>
+
+        {% else %}
+
+          <p class="ma0">{{ item.content | strip_html | truncatewords: 25 }}</p>
+
+          <a class="c-sans-serif db pv1 f6" href="{{ item.url }}"><time datetime="{{ item.date | date: "%Y-%m-%d" }}">{{ item.date | date: "%-d %b, %Y" }}</time></a>
+
+        {% endif %}
 
     </article>
 
@@ -16,9 +26,9 @@
 
 {% if paginator.total_pages > 1 %}
 
-<footer class="pt3 c-sans-serif">
+<footer class="pt4 c-sans-serif">
 
-    <div class="flex justify-between f6 ttl small-caps tracked b">
+    <div class="flex justify-between">
 
         {% if paginator.next_page %}
 
@@ -42,7 +52,7 @@
 
     </div>
 
-    <p class="f7 mt0 silver">{{page.pagination_info.curr_page}}/{{page.pagination_info.total_pages}}</p>
+    <!-- <p class="f6 mt0 silver">{{page.pagination_info.curr_page}}/{{page.pagination_info.total_pages}}</p> -->
 
 </footer>
 
