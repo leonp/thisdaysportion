@@ -1,10 +1,10 @@
 ---
 title: "Notes on the “indieweb” #2: Where do I find things to read?"
 category: web
-sub: "In the first of this (hopefully!) series, I briefly discussed how to publish on your website, syndicate it to places like Twitter and deal with any comments you get. Now I’ll look at replacing your favourite social media feed with other sources of content."
+sub: "I briefly discussed how to publish content on your website, syndicate it to places like Twitter and handle comments. Now I’ll look at replacing your favourite social media feed with other sources of content – you know it’s the right thing to do!"
 ---
 
-Central to the idea of the indieweb is the good old fashioned website, a place where you can publish whatever you like, in whatever format or context you please, before pushing it to, say, Twitter or Facebook. This concept is known as [POSSE (Publish (on your) Own Site, Syndicate Elsewhere)](https://indieweb.org/POSSE).
+Central to the idea of the indieweb is the good old fashioned website, [a place where you can publish whatever you like](/posts/indiewebish/), in whatever format or context you please, before pushing it to, say, Twitter or Facebook. This concept is known as [POSSE (Publish (on your) Own Site, Syndicate Elsewhere)](https://indieweb.org/POSSE).
 
 In this glorious world of writers and publishers, _everyone_ would have their own site and exchange views, opinions etc. in each others’ comments sections. While this may sound ridiculous – why not just respond to a tweet and be done with it? – I can attest to the fact that it did actually work. And I’m going to digress here a bit, so you can understand a part of the _why_ of all this.
 
@@ -36,10 +36,23 @@ Newsletters — an even more quaint-seeming technology than RSS — are currentl
 
 Essentially, newsletters offer the same advantages as RSS over your Twitters and Facebooks. The signal to noise ratio is good while writers can take time over posts and essays. Most importantly, everyone (over a certain age, at least) understands email and will be using an email account already – there’s zero effort involved compared to installing an RSS app and adding a subscription to it.
 
-## micro.blog
+[Substack](https://substack.com/) is the newsletter service <i>du jour</i>, and even Twitter is dipping its toe in the email water. It is worth pointing out that Substack offers an RSS feed of a contributor’s posts, and if you _have_ got yourself an RSS app up and running, you are, in my opinion, better off using that. And as for _writing_ a newlsetter rather than a blog that offers an email subscription, [I have several opinions](/posts/publishing-to-a-website-is-easy/). 
 
-## People are still posting blogs
+## For Twitter refugees: micro.blog
 
+If you’ve ditched Twitter or Facebook and you’re looking for a similar streamed updates service where you follow and reply to other posters, [micro.blog](https://micro.blog) is probably your best bet.
+
+It’s a nicer Twitter, with optional blogging (for a $5/month fee) to help you go full indieweb. You don’t _have_ to use a micro.blog blog – it’s free if you don’t – as it has crossposting from any RSS feed built in (as you can see from [my account](https://micro.blog/leonp)).
+
+micro.blog’s a thoughtful service which has made some opinionated design decisions so it doesn’t descend into a hate-filled, bad faith and bad actor-fuelled roundabout of take and counter-take. There are no ads, follower counts or likes. It encourages you to find other posters through [a genuinely interesting _Discover_ stream](https://micro.blog/discover), and a well curated set of categories (tagged via emojis, sweetly enough). And I’ve yet to encounter a neo-Nazi on micro.blog.
+
+(Incidentally, it also has a really good API, which makes it a decent option for a [headless CMS](https://www.contentful.com/r/knowledgebase/what-is-headless-cms/)).
+
+## People are still posting blogs and there is an alternative to Twitter
+
+I think indieweb serves two functions. Firstly, it enables readers and writers to wrest control of content from the social media giants. When the canonical thought, image or essay sits on your own website it’s there for as long as you want it to be, to do with whatever you want, to style however you like.
+
+More fundamentally, while we may feel, and see, how damaging Twitter and Facebook are, our experience of online reading is influenced by their algorithms and, to be blunt, their shitty business models that require hate and violence to generate users, reactions and profits. We should be looking to extricate ourselves from these opinionmongering leviathans, to find other people expressing themselves in a better, more independent way. And that world is out there, so get subscribing – you only have your chains to lose <span role="img" aria-label="Smiley">😃</span>.
 
 
 
