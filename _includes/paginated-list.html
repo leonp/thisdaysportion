@@ -2,7 +2,7 @@
 
 {% for item in items %}
 
-    <article class="c-sans-serif pb4">
+    <article class="c-sans-serif pv3 pv4-ns">
 
       {% if item.is_post %}
 
@@ -10,7 +10,7 @@
 
           <h2 class="f5 c-lh-title ma0"><a class="db pv1" href="{{ item.url }}">{{ item.title }}</a></h2>
 
-          <time class="c-sans-serif db mv1 f6" datetime="{{ item.date | date: "%Y-%m-%d" }}">{{ item.date | date: "%-d %b, %Y" }}</time>
+          <time class="c-sans-serif db f6" datetime="{{ item.date | date: "%Y-%m-%d" }}">{{ item.date | date: "%-d %b, %Y" }}</time>
 
         </header>
 
@@ -26,15 +26,23 @@
 
       {% elsif item.is_note %}
 
-        <div class="mv1">{{ item.content | strip_html | strip_newlines | truncatewords: 25 }}</div>
+        <div class="flex flex-column flex-column-reverse">
 
-        <time class="c-sans-serif db f6" datetime="{{ item.date | date: "%Y-%m-%d" }}"><a class="db pv1" href="{{ item.url }}">{{ item.date | date: "%-d %b, %Y" }}</a></time>
+          <div>{{ item.content | strip_html | strip_newlines | truncatewords: 25 }}</div>
+
+          <time class="c-sans-serif db f6" datetime="{{ item.date | date: "%Y-%m-%d" }}"><a class="db pv1" href="{{ item.url }}">{{ item.date | date: "%-d %b, %Y" }}</a></time>
+
+        </div>
 
       {% else %}
 
-        <div class="mv1 c-sans-serif"><a class="db pv1" href="{{ item.url }}">{{ item.title }}</a></div>
+        <div class="flex flex-column flex-column-reverse">
 
-        <time class="c-sans-serif db f6" datetime="{{ item.date | date: '%Y-%m-%d' }}">{{ item.date | date: "%-d %b, %Y" }}</time>
+          <div><a class="db pv1" href="{{ item.url }}">{{ item.title }}</a></div>
+
+          <time class="c-sans-serif db f6" datetime="{{ item.date | date: '%Y-%m-%d' }}">{{ item.date | date: "%-d %b, %Y" }}</time>
+
+        </div>
 
       {% endif %}
 
