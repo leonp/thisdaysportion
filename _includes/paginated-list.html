@@ -4,15 +4,39 @@
 
     <article class="c-sans-serif pb4">
 
-      {% if item.is_post %}<div class="pa3 c-secondary-background">{% endif %}
+      {% if item.is_post %}
 
-      <div class="f6 ttl small-caps tracked mb1">{% if item.is_post %}<span role="img" aria-label="Essay paper">📝</span> Post{% elsif item.is_note %}<span role="img" aria-label="Pen">🖋</span> Note{% elsif item.is_link %}<span role="img" aria-label="Link">🔗</span> Link{% endif %}</div>
+        <header class="flex flex-column flex-column-reverse">
 
-      <h2 class="f5 c-lh-title ma0 normal"><a class="db" href="{{ item.url }}">{{ item.title }}</a></h2>
+          <h2 class="f5 c-lh-title ma0"><a class="db pv1" href="{{ item.url }}">{{ item.title }}</a></h2>
 
-      <time class="c-sans-serif db mv2 f6" datetime="{{ item.date | date: "%Y-%m-%d" }}">{{ item.date | date: "%-d %b, %Y" }}</time>
+          <time class="c-sans-serif db mv1 f6" datetime="{{ item.date | date: "%Y-%m-%d" }}">{{ item.date | date: "%-d %b, %Y" }}</time>
 
-    {% if item.is_post %}</div>{% endif %}
+        </header>
+
+        {% if item.sub %}
+
+          <p class="mv2">{{ item.sub }}</p>
+
+        {% else %}
+
+          <p class="mv2">{{ item.excerpt | strip_html | strip_newlines }}</p>
+
+        {% endif %}
+
+      {% elsif item.is_note %}
+
+        <div class="mv1">{{ item.content | strip_html | strip_newlines | truncatewords: 25 }}</div>
+
+        <time class="c-sans-serif db f6" datetime="{{ item.date | date: "%Y-%m-%d" }}"><a class="db pv1" href="{{ item.url }}">{{ item.date | date: "%-d %b, %Y" }}</a></time>
+
+      {% else %}
+
+        <div class="mv1 c-sans-serif"><a class="db pv1" href="{{ item.url }}">{{ item.title }}</a></div>
+
+        <time class="c-sans-serif db f6" datetime="{{ item.date | date: '%Y-%m-%d' }}">{{ item.date | date: "%-d %b, %Y" }}</time>
+
+      {% endif %}
 
     </article>
 

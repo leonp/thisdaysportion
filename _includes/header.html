@@ -113,6 +113,10 @@
 
                     <a href="/" class="dib pv2 mr2 mr3-ns{% if page.title == "Home" %} c-accent{% endif %}">Home</a>
 
+                    <a href="/notes" class="dib pv2 mr2 mr3-ns{% if page.title == "Notes" %} c-accent{% endif %}">Notes</a>
+
+                    <a href="/links" class="dib pv2 mr2 mr3-ns{% if page.title == "Links" %} c-accent{% endif %}">Links</a>
+
                     {% assign pages = site.pages | where: "in_nav", true | sort: "order" %}
 
                     {% for this_page in pages %}
