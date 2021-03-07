@@ -4,9 +4,9 @@
 
   <header class="mt4 mt5-m mt6-l mb4 c-measure center">
 
-      <h1 class="f3 f2-ns ma0 p-name">{{ page.title }}</h1>
+      <h1 class="f3 f2-ns ma0 p-name c-lh-title">{{ page.title }}</h1>
 
-      <p class="mb0 f6 c-sans-serif"><time datetime="{{ page.date | date: "%Y-%m-%d" }}">{{ page.date | date: "%-d %b, %Y" }}</time> / <span role="img" aria-label="Comment bubble">💬</span> <a href="#commentary">Comments</a></p>
+      <p class="mb0 f6 c-sans-serif"><time datetime="{{ page.date | date: "%Y-%m-%d" }}">{{ page.date | date: "%-d %b, %Y" }}</time> / <span role="img" aria-label="Essay paper">📝</span> <a href="/posts">Posts</a> / <span role="img" aria-label="Comment bubble">💬</span> <a href="#commentary">Comments</a></p>
 
       {% if page.sub %}
 
@@ -22,11 +22,11 @@
 
   </div>
 
-  <footer class="f6 mt4">
+  <footer class="f6 mt3">
 
     <div class="c-measure center">
 
-      <p class="c-sans-serif"><strong>Liked this? <a href="/feed/index.xml">Subscribe to the RSS feed</a> or <a href="https://micro.blog/leonp">follow me on micro.blog</a>.</strong></p>
+      <p class="mt0 mb4 mb5-ns c-sans-serif"><strong>Liked this? <a href="/feed/index.xml">Subscribe to the RSS feed</a> or <a href="https://micro.blog/leonp">follow me on micro.blog</a>.</strong></p>
 
       {% include comment-form.html %}
 

@@ -2,23 +2,17 @@
 
 {% for item in items %}
 
-    <article class="pv4">
+    <article class="c-sans-serif pb4">
 
-        {% if item.is_post %}
+      {% if item.is_post %}<div class="pa3 c-secondary-background">{% endif %}
 
-          <h2 class="f3 ma0"><a class="db" href="{{ item.url }}">{{ item.title }}</a></h2>
+      <div class="f6 ttl small-caps tracked mb1">{% if item.is_post %}<span role="img" aria-label="Essay paper">📝</span> Post{% elsif item.is_note %}<span role="img" aria-label="Pen">🖋</span> Note{% elsif item.is_link %}<span role="img" aria-label="Link">🔗</span> Link{% endif %}</div>
 
-          <time class="c-sans-serif db mv2 f6" datetime="{{ item.date | date: "%Y-%m-%d" }}">{{ item.date | date: "%-d %b, %Y" }}</time>
+      <h2 class="f5 c-lh-title ma0 normal"><a class="db" href="{{ item.url }}">{{ item.title }}</a></h2>
 
-          <p class="ma0">{% if item.sub %}{{ item.sub }}{% else %}{{ item.excerpt | strip_html }}{% endif %}</p>
+      <time class="c-sans-serif db mv2 f6" datetime="{{ item.date | date: "%Y-%m-%d" }}">{{ item.date | date: "%-d %b, %Y" }}</time>
 
-        {% else %}
-
-          <p class="ma0">{{ item.content | strip_html | truncatewords: 25 }}</p>
-
-          <a class="c-sans-serif db pv1 f6" href="{{ item.url }}"><time datetime="{{ item.date | date: "%Y-%m-%d" }}">{{ item.date | date: "%-d %b, %Y" }}</time></a>
-
-        {% endif %}
+    {% if item.is_post %}</div>{% endif %}
 
     </article>
 

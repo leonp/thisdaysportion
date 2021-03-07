@@ -1,65 +1,69 @@
-<h2 id="commentary" class="f4 mb3">Add a comment</h2>
+<div class="mt4 pt1 pb3 ph3 ph4-ns c-secondary-background">
 
-<form class="c-sans-serif" name="comments" method="POST" netlify-honeypot="bot-field" data-netlify="true" action="/thanks/">
+  <h2 id="commentary" class="f4 mb3">Add a comment</h2>
 
-  <p class="lh-title f7"><strong>Required fields marked <span class="dark-red">*</span></strong>. I won’t publish or share your email address – I just need it to get in touch to clarify anything.</p>
+  <form class="c-sans-serif" name="comments" method="POST" netlify-honeypot="bot-field" data-netlify="true" action="/thanks/">
 
-  <div class="clip">
-    <label for="bot-field">Add something interesting only if you’re not a human</label>
-    <input name="bot-field">
-  </div>
+    <p class="lh-title f7"><strong>Required fields marked <span class="dark-red">*</span></strong>. I won’t publish or share your email address – I just need it to get in touch to clarify anything.</p>
 
-  <label for="name" class="db f7 lh-title mb1">Name <span class="dark-red">*</span></label>
-  <input autocorrect="off" required class="border-box pa1 c-sans-serif ba b--moon-gray c-border db mb3 w-100" type="text" name="name" id="name">
+    <div class="clip">
+      <label for="bot-field">Add something interesting only if you’re not a human</label>
+      <input name="bot-field">
+    </div>
 
-  <label for="email" class="db f7 lh-title mb1">Email <span class="dark-red">*</span></label>
-  <input required autocapitalize="none" class="border-box pa1 c-sans-serif ba b--moon-gray c-border db mb3 w-100" type="email" name="email" id="email">
+    <label for="name" class="db f7 lh-title mb1">Name <span class="dark-red">*</span></label>
+    <input autocorrect="off" required class="border-box pa1 c-sans-serif ba b--moon-gray c-border db mb3 w-100" type="text" name="name" id="name">
 
-  <label for="website" class="db f7 lh-title mb1">Your website</label>
-  <input autocapitalize="none" class="border-box pa1 c-sans-serif ba b--moon-gray c-border db mb3 w-100" type="text" name="website" id="website">
+    <label for="email" class="db f7 lh-title mb1">Email <span class="dark-red">*</span></label>
+    <input required autocapitalize="none" class="border-box pa1 c-sans-serif ba b--moon-gray c-border db mb3 w-100" type="email" name="email" id="email">
 
-  <label for="comment" class="db f7 lh-title mb1">Comment <span class="dark-red">*</span> (use <a href="https://www.markdownguide.org/cheat-sheet/">Markdown</a> to format text)</label>
-  <textarea required class="border-box pa1 ba b--moon-gray c-border db mb2 vh-50 w-100 c-monospace" name="comment" id="comment"></textarea>
+    <label for="website" class="db f7 lh-title mb1">Your website</label>
+    <input autocapitalize="none" class="border-box pa1 c-sans-serif ba b--moon-gray c-border db mb3 w-100" type="text" name="website" id="website">
 
-  <input name="slug" hidden class="dn" value="{{ page.slug }}">
+    <label for="comment" class="db f7 lh-title mb1">Comment <span class="dark-red">*</span> (use <a href="https://www.markdownguide.org/cheat-sheet/">Markdown</a> to format text)</label>
+    <textarea required class="border-box pa1 ba b--moon-gray c-border db mb2 vh-50 w-100 c-monospace" name="comment" id="comment"></textarea>
 
-  <input name="uri" hidden class="dn" value="https://www.thisdaysportion.com{{ page.url }}">
-  
-  <button class="f6 b pa2 ba b--moon-gray c-border bg-blue hover-bg-dark-blue white pointer c-remove-ios-borders" type="submit">Submit comment</button>
+    <input name="slug" hidden class="dn" value="{{ page.slug }}">
 
-</form>
+    <input name="uri" hidden class="dn" value="https://www.thisdaysportion.com{{ page.url }}">
+    
+    <button class="f6 b pa2 ba b--moon-gray c-border bg-blue hover-bg-dark-blue white pointer c-remove-ios-borders" type="submit">Submit comment</button>
 
-<h3 class="mb3">Comments</h3>
+  </form>
 
-{% assign comments_present = false %}
+  <h3 class="mb3">Comments</h3>
 
-{% assign all_airtable_comments = site.data.airtable_comments.records | sort: "createdTime" | reverse %}
+  {% assign comments_present = false %}
 
-{% for comment in all_airtable_comments %}
+  {% assign all_airtable_comments = site.data.airtable_comments.records | sort: "createdTime" | reverse %}
 
-  {% if comment.fields.slug == page.slug %}
+  {% for comment in all_airtable_comments %}
 
-    {% assign comments_present = true %}
+    {% if comment.fields.slug == page.slug %}
 
-    <p>{{ comment_counter }}</p>
+      {% assign comments_present = true %}
 
-    <article class="pa2 ba b--moon-gray c-border mb3">
+      <p>{{ comment_counter }}</p>
 
-      <h4 id="{{ comment.id }}" class="f5 mt0 mb1">{% if comment.fields.website %}<a href="{{ comment.fields.website }}">{% endif %}{{ comment.fields.Name }}{% if comment.fields.website %}</a>{% endif %}</h4>
+      <article class="c-background pa2 pa3-ns ba b--moon-gray c-border mb3">
 
-      <p class="mt0 mb1 f7">{{ comment.createdTime | date: "%-d %b, %Y %H:%M" }}</p>
+        <h4 id="{{ comment.id }}" class="f5 mt0 mb1">{% if comment.fields.website %}<a href="{{ comment.fields.website }}">{% endif %}{{ comment.fields.Name }}{% if comment.fields.website %}</a>{% endif %}</h4>
 
-      {{ comment.fields.comment | strip_html | markdownify }}
+        <p class="c-sans-serif mt0 mb1 f7">{{ comment.createdTime | date: "%-d %b, %Y %H:%M" }}</p>
 
-    </article>
+        {{ comment.fields.comment | strip_html | markdownify }}
+
+      </article>
+
+    {% endif %}
+
+  {% endfor %}
+
+  {% if comments_present == false %}
+
+    <p>None <span role="img" aria-label="An owl, wise">🦉</span>.</p>
 
   {% endif %}
 
-{% endfor %}
-
-{% if comments_present == false %}
-
-  <p>None <span role="img" aria-label="An owl, wise">🦉</span>.</p>
-
-{% endif %}
+</div>
 

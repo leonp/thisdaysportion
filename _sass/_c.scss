@@ -5,6 +5,7 @@
     --pr: 7.5vw;
     --pl: 7.5vw;
     --measure: 32rem;
+    --lh-title: 1.2;
     --sans-serif: "IBM Plex Sans", -apple-system, BlinkMacSystemFont, "segoe ui", "helvetica neue", helvetica, ubuntu, roboto, noto, sans-serif;
     --serif: "IBM Plex Serif", georgia, serif;
     --monospace: "IBM Plex Mono", "Fira Code", "Menlo", "Courier New", monospace;
@@ -153,7 +154,7 @@ h3,
 h4,
 h5,
 h6 {
-    line-height: 1.2;
+    line-height: var(--lh-title);
     line-height: clamp(1.15em, 2.5vw, 1.2em);
     color: var(--link);
     font-family: var(--sans-serif);

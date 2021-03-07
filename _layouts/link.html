@@ -4,9 +4,9 @@
 
     <header class="mt4 mt5-m mt6-l mb4 c-constrain-most">
 
-        <h1 class="f4 f3-ns ma0 p-name"><a href="{{ page.link-url }}" class="db">{{ page.title }}</a></h1>
+        <h1 class="f4 f3-ns ma0 p-name c-lh-title"><a href="{{ page.link-url }}" class="db">{{ page.title }}</a></h1>
 
-        <p class="mb0 f6 c-sans-serif"><time datetime="{{ page.date | date: "%Y-%m-%d" }}">{{ page.date | date: "%-d %b, %Y" }}</time> / <span role="img" aria-label="Comment bubble">💬</span> <a href="#commentary">Comments</a></p>
+        <p class="mb0 f6 c-sans-serif"><time datetime="{{ page.date | date: "%Y-%m-%d" }}">{{ page.date | date: "%-d %b, %Y" }}</time> / <span role="img" aria-label="Link">🔗</span> <a href="/links">Links</a> / <span role="img" aria-label="Comment bubble">💬</span> <a href="#commentary">Comments</a></p>
 
     </header>
 
@@ -16,15 +16,15 @@
 
     </div>
 
-    <footer class="mt4">
+    <footer class="f6 mt3">
 
         <div class="c-measure">
 
-            <p>Permalink: <strong><a href="{{ page.link-url }}">{{ page.title }}</a></strong></p>
+            <p class="mb1 c-sans-serif">{% if page.link-published %}Originally published <time class="dt-published" datetime="{{ page.link-published | date: "%Y-%m-%d" }}">{{ page.link-published | date: "%-d %b, %Y" }}</time>{% endif %}{% if page.link-author %} by {{ page.link-author }}{% endif %}</p>
 
-            <p class="f7">{% if page.link-published %}Originally published <time class="dt-published" datetime="{{ page.link-published | date: "%Y-%m-%d" }}">{{ page.link-published | date: "%-d %b, %Y" }}</time>{% endif %}{% if page.link-author %} by {{ page.link-author }} / {% endif %}<a href="/links/">Links</a></p>
+            <p class="c-sans-serif mt0">Permalink: <strong><a href="{{ page.link-url }}">{{ page.title }}</a></strong></p>
 
-            <p class="c-sans-serif"><strong>Liked this? <a href="/feed/index.xml">Subscribe to the RSS feed</a> or <a href="https://micro.blog/leonp">follow me on micro.blog</a>.</strong></p>
+            <p class="mb4 c-sans-serif"><strong>Liked this? <a href="/feed/index.xml">Subscribe to the RSS feed</a> or <a href="https://micro.blog/leonp">follow me on micro.blog</a>.</strong></p>
 
             {% include comment-form.html %}
 
