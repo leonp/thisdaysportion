@@ -1,10 +1,10 @@
 ---
 title: Libraries as alternative
 category: thinking
-sub: "Libraries co-exist with some huge, powerful organisations. Is thinking of them as an alternative to the Googles and Amazons of this world better than trying to compete?"
+sub: "Lots of organisations offer similar services to libraries. Is thinking of libraries as an alternative to the Googles and Amazons of this world better than trying to compete with them?"
 ---
 
-How we think about the function of libraries in relation to other organisations that provide the same set of things can be complex. Especially when we consider them as _competitors_.
+How we think about the function of libraries in relation to other organisations that provide the same set of things can be complex. Especially when we consider the list of _competitors_, some of whom are frankly terrifying in their reach and resources:
 
 - Coffee shops (a place to spend leisure time)
 - Gyms (ditto)
