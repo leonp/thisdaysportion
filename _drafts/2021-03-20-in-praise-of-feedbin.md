@@ -7,9 +7,9 @@ category: web
 
 In order to use RSS you’ll need what’s called a feed reader. Think of this as an email or web app, although you won’t necessarily need an account. [My preferred RSS app is NetNewsWire](/posts/netnewswire/) – free, open source MacOS and iOS-only software created by [people fully behind the idea of RSS and indieweb](https://inessential.com/).
 
-One downside (or positive, depending on how you look at these things) of NewNewsWire is that you can’t synch your feed list across devices without manually updating it on each device. Another is that it’s Apple only (which could also be viewed as a positive – it works really well on a narrow set of machines as there’s no porting across OSs).
+One downside (or positive, depending on how you look at these things) of NetNewsWire is that you can’t synch your feed list across devices without manually updating the list on each device. Another is that it’s Apple-only (which could also be viewed as a positive – it works really well on a narrow set of phones, tablets and PCs as there’s no porting across OSs).
 
-Enter RSS subscription services. These host your feed in the cloud, where you can either login to the service website to access it, or use an app to subscribe to it across different machines. Add a new feed to the service and you’ll be able to access it across devices without manually updating several apps.
+Enter RSS subscription services. These host your feed in the cloud, where you can either login to a website to start reading, or use an app to subscribe across different machines with no manual imports and exports.
 
 There are a fair few of these services available, most notably Feedly and inoreader, which are “free” – to a point. I’ve used both, and they’re fine. But by far the best I’ve found is Feedbin, which has a very clear pricing policy. It costs $5 a month. 
 
@@ -17,7 +17,7 @@ So why use a $5 a month service when you can get more or less the same thing for
 
 ## It costs $5 a month
 
-Straightforward pricing is, I’d argue, a key element of the indieweb. One of the most egregious features of the social media giants’s financial model is that they don’t charge money; instead, you agree to hand over your content and lots of very rich data about yourself to them.
+Straightforward pricing is, I’d argue, a key element of the indieweb. One of the most egregious features of the social media giants’ financial model is that they don’t charge their consumers anything to use their services; instead, you agree to hand over your content and lots of very rich, personal data. You may not be paying, but advertisers will in order to be able to access that data and put ads in front of your eyes. And advertisers aren’t just companies trying to flog you products.
 
 Facebook and Twitter would be a whole lot more palatable if they simply cost $100/year and sold no ads and shared no data. But then they’d only have a tiny fraction of their current users, and Mark Zuckerberg wouldn’t be sitting on a vast fortune.
 
