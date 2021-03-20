@@ -53,9 +53,9 @@ Additionally, they look and work the same way across operating systems, so you g
 
 	<div class="flex-ns flex-wrap-ns justify-between-ns">
 
-		<div class="w-50-ns pr2"><img src="/images/fb-android-2.jpg" alt="Screenshot of the Feedbin website settings page." class="db border-box mb2 shadow-4" loading="lazy"></div>
+		<div class="w-50-ns pr2-ns"><img src="/images/fb-android-2.jpg" alt="Screenshot of the Feedbin website settings page." class="db border-box mb2 shadow-4" loading="lazy"></div>
 
-		<div class="w-50-ns pl2"><img src="/images/fb-android-1.jpg" alt="Screenshot of the Feedbin website settings page." class="db border-box mb2 shadow-4" loading="lazy"></div>
+		<div class="w-50-ns pl2-ns"><img src="/images/fb-android-1.jpg" alt="Screenshot of the Feedbin website settings page." class="db border-box mb2 shadow-4" loading="lazy"></div>
 
 	</div>
 
