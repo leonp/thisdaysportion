@@ -6,7 +6,7 @@
     --pl: 7.5vw;
     --measure: 32rem;
     --lh-title: 1.2;
-    --sans-serif: "IBM Plex Sans", -apple-system, BlinkMacSystemFont, "segoe ui", "helvetica neue", helvetica, ubuntu, roboto, noto, sans-serif;
+    --sans-serif: "Fira Sans", "IBM Plex Sans", -apple-system, BlinkMacSystemFont, "segoe ui", "helvetica neue", helvetica, ubuntu, roboto, noto, sans-serif;
     --serif: "IBM Plex Serif", georgia, serif;
     --monospace: "IBM Plex Mono", "Fira Code", "Menlo", "Courier New", monospace;
     --accent: #357EDD;  // Tachyons dark-pink
@@ -288,7 +288,8 @@ article a:focus {
 .c-constrain-most .constrain iframe,
 .c-constrain-most .constrain object,
 .c-constrain-most .constrain embed,
-.🦉 .c-constrain-most * {
+.🦉 .c-constrain-most *,
+.c-constrain-most .c-expand {
     max-width: 100%;
 }
 
