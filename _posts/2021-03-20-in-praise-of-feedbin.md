@@ -1,6 +1,7 @@
 ---
 title: Four reasons it’s worth paying $5 a month for Feedbin, an RSS reader
 category: web
+sub: "Feedbin is an RSS feed reader/manager. It’s worth $5 a month because it’s designed and engineered well, and it’s not trying to sell you other people’s content."
 ---
 
 [I am a fan of RSS](/about/what-is-rss/) – the glue of the [indieweb](https://indieweb.org/) and a means of keeping notified of lots of content in one place without opening Twitter, Facebook <i>et al</i>.
