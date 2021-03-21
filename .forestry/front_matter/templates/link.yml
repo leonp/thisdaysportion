@@ -14,3 +14,14 @@ fields:
 - type: text
   name: link-author
   label: link-author
+- name: date
+  type: datetime
+  description: This is the date the post, note or link is published. In links it’s
+    different from the link published date, whch is when the linked to content was
+    actually posted.
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
+  label: Date
