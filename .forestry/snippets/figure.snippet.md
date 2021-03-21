@@ -1,0 +1,1 @@
+{% include figure.html url="filename.jpg" alt="Alt text." caption="Caption text" %}
