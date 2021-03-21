@@ -17,6 +17,6 @@ fields:
     date_format: 
     time_format: 
     display_utc: false
-  default: now
+  default: '2021-03-21 15:42:44 +0000'
 pages:
 - _notes/forestry.io.md
