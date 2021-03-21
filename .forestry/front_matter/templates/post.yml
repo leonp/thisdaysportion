@@ -11,3 +11,12 @@ fields:
 - type: textarea
   name: sub
   label: sub
+- name: date
+  type: datetime
+  label: Date
+  description: ''
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
