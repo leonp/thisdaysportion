@@ -25,4 +25,4 @@ fields:
     time_format: 
     display_utc: false
   label: Date
-  default: now
+  default: '2021-03-21 15:43:33 +0000'
