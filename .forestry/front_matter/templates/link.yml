@@ -1,0 +1,16 @@
+---
+label: Link
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: datetime
+  name: link-published
+  label: link-published
+- type: text
+  name: link-url
+  label: link-url
+- type: text
+  name: link-author
+  label: link-author
