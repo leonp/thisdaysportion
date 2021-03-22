@@ -6,7 +6,7 @@
     --pl: 7.5vw;
     --measure: 32rem;
     --lh-title: 1.2;
-    --sans-serif: "Fira Sans", "IBM Plex Sans", -apple-system, BlinkMacSystemFont, "segoe ui", "helvetica neue", helvetica, ubuntu, roboto, noto, sans-serif;
+    --sans-serif: "IBM Plex Sans", -apple-system, BlinkMacSystemFont, "segoe ui", "helvetica neue", helvetica, ubuntu, roboto, noto, sans-serif;
     --serif: "IBM Plex Serif", georgia, serif;
     --monospace: "IBM Plex Mono", "Fira Code", "Menlo", "Courier New", monospace;
     --accent: #357EDD;  // Tachyons dark-pink
@@ -39,14 +39,8 @@
 }
 
 html {
-    font-size: 112.5%;
+    font-size: 118.75%;
     scroll-behavior: smooth;
-}
-
-@media #{$breakpoint-not-small} {
-    html {
-        font-size: 118.75%;
-    }
 }
 
 body {
