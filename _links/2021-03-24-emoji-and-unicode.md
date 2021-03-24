@@ -1,7 +1,7 @@
 ---
 title: Emoji under the hood
 link-published: 2021-03-24
-link-url: https://piccalil.li/tutorial/improve-the-readability-of-the-content-on-your-website
+link-url: https://tonsky.me/blog/emoji/
 link-author: Nikita Prokopov
 date: 2021-03-24 19:30
 ---
