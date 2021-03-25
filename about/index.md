@@ -10,9 +10,10 @@ underlined-links: true
 hyphens: true
 
 ---
-This is my blog, and I am [Leon Paternoster](https://www.leonpaternoster.com). The views expressed here are my own; they’re not representative of my employer unless explicitly stated.
+This is my blog, and I am [Leon Paternoster](https://www.leonpaternoster.com).
 
-Disclaimers are odd/difficult/a sign of something wrong.
+{% include figure.html url="mr-leon-paternoster.jpg" alt="Leon Paternoster with scruffy hair wearing a green jumper." caption="March 2021." %}
+
 
 I write about lots of things – mainly designing and building things online, but also politics, books, music and other cultural _stuff_.
 

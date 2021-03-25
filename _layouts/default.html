@@ -1,10 +1,10 @@
 {% include header.html %}
 
-<article class="c-measure center">
+<article>
 
     {% unless page.hide-title %}
 
-    <div class="mt4 mt5-m mt6-l mb4 c-constrain-most">
+    <div class="mt4 mt5-m mt6-l mb4 c-measure center">
 
         <h1 class="f3 f2-ns ma0 p-name measure">{% if page.display-title %}{{ page.display-title }}{% else %}{{ page.title }}{% endif %}</h1>
 
@@ -18,7 +18,7 @@
 
     {% endunless %}
 
-    <div class="{% if page.is_wide %}c-constrain-most{% else %}c-measure{% endif %}{% if page.hide-title %} pt3{% endif %}">
+    <div class="c-measure center c-constrain-most{% if page.hide-title %} pt3{% endif %}">
 
       {{ content }}
 
