@@ -96,13 +96,13 @@
 
     </head>
 
-    <body onload="document.getElementById('home').classList.remove('c-no-js');" id="home" class="c-no-js ma0 pa0 c-background c-foreground c-sans-serif {% if page.is_home %}🦉{% else %}{{ page.slug }}{% endif %}">
+    <body onload="document.getElementById('home').classList.remove('c-no-js');" id="home" class="c-no-js ma0 pa0 c-background c-foreground c-serif {% if page.is_home %}🦉{% else %}{{ page.slug }}{% endif %}">
 
         <a class="f6 c-target c-no-print pv2 c-ph clip dib" href="#content">Skip to content</a>
 
         <a class="f6 c-target c-no-print pv2 c-ph clip dib" href="#full-nav">Skip to navigation</a>
 
-        <header class="f7 f6-ns c-secondary-background bb b--moon-gray c-border c-no-print">
+        <header class="c-sans-serif f7 f6-ns c-secondary-background bb b--moon-gray c-border c-no-print">
 
             <div class="flex-l items-center justify-between-l">
 
@@ -122,7 +122,7 @@
 
                     <a class="dib pv2 mr2 mr3-ns" href="/feed/index.xml">RSS</a>
 
-                    <a href="/search" class="dib pv2">Search<span role="img" class="ml2 dib no-underline f7" aria-label="Search">🔍</span></a>
+                    <a href="/search" class="dib pv2"><span role="img" class="ml2 dib no-underline f7" aria-label="Search">🔍</span></a>
 
                 </nav>
 

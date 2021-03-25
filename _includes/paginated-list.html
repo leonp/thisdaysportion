@@ -2,11 +2,11 @@
 
 {% for item in items %}
 
-    <article class="c-sans-serif pv3 pv4-ns">
+    <article class="pv3 pv4-ns">
 
       {% if item.is_post %}
 
-        <header class="flex flex-column flex-column-reverse">
+        <header class="flex flex-column flex-column-reverse c-sans-serif">
 
           <h2 class="f5 c-lh-title ma0"><a class="db pv1" href="{{ item.url }}">{{ item.title }}</a></h2>
 
