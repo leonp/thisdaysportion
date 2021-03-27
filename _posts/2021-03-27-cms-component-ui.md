@@ -1,9 +1,12 @@
 ---
-title: "CMSs should allow component-based page creation, but does WordPress Gutenberg get it right?"
+title: CMSs should allow component-based page creation, but does WordPress Gutenberg
+  get it right?
 category: web
-sub: "Allowing web editors to create pages from smaller components such as callouts, promos and alerts is a good thing. But what’s the best way to implement these in a CMS? Does the WordPress Gutenberg editor take the right approach?"
----
+sub: Allowing web editors to create pages from smaller components such as callouts,
+  promos and alerts is a good thing. But what’s the best way to implement these in
+  a CMS? Does the WordPress Gutenberg editor take the right approach?
 
+---
 My former colleague [Alice was bemoaning the lack of a way of dropping various components into a page](https://twitter.com/alicetheunique/status/1371906984052723716) using her current CMS. She’s right, I think; you’d expect any modern CMS to allow editors to build pages from smaller, self-contained elements, such as alerts, promo boxes, galleries and accordions.
 
 Unless your pages follow a predictable pattern – on a blog, for example – you’re relying on the theme author to code a finite set of templates that will cover a set of requirments you need to predict when the site’s built.
@@ -32,7 +35,7 @@ This would _appear_ to be a good idea – tying the editing process to its outpu
 
 Firstly, filling in and amending traditional forms is a familiar, predictable process. You enter some text, select an element from a dropdown or complete a file upload dialogue. If you want to the edit the text, you head back to the relevant field and just fill it in again.
 
-In WordPress, this process varies according to the block you’re editing, and can involve an element of experimentation and guesswork. For the cover editor it’s _fairly_ clear, but involves an element of discovery – you click on the image, which reveals a toolbar with a ‘Replace’ option:
+In WordPress, this process varies according to the block you’re editing, and can involve experimentation and guesswork. For the cover editor it’s _fairly_ clear, but involves an element of discovery – you click on the image, which reveals a toolbar with a ‘Replace’ option:
 
 {% include figure.html url="edit-wp-cover.jpg" alt="Screenshot of the WordPress cover block editor." caption="You have to click on the picture to reveal the toolbar." %}
 
@@ -51,4 +54,3 @@ Secondly, editors can find it difficult to navigate around a page and add new co
 But I think Gutenberg causes problems for editors who won’t be willing to learn how it works. There are some poor UI decisions to overcome. Perhaps more worringly, I think it may be misconceived – keeping content separate from its appearance allows users to focus on creating and editing; let the designer worry about how it ends up looking.
 
 Of course, I could be wrong. My experience is limited to four or five people. Maybe tens of millions are happy with Gutenberg. But it’d be interesting to see how often the Classic Editor is installed.
-
