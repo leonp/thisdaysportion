@@ -20,5 +20,6 @@ fields:
   default: '2021-03-21 15:42:44 +0000'
 pages:
 - _notes/cms-and-page-components.md
+- _notes/forestry-is-looking-good-for-client-sites.md
 - _notes/forestry.io.md
 - _notes/what-s-indieweb.md
