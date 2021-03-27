@@ -1,7 +1,7 @@
 ---
-title: "world@hey.com launches and it can edit posts, which sounds clunky"
----
+title: world@hey.com launches and it can edit posts, which sounds clunky
 
+---
 Been following [the Hey! email to blog post service](https://hey.com/world/) for a couple of weeks, and it’s now live (a really impressive example of developing an embryonic idea into a product quickly – take note fellow app/service developers). It even lets you edit existing posts, which is something you need on a publication platform, but looks... clunky.
 
 > Can you edit your posts? Yep. Creating a new post is exactly like sending an email to the magic world@hey.com address, but once sent/posted, Hey treats such messages differently from regular emails. You can see all your Hey World posts in a list by themselves, accessed from a new item in the main Hey menu, and if you open a post, you can edit it. <cite>[Hey World Blogging Goes Live](https://daringfireball.net/linked/2021/03/05/hey-world-goes-live)
