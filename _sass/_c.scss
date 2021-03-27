@@ -39,14 +39,8 @@
 }
 
 html {
-    font-size: 118.75%;
-    scroll-behavior: smooth;
-}
-
-@media #{$breakpoint-not-small} {
-    html {
     font-size: 125%;
-    }
+    scroll-behavior: smooth;
 }
 
 body {
