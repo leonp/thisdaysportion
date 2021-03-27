@@ -19,4 +19,5 @@ fields:
     display_utc: false
   default: '2021-03-21 15:42:44 +0000'
 pages:
+- _notes/cms-and-page-components.md
 - _notes/forestry.io.md
