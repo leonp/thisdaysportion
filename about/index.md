@@ -3,23 +3,22 @@ layout: default
 title: About
 footer: true
 order: "2"
-in_nav: false
+in_nav: true
 visited-links: true
 prose-headings: true
 underlined-links: true
 hyphens: true
 
 ---
-This is my blog, and I am [Leon Paternoster](https://www.leonpaternoster.com).
+This is my blog, and I am Leon Paternoster.
 
-{% include figure.html url="mr-leon-paternoster.jpg" alt="Leon Paternoster with scruffy hair wearing a green jumper." caption="March 2021." %}
-
+<img class="fr-ns w-50-ns w-third-l ml4-ns shadow-4" src="/images/mr-leon-paternoster-400.jpg" alt="Leon Paternoster with scruffy hair wearing a green jumper." caption="March 2021.">
 
 I write about lots of things – mainly designing and building things online, but also politics, books, music and other cultural _stuff_.
 
 At the moment I seem to be writing about writing and publishing a lot, which may or may not be of interest over time.
 
-I used to post everything to leonpaternoster.com, but that’s now just where you find the work me. The world has become more LinkedInified, or perhaps I’ve just got older — careers progress, older posts become a bit of a no-no work wise and everything gets dumped elsewhere, i.e. here. I still fundamentally _believe_ in blogging and, at the very least, writing and hitting publish is good for me.
+I used to post everything to [leonpaternoster.com](https://www.leonpaternoster.com), but that’s now just where you find the work me. The world has become more LinkedInified, or perhaps I’ve just got older — careers progress, older posts become a bit of a no-no work wise and everything gets dumped elsewhere, i.e. here. I still fundamentally _believe_ in blogging and, at the very least, writing and hitting publish is good for me.
 
 ## Contact
 

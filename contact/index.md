@@ -2,8 +2,8 @@
 layout: default
 title: Contact
 footer: true
-order: 6
-in_nav: false
+in_nav: true
+order: 3
 visited-links: true
 prose-headings: true
 underlined-links: true

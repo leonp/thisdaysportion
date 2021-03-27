@@ -4,10 +4,10 @@
     --ph: 7.5vw;
     --pr: 7.5vw;
     --pl: 7.5vw;
-    --measure: 36rem;
+    --measure: 38rem;
     --lh-title: 1.2;
     --sans-serif: -apple-system, BlinkMacSystemFont, "segoe ui", "helvetica neue", helvetica, ubuntu, roboto, noto, sans-serif;
-    --serif: "Source Serif Pro", georgia, serif;
+    --serif: georgia, serif;
     --monospace: "IBM Plex Mono", "Fira Code", "Menlo", "Courier New", monospace;
     --accent: #357EDD;  // Tachyons dark-pink
     --link: #000;
@@ -302,6 +302,13 @@ article a:focus {
 .c-constrain-most .c-bleed {
     max-width: calc(100% + var(--ph) * 2);
     margin-left: calc(var(--ph) - (var(--ph) * 2));
+}
+
+@media #{$breakpoint-large} {
+    .c-constrain-most .c-bleed {
+        max-width: 100%;
+        margin-left: 0;
+    }
 }
 
 .c-bleed-full {

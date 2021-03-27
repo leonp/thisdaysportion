@@ -100,7 +100,7 @@
 
         <a class="f6 c-target c-no-print pv2 c-ph clip dib" href="#content">Skip to content</a>
 
-        <a class="f6 c-target c-no-print pv2 c-ph clip dib" href="#full-nav">Skip to navigation</a>
+        <a class="f6 c-target c-no-print pv2 c-ph clip dib" href="#nav">Skip to navigation</a>
 
         <header class="c-sans-serif f7 f6-ns c-secondary-background bb b--moon-gray c-border c-no-print">
 
@@ -108,21 +108,25 @@
 
                 <div class="mr2-l bb b--moon-gray c-border bn-l c-pl"><a href="/" rel="index" class="db dib-l pv2 b">This day’s portion</a></div>
 
-                <nav id="header-nav" class="ml2-l flex items-center flex-wrap c-ph c-sans-serif">
+                <nav id="nav" class="nowrap overflow-x-auto ml2-l flex items-center c-ph c-sans-serif">
 
-                    <a href="/" class="dib pv2 mr2 mr3-ns{% if page.title == "Home" %} c-accent{% endif %}">Home</a>
+                    <a href="/" class="dib pv2 mr3{% if page.title == "Home" %} c-accent{% endif %}">Home</a>
 
                     {% assign pages = site.pages | where: "in_nav", true | sort: "order" %}
 
                     {% for this_page in pages %}
 
-                        <a href="{{ this_page.url }}" class="dib pv2 mr2 mr3-ns{% if this_page.url == page.url %} c-accent{% endif %}">{{ this_page.title }}</a>
+                        {% unless this_page.url contains "page" %}
+
+                        <a href="{{ this_page.url }}" class="dib pv2 mr3{% if this_page.url == page.url %} c-accent{% endif %}">{{ this_page.title }}</a>
+
+                        {% endunless %}
 
                     {% endfor %}
 
-                    <a class="dib pv2 mr2 mr3-ns" href="/feed/index.xml">RSS</a>
+                    <a class="dib pv2 mr3" href="/feed/index.xml">RSS</a>
 
-                    <a href="/search" class="dib pv2"><span role="img" class="ml2 dib no-underline f7" aria-label="Search">🔍</span></a>
+                    <a href="/search" class="dib pa2"><span role="img" class="dib no-underline" aria-label="Search">🔍</span></a>
 
                 </nav>
 
