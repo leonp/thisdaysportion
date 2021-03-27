@@ -8,6 +8,6 @@ Been following [the Hey! email to blog post service](https://hey.com/world/) for
 
 Hmmm. That doesn’t sound as easy as a web based editing system. Or maybe it sounds like recreating a web based system in your email app.
 
-Like [I’ve already noted: This is the wrong way round](/notes/2021-02-28-publishing-to-a-website-is-easy) – email can provide an in-my-opinion pretty poor means of subscribing to content (just use RSS!), but it doesn’t really make sense as a means of _publishing_ that content. Email isn’t that good at publishing emails. Which I think is one of the reasons Hey exists.
+Like [I’ve already noted: This is the wrong way round](/posts/publishing-to-a-website-is-easy) – email can provide an in-my-opinion pretty poor means of subscribing to content (just use RSS!), but it doesn’t really make sense as a means of _publishing_ that content. Email isn’t that good at publishing emails. Which I think is one of the reasons Hey exists.
 
 I’d really love to see what the creators of Basecamp would do with a simple, paid-for blogging service. Compare the idea of _that_ with Medium’s grotty money-making model, or WordPress’s complex editing.
