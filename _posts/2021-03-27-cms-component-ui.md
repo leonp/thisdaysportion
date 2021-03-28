@@ -31,11 +31,11 @@ The editor doesn’t have any visual relationship to what’s rendered on the ac
 
 {% include figure.html url="wp-cover-editor.jpg" alt="Screenshot of the WordPress cover block editor." caption="WordPress doesn’t use traditional form fields. Instead, it attempts to give the editor an idea of what the block will look like on the website." %}
 
-This would _appear_ to be a good idea – tying the editing process to its output saves an element of guesswork and flipping between rendered page and the CMS. But having set up several users on WordPress, and trained a couple of editors in Statamic, I think it poses a few problems.
+This would _appear_ to be a good idea – tying the editing process to its output saves editors from flipping between the rendered page and the CMS. But having set up several users on WordPress, and trained a couple of editors in Statamic, I think it poses a few problems.
 
 Firstly, filling in and amending traditional forms is a familiar, predictable process. You enter some text, select an element from a dropdown or complete a file upload dialogue. If you want to the edit the text, you head back to the relevant field and just fill it in again.
 
-In WordPress, this process varies according to the block you’re editing, and can involve experimentation and guesswork. For the cover editor it’s _fairly_ clear, but involves an element of discovery – you click on the image, which reveals a toolbar with a ‘Replace’ option:
+In WordPress, this process varies according to the block you’re editing, and can take some figuring out. For the cover editor it’s _fairly_ clear, but involves an element of discovery – you click on the image, which reveals a toolbar with a ‘Replace’ option:
 
 {% include figure.html url="edit-wp-cover.jpg" alt="Screenshot of the WordPress cover block editor." caption="You have to click on the picture to reveal the toolbar." %}
 
@@ -45,7 +45,7 @@ The picture slider block works differently. When you click on the block, a diffe
 
 In my experience, less technically skilled editors find this frustrating, even when they have experience of using different CMSs, including pre-Gutenberg WordPress. In every case, I’ve ended up installing the [the Classic Editor](https://wordpress.org/plugins/classic-editor/).
 
-Secondly, editors can find it difficult to navigate around a page and add new content without the framework of clearly demarcated boxes and forms. Take this example of the verse block followed by a cover. Coming out of the verse block and starting a new paragraph involves a frustrating number of clicks:
+Secondly, editors can find it difficult to navigate around a page and add new content without a framework of clearly demarcated boxes and forms. Take this example of the verse block followed by a cover. Coming out of the verse block and starting a new paragraph involves a frustrating number of clicks:
 
 {% include figure.html url="wp-full-2.jpg" alt="Screenshot of the WordPress cover page editor." caption="Simply entering a new paragraph on longer, more complex pages can be surprisingly difficult." %}
 
