@@ -1,0 +1,35 @@
+---
+label: Page
+hide_body: true
+fields:
+- type: text
+  name: layout
+  label: layout
+- type: text
+  name: title
+  label: title
+- type: number
+  name: order
+  label: order
+- type: text
+  name: display-title
+  label: display-title
+- type: boolean
+  name: is_home
+  label: is_home
+- type: boolean
+  name: is_wide
+  label: is_wide
+- type: textarea
+  name: sub
+  label: sub
+- type: field_group
+  name: pagination
+  label: pagination
+  fields:
+  - type: boolean
+    name: enabled
+    label: enabled
+  - type: text
+    name: collection
+    label: collection
