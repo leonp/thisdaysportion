@@ -20,6 +20,7 @@ fields:
   default: now
 pages:
 - _notes/cms-and-page-components.md
+- _notes/dusting-down-webmention-code.md
 - _notes/forestry-includes-previews.md
 - _notes/forestry-is-looking-good-for-client-sites.md
 - _notes/forestry.io.md
