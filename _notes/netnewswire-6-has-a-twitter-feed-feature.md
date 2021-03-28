@@ -1,7 +1,7 @@
 ---
 date: 2021-03-28 08:01:14 +0000
 title: NetNewsWire 6 converts your Twitter feed to RSS
-mb-cat: ''
+mb-cat: "\U0001F4D6"
 published: false
 
 ---
