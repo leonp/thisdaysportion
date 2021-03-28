@@ -25,6 +25,6 @@ fields:
     time_format: 
     display_utc: false
   label: Date
-  default: '2021-03-21 15:43:33 +0000'
+  default: now
 pages:
 - _links/we-call-it-rss-an-ambitious-founder-raises-400m-at-8b-valuation.md
