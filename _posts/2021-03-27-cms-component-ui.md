@@ -23,7 +23,7 @@ Statamic and WordPress offer different ways for editors to create components. St
 
 {% include figure.html url="bard-z-bar.jpg" alt="Screenshot the Suffolk Libraries page editor z-bar component creator." caption="The z-bar UI consists of a form where editors enter text into fields or use a standard file picker." %}
 
-The editor doesn’t have any visual relationship with what’s rendered on the actual website:
+The editor doesn’t have any visual relationship to what’s rendered on the actual website:
 
 {% include figure.html url="rendered-z-bar.jpg" alt="Screenshot of the Suffolk Libraries website." caption="A typical z-bar on the Suffolk Libraries website." %}
 
