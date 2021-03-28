@@ -19,6 +19,9 @@
         {% if jekyll.environment == "development" %}
         <meta name="robots" content="noindex, nofollow">
         {% endif %}
+        {% if jekyll.environment == "staging" %}
+        <meta name="robots" content="noindex, nofollow">
+        {% endif %}
 
         {% if page.is_post or page.is_link %}
         <meta name="twitter:card" content="summary">
@@ -96,7 +99,7 @@
 
     </head>
 
-    <body onload="document.getElementById('home').classList.remove('c-no-js');" id="home" class="c-no-js ma0 pa0 c-background c-foreground c-serif {% if page.is_home %}🦉{% else %}{{ page.slug }}{% endif %}">
+    <body onload="document.getElementById('home').classList.remove('c-no-js');" id="home" class="c-no-js ma0 pa0 c-background c-foreground c-sans-serif {% if page.is_home %}🦉{% else %}{{ page.slug }}{% endif %}">
 
         <a class="f6 c-target c-no-print pv2 c-ph clip dib" href="#content">Skip to content</a>
 
