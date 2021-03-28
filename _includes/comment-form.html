@@ -65,5 +65,52 @@
 
   {% endif %}
 
-</div>
+{% assign webmentions = "" | split: "," %}
 
+{% assign webmention_dump = site.data.wm.links %}
+
+{% assign slug_eval = page.slug %}
+
+{% if page.is_post %}
+{% assign url_eval = slug_eval | prepend: site.webmention-url %}
+{% endif %}
+
+{% if page.is_note %}
+{% assign url_eval = slug_eval | prepend: site.webmention-notes-url %}
+{% endif %}
+
+{% if page.is_link %}
+{% assign url_eval = slug_eval | prepend: site.webmention-links-url %}
+{% endif %}
+
+{% for item in webmention_dump %}
+
+    {% if item.target contains url_eval %}
+
+        {% assign webmentions = webmentions | push: item %}
+
+    {% endif %}
+
+{% endfor %}
+
+{% if webmentions.size > 0 %}
+
+    {% for webmention in webmentions %}
+
+        {% if forloop.first == true %}
+
+        <h3 class="mb3">Mentions</h3>
+
+        <ul class="ma0 pa0 list f7">
+
+        {% endif %}
+
+        <li class="mb3">{% if webmention.activity.sentence_html %}<span class="db">{{ webmention.activity.sentence_html | prettify }}</span>{% endif %}<cite class="db"><a rel="nofollow" href="{{ webmention.source }}">{{ webmention.source }}</a>{% if webmention.verified_date %} — <time class="fs-normal">{{ webmention.verified_date | date: "%-d %b, %Y" }}{% endif %}</time></cite></li>
+
+    {% endfor %}
+
+    </ul>
+
+{% endif %}
+
+</div>

@@ -14,6 +14,9 @@ github: https://github.com/leonp/
 microblog: https://micro.blog/leonp/
 webmention-pingback: https://webmention.io/www.thisdaysportion.com/xmlrpc
 webmention-mention: https://webmention.io/www.thisdaysportion.com/webmention
+webmention-url: thisdaysportion.com/posts/
+webmention-notes-url: thisdaysportion.com/notes/
+webmention-links-url: thisdaysportion.com/links/
 
 # Some logomark settings. See header.html include to see what this does.
 # logomark: ✩
@@ -190,6 +193,9 @@ jekyll_get_json:
     cache: true
   - data: airtable_comments
     json: 'https://api.airtable.com/v0/appLAOCtEichPh1fp/Table%201?api_key=keycctTiw9uYaVvP9'
+    cache: true
+  - data: wm
+    json: 'https://webmention.io/api/mentions?token=l0rDXZZ2YinbbSQ8KQ_HAA'
     cache: true
 
 # Data page generator
