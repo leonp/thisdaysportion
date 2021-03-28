@@ -5,6 +5,6 @@ mb-cat: ''
 published: false
 
 ---
-This is interesting. My Apple RSS reader of choice NetNewsWire now has a feature where you can convert your Twitter stream into an RSS feed.
+This is interesting. My Apple RSS reader of choice [NetNewsWire](https://netnewswire.com/) now has a feature where you can convert your Twitter stream into an RSS feed.
 
-{% include figure.html url="filename.jpg" alt="Alt text." caption="Caption text" %}
+![Screenshot of my Twitter feed in NetNewsWire](/images/netnewswire-6.jpg "NetNewsWire 6")
