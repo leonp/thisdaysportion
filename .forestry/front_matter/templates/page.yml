@@ -5,27 +5,48 @@ fields:
 - type: text
   name: layout
   label: layout
+  config:
+    required: true
+  default: default
+  description: No need to change this, it’s for the website only.
+  hidden: true
 - type: text
   name: title
-  label: title
-- type: number
-  name: order
-  label: order
+  label: Title
+  description: This is the title displayed in the navigation menu (if you want to
+    dislpay it there), and on the page by default.
 - type: text
   name: display-title
-  label: display-title
-- type: boolean
-  name: is_home
-  label: is_home
-- type: boolean
-  name: is_wide
-  label: is_wide
+  label: Display title
+  description: An alternative title for the page. For example, you might not want
+    to display ‘Home’ in the navigation menu but something else on the home page.
 - type: textarea
   name: sub
-  label: sub
+  label: Page summary
+  description: This text appears below the page title. It serves as a summary of your
+    page.
+- name: in_nav
+  type: boolean
+  label: Show in navigation
+  description: Show this page in the navigation menu
+  default: false
+- type: number
+  name: order
+  label: Navigation order
+  description: Where the page appears in the navigation order.
+- type: boolean
+  name: is_home
+  label: Is this the home page?
+  description: Leave this, it’s a system setting.
+  hidden: true
+- type: boolean
+  name: is_wide
+  label: Use a widescreen layout?
+  hidden: true
+  description: Leave this, it’s a system setting.
 - type: field_group
   name: pagination
-  label: pagination
+  label: Pagination
   fields:
   - type: boolean
     name: enabled
@@ -33,3 +54,5 @@ fields:
   - type: text
     name: collection
     label: collection
+  description: Leave this as it’s a system setting.
+  hidden: true
