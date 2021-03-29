@@ -95,21 +95,23 @@
 
 {% if webmentions.size > 0 %}
 
-    {% for webmention in webmentions %}
+  <h3 class="mb3">Mentions</h3>
 
-        {% if forloop.first == true %}
+  {% for webmention in webmentions %}
 
-        <h3 class="mb3">Mentions</h3>
+  <article class="c-background pa2 pa3-ns ba b--moon-gray c-border mb3">
 
-        <ul class="ma0 pa0 list f6">
+    <h4 id="{{ webmention.id }}" class="f5 mt0 mb1">{% if webmention.data.author.url %}<a rel="nofollow" href="{{ webmention.data.author.url }}">{% endif %}{{ webmention.data.author.name }}{% if webmention.data.author.url %}</a>{% endif %}</h4>
 
-        {% endif %}
+    <p class="c-sans-serif mt0 mb1 f7"><time>{{ webmention.data.published | date: "%-d %b, %Y %H:%M" }}</time>{% if webmention.activity.type %} ({{ webmention.activity.type }}){% endif %}</p>
 
-        <li class="mb3">{% if webmention.activity.sentence_html %}<span class="db">{{ webmention.activity.sentence_html | prettify }}</span>{% endif %}<cite class="db"><a rel="nofollow" href="{{ webmention.source }}">{{ webmention.source }}</a>{% if webmention.verified_date %} — <time class="fs-normal">{{ webmention.verified_date | date: "%-d %b, %Y" }}{% endif %}</time></cite></li>
+    {% if webmention.data.content %}<div>{{ webmention.data.content | markdownify }}</div>{% endif %}
 
-    {% endfor %}
+    <p class="f7 mv1"><cite><a rel="nofollow" href="{{ webmention.data.url }}">{{ webmention.data.url }}</a></cite></p>
 
-    </ul>
+  </article>
+
+  {% endfor %}
 
 {% endif %}
 
