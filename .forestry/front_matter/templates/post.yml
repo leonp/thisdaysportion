@@ -11,6 +11,13 @@ fields:
 - type: textarea
   name: sub
   label: sub
+- name: mb-cat
+  type: text
+  config:
+    required: false
+  label: micro.blog emoji
+  description: "An emoji used to categorise posts on micro.blog (e.g. setting a \U0001F4DA
+    will add the post to the Books discovery feed)"
 - name: date
   type: datetime
   label: Date
