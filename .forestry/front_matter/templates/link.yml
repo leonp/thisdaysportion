@@ -14,6 +14,12 @@ fields:
 - type: text
   name: link-author
   label: link-author
+- name: mb-cat
+  type: text
+  config:
+    required: false
+  label: micro.blog category
+  description: An emoji(s) used by micro.blog to categorise your post
 - name: date
   type: datetime
   description: This is the date the post, note or link is published. In links it’s
