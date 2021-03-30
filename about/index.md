@@ -20,7 +20,7 @@ At the moment I seem to be writing about writing and publishing a lot, which may
 
 I used to post everything to [leonpaternoster.com](https://www.leonpaternoster.com), but that’s now just where you find the work me. The world has become more LinkedInified, or perhaps I’ve just got older — careers progress, older posts become a bit of a no-no work wise and everything gets dumped elsewhere, i.e. here. I still fundamentally _believe_ in blogging and, at the very least, writing and hitting publish is good for me.
 
-I’m interested in the publishing to and defining the [indieweb](https://indieweb.org/).
+I’m interested in publishing to and exploring the [indieweb](https://indieweb.org/).
 
 ## Contact
 
@@ -40,7 +40,7 @@ On a dynamic page there’d be lots going on behind the scenes – you could cho
 
 Now, there are ways to serve static pages but still enjoy interactive features such as comments, and that’s what I like to explore on this website. I’ll often write about these processes, and you can [browse the code on Github](https://github.com/leonp/thisdaysportion).
 
-You might ask _why?_ I bother with this, which would be a fair enough question. If you’re just looking to get up and blogging on the indieweb, you would be _far_ better off using either [WordPress](https://wordpress.com) or [micro.blog](https://micro.blog), two excellent services with comments, webmentions etc. built in. 
+You might ask _why?_ I bother with this, which would be a fair enough question. If you’re just looking to get up and blogging on the indieweb, you would be _far_ better off using either [WordPress](https://wordpress.com) or [micro.blog](https://micro.blog), two excellent services with comments, webmentions etc. built in.
 
 There are three answers to this question. Firstly, I enjoy tinkering with this blog, and it gives me a chance to develop skills such as wrangling with [APIs](https://en.wikipedia.org/wiki/API). Secondly, I’ve been using Jekyll for six years – it’s what I know. Finally, there is a place for traditional static sites out there, and this site, in its own very small way, helps demonstrate that.
 
