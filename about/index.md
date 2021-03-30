@@ -12,7 +12,7 @@ hyphens: true
 ---
 This is my blog, and I am Leon Paternoster.
 
-<img class="br-100 fr-ns w-50-ns w-third-l ml4-ns shadow-4" src="/images/mr-leon-paternoster-400.jpg" alt="Leon Paternoster with scruffy hair wearing a green jumper." caption="March 2021.">
+<img class="br-100 fr w-third w-25-l ml3 ml4-ns shadow-4" src="/images/mr-leon-paternoster-400.jpg" alt="Leon Paternoster with scruffy hair wearing a green jumper.">
 
 I write about lots of things – mainly designing and building things online, but also politics, books, music and other cultural _stuff_.
 
