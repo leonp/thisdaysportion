@@ -28,3 +28,5 @@ fields:
     time_format: 
     display_utc: false
   default: now
+pages:
+- _posts/adding-webmentions-to-jekyll-an-overview.md
