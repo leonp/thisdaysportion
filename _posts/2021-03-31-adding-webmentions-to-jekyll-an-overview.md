@@ -7,7 +7,7 @@ sub: A summary of how I got the webmentions service – which collects mentions 
 mb-cat: ''
 
 ---
-I have webmentions working on a Jekyll site.
+I have [webmentions working on a Jekyll site](https://www.thisdaysportion.com/notes/netnewswire-6-has-a-twitter-feed-feature#1096440) (they even get their own anchor link).
 
 Here’s an overview of what I did:
 
@@ -16,7 +16,7 @@ Here’s an overview of what I did:
 * `jekyll-get-json` makes each webmention object available in a Jekyll array, which you loop through as you would any other array
 * I added some code to my `comment-form.html` include that  looked for the post URL slug in the webmention source URL. If it got a match, it added the webmention object to a new array.
 * The code loops through the new array, outputting the mention author, source, date and content
-* I subscribe to my webmention RSS feed to get a notification whenever there’s a new mention. I _could_ get this to fire a site build on Netlify, so the mention would appear minutes after the mention was made. (But there’s not much point, really.)
+* I subscribe to my webmention RSS feed to get a notification whenever there’s a new mention. I _could_ get this to fire a site build on Netlify, so the mention would appear minutes after the mention was made (but there’s not much point, really).
 
 [See the code](https://github.com/leonp/thisdaysportion/blob/master/_includes/comment-form.html) (from line `68`).
 
