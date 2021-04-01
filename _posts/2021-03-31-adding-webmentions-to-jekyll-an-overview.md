@@ -1,5 +1,5 @@
 ---
-date: 2021-03-31 14:49:53 +0000
+date: 2021-03-31T14:49:53.000+00:00
 title: Adding webmentions to Jekyll (an overview)
 category: ''
 sub: A summary of how I got the webmentions service – which collects mentions to your
@@ -9,7 +9,7 @@ mb-cat: ''
 ---
 I have [webmentions working on a Jekyll site](https://www.thisdaysportion.com/notes/netnewswire-6-has-a-twitter-feed-feature#1096440) (they even get their own anchor link).
 
-Here’s an overview of what I did:
+Here’s an overview of what I did (this explanation assumes knowledge of what an API is and some general programming concepts):
 
 * I set up [webmentions](https://webmention.io/) and [Bridgy](https://brid.gy/)
 * I installed the `jekyll-get-json` plugin to parse my [webmention endpoint](https://webmention.io/api/mentions?token=l0rDXZZ2YinbbSQ8KQ_HAA)
