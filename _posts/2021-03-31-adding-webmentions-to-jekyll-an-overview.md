@@ -14,9 +14,9 @@ Here’s an overview of what I did (this explanation assumes knowledge of what a
 * I set up [webmentions](https://webmention.io/) and [Bridgy](https://brid.gy/)
 * I installed the `jekyll-get-json` plugin to parse my [webmention endpoint](https://webmention.io/api/mentions?token=l0rDXZZ2YinbbSQ8KQ_HAA)
 * `jekyll-get-json` makes each webmention object available in a Jekyll array, which you loop through as you would any other array
-* I added some code to my `comment-form.html` include that checked whether the page `slug` was the same the webmention `target` `slug`. If so, it added the webmention object to a new array. (Incidentally, Liquid – Jekyll’s templating language – is surprisingly powerful when it comes to text and arrays. I was able to convert a string to an array using a delimiter, remove empty array items and return the last item of the array as a new string in one line of code.)
-* The code loops through the new array, outputting the mention author, source, date and content
-* I subscribe to my webmention RSS feed to get a notification whenever there’s a new mention. I _could_ get this to fire a site build on Netlify, so the mention would appear minutes after the mention was made (but there’s not much point, really).
+* I added some code to my `comment-form.html` include that checks whether the page `slug` is the same as the webmention `target` `slug`. If so, it adds the webmention object to a new array. (Incidentally, [Liquid](https://shopify.github.io/liquid/) – Jekyll’s templating language – is surprisingly powerful when it comes to text and arrays. I was able to convert a string to an array using a `/` delimiter, remove empty items from that array and return its last item as a new string in one line of code.)
+* The code loops through the new array, outputting the mention author, source, date and content. It also creates an in-page link to the comment by using the websmetion comment `ID`.
+* I subscribe to my webmention RSS feed to get a notification whenever there’s a new mention. I _could_ get this to fire a site build on Netlify, so the mention would appear minutes after it was made (but there’s not much point, and I’m looking to limit Netlify build minutes so I don’t get charged).
 
 [See the code](https://github.com/leonp/thisdaysportion/blob/master/_includes/comment-form.html) (from line `68`).
 
