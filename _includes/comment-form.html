@@ -69,27 +69,15 @@
 
 {% assign webmention_dump = site.data.wm.links %}
 
-{% assign slug_eval = page.slug %}
-
-{% if page.is_post %}
-{% assign url_eval = slug_eval | prepend: site.webmention-url %}
-{% endif %}
-
-{% if page.is_note %}
-{% assign url_eval = slug_eval | prepend: site.webmention-notes-url %}
-{% endif %}
-
-{% if page.is_link %}
-{% assign url_eval = slug_eval | prepend: site.webmention-links-url %}
-{% endif %}
-
 {% for item in webmention_dump %}
 
-    {% if item.target contains url_eval %}
+  {% assign target_url = item.target | split: "/" | compact | last %}
 
-        {% assign webmentions = webmentions | push: item %}
+  {% if target_url == page.slug %}
 
-    {% endif %}
+      {% assign webmentions = webmentions | push: item %}
+
+  {% endif %}
 
 {% endfor %}
 
