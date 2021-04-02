@@ -36,13 +36,15 @@
 
       {% else %}
 
-        <div class="flex flex-column flex-column-reverse">
+        <header class="flex flex-column flex-column-reverse">
 
-          <div><a class="c-sans-serif db pv1" href="{{ item.url }}">{{ item.title }}</a></div>
+          <h2 class="f5 c-lh-title ma0"><a class="c-sans-serif db pv1" href="{{ item.url }}">{{ item.title }}</a></h2>
 
           <time class="c-sans-serif db f6" datetime="{{ item.date | date: '%Y-%m-%d' }}">{{ item.date | date: "%-d %b, %Y" }}</time>
 
-        </div>
+        </header>
+
+        <div class="mv2">{{ item.content | strip_html | strip_newlines | truncatewords: 25 }}</div>
 
       {% endif %}
 
