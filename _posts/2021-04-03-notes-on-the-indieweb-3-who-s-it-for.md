@@ -1,5 +1,5 @@
 ---
-date: 2021-04-03 20:51:01 +0000
+date: 2021-04-03T20:51:01.000+00:00
 title: 'Notes on the “indieweb” #3: Who’s it for?'
 category: web
 sub: In the first two parts of this series on the indieweb I looked at publishing
@@ -12,7 +12,7 @@ mb-cat: ''
 * [Notes on the “indieweb” #1: Where do I publish and discuss?](/posts/indiewebish/)
 * [Notes on the “indieweb” #2: Where do I find things to read?](/posts/indiewebish-2/)
 
-\*_Just what is indieweb?_* How do you go indieweb? Who has already done it? Who’s it for?
+**Just what is indieweb?** How do you go indieweb? Who has already done it? Who’s it for?
 
 In one way, these are easy questions to answer. Indieweb is a movement with founders, supporters and [a canonical website](https://indieweb.org/), which provides a simple definition...
 
