@@ -4,7 +4,8 @@ category: web
 sub: "I briefly discussed how to publish content on your website, syndicate it to places like Twitter and handle comments. Now I’ll look at replacing your favourite social media feed with other sources of content – you know it’s the right thing to do!"
 ---
 
-**Part 1: [Notes on the “indieweb” #1: Where do I publish and discuss?](/posts/indiewebish/)**
+- [Notes on the “indieweb” #1: Where do I publish and discuss?](/posts/indiewebish/)
+- [Notes on the “indieweb” #3: Who’s it for?](/posts/indiewebish-3/)
 
 Central to the idea of the indieweb is the good old fashioned website, [a place where you can publish whatever you like](/posts/indiewebish/), in whatever format or context you please, before pushing it to, say, Twitter or Facebook. This concept is known as [POSSE (Publish (on your) Own Site, Syndicate Elsewhere)](https://indieweb.org/POSSE).
 
