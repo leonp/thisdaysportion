@@ -5,7 +5,7 @@ sub: "I briefly discussed how to publish content on your website, syndicate it t
 ---
 
 - [Notes on the “indieweb” #1: Where do I publish and discuss?](/posts/indiewebish/)
-- [Notes on the “indieweb” #3: Who’s it for?](/posts/indiewebish-03/)
+- [Notes on the “indieweb” #3: Who’s it for?](/posts/notes-on-the-indieweb-3-who-s-it-for/)
 
 Central to the idea of the indieweb is the good old fashioned website, [a place where you can publish whatever you like](/posts/indiewebish/), in whatever format or context you please, before pushing it to, say, Twitter or Facebook. This concept is known as [POSSE (Publish (on your) Own Site, Syndicate Elsewhere)](https://indieweb.org/POSSE).
 

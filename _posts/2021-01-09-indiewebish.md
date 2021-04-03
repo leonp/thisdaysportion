@@ -5,7 +5,7 @@ sub: "2020 was what I’d loosely describe as my year of the “indieweb”. As 
 ---
 
 - [Notes on the “indieweb” #2: Where do I find things to read?](/posts/indiewebish-2/)
-- [Notes on the “indieweb” #3: Who’s it for?](/posts/indiewebish-03/)
+- [Notes on the “indieweb” #3: Who’s it for?](/posts/notes-on-the-indieweb-3-who-s-it-for/)
 
 I stopped using Twitter on a daily (or more accurately, quarterhourly) basis on 24 May 2020. Since then I’ve tinkered with automatically tweeting stuff from this website and I have, on two or three occasions, actually logged in to `twitter.com` and posted something. So while I haven’t gone full woodsman and deleted my account, I have to all intents and purposes, _stopped using Twitter_.
 
