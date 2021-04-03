@@ -2,7 +2,6 @@
 title: "Notes on the “indieweb” #3: Who’s it for?"
 category: web
 sub: "In the first two parts of this series on the indieweb I looked at publishing to your own website, conversations off the social media giants’ networks and finding content when you’re no longer using Twitter, Facebook etc. In this part I’ll start to explore the meaning of “indieweb” – specifically, who it’s for."
-date: 2021-04-03T20:45
 ---
 
 - [Notes on the “indieweb” #1: Where do I publish and discuss?](/posts/indiewebish/)
