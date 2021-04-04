@@ -10,17 +10,17 @@
 
           <h2 class="f5 c-lh-title ma0"><a class="db pv1" href="{{ item.url }}">{{ item.title }}</a></h2>
 
-          <time class="c-sans-serif db f6" datetime="{{ item.date | date: "%Y-%m-%d" }}">{{ item.date | date: "%-d %b, %Y" }}</time>
+          <time class="c-sans-serif db f7" datetime="{{ item.date | date: "%Y-%m-%d" }}">{{ item.date | date: "%-d %b, %Y" }}</time>
 
         </header>
 
         {% if item.sub %}
 
-          <p class="mv2">{{ item.sub }}</p>
+          <p class="mv2 f6">{{ item.sub }}</p>
 
         {% else %}
 
-          <p class="mv2">{{ item.excerpt | strip_html | strip_newlines }}</p>
+          <p class="mv2 f6">{{ item.excerpt | strip_html | strip_newlines }}</p>
 
         {% endif %}
 
@@ -30,7 +30,7 @@
 
           <div>{{ item.content | strip_html | strip_newlines | truncatewords: 25 }}</div>
 
-          <time class="c-sans-serif db f6" datetime="{{ item.date | date: "%Y-%m-%d" }}"><a class="db pv1" href="{{ item.url }}">{{ item.date | date: "%-d %b, %Y" }}</a></time>
+          <time class="c-sans-serif db f7" datetime="{{ item.date | date: "%Y-%m-%d" }}"><a class="db pv1" href="{{ item.url }}">{{ item.date | date: "%-d %b, %Y" }}</a></time>
 
         </div>
 
@@ -40,11 +40,11 @@
 
           <h2 class="f5 c-lh-title ma0"><a class="c-sans-serif db pv1" href="{{ item.url }}">{{ item.title }}</a></h2>
 
-          <time class="c-sans-serif db f6" datetime="{{ item.date | date: '%Y-%m-%d' }}">{{ item.date | date: "%-d %b, %Y" }}</time>
+          <time class="c-sans-serif db f7" datetime="{{ item.date | date: '%Y-%m-%d' }}">{{ item.date | date: "%-d %b, %Y" }}</time>
 
         </header>
 
-        <div class="mv2">{{ item.content | strip_html | strip_newlines | truncatewords: 25 }}</div>
+        <div class="mv2 f6">{{ item.content | strip_html | strip_newlines | truncatewords: 25 }}</div>
 
       {% endif %}
 
