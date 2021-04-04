@@ -4,7 +4,7 @@
     --ph: 7.5vw;
     --pr: 7.5vw;
     --pl: 7.5vw;
-    --measure: 34rem;
+    --measure: 40rem;
     --lh-title: 1.2;
     --sans-serif: Inter, -apple-system, BlinkMacSystemFont, "segoe ui", "helvetica neue", helvetica, ubuntu, roboto, noto, sans-serif;
     --serif: "IBM Plex Serif", georgia, serif;
@@ -41,12 +41,6 @@
 html {
     font-size: 118.75%;
     scroll-behavior: smooth;
-}
-
-@media #{$breakpoint-not-small} {
-    html {
-        font-size: 125%;
-    }
 }
 
 body {
@@ -434,7 +428,7 @@ td {
 
 blockquote {
     font-size: 0.875em;
-    padding-left: 1.5rem;
+    padding-left: 1rem;
     margin-left: 0;
     margin-right: 0;
     border-left: 0.25rem solid var(--accent);
