@@ -1,22 +1,42 @@
 {% include header.html %}
 
-<article class="h-entry c-measure center">
+<article class="c-measure center h-entry mt4 mt5-ns">
 
-    <header class="mt4 mt5-m mt6-l mb4 c-constrain-most">
+  <div class="flex-l">
 
-        <h1 class="f4 f3-ns ma0 p-name c-lh-title">{{ page.title }} <span role="img" aria-label="Link"><a href="{{ page.link-url }}" class="dib c-icon no-underline">🔗</a></span></h1>
+    <div class="w-third-l pr3-l"></div>
 
-        <p class="mb0 f6 c-sans-serif"><time datetime="{{ page.date | date: "%Y-%m-%d" }}">{{ page.date | date: "%-d %b, %Y" }}</time> / <span role="img" aria-label="Link">🔗</span> <a href="/links">Links</a> / <span role="img" aria-label="Comment bubble">💬</span> <a href="#commentary">Comments and mentions</a></p>
+    <div class="w-two-thirds-l pl3-l">
 
-        <p class="mt1 mb0 f6 c-sans-serif">{% if page.link-published %}Originally published <time class="dt-published" datetime="{{ page.link-published | date: "%Y-%m-%d" }}">{{ page.link-published | date: "%-d %b, %Y" }}</time>{% endif %}{% if page.link-author %} by {{ page.link-author }}{% endif %}</p>
+      <h1 class="f4 f3-ns mt0 p-name c-lh-title">{{ page.title }} <span role="img" aria-label="Link"><a href="{{ page.link-url }}" class="dib c-icon no-underline">🔗</a></span></h1></h1>
 
-    </header>
+    </div>
 
-    <div class="c-constrain-most">
+  </div>
+
+  <div class="flex-l">
+
+    <div class="c-sans-serif w-third-l pr3-l mid-gray mb4 mb0-l f6 f5-l">
+
+        <p class="mb0"><time datetime="{{ page.date | date: "%Y-%m-%d" }}">{{ page.date | date: "%-d %b, %Y" }}</time></p>
+
+        <p class="ma0"><span role="img" class="c-icon" aria-label="Link">🔗</span> <a href="/links">Link</a></p>
+
+        <p class="ma0"><span role="img" class="c-icon" aria-label="Comment bubble">💬</span> <a href="#commentary">Comments and mentions</a></p>
+
+        <p class="ma0">{% if page.link-published %}Originally published <time class="dt-published" datetime="{{ page.link-published | date: "%Y-%m-%d" }}">{{ page.link-published | date: "%-d %b, %Y" }}</time>{% endif %}{% if page.link-author %} by {{ page.link-author }}{% endif %}</p>
+
+    </div>
+
+    <div class="w-two-thirds-l pl3-l e-content c-measure center c-constrain-most">
 
     {{ content }}
 
+    <p class="mt0 c-sans-serif"><strong>Liked this? <a href="/feed/index.xml">Subscribe to the RSS feed</a> or <a href="https://micro.blog/leonp">follow me on micro.blog</a>.</strong></p>
+
     </div>
+
+  </div>
 
     <footer class="f6 mt3">
 

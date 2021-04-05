@@ -6,45 +6,75 @@
 
       {% if item.is_post %}
 
-        <header class="flex flex-column flex-column-reverse c-sans-serif">
+        <div class="flex-l">
 
-          <h2 class="f5 c-lh-title ma0"><a class="db pv1" href="{{ item.url }}">{{ item.title }}</a></h2>
+          <div class="w-25-l pr3-l"><p class="c-lh-title ma0"><time class="pv1 c-sans-serif dib f7 f5-l" datetime="{{ item.date | date: "%Y-%m-%d" }}">{{ item.date | date: "%-d %b, %Y" }}</time></p></div>
 
-          <time class="c-sans-serif db f7" datetime="{{ item.date | date: "%Y-%m-%d" }}">{{ item.date | date: "%-d %b, %Y" }}</time>
+          <div class="w-75-l pl3-l">
 
-        </header>
+            <h2 class="c-sans-serif f5 c-lh-title ma0 mb2-l"><a class="db pv1" href="{{ item.url }}">{{ item.title }}</a></h2>
 
-        {% if item.sub %}
+          </div>
 
-          <p class="mv2 f6 f5-ns">{{ item.sub }}</p>
+        </div>
 
-        {% else %}
+        <div class="flex-l">
 
-          <p class="mv2 f6 f5-ns">{{ item.excerpt | strip_html | strip_newlines }}</p>
+          <div class="w-25-l pr3-l">
 
-        {% endif %}
+          </div>
+
+          <div class="w-75-l pl3-l">
+
+          {% if item.sub %}
+
+            <p class="mv2 ma0-l f6 f5-ns">{{ item.sub }}</p>
+
+          {% else %}
+
+            <p class="mv2 ma0-l f6 f5-ns">{{ item.excerpt | strip_html | strip_newlines }}</p>
+
+          {% endif %}
+
+          </div>
+
+        </div>
 
       {% elsif item.is_note %}
 
-        <div class="flex flex-column flex-column-reverse">
+        <div class="flex-l flex-row-reverse-l flex-column flex-column-reverse">
 
-          <div class="f6 f5-ns">{{ item.content | strip_html | strip_newlines | truncatewords: 25 }}</div>
+          <p class="f6 f5-ns w-75-l pl3-l ma0">{{ item.content | strip_html | strip_newlines | truncatewords: 25 }}</p>
 
-          <time class="c-sans-serif db f7" datetime="{{ item.date | date: "%Y-%m-%d" }}"><a class="db pv1" href="{{ item.url }}">{{ item.date | date: "%-d %b, %Y" }}</a></time>
+          <div class="w-25-l pr3-l">
+
+            <time class="c-sans-serif db f7 f5-l" datetime="{{ item.date | date: "%Y-%m-%d" }}"><a class="dib pv1" href="{{ item.url }}">{{ item.date | date: "%-d %b, %Y" }}</a></time>
+
+          </div>
 
         </div>
 
       {% else %}
 
-        <header class="flex flex-column flex-column-reverse">
+        <div class="flex-l">
 
-          <h2 class="f5 c-lh-title ma0"><a class="c-sans-serif dib pv1" href="{{ item.url }}">{{ item.title }}</a> <span role="img" aria-label="Link"><a href="{{ item.link-url }}" class="dib pv1 c-icon no-underline">🔗</a></span></h2>
+          <div class="w-25-l pr3-l"><p class="c-lh-title ma0"><time class="pv1 c-sans-serif dib f7 f5-l" datetime="{{ item.date | date: "%Y-%m-%d" }}">{{ item.date | date: "%-d %b, %Y" }}</time></p></div>
 
-          <time class="c-sans-serif db f7" datetime="{{ item.date | date: '%Y-%m-%d' }}">{{ item.date | date: "%-d %b, %Y" }}</time>
+          <div class="w-75-l pl3-l">
 
-        </header>
+            <h2 class="f5 c-lh-title ma0 mb2-l"><a class="c-sans-serif dib pv1" href="{{ item.url }}">{{ item.title }}</a> <span role="img" aria-label="Link"><a href="{{ item.link-url }}" class="dib pv1 c-icon no-underline">🔗</a></span></h2>
 
-        <div class="mv2 f6 f5-ns">{{ item.content | strip_html | strip_newlines | truncatewords: 25 }}</div>
+          </div>
+
+        </div>
+
+        <div class="flex-l">
+
+          <div class="w-25-l pr3-l"></div>
+
+          <div class="w-75-l pl3-l mv2 ma0-l f6 f5-ns">{{ item.content | strip_html | strip_newlines | truncatewords: 25 }}</div>
+
+        </div>
 
       {% endif %}
 
