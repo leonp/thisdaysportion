@@ -16,11 +16,11 @@
 
   <div class="flex-l">
 
-    <div class="w-third-l pr3-l mid-gray mb4 mb0-l f6 f5-l">
+    <div class="w-third-l pr3-l c-secondary-foreground mb4 mb0-l f6 f5-l c-sans-serif">
 
-      <p class="mb0 c-sans-serif"><time class="dt-published" datetime="{{ page.date | date: "%Y-%m-%d" }}">{{ page.date | date: "%-d %b, %Y" }}</time></p>
-      <p class="ma0 c-sans-serif"><span class="c-icon" role="img" aria-label="Page">📄</span> <a href="/posts">Post</a></p>
-      <p class="ma0 c-sans-serif"><span class="c-icon" role="img" aria-label="Comment bubble">💬</span> <a href="#commentary">Comments and mentions</a></p>
+      <p class="mb0"><time class="dt-published" datetime="{{ page.date | date: "%Y-%m-%d" }}">{{ page.date | date: "%-d %b, %Y" }}</time></p>
+      <p class="ma0"><span class="c-icon" role="img" aria-label="Page">📄</span> <a href="/posts">Post</a></p>
+      <p class="ma0"><span class="c-icon" role="img" aria-label="Comment bubble">💬</span> <a href="#commentary">Comments and mentions</a></p>
 
     </div>
 
@@ -28,24 +28,6 @@
 
     {{ content }}
 
-    <p class="mt0 c-sans-serif"><strong>Liked this? <a href="/feed/index.xml">Subscribe to the RSS feed</a> or <a href="https://micro.blog/leonp">follow me on micro.blog</a>.</strong></p>
-
-    </div>
-
-  </div>
-
-  <footer class="flex-l f6 mt3 bt c-border pt3">
-
-    <div class="w-third-l pr3-l"></div>
-
-    <div class="w-two-thirds-l pl3-l">
-
-      {% include comment-form.html %}
-
-    </div>
-
-  </footer>
-
-</article>
+    {% include article-footer.html %}
 
 {% include footer.html %}

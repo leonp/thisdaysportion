@@ -8,11 +8,17 @@
 
         <div class="flex-l">
 
-          <div class="w-25-l pr3-l"><p class="c-lh-title ma0"><time class="pv1 c-sans-serif dib f7 f5-l" datetime="{{ item.date | date: "%Y-%m-%d" }}">{{ item.date | date: "%-d %b, %Y" }}</time></p></div>
+          <div class="w-25-l pr3-l c-sans-serif">
+
+            <p class="c-lh-title ma0 mr2 mr0-l dib db-l"><time class="f7 f6-l" datetime="{{ item.date | date: "%Y-%m-%d" }}">{{ item.date | date: "%-d %b, %Y" }}</time></p>
+
+            {% if page.is_home %}<p class="c-lh-title ma0 di db-l"><a href="/posts" class="f7 f6-l"><span role="img" class="dib mr1 c-icon no-underline f7 f6-l" aria-label="Document">📄</span>Post</a></p>{% endif %}
+
+          </div>
 
           <div class="w-75-l pl3-l">
 
-            <h2 class="c-sans-serif f5 c-lh-title ma0 mb2-l"><a class="db pv1" href="{{ item.url }}">{{ item.title }}</a></h2>
+            <h2 class="c-sans-serif f5 c-lh-title ma0 mb2-l"><a class="db" href="{{ item.url }}">{{ item.title }}</a></h2>
 
           </div>
 
@@ -42,13 +48,19 @@
 
       {% elsif item.is_note %}
 
-        <div class="flex-l flex-row-reverse-l flex-column flex-column-reverse">
+        <div class="flex-l">
 
-          <p class="f6 f5-ns w-75-l pl3-l ma0">{{ item.content | strip_html | strip_newlines | truncatewords: 25 }}</p>
+          <div class="w-25-l pr3-l c-sans-serif">
 
-          <div class="w-25-l pr3-l">
+            <p class="c-lh-title ma0 mr2 mr0-l dib db-l"><time class="f7 f6-l" datetime="{{ item.date | date: "%Y-%m-%d" }}"><a class="dib f7 f6-l" href="{{ item.url }}">{{ item.date | date: "%-d %b, %Y" }}</a></time></p>
 
-            <time class="c-sans-serif db f7 f5-l" datetime="{{ item.date | date: "%Y-%m-%d" }}"><a class="dib pv1" href="{{ item.url }}">{{ item.date | date: "%-d %b, %Y" }}</a></time>
+            {% if page.is_home %}<p class="c-lh-title ma0 di db-l"><a href="/notes" class="f7 f6-l"><span role="img" class="dib mr1 c-icon no-underline" aria-label="Pen">🖋</span>Note</a></p>{% endif %}
+
+          </div>
+
+          <div class="w-75-l pl3-l">
+
+            <p class="f6 f5-ns ma0">{{ item.content | strip_html | strip_newlines | truncatewords: 25 }}</p>
 
           </div>
 
@@ -58,11 +70,17 @@
 
         <div class="flex-l">
 
-          <div class="w-25-l pr3-l"><p class="c-lh-title ma0"><time class="pv1 c-sans-serif dib f7 f5-l" datetime="{{ item.date | date: "%Y-%m-%d" }}">{{ item.date | date: "%-d %b, %Y" }}</time></p></div>
+          <div class="w-25-l pr3-l c-sans-serif">
+
+            <p class="c-lh-title ma0 mr2 mr0-l dib db-l"><time class="f7 f6-l" datetime="{{ item.date | date: "%Y-%m-%d" }}">{{ item.date | date: "%-d %b, %Y" }}</time></p>
+
+            {% if page.is_home %}<p class="c-lh-title ma0 di db-l"><a href="/links" class="f7 f6-l"><span role="img" class="dib mr1 c-icon no-underline" aria-label="Link">🔗</span>Link</a></p>{% endif %}
+
+          </div>
 
           <div class="w-75-l pl3-l">
 
-            <h2 class="f5 c-lh-title ma0 mb2-l"><a class="c-sans-serif dib pv1" href="{{ item.url }}">{{ item.title }}</a> <span role="img" aria-label="Link"><a href="{{ item.link-url }}" class="dib pv1 c-icon no-underline">🔗</a></span></h2>
+            <h2 class="f5 c-lh-title ma0 mb2-l"><a class="c-sans-serif db" href="{{ item.url }}">{{ item.title }}</a></h2>
 
           </div>
 

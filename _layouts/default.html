@@ -20,9 +20,13 @@
 
     {% endunless %}
 
-    <div class="c-measure center c-constrain-most{% if page.hide-title %} pt3{% endif %}">
+    <div class="c-measure center {% unless page.measure %}c-constrain-most{% endunless %}{% if page.hide-title %} pt3{% endif %}">
 
-      {{ content }}
+        {% if page.measure %}<div class="measure">{% endif %}
+
+        {{ content }}
+
+        {% if page.measure %}</div>{% endif %}
 
     </div>
 

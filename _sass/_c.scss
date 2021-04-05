@@ -6,7 +6,7 @@
     --pl: 7.5vw;
     --measure: 50rem;
     --lh-title: 1.2;
-    --sans-serif: "Fira Sans", -apple-system, BlinkMacSystemFont, "segoe ui", "helvetica neue", helvetica, ubuntu, roboto, noto, sans-serif;
+    --sans-serif: -apple-system, BlinkMacSystemFont, "segoe ui", "helvetica neue", helvetica, ubuntu, roboto, noto, sans-serif;
     --serif: Literata, georgia, serif;
     --monospace: "IBM Plex Mono", "Fira Code", "Menlo", "Courier New", monospace;
     --accent: #357EDD;  // Tachyons blue
@@ -16,6 +16,7 @@
     --focus: #FFB700; // Tachyons gold
     --background: #FFF; // Tachyons dark-gray
     --foreground: #222;
+    --secondary-foreground: #777;
     --secondary-background: #EEE; // Tachyons light-gray
     --rule-color: #CCC; // Tachyons moon-gray
 }
@@ -29,6 +30,7 @@
         --focus: #FFB700; // Tachyons dark-pink
         --background: #333; // Tachyons dark-gray
         --foreground: #CCC; // Tachyons moon-gray
+        --secondary-foreground: #AAA;
         --secondary-background: #555; // Tachyons mid-gray
         --rule-color: #777; // Tachyons gray
     }
@@ -69,6 +71,10 @@ body {
 
 .c-foreground {
     color: var(--foreground);
+}
+
+.c-secondary-foreground {
+    color: var(--secondary-foreground);
 }
 
 .c-sans-serif {

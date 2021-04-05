@@ -7,10 +7,7 @@ sub: In the first two parts of this series on the indieweb I looked at publishin
   content when you’re no longer using Twitter, Facebook etc. In this part I’ll start
   to explore the meaning of “indieweb” – specifically, who it’s for.
 mb-cat: ''
-
 ---
-* [Notes on the “indieweb” #1: Where do I publish and discuss?](/posts/indiewebish/)
-* [Notes on the “indieweb” #2: Where do I find things to read?](/posts/indiewebish-2/)
 
 **Just what is indieweb?** How do you go indieweb? Who has already done it? Who’s it for?
 
@@ -35,3 +32,6 @@ Posting is as frictionless, too – you can take a photo (on your iPhone, at lea
 But. I use micro.blog more than Twitter now, partly because it feels like a service made for someone like me – liberal, tech-literate, fairly into “indie” in its broadest sense. And there are lots of people like me on micro.blog; they’re working in web, happy tinkering with digital things, writing blogs, drinking coffee, taking photos of craft beer, talking about text editors etc. etc.
 
 My fear is that indieweb just becomes another corner of the web, with its own lingo, rituals and protocols – albeit one I like and I’m comfortable in – rather than a movement agitating for change in how we do things. But I suspect that would take far more radical, political action, such as breaking up and nationalising the digital infrastructure of this world, such as Facebook.
+
+* [Notes on the “indieweb” #1: Where do I publish and discuss?](/posts/indiewebish/)
+* [Notes on the “indieweb” #2: Where do I find things to read?](/posts/indiewebish-2/)

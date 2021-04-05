@@ -8,7 +8,7 @@ visited-links: true
 prose-headings: true
 underlined-links: true
 hyphens: true
-
+measure: true
 ---
 This is my blog, and I am Leon Paternoster.
 
