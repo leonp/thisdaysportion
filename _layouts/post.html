@@ -1,34 +1,44 @@
 {% include header.html %}
 
-<article class="h-entry">
+<article class="c-measure center h-entry mt4 mt5-ns">
 
-  <header class="mt4 mt5-m mt6-l mb4 c-measure center">
+  <div class="flex-l">
 
-      <h1 class="f3 f2-ns ma0 p-name c-lh-title">{{ page.title }}</h1>
+    <div class="w-third-l pr3-l"></div>
 
-      <p class="mb0 f6 c-sans-serif"><time datetime="{{ page.date | date: "%Y-%m-%d" }}">{{ page.date | date: "%-d %b, %Y" }}</time> / <span role="img" aria-label="Comment bubble">💬</span> <a href="#commentary">Comments and mentions</a></p>
+    <div class="w-two-thirds-l pl3-l">
 
-      {% if page.sub %}
+      <h1 class="f3 f2-ns mt0 p-name c-lh-title">{{ page.title }}</h1>
 
-      <p class="f4-ns">{{ page.sub }}</p>
-
-      <div class="bb w3 c-border bw3"></div>
-
-      {% endif %}
-
-  </header>
-
-  <div class="c-measure center c-constrain-most">
-
-  {{ content }}
+    </div>
 
   </div>
 
-  <footer class="f6 mt3">
+  <div class="flex-l">
 
-    <div class="c-measure center">
+    <div class="w-third-l pr3-l mid-gray mb4 mb0-l f6 f5-l">
 
-      <p class="mt0 mb4 mb5-ns c-sans-serif"><strong>Liked this? <a href="/feed/index.xml">Subscribe to the RSS feed</a> or <a href="https://micro.blog/leonp">follow me on micro.blog</a>.</strong></p>
+      <p class="mb0 c-sans-serif"><time class="dt-published" datetime="{{ page.date | date: "%Y-%m-%d" }}">{{ page.date | date: "%-d %b, %Y" }}</time></p>
+      <p class="ma0 c-sans-serif"><span class="c-icon" role="img" aria-label="Page">📄</span> <a href="/posts">Post</a></p>
+      <p class="ma0 c-sans-serif"><span class="c-icon" role="img" aria-label="Comment bubble">💬</span> <a href="#commentary">Comments and mentions</a></p>
+
+    </div>
+
+    <div class="w-two-thirds-l pl3-l e-content c-measure center c-constrain-most">
+
+    {{ content }}
+
+    <p class="mt0 c-sans-serif"><strong>Liked this? <a href="/feed/index.xml">Subscribe to the RSS feed</a> or <a href="https://micro.blog/leonp">follow me on micro.blog</a>.</strong></p>
+
+    </div>
+
+  </div>
+
+  <footer class="flex-l f6 mt3 bt c-border pt3">
+
+    <div class="w-third-l pr3-l"></div>
+
+    <div class="w-two-thirds-l pl3-l">
 
       {% include comment-form.html %}
 

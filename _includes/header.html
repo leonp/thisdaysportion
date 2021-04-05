@@ -97,13 +97,16 @@
         <link href="/css/style.css" rel="stylesheet">
         {% endif %}
 
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Literata:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+
         <link rel="prefetch" href="/search">
 
         <!-- ~ Hullo. I would make this a Liquid include if I wanted to preload some fonts 🦉 -->
 
     </head>
 
-    <body onload="document.getElementById('home').classList.remove('c-no-js');" id="home" class="c-no-js ma0 pa0 c-background c-foreground c-sans-serif {% if page.is_home %}🦉{% else %}{{ page.slug }}{% endif %}">
+    <body onload="document.getElementById('home').classList.remove('c-no-js');" id="home" class="c-no-js ma0 pa0 c-background c-foreground c-serif {% if page.is_home %}🦉{% else %}{{ page.slug }}{% endif %}">
 
         <a class="f6 c-target c-no-print pv2 c-ph clip dib" href="#content">Skip to content</a>
 
@@ -111,11 +114,27 @@
 
         <header class="c-sans-serif f7 c-secondary-background bb b--moon-gray c-border c-no-print">
 
-            <div class="flex-l items-center justify-between-l">
+            <div class="c-ph bb c-border">
 
-                <div class="mr2-l bb b--moon-gray c-border bn-l c-pl"><a href="/" rel="index" class="db dib-l pv2 b">This day’s portion</a></div>
+                <div class="c-measure center flex justify-between items-center">
 
-                <nav id="nav" class="nowrap overflow-x-auto ml2-l flex items-center c-ph c-sans-serif">
+                    <div class="pr2 pr3-ns"><a href="/" rel="index" class="dib pv2 b">This day’s portion</a></div>
+
+                    <div class="pl2 pl3-ns flex items-center">
+
+                        <a class="dib pv2 mr3" href="/feed/index.xml"><span role="img" class="mr1 dib no-underline c-icon" aria-label="Satellite antenna">📡</span>RSS</a>
+
+                        <a href="/search" class="dib pv2"><span role="img" class="mr1 dib no-underline c-icon" aria-label="Search">🔍</span>Search</a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="c-ph">
+
+                <nav id="nav" class="c-measure center nowrap overflow-x-auto flex items-center">
 
                     <a href="/" class="dib pv2 mr3{% if page.title == "Home" %} c-accent{% endif %}">Home</a>
 
@@ -130,10 +149,6 @@
                         {% endunless %}
 
                     {% endfor %}
-
-                    <a class="dib pv2 mr3" href="/feed/index.xml">RSS</a>
-
-                    <a href="/search" class="dib pa2"><span role="img" class="dib no-underline" aria-label="Search">🔍</span></a>
 
                 </nav>
 
