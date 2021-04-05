@@ -2,7 +2,7 @@
 layout: default
 title: About
 footer: true
-order: "2"
+order: "5"
 in_nav: true
 visited-links: true
 prose-headings: true

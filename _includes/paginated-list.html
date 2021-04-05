@@ -16,11 +16,11 @@
 
         {% if item.sub %}
 
-          <p class="mv2 f6">{{ item.sub }}</p>
+          <p class="mv2 f6 f5-ns">{{ item.sub }}</p>
 
         {% else %}
 
-          <p class="mv2 f6">{{ item.excerpt | strip_html | strip_newlines }}</p>
+          <p class="mv2 f6 f5-ns">{{ item.excerpt | strip_html | strip_newlines }}</p>
 
         {% endif %}
 
@@ -28,7 +28,7 @@
 
         <div class="flex flex-column flex-column-reverse">
 
-          <div>{{ item.content | strip_html | strip_newlines | truncatewords: 25 }}</div>
+          <div class="f6 f5-ns">{{ item.content | strip_html | strip_newlines | truncatewords: 25 }}</div>
 
           <time class="c-sans-serif db f7" datetime="{{ item.date | date: "%Y-%m-%d" }}"><a class="db pv1" href="{{ item.url }}">{{ item.date | date: "%-d %b, %Y" }}</a></time>
 
@@ -38,13 +38,13 @@
 
         <header class="flex flex-column flex-column-reverse">
 
-          <h2 class="f5 c-lh-title ma0"><a class="c-sans-serif db pv1" href="{{ item.url }}">{{ item.title }}</a></h2>
+          <h2 class="f5 c-lh-title ma0"><a class="c-sans-serif dib pv1" href="{{ item.url }}">{{ item.title }}</a> <span role="img" aria-label="Link"><a href="{{ item.link-url }}" class="dib pv1 c-icon no-underline">🔗</a></span></h2>
 
           <time class="c-sans-serif db f7" datetime="{{ item.date | date: '%Y-%m-%d' }}">{{ item.date | date: "%-d %b, %Y" }}</time>
 
         </header>
 
-        <div class="mv2 f6">{{ item.content | strip_html | strip_newlines | truncatewords: 25 }}</div>
+        <div class="mv2 f6 f5-ns">{{ item.content | strip_html | strip_newlines | truncatewords: 25 }}</div>
 
       {% endif %}
 

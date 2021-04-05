@@ -4,7 +4,7 @@ title: Links
 collection: links
 footer: false
 in_nav: true
-order: 5
+order: 4
 visited-links: true
 prose-headings: true
 underlined-links: true

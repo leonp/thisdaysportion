@@ -4,7 +4,7 @@ title: Notes
 collection: notes
 footer: true
 in_nav: true
-order: 4
+order: 3
 visited-links: true
 prose-headings: true
 underlined-links: true

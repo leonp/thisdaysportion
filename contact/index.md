@@ -3,7 +3,7 @@ layout: default
 title: Contact
 footer: true
 in_nav: true
-order: 3
+order: 6
 visited-links: true
 prose-headings: true
 underlined-links: true
