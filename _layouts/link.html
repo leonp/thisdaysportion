@@ -18,11 +18,11 @@
 
     <div class="c-sans-serif w-third-l pr3-l c-secondary-foreground mb4 mb0-l f6 f5-l">
 
-        <p class="mb0"><time class="dt-published" datetime="{{ page.date | date: "%Y-%m-%d" }}">{{ page.date | date: "%-d %b, %Y" }}{% if page.link-published %} (originally published <time datetime="{{ page.link-published | date: "%Y-%m-%d" }}">{{ page.link-published | date: "%-d %b, %Y" }}</time>{% endif %}{% if page.link-author %} by {{ page.link-author }}{% endif %})</time></p>
+        <p class="mb0"><span class="f6"><time class="dt-published" datetime="{{ page.date | date: "%Y-%m-%d" }}">{{ page.date | date: "%-d %b, %Y" }}{% if page.link-published %} (originally published <time datetime="{{ page.link-published | date: "%Y-%m-%d" }}">{{ page.link-published | date: "%-d %b, %Y" }}</time>{% endif %}{% if page.link-author %} by {{ page.link-author }}{% endif %})</time></span></p>
 
-        <p class="ma0"><span role="img" class="c-icon" aria-label="Link">🔗</span> <a href="/links">Link</a></p>
+        <p class="ma0"><span class="f6"><span role="img" class="c-icon" aria-label="Link">🔗</span> <a href="/links">Link</a></span></p>
 
-        <p class="ma0"><span role="img" class="c-icon" aria-label="Comment bubble">💬</span> <a href="#commentary">Comments and mentions</a></p>
+        <p class="ma0"><span class="f6"><span role="img" class="c-icon" aria-label="Comment bubble">💬</span> <a href="#commentary">Comments and mentions</a></span></p>
 
     </div>
 
