@@ -6,4 +6,4 @@ mb-cat: ''
 ---
 Lolz at my SEO failures. Although why Google thinks my `alt` text is what sums up this page more than anything else, your guess is as good as mine.
 
-![Screenshot of a google search result for my name.](/images/leonp-search.png)
+![Screenshot of a google search result for my name.](https://www.thisdaysportion.com/images/leonp-search.png)
