@@ -106,7 +106,7 @@
 
     </head>
 
-    <body onload="document.getElementById('home').classList.remove('c-no-js');" id="home" class="c-no-js ma0 pa0 c-background c-foreground c-serif {% if page.is_home %}🦉{% else %}{{ page.slug }}{% endif %}">
+    <body onload="document.getElementById('home').classList.remove('c-no-js');" id="home" class="c-no-js ma0 pa0 c-background c-foreground c-sans-serif {% if page.is_home %}🦉{% else %}{{ page.slug }}{% endif %}">
 
         <a class="f6 c-target c-no-print pv2 c-ph clip dib" href="#content">Skip to content</a>
 
@@ -132,7 +132,7 @@
 
                     <nav id="nav" class="flex nowrap overflow-x-auto">
 
-                        <a href="/" class="dib pv2 mr3{% if page.title == "Home" %} c-accent{% endif %}">Home</a>
+                        <a href="/" class="dib pv2 mr3{% if page.title == "Home" %} c-link{% endif %}">Home</a>
 
                         {% assign pages = site.pages | where: "in_nav", true | sort: "order" %}
 
