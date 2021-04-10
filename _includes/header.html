@@ -140,7 +140,7 @@
 
                             {% unless this_page.url contains "page" %}
 
-                            <a href="{{ this_page.url }}" class="border-box dib pv2 mr3{% if this_page.url == page.url %} bt c-border{% endif %}">{{ this_page.title }}</a>
+                            <a href="{{ this_page.url }}" class="border-box dib pv2 mr3{% if this_page.url == page.url %} c-link{% endif %}">{{ this_page.title }}</a>
 
                             {% endunless %}
 
