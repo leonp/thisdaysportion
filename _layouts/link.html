@@ -1,35 +1,21 @@
 {% include header.html %}
 
-<article class="c-measure center h-entry mt4 mt5-ns">
+<article class="h-entry c-measure center">
 
-  <div class="flex-l">
+  <header class="mb3 mb4-ns c-sans-serif">
 
-    <div class="w-third-l pr3-l"></div>
+    <h1 class="f4 mt0 mb3 p-name"><a href="{{ page.link-url }}">{{ page.title }} &rarr;</a></h1>
 
-    <div class="w-two-thirds-l pl3-l">
+    <p class="f6 ma0"><time class="dt-published" datetime="{{ page.date | date: "%Y-%m-%d" }}">{{ page.date | date: "%-d %b, %Y" }}</time> &middot; <a href="/links" class="pv1">Links</a> &middot; <a href="#commentary" class="pv1">Commentary</a></p>
 
-      <h1 class="f4 f3-ns mt0 p-name c-lh-title">{{ page.title }} <span role="img" aria-label="Link"><a href="{{ page.link-url }}" class="dib c-icon no-underline">🔗</a></span></h1>
+    <p class="f6 ma0">{% if page.link-published %}Published <time datetime="{{ page.link-published | date: "%Y-%m-%d" }}">{{ page.link-published | date: "%-d %b, %Y" }}</time>{% endif %}{% if page.link-author %} by {{ page.link-author }}{% endif %}</p>
 
-    </div>
+  </header>
 
-  </div>
+  <div class="e-content">
 
-  <div class="flex-l">
+  {{ content }}
 
-    <div class="c-sans-serif w-third-l pr3-l c-secondary-foreground mb4 mb0-l f6 f5-l">
-
-        <p class="mb0"><span class="f6"><time class="dt-published" datetime="{{ page.date | date: "%Y-%m-%d" }}">{{ page.date | date: "%-d %b, %Y" }}{% if page.link-published %} (originally published <a href="{{ page.link-url }}"><time datetime="{{ page.link-published | date: "%Y-%m-%d" }}">{{ page.link-published | date: "%-d %b, %Y" }}</time></time></a>{% endif %}{% if page.link-author %} by {{ page.link-author }}{% endif %})</span></p>
-
-        <p class="ma0"><a class="f6" href="/links"><span class="c-icon no-underline dib mr1" role="img" aria-label="Link">🔗</span>Link</a></p>
-
-        <p class="ma0"><a class="f6" href="#commentary"><span class="c-icon no-underline dib mr1" role="img" aria-label="Comment bubble">💬</span>Comments and mentions</a></p>
-
-    </div>
-
-    <div class="w-two-thirds-l pl3-l e-content c-measure center c-constrain-most">
-
-    {{ content }}
-
-    {% include article-footer.html %}
+  {% include article-footer.html %}
 
 {% include footer.html %}

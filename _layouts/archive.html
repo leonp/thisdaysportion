@@ -2,23 +2,21 @@
 
 <div class="c-measure center">
 
-	{% unless page.hide-title %}
+    {% unless page.hide-title %}
 
-	  <div class="mt4 mt5-m mt6-l mb4 c-constrain-most">
+    <div class="mb3 mb4-ns sans-serif">
 
-	      <h1 class="f3 f2-ns ma0">{% if page.display-title %}{{ page.display-title }}{% else %}{{ page.title }}{% endif %}</h1>
+        <h1 class="f3 f2-ns mt0 mb3 p-name">{% if page.display-title %}{{ page.display-title }}{% else %}{{ page.title }}{% endif %}</h1>
 
-	      {% if page.sub %}
+        {% if page.sub %}
 
-	      	<p class="f4-ns">{{ page.sub }}</p>
+        <p class="f4-ns">{{ page.sub }}</p>
 
-        	<div class="bb w3 c-border bw3"></div>
+        {% endif %}
 
-	      {% endif %}
+    </div>
 
-	  </div>
-
-	{% endunless %}
+    {% endunless %}
 
 	{{ content}}
 
@@ -32,6 +30,6 @@
 
 	{% endif %}
 
-	{% include footer.html %}
-
 </div>
+
+{% include footer.html %}

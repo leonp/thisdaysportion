@@ -4,29 +4,34 @@
     --ph: 7.5vw;
     --pr: 7.5vw;
     --pl: 7.5vw;
-    --measure: 50rem;
-    --lh-title: 1.2;
+    --measure: 38rem;
+    --lh-copy: 1.375;
+    --lh-copy-m: 1.5;
+    --lh-copy-l: 1.6;
+    --lh-title: 1.1;
+    --lh-title-m: 1.2;
+    --lh-title-l: 1.25;
     --sans-serif: -apple-system, BlinkMacSystemFont, "segoe ui", "helvetica neue", helvetica, ubuntu, roboto, noto, sans-serif;
-    --serif: 'Source Serif Pro', georgia, serif;
+    --serif: georgia, serif;
     --monospace: "IBM Plex Mono", "Fira Code", "Menlo", "Courier New", monospace;
-    --accent: #357EDD;  // Tachyons blue
-    --link: #000;
-    --hover: #357EDD; // Tachyons blue
+    --accent: #000;  // Tachyons black
+    --link: #0000EE; // International browser blue
+    --hover: #0000EE; // International browser blue
     --visited: #555; // Tachyons mid-gray
     --focus: #FFB700; // Tachyons gold
     --background: #FFF; // Tachyons dark-gray
-    --foreground: #222;
-    --secondary-foreground: #777;
+    --foreground: #222; // My dark gray
+    --secondary-foreground: #777; // My secondary gray
     --secondary-background: #EEE; // Tachyons light-gray
     --rule-color: #CCC; // Tachyons moon-gray
 }
 
 @media (prefers-color-scheme: dark) {
     :root {
-        --accent: #FFB700;  // Tachyons dark-pink
-        --link: #FFF;
-        --hover: #FFB700; // Tachyons dark-pink
-        --visited: #AAA; // Tachyons pink
+        --accent: #FFF;  // Tachyons white
+        --link: #96CCFF; // Tachyons light blue
+        --hover: #FFF; // Tachyons white
+        --visited: #AAA; // Tachyons silver
         --focus: #FFB700; // Tachyons dark-pink
         --background: #333; // Tachyons dark-gray
         --foreground: #CCC; // Tachyons moon-gray
@@ -41,23 +46,35 @@
 }
 
 html {
-    font-size: 118.75%;
+    font-size: 112.5%;
     scroll-behavior: smooth;
 }
 
-body {
-    line-height: 1.375;
+@media #{$breakpoint-not-small} {
+    html {
+        font-size: 118.75%;
+    }
 }
 
-@media #{$breakpoint-not-small} {
+@media #{$breakpoint-large} {
+    html {
+        font-size: 125%;
+    }
+}
+
+body {
+    line-height: var(--lh-copy);
+}
+
+@media #{$breakpoint-medium} {
     body {
-        line-height: 1.4375;
+        line-height: var(--lh-copy-m);
     }
 }
 
 @media #{$breakpoint-large} {
     body {
-        line-height: 1.45;
+        line-height: var(--lh-copy-l);
     }
 }
 
@@ -90,7 +107,19 @@ body {
 }
 
 .c-lh-title {
-    line-height: 1.2;
+    line-height: var(--lh-title);
+}
+
+@media #{$breakpoint-medium} {
+    .c-lh-title {
+        line-height: var(--lh-title-m);
+    }
+}
+
+@media #{$breakpoint-large} {
+    .c-lh-title {
+        line-height: var(--lh-title-l);
+    }
 }
 
 .c-bg-accent {
@@ -148,9 +177,9 @@ body {
 
 a,
 summary {
-    color: var(--link);
+    color: var(--accent);
     text-decoration-thickness: 2px;
-    text-decoration-color: var(--accent);
+    text-decoration-color: var(--link);
 }
 
 a:hover,
@@ -166,8 +195,29 @@ h5,
 h6 {
     line-height: var(--lh-title);
     line-height: clamp(1.15em, 2.5vw, 1.2em);
-    color: var(--link);
     font-family: var(--sans-serif);
+}
+
+@media #{$breakpoint-medium} {
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        line-height: var(--lh-title-m);
+    }
+}
+
+@media #{$breakpoint-large} {
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        line-height: var(--lh-title-l);
+    }
 }
 
 figure {

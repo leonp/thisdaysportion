@@ -2,97 +2,71 @@
 
 {% for item in items %}
 
-    <article class="pv3 pv4-ns">
+    <article class="mv4 mv5-ns">
 
       {% if item.is_post %}
 
-        <div class="flex-l">
+        <header class="c-sans-serif">
 
-          <div class="w-25-l pr3-l c-sans-serif">
+          <h2 class="c-sans-serif f5 c-lh-title mt0 mb2"><a class="db" href="{{ item.url }}">{{ item.title }}</a></h2>
 
-            <p class="c-lh-title ma0 mr2 mr0-l dib db-l"><time class="f7 f6-l" datetime="{{ item.date | date: "%Y-%m-%d" }}">{{ item.date | date: "%-d %b, %Y" }}</time></p>
+          <div class="f6">
 
-            {% if page.is_home %}<p class="c-lh-title ma0 di db-l"><a href="/posts" class="f7 f6-l"><span role="img" class="dib mr1 c-icon no-underline f7 f6-l" aria-label="Document">📄</span>Post</a></p>{% endif %}
-
-          </div>
-
-          <div class="w-75-l pl3-l">
-
-            <h2 class="c-sans-serif f5 c-lh-title ma0 mb2-l"><a class="db" href="{{ item.url }}">{{ item.title }}</a></h2>
+            <p class="mv2"><time datetime="{{ item.date | date: "%Y-%m-%d" }}">{{ item.date | date: "%-d %b, %Y" }}</time>{% if page.is_home %} &middot; <a href="/posts">Post</a>{% endif %}</p>
 
           </div>
 
-        </div>
+        </header>
 
-        <div class="flex-l">
-
-          <div class="w-25-l pr3-l">
-
-          </div>
-
-          <div class="w-75-l pl3-l">
+        <div>
 
           {% if item.sub %}
 
-            <p class="mv2 ma0-l f6 f5-ns">{{ item.sub }}</p>
+          <p class="mv2 ma0-l">{{ item.sub }}</p>
 
           {% else %}
 
-            <p class="mv2 ma0-l f6 f5-ns">{{ item.excerpt | strip_html | strip_newlines }}</p>
+          <p class="mv2 ma0-l f6 f5-ns">{{ item.excerpt | strip_html | strip_newlines }}</p>
 
           {% endif %}
-
-          </div>
 
         </div>
 
       {% elsif item.is_note %}
 
-        <div class="flex-l">
+        <header class="c-sans-serif">
 
-          <div class="w-25-l pr3-l c-sans-serif">
+          <h2 class="c-sans-serif f5 c-lh-title mt0 mb2"><a class="db" href="{{ item.url }}">{{ item.title }}</a></h2>
 
-            <p class="c-lh-title ma0 mr2 mr0-l dib db-l"><time class="f7 f6-l" datetime="{{ item.date | date: "%Y-%m-%d" }}"><a class="dib f7 f6-l" href="{{ item.url }}">{{ item.date | date: "%-d %b, %Y" }}</a></time></p>
+          <div class="f6">
 
-            {% if page.is_home %}<p class="c-lh-title ma0 di db-l"><a href="/notes" class="f7 f6-l"><span role="img" class="dib mr1 c-icon no-underline" aria-label="Pen">🖋</span>Note</a></p>{% endif %}
-
-          </div>
-
-          <div class="w-75-l pl3-l">
-
-            <p class="f6 f5-ns ma0">{{ item.content | strip_html | strip_newlines | truncatewords: 25 }}</p>
+            <p class="mv2"><time datetime="{{ item.date | date: "%Y-%m-%d" }}">{{ item.date | date: "%-d %b, %Y" }}</time>{% if page.is_home %} &middot; <a href="/notes">Note</a>{% endif %}</p>
 
           </div>
+
+        </header>
+
+        <div>
+
+          <p class="ma0">{{ item.content | strip_html | strip_newlines | truncatewords: 25 }}</p>
 
         </div>
 
       {% else %}
 
-        <div class="flex-l">
+        <header class="c-sans-serif">
 
-          <div class="w-25-l pr3-l c-sans-serif">
+          <h2 class="c-sans-serif f5 c-lh-title mt0 mb2"><a class="db" href="{{ item.url }}">{{ item.title }}</a></h2>
 
-            <p class="c-lh-title ma0 mr2 mr0-l dib db-l"><time class="f7 f6-l" datetime="{{ item.date | date: "%Y-%m-%d" }}">{{ item.date | date: "%-d %b, %Y" }}</time></p>
+          <div class="f6">
 
-            {% if page.is_home %}<p class="c-lh-title ma0 di db-l"><a href="/links" class="f7 f6-l"><span role="img" class="dib mr1 c-icon no-underline" aria-label="Link">🔗</span>Link</a></p>{% endif %}
-
-          </div>
-
-          <div class="w-75-l pl3-l">
-
-            <h2 class="f5 c-lh-title ma0 mb2-l"><a class="c-sans-serif db" href="{{ item.url }}">{{ item.title }}</a></h2>
+            <p class="mv2"><time datetime="{{ item.date | date: "%Y-%m-%d" }}">{{ item.date | date: "%-d %b, %Y" }}</time>{% if page.is_home %} &middot; <a href="/links">Link</a>{% endif %}</p>
 
           </div>
 
-        </div>
+        </header>
 
-        <div class="flex-l">
-
-          <div class="w-25-l pr3-l"></div>
-
-          <div class="w-75-l pl3-l mv2 ma0-l f6 f5-ns">{{ item.content | strip_html | strip_newlines | truncatewords: 25 }}</div>
-
-        </div>
+        <div>{{ item.content | strip_html | strip_newlines | truncatewords: 25 }}</div>
 
       {% endif %}
 

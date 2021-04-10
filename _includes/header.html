@@ -112,48 +112,46 @@
 
         <a class="f6 c-target c-no-print pv2 c-ph clip dib" href="#nav">Skip to navigation</a>
 
-        <header class="c-sans-serif f7 c-secondary-background bb b--moon-gray c-border c-no-print">
+        <header class="c-ph pv2 pv3-ns sans-serif">
 
-            <div class="c-ph bb c-border">
+            <div class="c-measure center flex-l justify-between-l items-center">
 
-                <div class="c-measure center flex justify-between items-center">
+                <div class="f6">
 
-                    <div class="pr2 pr3-ns"><a href="/" rel="index" class="dib pv2 b">This day’s portion</a></div>
+                    <a href="/" class="pv1 b flex flex-wrap items-center">
 
-                    <div class="pl2 pl3-ns flex items-center">
+                        <img class="mw2 br-100 mr2" src="/images/mr-leon-paternoster-400.jpg" alt="">
 
-                        <a class="dib pv2 mr3" href="/feed/index.xml"><span role="img" class="mr1 dib no-underline c-icon" aria-label="Satellite antenna">📡</span>RSS</a>
+                        <div>This Day’s Portion</div>
 
-                        <a href="/search" class="dib pv2"><span role="img" class="mr1 dib no-underline c-icon" aria-label="Search">🔍</span>Search</a>
+                    </a>
 
-                    </div>
+                </div>
+
+                <div class="mt1 mt0-l f6">
+
+                    <nav class="flex nowrap overflow-x-auto">
+
+                        <a href="/" class="dib pv2 mr3{% if page.title == "Home" %} c-accent{% endif %}">Home</a>
+
+                        {% assign pages = site.pages | where: "in_nav", true | sort: "order" %}
+
+                        {% for this_page in pages %}
+
+                            {% unless this_page.url contains "page" %}
+
+                            <a href="{{ this_page.url }}" class="border-box dib pv2 mr3{% if this_page.url == page.url %} bt c-border{% endif %}">{{ this_page.title }}</a>
+
+                            {% endunless %}
+
+                        {% endfor %}
+
+                    </nav>
 
                 </div>
 
             </div>
 
-            <div class="c-ph">
-
-                <nav id="nav" class="c-measure center nowrap overflow-x-auto flex items-center">
-
-                    <a href="/" class="dib pv2 mr3{% if page.title == "Home" %} c-accent{% endif %}">Home</a>
-
-                    {% assign pages = site.pages | where: "in_nav", true | sort: "order" %}
-
-                    {% for this_page in pages %}
-
-                        {% unless this_page.url contains "page" %}
-
-                        <a href="{{ this_page.url }}" class="dib pv2 mr3{% if this_page.url == page.url %} c-accent{% endif %}">{{ this_page.title }}</a>
-
-                        {% endunless %}
-
-                    {% endfor %}
-
-                </nav>
-
-            </div>
-
         </header>
 
-        <main id="content" class="pb3 c-ph">
+        <main id="content" class="c-ph mv4 mv5-ns">

@@ -1,35 +1,19 @@
 {% include header.html %}
 
-<article class="c-measure center h-entry mt4 mt5-ns">
+<article class="h-entry c-measure center">
 
-  <div class="flex-l clip">
+  <header class="mb3 mb4-ns c-sans-serif">
 
-    <div class="w-third-l pr3-l"></div>
+    <h1 class="clip f2 mt0 mb3 p-name">{{ page.title }}</h1>
 
-    <div class="w-two-thirds-l pl3-l">
+    <p class="f6 ma0"><time class="dt-published" datetime="{{ page.date | date: "%Y-%m-%d" }}">{{ page.date | date: "%-d %b, %Y" }}</time> &middot; <a href="/notes" class="pv1">Notes</a> &middot; <a href="#commentary" class="pv1">Commentary</a></p>
 
-      <h1 class="f4 f3-ns mt0 p-name c-lh-title">{{ page.title }}</h1>
+  </header>
 
-    </div>
+  <div class="e-content">
 
-  </div>
-    
-   <div class="flex-l">
+  {{ content }}
 
-    <div class="w-third-l pr3-l c-secondary-foreground mb4 mb0-l f6 f5-l c-sans-serif">
-
-      <p class="mb0"><span class="f6"><time class="dt-published" datetime="{{ page.date | date: "%Y-%m-%d" }}">{{ page.date | date: "%-d %b, %Y" }}</time></span></p>
-
-      <p class="ma0"><a class="f6" href="/notes"><span class="c-icon no-underline dib mr1" role="img" aria-label="Pen">🖋</span>Note</a></p>
-
-      <p class="ma0"><a class="f6" href="#commentary"><span class="c-icon no-underline dib mr1" role="img" aria-label="Comment bubble">💬</span>Comments and mentions</a></p>
-
-    </div>
-
-    <div class="w-two-thirds-l pl3-l e-content c-measure center c-constrain-most">
-
-    {{ content }}
-
-    {% include article-footer.html %}
+  {% include article-footer.html %}
 
 {% include footer.html %}
