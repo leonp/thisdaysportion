@@ -8,7 +8,7 @@ mb-cat: ''
 ---
 I agree with this post from Mark Root-Wiley which argues that [dropdown navigation menus are best activiated when a user clicks the link](https://css-tricks.com/in-praise-of-the-unambiguous-click-menu/) (or, correctly speaking, button) rather than hovers over it. Adrian Roselli also writes really well on [how to implement this UI pattern](https://adrianroselli.com/2019/06/link-disclosure-widget-navigation.html) accessibly.
 
-{% include figure.html url="roselli-dropdown.jpg" alt="Screenshot of the Adrian Roselli website navigation menu." caption="Adrian Roselli’s nabigation menu item is clearly styled as button that should be clicked, complete with animated caret control." %}
+{% include figure.html url="roselli-dropdown.jpg" alt="Screenshot of the Adrian Roselli website navigation menu." caption="Adrian Roselli’s navigation menu item is clearly styled as a button that should be clicked, complete with animated caret control." %}
 
 This problem came up at work recently, where the hover pattern has been implemented on an extranet. I predict it will cause some problems for the normal reasons – afforability, dexterity and annoyance – especially considering the age of the audience using the website. Any testing, or even your own day-to-day experience, will reveal how frustrating it is to hover over a link to reveal a submenu, and then avoid accidentally triggering dropdowns.
 
