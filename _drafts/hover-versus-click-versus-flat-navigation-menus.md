@@ -32,3 +32,11 @@ As you’ll see, the top level menu is eniterly flat. In the spirit of this refu
 Feedback and testing have revealed no problems with this approach – it appears users are happy to burrow into tables of content several levels deep, as long as the trail is clear enough.
 
 {% include figure.html url="sl-table-of-contents.jpg" alt="Screenshot of a signposting page of 3 card options on the Suffolk Libraries website." caption="The “Borrow” page on the Suffolk Libraries website. Users are presented with a table of contents presented as a set of cards." %}
+
+However, I can see possible benefits in implementing dropdown menus well:
+
+* Increased discoverability of subsections of a website
+* Confirmation of a website section’s content without having to click through to that section
+* Efficiency for users familiar with the navigation menu, where dropdowns serve as a shortcut to the content they’re interested in
+
+I am, on the whole, very happy with using a flat, signposting system for website navigation, but what are your opinions? Do you see a use for dropdowns?
