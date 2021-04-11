@@ -1,6 +1,7 @@
 ---
 date: 2021-04-11 09:35:21 +0000
-title: Hover versus click versus flat navigation menus
+title: Navigation submenus – what’s the best approach? Dropdown, hovers, clicks or
+  keeping it flat?
 category: web
 sub: ''
 mb-cat: ''
