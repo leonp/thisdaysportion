@@ -36,11 +36,11 @@
 
         <header class="c-sans-serif">
 
-          <h2 class="c-sans-serif f5 c-lh-title mt0 mb2"><a class="db" href="{{ item.url }}">{{ item.title }}</a></h2>
+          <h2 class="clip c-sans-serif f5 c-lh-title mt0 mb2"><a class="db" href="{{ item.url }}">{{ item.title }}</a></h2>
 
           <div class="f6">
 
-            <p class="mv2"><time datetime="{{ item.date | date: "%Y-%m-%d" }}">{{ item.date | date: "%-d %b, %Y" }}</time>{% if page.is_home %} &middot; <a href="/notes">Note</a>{% endif %}</p>
+            <p class="mv2"><a href="{{ item.url }}"><time datetime="{{ item.date | date: "%Y-%m-%d" }}">{{ item.date | date: "%-d %b, %Y" }}</time></a>{% if page.is_home %} &middot; <a href="/notes">Note</a>{% endif %}</p>
 
           </div>
 
@@ -56,7 +56,7 @@
 
         <header class="c-sans-serif">
 
-          <h2 class="c-sans-serif f5 c-lh-title mt0 mb2"><a class="db" href="{{ item.url }}">{{ item.title }}</a></h2>
+          <h2 class="c-sans-serif {% if page.is_home %}f6 {% else %}f5 {% endif %}c-lh-title mt0 mb2"><a class="db" href="{{ item.url }}">{{ item.title }}</a></h2>
 
           <div class="f6">
 
@@ -66,7 +66,7 @@
 
         </header>
 
-        <div>{{ item.content | strip_html | strip_newlines | truncatewords: 25 }}</div>
+        {% unless page.is_home %}<div>{{ item.content | strip_html | strip_newlines | truncatewords: 25 }}</div>{% endunless %}
 
       {% endif %}
 
