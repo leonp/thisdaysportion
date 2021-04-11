@@ -5,7 +5,7 @@ title: Navigation submenus – what’s the best approach? Dropdown, hovers, cli
 category: web
 sub: Let’s say you have a large website with lots of subsections. What’s the best
   way to reflect this in your navigation menu? Do you use dropdowns at all? Are they
-  best activated when the users hovers or clicks on a menu item?
+  best activated when the user hovers or clicks on a menu item?
 mb-cat: ''
 
 ---
