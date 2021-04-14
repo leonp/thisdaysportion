@@ -1,8 +1,7 @@
 ---
 date: 2021-04-14 20:54:59 +0000
-title: The micro.blog population
+title: The micro.blog universe
 mb-cat: ''
-published: false
 
 ---
 I’m enjoying micro.blog at moment, having spent time bothering to follow people, chat and post short updates.
