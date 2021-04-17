@@ -5,7 +5,6 @@ link-published: 2021-04-12 23:00:00 +0000
 link-url: https://secondbeatsongs.tumblr.com/post/648399616413466624/hey-ya-with-every-second-beat-removed-other
 link-author: secondbeatsongs
 mb-cat: ''
-published: false
 
 ---
 They say write something, remove half the words, then edit again...
