@@ -34,6 +34,14 @@ permalink: /posts/:title/
 timezone: Europe/London
 
 
+# A comments switch
+# I’ve handrolled a basic comments system
+# And it works!
+# But nobody leaves comments on websites these days :-(
+
+comments_enabled: false
+
+
 # Include styles inline or link to css file?
 # This has to be set to css: inline for the theme to inline styles
 # Set it to anything else, or remove it, to link to /css/style.class
