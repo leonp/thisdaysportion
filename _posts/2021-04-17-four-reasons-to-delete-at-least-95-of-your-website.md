@@ -6,7 +6,7 @@ sub: Outdated web content makes finding things difficult, managing sites even mo
   onerous and is bad for the environment. It may seem counterintuitive, but ruthless
   excision could be a good thing.
 mb-cat: ''
-
+comments_enabled: true
 ---
 The web is an archive – a vast, sprawling record of _everything_ you ever posted, chaotically categorised, linked to a handful of the other billions of published bits and pieces.
 
