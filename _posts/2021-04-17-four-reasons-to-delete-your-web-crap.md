@@ -1,4 +1,5 @@
 ---
+date: 2021-04-17 15:50:21 +0000
 title: Four reasons to delete most of your website (or even the whole thing)
 category: web
 sub: Outdated web content makes finding things difficult, managing sites even more onerous and is bad for the environment. It may seem counterintuitive, but ruthless excision could be a good thing.
