@@ -2,7 +2,6 @@
 date: 2021-04-17 16:42:02 +0000
 title: Pensions
 mb-cat: ''
-published: false
 
 ---
 It’s that time of year when my pension statement arrives – usually the cause of some amusement. Evidence of neoliberalism’s utter failure to provide a decent existence, exhibit 1:
