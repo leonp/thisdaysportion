@@ -6,67 +6,47 @@
 
       {% if item.is_post %}
 
-        <header class="c-sans-serif">
+        <header class="c-sans-serif flex flex-column-reverse">
 
-          <h2 class="c-sans-serif f4 c-lh-title mt0 mb2"><a class="db" href="{{ item.url }}">{{ item.title }}</a></h2>
+          <h2 class="c-sans-serif f5 c-lh-title mt1 mb2"><a class="db" href="{{ item.url }}">{{ item.title }}</a></h2>
 
-          <div class="f6">
-
-            <p class="mv2"><time datetime="{{ item.date | date: "%Y-%m-%d" }}">{{ item.date | date: "%-d %b, %Y" }}</time>{% if page.is_home %} &middot; <a href="/posts">Post</a>{% endif %}</p>
-
-          </div>
+          <p class="ma0 f6"><time datetime="{{ item.date | date: "%Y-%m-%d" }}">{{ item.date | date: "%-d %b, %Y" }}</time>{% if page.is_home %} &middot; <a href="/posts">Post</a>{% endif %}</p>
 
         </header>
 
-        <div>
+        {% if item.sub %}
 
-          {% if item.sub %}
+        <p class="ma0">{{ item.sub }}</p>
 
-          <p class="mv2 ma0-l">{{ item.sub }}</p>
+        {% else %}
 
-          {% else %}
+        <p class="ma0">{{ item.excerpt | strip_html | strip_newlines }}</p>
 
-          <p class="mv2 ma0-l">{{ item.excerpt | strip_html | strip_newlines }}</p>
-
-          {% endif %}
-
-        </div>
+        {% endif %}
 
       {% elsif item.is_note %}
 
         <header class="c-sans-serif">
 
-          <h2 class="clip c-sans-serif f5 c-lh-title mt0 mb2"><a class="db" href="{{ item.url }}">{{ item.title }}</a></h2>
+          <h2 class="clip c-sans-serif f5 c-lh-title mt1 mb2"><a class="db" href="{{ item.url }}">{{ item.title }}</a></h2>
 
-          <div class="f6">
-
-            <p class="mv2"><a href="{{ item.url }}"><time datetime="{{ item.date | date: "%Y-%m-%d" }}">{{ item.date | date: "%-d %b, %Y" }}</time></a>{% if page.is_home %} &middot; <a href="/notes">Note</a>{% endif %}</p>
-
-          </div>
+          <p class="mt0 mb1 f6"><a href="{{ item.url }}"><time datetime="{{ item.date | date: "%Y-%m-%d" }}">{{ item.date | date: "%-d %b, %Y" }}</time></a>{% if page.is_home %} &middot; <a href="/notes">Note</a>{% endif %}</p>
 
         </header>
 
-        <div>
-
-          <p class="ma0">{{ item.content | strip_html | strip_newlines | truncatewords: 25 }}</p>
-
-        </div>
+        <p class="ma0">{{ item.content | strip_html | strip_newlines | truncatewords: 40 }}</p>
 
       {% else %}
 
-        <header class="c-sans-serif">
+        <header class="c-sans-serif flex flex-column-reverse">
 
-          <h2 class="c-sans-serif f5 c-lh-title mt0 mb2"><a class="db" href="{{ item.url }}">{{ item.title }}</a></h2>
+          <h2 class="f5 c-lh-title mt1 mb2"><a class="db" href="{{ item.url }}">{{ item.title }}</a></h2>
 
-          <div class="f6">
-
-            <p class="mv2"><time datetime="{{ item.date | date: "%Y-%m-%d" }}">{{ item.date | date: "%-d %b, %Y" }}</time>{% if page.is_home %} &middot; <a href="/links">Link</a>{% endif %}</p>
-
-          </div>
+          <p class="ma0 f6"><time datetime="{{ item.date | date: "%Y-%m-%d" }}">{{ item.date | date: "%-d %b, %Y" }}</time>{% if page.is_home %} &middot; <a href="/links">Link</a>{% endif %}</p>
 
         </header>
 
-        {% unless page.is_home %}<div>{{ item.content | strip_html | strip_newlines | truncatewords: 25 }}</div>{% endunless %}
+        <p class="ma0">{{ item.content | strip_html | strip_newlines | truncatewords: 40 }}</p>
 
       {% endif %}
 
@@ -78,7 +58,7 @@
 
 <footer class="pt4 c-sans-serif">
 
-    <div class="flex justify-between">
+    <div class="flex justify-between b">
 
         {% if paginator.next_page %}
 

@@ -2,13 +2,11 @@
 
 <article class="h-entry c-measure center">
 
-  <header class="mb3 mb4-ns c-sans-serif">
+  <header class="mb3 mb4-ns c-sans-serif flex flex-column-reverse">
 
-    <h1 class="f4 mt0 mb3 p-name"><a href="{{ page.link-url }}">{{ page.title }} &rarr;</a></h1>
+    <h1 class="f5 ma0 p-name"><a href="{{ page.link-url }}">{{ page.title }} &rarr;</a></h1>
 
-    <p class="f6 ma0"><time class="dt-published" datetime="{{ page.date | date: "%Y-%m-%d" }}">{{ page.date | date: "%-d %b, %Y" }}</time> &middot; <a href="/links" class="pv1">Links</a> &middot; <a href="#commentary" class="pv1">Commentary</a></p>
-
-    <p class="f6 ma0">{% if page.link-published %}Published <time datetime="{{ page.link-published | date: "%Y-%m-%d" }}">{{ page.link-published | date: "%-d %b, %Y" }}</time>{% endif %}{% if page.link-author %} by {{ page.link-author }}{% endif %}</p>
+    <p class="f6 mb2"><time class="dt-published" datetime="{{ page.date | date: "%Y-%m-%d" }}">{{ page.date | date: "%-d %b, %Y" }}</time>{% if page.link-author %} by {{ page.link-author }}{% endif %}{% if site.comments_enabled %} &middot; <a href="#commentary" class="pv1">Commentary</a>{% endif %}</p>
 
   </header>
 

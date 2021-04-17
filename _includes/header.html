@@ -114,7 +114,7 @@
 
         <header class="c-ph pv2 pv3-ns sans-serif">
 
-            <div class="c-measure center flex-l justify-between-l items-center">
+            <div class="c-measure center">
 
                 <div class="f6">
 
@@ -125,28 +125,6 @@
                         <div>This Day’s Portion</div>
 
                     </a>
-
-                </div>
-
-                <div class="mt1 mt0-l f6">
-
-                    <nav id="nav" class="flex nowrap overflow-x-auto">
-
-                        <a href="/" class="dib pv2 mr3{% if page.title == "Home" %} c-link{% endif %}">Home</a>
-
-                        {% assign pages = site.pages | where: "in_nav", true | sort: "order" %}
-
-                        {% for this_page in pages %}
-
-                            {% unless this_page.url contains "page" %}
-
-                            <a href="{{ this_page.url }}" class="border-box dib pv2 mr3{% if this_page.url == page.url %} c-link{% endif %}">{{ this_page.title }}</a>
-
-                            {% endunless %}
-
-                        {% endfor %}
-
-                    </nav>
 
                 </div>
 

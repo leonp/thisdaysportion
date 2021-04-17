@@ -8,6 +8,8 @@ underlined-links: true
 hyphens: true
 is_search: true
 hide-title: true
+in_nav: true
+order: "7"
 ---
 
 <form class="c-sans-serif w-100 pb3 pb0-l relative c-hide-if-no-js">

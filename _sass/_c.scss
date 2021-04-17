@@ -5,12 +5,12 @@
     --pr: 7.5vw;
     --pl: 7.5vw;
     --measure: 36rem;
-    --lh-copy: 1.375;
-    --lh-copy-m: 1.5;
-    --lh-copy-l: 1.6;
+    --lh-copy: 1.3125;
+    --lh-copy-m: 1.375;
+    --lh-copy-l: 1.4;
     --lh-title: 1.1;
     --lh-title-m: 1.2;
-    --lh-title-l: 1.25;
+    --lh-title-l: 1.2;
     --sans-serif: -apple-system, BlinkMacSystemFont, "segoe ui", "helvetica neue", helvetica, ubuntu, roboto, noto, sans-serif;
     --serif: georgia, serif;
     --monospace: "IBM Plex Mono", "Fira Code", "Menlo", "Courier New", monospace;
@@ -24,6 +24,8 @@
     --secondary-foreground: #777; // My secondary gray
     --secondary-background: #EEE; // Tachyons light-gray
     --rule-color: #CCC; // Tachyons moon-gray
+    --grid-margin: 0.75rem;
+    --grid-gutter: -0.75rem; // This should be -value of grid-margin
 }
 
 @media (prefers-color-scheme: dark) {
@@ -155,6 +157,10 @@ body {
 .c-columns {
     columns: auto;
     columns: 2;
+}
+
+.c-collapse-top-margin * {
+    margin-top: 0;
 }
 
 .c-outline-offset {
@@ -433,6 +439,16 @@ article a:focus {
     padding-right: 1.1em;
     background-position: right;
     background-size: 0.875em;
+}
+
+.c-grid {
+    margin-right: var(--grid-gutter);
+    margin-left: var(--grid-gutter);
+}
+
+.c-grid > * {
+    padding-left: var(--grid-margin);
+    padding-right: var(--grid-margin);
 }
 
 

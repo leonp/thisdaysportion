@@ -1,12 +1,30 @@
         </main>
 
-        <footer class="c-sans-serif c-ph c-no-print f7 pb2 pt4">
+        <footer class="c-sans-serif c-ph c-no-print bt c-border">
 
         	<div class="c-measure center">
 
-		        <div class="mb1">Found an error? <a class="dib pv1" href="https://github.com/leonp/thisdaysportion/">Make a pull request</a>.</div>
+                <nav id="nav" class="f7 flex c-grid nowrap overflow-x-auto">
 
-		        <div>2008–{{ "now" | date: "%Y" }}. Last build: {{ "now" | date: "%d/%m/%Y-%H:%M" }}. <a href="/search">Search</a>. <a href="/feed/index.xml">RSS</a>.</div>
+                    <a href="/" class="dib pv3 {% if page.title == "Home" %} c-link{% endif %}">Home</a>
+
+                    {% assign pages = site.pages | where: "in_nav", true | sort: "order" %}
+
+                    {% for this_page in pages %}
+
+                        {% unless this_page.url contains "page" %}
+
+                        <a href="{{ this_page.url }}" class="border-box dib pv3 {% if this_page.url == page.url %} c-link{% endif %}">{{ this_page.title }}</a>
+
+                        {% endunless %}
+
+                    {% endfor %}
+
+                    <a href="/feed/index.xml" class="dib border-box pv3">RSS feed</a>
+
+                    <a href="https://micro.blog/leonp" class="dib border-box pv3">@micro.blog</a>
+
+                </nav>
 
 		        <div class="lh-solid clip"><a href="mailto:mail@thisdaysportion.com" rel="me">mail@thisdaysportion.com</a></div>
 

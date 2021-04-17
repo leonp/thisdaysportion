@@ -89,17 +89,17 @@
 
   <h2 class="mb1 f4">Mentions</h2>
 
-  <p class="f7 mt1 mb4">Comments and replies to this post from other sites and services, such as <a href="https://micro.blog">micro.blog</a> and Twitter.</p>
+  <p class="f7 mt1">Comments and replies to this post from other sites and services, such as <a href="https://micro.blog">micro.blog</a> and Twitter.</p>
 
   {% for webmention in webmentions %}
 
-  <article class="mb4 mb5-ns">
+  <article class="mv4">
 
     <h3 id="{{ webmention.id }}" class="f5 mt0 mb1 flex items-center">{% if webmention.data.author.url %}<a rel="nofollow" href="{{ webmention.data.author.url }}">{% endif %}{% if webmention.data.author.photo %}<img class="v-mid dib h-auto w2 br-100 mr2" src="{{ webmention.data.author.photo }}" alt="{{ webmention.data.author.name }}">{% endif %}{{ webmention.data.author.name }}{% if webmention.data.author.url %}</a>{% endif %}</h3>
 
     <p class="c-sans-serif mt0 mb1 f7"><time>{{ webmention.data.published | date: "%-d %b, %Y %H:%M" }}</time><!--{% if webmention.activity.type %} ({{ webmention.activity.type }}){% endif %}--></p>
 
-    {% if webmention.data.content %}<div>{{ webmention.data.content | markdownify }}</div>{% endif %}
+    {% if webmention.data.content %}<div class="c-collapse-top-margin">{{ webmention.data.content | markdownify }}</div>{% endif %}
 
     <p class="f7 ma0"><cite><a rel="nofollow" href="{{ webmention.data.url }}">{{ webmention.data.url }}</a></cite></p>
 

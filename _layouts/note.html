@@ -6,7 +6,7 @@
 
     <h1 class="clip f2 mt0 mb3 p-name">{{ page.title }}</h1>
 
-    <p class="f6 ma0"><time class="dt-published" datetime="{{ page.date | date: "%Y-%m-%d" }}">{{ page.date | date: "%-d %b, %Y" }}</time> &middot; <a href="/notes" class="pv1">Notes</a> &middot; <a href="#commentary" class="pv1">Commentary</a></p>
+    <p class="f6 ma0"><time class="dt-published" datetime="{{ page.date | date: "%Y-%m-%d" }}">{{ page.date | date: "%-d %b, %Y" }}</time>{% if site.comments_enabled %} &middot; <a href="#commentary" class="pv1">Commentary</a>{% endif %}</p>
 
   </header>
 
