@@ -9,6 +9,7 @@ prose-headings: true
 underlined-links: true
 hyphens: true
 measure: true
+meta-description: "“This Day’s Portion” is the blog of me, Leon Paternoster, where I write about the web, politics, books, music and other bits and pieces."
 ---
 This is my blog, and I am Leon Paternoster.
 
