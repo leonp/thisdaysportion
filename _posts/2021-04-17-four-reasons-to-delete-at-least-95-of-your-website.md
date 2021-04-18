@@ -1,5 +1,5 @@
 ---
-date: 2021-04-17 14:58:46 +0000
+date: 2021-04-17T14:58:46.000+00:00
 title: Four reasons to delete at least 95% of your website
 category: web
 sub: Outdated web content makes finding things difficult, managing sites even more
@@ -7,10 +7,11 @@ sub: Outdated web content makes finding things difficult, managing sites even mo
   excision could be a good thing.
 mb-cat: ''
 comments_enabled: true
+
 ---
 The web is an archive – a vast, sprawling record of _everything_ you ever posted, chaotically categorised, linked to a handful of the other billions of published bits and pieces.
 
-We don’t like the idea of deleting anything we post, and we have a special term for allowing links to wither and die: _link rot_. Indeed, it can be difficult to expunge content entirely, as the Way Back Machine indexes [the things you wrote years ago](http://web.archive.org/web/20201201120432/https://www.thisdaysportion.com/). And anyway, it’s far better to have all this information available digitally rather than on paper, right?
+We don’t like the idea of deleting anything we post, and there’s a special term for allowing links to wither and die: _link rot_. Indeed, it can be difficult to expunge content entirely, as the Way Back Machine indexes [the things you wrote years ago](http://web.archive.org/web/20201201120432/https://www.thisdaysportion.com/). And anyway, it’s far better to have all this information available digitally rather than on paper, right?
 
 Still, I think it’s worth questioning the value of all this _stuff_. Just because it takes little physical space doesn’t mean it’s problem free. Here are four reasons to carry out a spring clean of all those posts you’ve made over [the last 13 years](/posts/times-for-print-georgia-for-screen/).
 
@@ -30,7 +31,9 @@ There are lots of examples of out of date pages clogging up search indexes. Perh
 
 If you’re managing a website the chances are you’re running some form of periodic content audit, which you’ll use to make decisions about what you’ve published.
 
-Often your audit will take place in a spreadsheet. It is far easier to use, review and filter a spreadsheet with 200 rows compared to one with 200,000. It is of course possible that those 200,000 pages are of value to the outside world, but often they’re simply there because no-one’s bothered deleting them, or there’s a misguided view that _any_ deletion is bad.
+Often your audit will take place in a spreadsheet. It is far easier to use, review and filter a spreadsheet with 200 rows compared to one with 200,000. It is of course possible that those 200,000 pages are of value to the outside world, but often they’re simply there because no-one’s bothered deleting them, or there’s a misguided view that _any_ deletion is bad. Perhaps some day, someone, somewhere will find the post useful?
+
+Content proliferation can be a sign of a culture that values simple production over outcomes.
 
 The primary purpose of a content audit should be to reduce the size of what you’re auditing.
 
