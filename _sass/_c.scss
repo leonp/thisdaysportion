@@ -154,6 +154,10 @@ body {
     outline: 3px solid var(--focus);
 }
 
+*:target {
+    outline: 3px solid var(--focus);
+}
+
 .c-columns {
     columns: auto;
     columns: 2;
