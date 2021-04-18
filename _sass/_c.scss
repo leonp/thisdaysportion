@@ -455,6 +455,19 @@ article a:focus {
     padding-right: var(--grid-margin);
 }
 
+@media #{$breakpoint-not-small} {
+    .c-grid-ns {
+        margin-right: var(--grid-gutter);
+        margin-left: var(--grid-gutter);
+    }
+
+    .c-grid-ns > * {
+        padding-left: var(--grid-margin);
+        padding-right: var(--grid-margin);
+    }
+}
+
+
 
 // More defaults
 

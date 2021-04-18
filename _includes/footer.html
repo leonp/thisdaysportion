@@ -4,9 +4,9 @@
 
         	<div class="c-measure center">
 
-                <nav id="nav" class="f7 flex-ns c-grid nowrap overflow-x-auto">
+                <nav id="nav" class="f7 flex-ns c-grid-ns nowrap overflow-x-auto">
 
-                    <a href="/" class="db dib-ns pv2 pv3-ns {% if page.title == "Home" %} c-link{% endif %}">Home</a>
+                    <a href="/" class="db dib-ns pv2 pv3-nsdb dib-ns pv2 pv3-ns {% if page.title == "Home" %} c-link{% endif %}">Home</a>
 
                     {% assign pages = site.pages | where: "in_nav", true | sort: "order" %}
 
@@ -14,15 +14,15 @@
 
                         {% unless this_page.url contains "page" %}
 
-                        <a href="{{ this_page.url }}" class="db dib-ns pv2 pv3-ns {% if this_page.url == page.url %} c-link{% endif %}">{{ this_page.title }}</a>
+                        <a href="{{ this_page.url }}" class="db dib-ns pv2 pv3-nsdb dib-ns pv2 pv3-ns{% if this_page.url == page.url %} c-link{% endif %}">{{ this_page.title }}</a>
 
                         {% endunless %}
 
                     {% endfor %}
 
-                    <a href="/feed/index.xml" class="ddb dib-ns pv2 pv3-ns">RSS feed</a>
+                    <a href="/feed/index.xml" class="db dib-ns pv2 pv3-nsdb dib-ns pv2 pv3-ns">RSS feed</a>
 
-                    <a href="https://micro.blog/leonp" class="db dib-ns pv2 pv3-ns">@micro.blog</a>
+                    <a href="https://micro.blog/leonp" class="db dib-ns pv2 pv3-nsdb dib-ns pv2 pv3-ns">@micro.blog</a>
 
                 </nav>
 
