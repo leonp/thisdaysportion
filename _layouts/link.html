@@ -6,7 +6,7 @@
 
     <h1 class="f5 ma0 p-name"><a href="{{ page.link-url }}">{{ page.title }} &rarr;</a></h1>
 
-    <p class="f6 mb2"><time class="dt-published" datetime="{{ page.date | date: "%Y-%m-%d" }}">{{ page.date | date: "%-d %b, %Y" }}</time>{% if page.link-author %} by {{ page.link-author }}{% endif %}{% if site.comments_enabled or page.comments_enabled %} &middot; <a href="#commentary" class="pv1">Commentary</a>{% endif %}</p>
+    <p class="f6 mb2"><time class="dt-published" datetime="{{ page.date | date: "%Y-%m-%d" }}">{{ page.date | date: "%-d %b, %Y" }}</time> &middot; <a href="/links">Link</a>{% if page.link-author %} by {{ page.link-author }}{% endif %}{% if site.comments_enabled or page.comments_enabled %} &middot; <a href="#commentary" class="pv1">Commentary</a>{% endif %}</p>
 
   </header>
 
