@@ -22,6 +22,8 @@ hide: true
 
     {% for entry in everything limit:20 %}
 
+      {% unless entry.hide-from-twitter %}
+
           <entry>
               {% if entry.is_post %}
               <title>{{ entry.title }}</title>
@@ -36,6 +38,8 @@ hide: true
               <description>{{ description }}</description>
               <content type="html">{% if entry.is_post %}Blogged: {{ entry.title | xml_escape }}{% else %}{{ entry.content | strip_html | xml_escape | truncate: 200}}{% endif %}</content>
           </entry>
+
+      {% endunless %}
 
     {% endfor %}
 
