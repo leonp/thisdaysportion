@@ -7,7 +7,7 @@
     --measure: 36rem;
     --lh-copy: 1.3125;
     --lh-copy-m: 1.375;
-    --lh-copy-l: 1.4;
+    --lh-copy-l: 1.45;
     --lh-title: 1.1;
     --lh-title-m: 1.2;
     --lh-title-l: 1.2;
@@ -48,19 +48,19 @@
 }
 
 html {
-    font-size: 112.5%;
+    font-size: 118.75%;
     scroll-behavior: smooth;
 }
 
 @media #{$breakpoint-not-small} {
     html {
-        font-size: 118.75%;
+        font-size: 125%;
     }
 }
 
 @media #{$breakpoint-large} {
     html {
-        font-size: 125%;
+        font-size: 131.25%;
     }
 }
 
