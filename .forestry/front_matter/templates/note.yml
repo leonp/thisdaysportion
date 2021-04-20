@@ -18,6 +18,10 @@ fields:
     time_format: 
     display_utc: false
   default: now
+- name: hide-from-twitter
+  type: boolean
+  label: Hide from Twitter?
+  description: Don’t send this to the Twitter RSS feed
 pages:
 - _notes/automated-builds-and-charges.md
 - _notes/back-to-the-gym.md
