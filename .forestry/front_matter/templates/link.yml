@@ -32,6 +32,10 @@ fields:
     display_utc: false
   label: Date
   default: now
+- name: hide-from-twitter
+  type: boolean
+  label: Hide from Twitter?
+  description: Don’t send this to the Twitter RSS feed
 pages:
 - _links/after-the-apocalypse.md
 - _links/being-an-opportunist-has-worked-well-for-johnson.why-not-for-starmer.md
