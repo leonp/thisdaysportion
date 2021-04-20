@@ -28,6 +28,10 @@ fields:
     time_format: 
     display_utc: false
   default: now
+- name: hide-from-twitter
+  type: boolean
+  label: Hide from Twitter
+  description: Don’t send this to the Twitter RSS feed
 pages:
 - _posts/2021-04-03-notes-on-the-indieweb-3-who-s-it-for.md
 - _posts/2021-04-11-hover-versus-click-versus-flat-navigation-menus.md
