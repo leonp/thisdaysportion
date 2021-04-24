@@ -34,7 +34,7 @@ hide: true
 
               {% capture description %}{{ entry.title | escape | truncate: 60 }}: {{ entry.excerpt | strip_html | truncate: 190 }}{% endcapture %}
               <description>{{ description }}</description>
-              <content type="html">{% if entry.mb-cat %}{{ entry.mb-cat }} {% endif %}{% if entry.is_post %}Blogged: {{ entry.title  | xml_escape }}{% else %}{% if entry.is_link %}<a href="{{ entry.link-url }}">{{ entry.title }}</a> {% endif %}{{ entry.content | xml_escape }}{% endif %}</content>
+              <content type="html">{% if entry.mb-cat %}{{ entry.mb-cat }} {% endif %}{% if entry.is_post %}Blogged: {{ entry.title  | xml_escape }}{% else %}{% if entry.is_link %}<a href="{{ entry.link-url }}">{{ entry.title }}</a> – {% endif %}{{ entry.content | xml_escape }}{% endif %}</content>
           </entry>
 
     {% endfor %}
