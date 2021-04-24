@@ -34,7 +34,7 @@ The top level menu is eniterly flat. In the spirit of not hiding content behind 
 
 Feedback and testing have revealed no problems with this approach – it appears users are happy to delve into tables of content several levels deep, as long as the trail is clear enough.
 
-{% include figure.html url="sl-table-of-contents.jpg" alt="Screenshot of a signposting page of 3 card options on the Suffolk Libraries website." caption="The “Borrow” page on the Suffolk Libraries website. Users are presented with a table of contents presented as a set of cards." %}
+{% include figure.html url="sl-table-of-contents.jpg" alt="Screenshot of a signposting page of 3 card options on the Suffolk Libraries website." caption="The “Borrow” page on the Suffolk Libraries website. Navigation is essentially a table of contents presented as a set of cards." %}
 
 However, I can see possible benefits in implementing dropdown menus well:
 
