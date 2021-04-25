@@ -26,11 +26,13 @@ Secondly, this means you can post images directly to micro.blog if you omit the 
 
 Finally, your website can have as many RSS feeds as you like, so you can write a special feed especially for micro.blog, while leaving your ‘main’, complete feed alone. ([See my micro.blog feed](/api/microblog-feed/index.xml).) Static site generators output whatever text files you like from templates, including `xml`, `atom` and `json`, which makes them perfect for generating RSS feeds.
 
-{% include figure.html url="mb-note.jpg" alt="A micro.blog note." caption="A website note posted as is to micro.blog." %}
+Here’s what [notes I publish to my site first](/notes/dons-better) look like on micro.blog:
+
+{% include figure.html url="mb-note.jpg" alt="A micro.blog note." caption="A website note posted as-is to micro.blog. Note the category emoji, which is set in the note’s front matter." %}
 
 You could create separate feeds for each content type you publish (e.g. images, essays and notes), but that’s maybe a little inefficient. I’ve opted for one micro.blog feed that uses the Jekyll templating language Liquid to output different RSS entries depending on whether the content is a post, note or link.
 
-You can also do all sorts of clever things when you generate your own feed, such as automatically add a category emoji you specify in a post’s front matter. Anyway, here’s the Jekyll code for generating my micro.blog feed:
+You can also do all sorts of clever things when you generate your own feed, such as automatically add a [category emoji](https://help.micro.blog/t/emoji-in-discover/34) you specify in a post’s front matter. Anyway, here’s the Jekyll code for generating my micro.blog feed:
 
 **[See my micro.blog RSS feed code on Github](https://github.com/leonp/thisdaysportion/blob/master/api/microblog-feed/index.xml)**.
 
