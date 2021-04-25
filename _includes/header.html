@@ -139,7 +139,7 @@
 
                 <div class="flex nowrap overflow-x-auto items-center c-measure center">
 
-                    <a href="/" class="f7 dib pv2 mr3 no-underline{% if page.title == "Home" %} c-link{% endif %}">Home</a>
+                    <a href="/" class="f7 dib pv2 mr3 no-underline{% if page.title == "Home" %} c-selected{% endif %}">Home</a>
 
                     {% assign pages = site.pages | where: "in_nav", true | sort: "order" %}
 
