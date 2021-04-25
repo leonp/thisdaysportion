@@ -20,13 +20,19 @@ This is good, but means that everything, whether it’s a note, image or 2,000 w
 
 By changing what your RSS feed outputs, you can control what appears on micro.blog. There are three things you need to consider.
 
-Firstly, micro.blog will publish your complete post with no link if you omit the `<title>` from the RSS feed. If the post is more than 280 characters long, it’ll publish those 280 characters followed by an ellipsis and a link back to your site.
+Firstly, micro.blog will publish your complete post with no link if generate an empty `title` node, i.e. `<title></title>`. If the post is more than 280 characters long, it’ll publish those 280 characters followed by an ellipsis and a link back to your site.
 
 Secondly, this means you can post images directly to micro.blog if you omit the `<title>`. You just need to remember to use absolute rather than relative URLs (e.g. use `https://www.thisdaysportion.com/images/engine-2.jpg` rather than `/images/engine-2.jpg`).
 
 Finally, your website can have as many RSS feeds as you like, so you can write a special feed especially for micro.blog, while leaving your ‘main’, complete feed alone. ([See my micro.blog feed](/api/microblog-feed/index.xml).) Static site generators output whatever text files you like from templates, including `xml`, `atom` and `json`, which makes them perfect for generating RSS feeds.
 
-You could create separate feeds for each content type you publish (e.g. images, essays and notes), but that’s maybe a little inefficient. I’ve opted for one micro.blog feed that uses the Jekyll templating language Liquid to output different RSS entries depending on whether the content is a post, note or link. Enjoy:
+{% include figure.html url="mb-note.jpg" alt="A micro.blog note." caption="A website note posted as is to micro.blog." %}
 
-**[See my micro.blog feed code on Github](https://github.com/leonp/thisdaysportion/blob/master/api/microblog-feed/index.xml)**.
+You could create separate feeds for each content type you publish (e.g. images, essays and notes), but that’s maybe a little inefficient. I’ve opted for one micro.blog feed that uses the Jekyll templating language Liquid to output different RSS entries depending on whether the content is a post, note or link.
+
+You can also do all sorts of clever things when you generate your own feed, such as automatically add a category emoji you specify in a post’s front matter. Anyway, here’s the Jekyll code for generating my micro.blog feed:
+
+**[See my micro.blog RSS feed code on Github](https://github.com/leonp/thisdaysportion/blob/master/api/microblog-feed/index.xml)**.
+
+Things to note: I’ve created an `everything` array which [concatenates](https://shopify.github.io/liquid/filters/concat/) all site collections into one. I’ve also taken advantage of [Jekyll’s defaults](https://jekyllrb.com/docs/configuration/front-matter-defaults/) to add `is_note`, `is_post` and `is_link` front matter to collection items automatically, so my code can tell what type of item it’s dealing with as it loops through the `everything` array.
 
