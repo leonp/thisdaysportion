@@ -19,6 +19,7 @@
     --hover: #00F; // International browser blue
     --visited: #555; // Tachyons mid-gray
     --focus: #FFB700; // Tachyons gold
+    --selected: #00F; // International browser blue
     --background: #FFF; // Tachyons dark-gray
     --foreground: #222; // My dark gray
     --secondary-foreground: #777; // My secondary gray
@@ -35,6 +36,7 @@
         --hover: #FFF; // Tachyons white
         --visited: #AAA; // Tachyons silver
         --focus: #FFB700; // Tachyons dark-pink
+        --selected: #96CCFF;
         --background: #333; // Tachyons dark-gray
         --foreground: #CCC; // Tachyons moon-gray
         --secondary-foreground: #AAA;
@@ -130,6 +132,10 @@ body {
 
 .c-accent {
     color: var(--accent);
+}
+
+.c-selected {
+    color: var(--selected);
 }
 
 .c-link {

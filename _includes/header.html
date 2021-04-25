@@ -112,40 +112,48 @@
 
         <header class="c-no-print">
 
-            <div class="c-ph flex justify-between bb c-border">
+            <div class="c-ph bb c-border">
 
-                <a href="/" class="f7 pv2 b flex flex-wrap items-center no-underline">
+                <div class="flex justify-between center c-measure">
 
-                    <img class="mw2 br-100 mr2" src="/images/mr-leon-paternoster-400.jpg" alt="">
+                    <a href="/" class="f7 pv2 b flex flex-wrap items-center no-underline">
 
-                    <div>This Day’s Portion</div>
+                        <img class="mw2 br-100 mr2" src="/images/mr-leon-paternoster-400.jpg" alt="">
 
-                </a>
+                        <div>This Day’s Portion</div>
 
-                <div class="flex items-center">
+                    </a>
 
-                    <a href="/feed/index.xml" class="f7 dib pv2 no-underline mr3">RSS</a>
-                    <a href="/search" class="f7 dib pv2 no-underline">Search</a>
+                    <div class="flex items-center">
+
+                        <a href="/feed/index.xml" class="f7 dib pv2 no-underline mr3">RSS</a>
+                        <a href="/search" class="f7 dib pv2 no-underline">Search</a>
+
+                    </div>
 
                 </div>
 
             </div>
 
-            <nav class="c-ph bb c-border c-secondary-foreground flex nowrap overflow-x-auto items-center">
+            <nav class="c-ph bb c-border c-secondary-foreground">
 
-                <a href="/" class="f7 dib pv2 mr3 no-underline{% if page.title == "Home" %} c-link{% endif %}">Home</a>
+                <div class="flex nowrap overflow-x-auto items-center c-measure center">
 
-                {% assign pages = site.pages | where: "in_nav", true | sort: "order" %}
+                    <a href="/" class="f7 dib pv2 mr3 no-underline{% if page.title == "Home" %} c-link{% endif %}">Home</a>
 
-                {% for this_page in pages %}
+                    {% assign pages = site.pages | where: "in_nav", true | sort: "order" %}
 
-                    {% unless this_page.url contains "page" %}
+                    {% for this_page in pages %}
 
-                    <a href="{{ this_page.url }}" class="f7 dib pv2 mr3 no-underline{% if this_page.url == page.url %} c-link{% endif %}">{{ this_page.title }}</a>
+                        {% unless this_page.url contains "page" %}
 
-                    {% endunless %}
+                        <a href="{{ this_page.url }}" class="f7 dib pv2 mr3 no-underline{% if this_page.url == page.url %} c-selected{% endif %}">{{ this_page.title }}</a>
 
-                {% endfor %}
+                        {% endunless %}
+
+                    {% endfor %}
+
+                </div>
 
             </nav>
 
