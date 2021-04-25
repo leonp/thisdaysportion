@@ -108,34 +108,47 @@
 
     <body onload="document.getElementById('home').classList.remove('c-no-js');" id="home" class="c-no-js ma0 pa0 c-background c-foreground c-sans-serif {% if page.is_home %}🦉{% else %}{{ page.slug }}{% endif %}">
 
-        <div class="bb c-border c-ph c-no-print c-secondary-foreground">
+        <a class="clip db" href="#content">Skip to content</a>
 
-            <div class="c-measure center">
+        <header class="c-no-print">
 
-                <div class="f7 c-lh-title">Skip to: <a class="dib pv2 c-target" href="#content">Content</a> | <a class="dib pv2 c-target" href="#nav">Navigation</a></div>
+            <div class="c-ph flex justify-between bb c-border">
 
-            </div>
+                <a href="/" class="f7 pv2 b flex flex-wrap items-center no-underline">
 
-        </div>
+                    <img class="mw2 br-100 mr2" src="/images/mr-leon-paternoster-400.jpg" alt="">
 
-        <header class="c-ph">
+                    <div>This Day’s Portion</div>
 
-            <div class="c-measure center">
+                </a>
 
-                <div class="f6">
+                <div class="flex items-center">
 
-                    <a href="/" class="pv3 pv4-ns b flex flex-wrap items-center">
-
-                        <img class="mw2 br-100 mr2" src="/images/mr-leon-paternoster-400.jpg" alt="">
-
-                        <div>This Day’s Portion</div>
-
-                    </a>
+                    <a href="/feed/index.xml" class="f7 dib pv2 no-underline mr3">RSS</a>
+                    <a href="/search" class="f7 dib pv2 no-underline">Search</a>
 
                 </div>
 
             </div>
 
+            <nav class="c-ph bb c-border c-secondary-foreground flex nowrap overflow-x-auto items-center">
+
+                <a href="/" class="f7 dib pv2 mr3 no-underline{% if page.title == "Home" %} c-link{% endif %}">Home</a>
+
+                {% assign pages = site.pages | where: "in_nav", true | sort: "order" %}
+
+                {% for this_page in pages %}
+
+                    {% unless this_page.url contains "page" %}
+
+                    <a href="{{ this_page.url }}" class="f7 dib pv2 mr3 no-underline{% if this_page.url == page.url %} c-link{% endif %}">{{ this_page.title }}</a>
+
+                    {% endunless %}
+
+                {% endfor %}
+
+            </nav>
+
         </header>
 
-        <main id="content" class="c-ph mv3 mv4-ns mv5-l">
+        <main id="content" class="c-ph mv4 mv5-ns">

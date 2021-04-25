@@ -8,7 +8,6 @@ underlined-links: true
 hyphens: true
 is_search: true
 hide-title: true
-in_nav: true
 order: "7"
 ---
 

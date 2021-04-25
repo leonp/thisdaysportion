@@ -4,27 +4,7 @@
 
         	<div class="c-measure center">
 
-                <nav id="nav" class="f7 flex-ns c-grid-ns nowrap overflow-x-auto">
-
-                    <a href="/" class="db dib-ns pv2 pv3-nsdb dib-ns pv2 pv3-ns {% if page.title == "Home" %} c-link{% endif %}">Home</a>
-
-                    {% assign pages = site.pages | where: "in_nav", true | sort: "order" %}
-
-                    {% for this_page in pages %}
-
-                        {% unless this_page.url contains "page" %}
-
-                        <a href="{{ this_page.url }}" class="db dib-ns pv2 pv3-nsdb dib-ns pv2 pv3-ns{% if this_page.url == page.url %} c-link{% endif %}">{{ this_page.title }}</a>
-
-                        {% endunless %}
-
-                    {% endfor %}
-
-                    <a href="/feed/index.xml" class="db dib-ns pv2 pv3-nsdb dib-ns pv2 pv3-ns">RSS feed</a>
-
-                    <a href="https://micro.blog/leonp" class="db dib-ns pv2 pv3-nsdb dib-ns pv2 pv3-ns">@micro.blog</a>
-
-                </nav>
+                <a href="https://micro.blog/leonp" class="f7 dib pv2 pv3-ns">leonp @micro.blog</a>
 
 		        <div class="lh-solid clip"><a href="mailto:mail@thisdaysportion.com" rel="me">mail@thisdaysportion.com</a></div>
 
