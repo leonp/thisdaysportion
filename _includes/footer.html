@@ -4,7 +4,23 @@
 
         	<div class="c-measure center">
 
-                <a href="https://micro.blog/leonp" class="f7 dib pv2 pv3-ns">leonp @micro.blog</a>
+                <div class="flex nowrap overflow-x-auto items-center c-measure center">
+
+                    <a href="/" class="f7 dib pv2 pv3-ns mr3 no-underline{% if page.title == "Home" %} c-selected{% endif %}">Home</a>
+
+                    {% assign pages = site.pages | where: "in_nav", true | sort: "order" %}
+
+                    {% for this_page in pages %}
+
+                        {% unless this_page.url contains "page" %}
+
+                        <a href="{{ this_page.url }}" class="f7 dib pv2 pv3-ns mr3 no-underline{% if this_page.url == page.url %} c-selected{% endif %}">{{ this_page.title }}</a>
+
+                        {% endunless %}
+
+                    {% endfor %}
+
+                </div>
 
 		        <div class="lh-solid clip"><a href="mailto:mail@thisdaysportion.com" rel="me">mail@thisdaysportion.com</a></div>
 

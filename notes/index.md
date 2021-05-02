@@ -3,7 +3,7 @@ layout: archive
 title: Notes
 collection: notes
 footer: true
-in_nav: true
+in_primary_nav: true
 order: 3
 visited-links: true
 prose-headings: true

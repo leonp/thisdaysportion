@@ -2,7 +2,7 @@
 layout: archive
 category: all
 title: Posts
-in_nav: true
+in_primary_nav: true
 order: 2
 sub: "Posts are (on the whole) longer form pieces of writing with a possibly more developed argument than notes."
 pagination:

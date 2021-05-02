@@ -3,7 +3,7 @@ layout: archive
 title: Links
 collection: links
 footer: false
-in_nav: true
+in_primary_nav: true
 order: 4
 visited-links: true
 prose-headings: true

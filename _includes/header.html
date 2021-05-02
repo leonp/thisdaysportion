@@ -117,7 +117,7 @@
 
             <div class="c-ph bb c-border">
 
-                <div class="flex justify-between center c-measure">
+                <nav class="flex justify-between center c-measure">
 
                     <a href="/" class="f7 pv2 b flex flex-wrap items-center no-underline">
 
@@ -129,36 +129,23 @@
 
                     <div class="flex items-center">
 
-                        <a href="/feed/index.xml" class="f7 dib pv2 no-underline mr3">RSS</a>
-                        <a href="/search" class="f7 dib pv2 no-underline">Search</a>
+                        {% assign pages = site.pages | where: "in_primary_nav", true | sort: "order" %}
+
+                        {% for this_page in pages %}
+
+                            {% unless this_page.url contains "page" %}
+
+                            <a href="{{ this_page.url }}" class="f7 dib pv2 ml2 ml3-ns no-underline{% if this_page.url == page.url %} c-selected{% endif %}">{{ this_page.title }}</a>
+
+                            {% endunless %}
+
+                        {% endfor %}
 
                     </div>
 
-                </div>
+                </nav>
 
             </div>
-
-            <nav class="c-ph bb c-border c-secondary-foreground">
-
-                <div class="flex nowrap overflow-x-auto items-center c-measure center">
-
-                    <a href="/" class="f7 dib pv2 mr3 no-underline{% if page.title == "Home" %} c-selected{% endif %}">Home</a>
-
-                    {% assign pages = site.pages | where: "in_nav", true | sort: "order" %}
-
-                    {% for this_page in pages %}
-
-                        {% unless this_page.url contains "page" %}
-
-                        <a href="{{ this_page.url }}" class="f7 dib pv2 mr3 no-underline{% if this_page.url == page.url %} c-selected{% endif %}">{{ this_page.title }}</a>
-
-                        {% endunless %}
-
-                    {% endfor %}
-
-                </div>
-
-            </nav>
 
         </header>
 
