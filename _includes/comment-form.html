@@ -12,22 +12,22 @@
     </div>
 
     <label for="name" class="db f7 lh-title mb1">Name <span class="dark-red">*</span></label>
-    <input autocorrect="off" required class="border-box pa1 c-sans-serif ba b--moon-gray c-border db mb3 w-100" type="text" name="name" id="name">
+    <input autocorrect="off" required class="border-box pa1 c-sans-serif ba b--moon-gray c-field-border-color db mb3 w-100" type="text" name="name" id="name">
 
     <label for="email" class="db f7 lh-title mb1">Email <span class="dark-red">*</span></label>
-    <input required autocapitalize="none" class="border-box pa1 c-sans-serif ba b--moon-gray c-border db mb3 w-100" type="email" name="email" id="email">
+    <input required autocapitalize="none" class="border-box pa1 c-sans-serif ba b--moon-gray c-field-border-color db mb3 w-100" type="email" name="email" id="email">
 
     <label for="website" class="db f7 lh-title mb1">Your website</label>
-    <input autocapitalize="none" class="border-box pa1 c-sans-serif ba b--moon-gray c-border db mb3 w-100" type="text" name="website" id="website">
+    <input autocapitalize="none" class="border-box pa1 c-sans-serif ba b--moon-gray c-field-border-color db mb3 w-100" type="text" name="website" id="website">
 
     <label for="comment" class="db f7 lh-title mb1">Comment <span class="dark-red">*</span> (use <a href="https://www.markdownguide.org/cheat-sheet/">Markdown</a> to format text)</label>
-    <textarea required class="border-box pa1 ba b--moon-gray c-border db mb2 vh-50 w-100 c-monospace f7" name="comment" id="comment"></textarea>
+    <textarea required class="border-box pa1 ba b--moon-gray c-field-border-color db mb2 vh-50 w-100 c-monospace f7" name="comment" id="comment"></textarea>
 
     <input name="slug" hidden class="dn" value="{{ page.slug }}">
 
     <input name="uri" hidden class="dn" value="https://www.thisdaysportion.com{{ page.url }}">
     
-    <button class="shadow-4 c-sans-serif f6 b pa2 ba b--moon-gray c-border bg-blue hover-bg-dark-blue white pointer c-remove-ios-borders" type="submit">Submit comment</button>
+    <button class="shadow-4 c-sans-serif f6 b pa2 ba b--moon-gray c-field-border-color bg-blue hover-bg-dark-blue white pointer c-remove-ios-borders" type="submit">Submit comment</button>
 
   </form>
 

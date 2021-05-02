@@ -4,7 +4,7 @@
     --ph: 7.5vw;
     --pr: 7.5vw;
     --pl: 7.5vw;
-    --measure: 30rem;
+    --measure: 32rem;
     --lh-copy: 1.3125;
     --lh-copy-m: 1.375;
     --lh-copy-l: 1.4375;
@@ -16,7 +16,7 @@
     --monospace: "IBM Plex Mono", "Fira Code", "Menlo", "Courier New", monospace;
     --accent: #000;  // Tachyons black
     --link: #000; // International browser blue
-    --hover: #00F; // International browser blue
+    --hover: #00F; // International browser black
     --visited: #555; // Tachyons mid-gray
     --focus: #FFB700; // Tachyons gold
     --selected: #00F; // International browser blue
@@ -24,7 +24,8 @@
     --foreground: #222; // My dark gray
     --secondary-foreground: #777; // My secondary gray
     --secondary-background: #EEE; // Tachyons light-gray
-    --rule-color: #CCC; // Tachyons moon-gray
+    --rule-color: #EEE; // Tachyons light-gray
+    --field-border-color: #CCC; // Tachyons moon-gray
     --grid-margin: 0.75rem;
     --grid-gutter: -0.75rem; // This should be -value of grid-margin
 }
@@ -41,7 +42,8 @@
         --foreground: #CCC; // Tachyons moon-gray
         --secondary-foreground: #AAA;
         --secondary-background: #555; // Tachyons mid-gray
-        --rule-color: #777; // Tachyons gray
+        --rule-color: #555; // Tachyons mid-gray
+        --field-border-color: #777; // Tachyons gray
     }
     html {
         osx-font-smoothing: grayscale;
@@ -62,7 +64,7 @@ html {
 
 @media #{$breakpoint-large} {
     html {
-        font-size: 131.25%;
+        font-size: 125%;
     }
 }
 
@@ -150,6 +152,10 @@ body {
     border-color: var(--rule-color);
 }
 
+.c-field-border-color {
+    border-color: var(--field-border-color);
+}
+
 .c-drop-shadow {
     filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.25));
 }
@@ -202,7 +208,7 @@ c-min-vh-90 {
 a,
 summary {
     color: var(--accent);
-    text-decoration-thickness: 2px;
+    text-decoration-thickness: 1px;
     text-decoration-color: var(--link);
 }
 
