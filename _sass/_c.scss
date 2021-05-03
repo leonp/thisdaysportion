@@ -20,11 +20,12 @@
     --visited: #555; // Tachyons mid-gray
     --focus: #FFB700; // Tachyons gold
     --selected: #357EDD; // International browser blue
-    --background: #FFF; // Tachyons dark-gray
+    --background: #EEE; // Tachyons dark-gray
     --foreground: #222; // My dark gray
     --secondary-foreground: #777; // My secondary gray
-    --secondary-background: #EEE; // Tachyons light-gray
-    --rule-color: #EEE; // Tachyons light-gray
+    --secondary-background: #CCC; // Tachyons moon-gray
+    --header-background: #FFF; // White
+    --rule-color: #CCC; // Tachyons moon-gray
     --field-border-color: #CCC; // Tachyons moon-gray
     --grid-margin: 0.75rem;
     --grid-gutter: -0.75rem; // This should be -value of grid-margin
@@ -42,6 +43,7 @@
         --foreground: #CCC; // Tachyons moon-gray
         --secondary-foreground: #AAA;
         --secondary-background: #555; // Tachyons mid-gray
+        --header-background: #000; // Black
         --rule-color: #555; // Tachyons mid-gray
         --field-border-color: #777; // Tachyons gray
     }
@@ -98,6 +100,10 @@ body {
 
 .c-secondary-foreground {
     color: var(--secondary-foreground);
+}
+
+.c-header-background {
+    background-color: var(--header-background);
 }
 
 .c-sans-serif {
