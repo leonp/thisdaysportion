@@ -1,5 +1,5 @@
 ---
-title: The state of Labour
+title: The state of the Labour Party in 2021
 category: politics
 date: 2021-05-05 18:50:00 +0000
 hide-from-twitter: true
