@@ -203,22 +203,7 @@ jekyll_get_json:
     json: 'https://api.airtable.com/v0/appLAOCtEichPh1fp/Table%201?api_key=keycctTiw9uYaVvP9'
     cache: true
   - data: wm
-    json: 'https://webmention.io/api/mentions?token=l0rDXZZ2YinbbSQ8KQ_HAA'
-    cache: true
-  - data: wm
-    json: 'https://webmention.io/api/mentions?token=l0rDXZZ2YinbbSQ8KQ_HAA&page=1'
-    cache: true
-  - data: wm
-    json: 'https://webmention.io/api/mentions?token=l0rDXZZ2YinbbSQ8KQ_HAA&page=2'
-    cache: true
-  - data: wm
-    json: 'https://webmention.io/api/mentions?token=l0rDXZZ2YinbbSQ8KQ_HAA&page=3'
-    cache: true
-  - data: wm
-    json: 'https://webmention.io/api/mentions?token=l0rDXZZ2YinbbSQ8KQ_HAA&page=4'
-    cache: true
-  - data: wm
-    json: 'https://webmention.io/api/mentions?token=l0rDXZZ2YinbbSQ8KQ_HAA&page=5'
+    json: 'https://webmention.io/api/mentions?token=l0rDXZZ2YinbbSQ8KQ_HAA&per-page=1000'
     cache: true
 
 # Data page generator
