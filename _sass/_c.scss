@@ -11,7 +11,7 @@
     --lh-title: 1.1;
     --lh-title-m: 1.2;
     --lh-title-l: 1.2;
-    --sans-serif: "IBM Plex Sans", -apple-system, BlinkMacSystemFont, "segoe ui", "helvetica neue", helvetica, ubuntu, roboto, noto, sans-serif;
+    --sans-serif: "Public Sans", -apple-system, BlinkMacSystemFont, "segoe ui", "helvetica neue", helvetica, ubuntu, roboto, noto, sans-serif;
     --serif: georgia, serif;
     --monospace: "IBM Plex Mono", "Fira Code", "Menlo", "Courier New", monospace;
     --accent: #000;  // Tachyons black
@@ -230,7 +230,6 @@ h4,
 h5,
 h6 {
     line-height: var(--lh-title);
-    line-height: clamp(1.15em, 2.5vw, 1.2em);
     font-family: var(--sans-serif);
 }
 
