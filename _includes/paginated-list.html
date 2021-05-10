@@ -16,11 +16,11 @@
 
         {% if item.sub %}
 
-        <p class="ma0">{{ item.sub }}</p>
+        <p class="ma0 c-serif">{{ item.sub }}</p>
 
         {% else %}
 
-        <p class="ma0">{{ item.excerpt | strip_html | strip_newlines }}</p>
+        <p class="ma0 c-serif">{{ item.excerpt | strip_html | strip_newlines }}</p>
 
         {% endif %}
 
@@ -34,7 +34,7 @@
 
         </header>
 
-        <p class="ma0">{{ item.content }}</p>
+        <div class="c-serif">{{ item.content }}</div>
 
       {% else %}
 
@@ -46,7 +46,7 @@
 
         </header>
 
-        <p class="ma0">{{ item.content | strip_html | strip_newlines | truncatewords: 40 }}</p>
+        <p class="ma0 c-serif">{{ item.content | strip_html | strip_newlines | truncatewords: 40 }}</p>
 
       {% endif %}
 
