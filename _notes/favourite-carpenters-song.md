@@ -6,4 +6,4 @@ hide-from-twitter: false
 published: false
 
 ---
-> Favourite Carpenters song? Superstar it's pretty peele peerless: [The Carpenters’ 20 greatest songs – ranked!](https://www.theguardian.com/culture/2021/may/13/the-carpenters-20-greatest-songs-ranked)
+> Favourite Carpenters song? Superstar is pretty peerless: [The Carpenters’ 20 greatest songs – ranked!](https://www.theguardian.com/culture/2021/may/13/the-carpenters-20-greatest-songs-ranked)
