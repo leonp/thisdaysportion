@@ -20,11 +20,11 @@
     --visited: #555; // Tachyons mid-gray
     --focus: #FFB700; // Tachyons gold
     --selected: #357EDD; // International browser blue
-    --background: #EEE; // Tachyons dark-gray
+    --background: #F2F6FA; // My v light gray blue
     --foreground: #222; // My dark gray
     --secondary-foreground: #777; // My secondary gray
     --secondary-background: #CCC; // Tachyons moon-gray
-    --header-background: #FFF; // White
+    --header-background: #F2F6FA; // White
     --rule-color: #CCC; // Tachyons moon-gray
     --field-border-color: #CCC; // Tachyons moon-gray
     --grid-margin: 0.75rem;
@@ -66,7 +66,7 @@ html {
 
 @media #{$breakpoint-large} {
     html {
-        font-size: 125%;
+        font-size: 131.25%;
     }
 }
 
