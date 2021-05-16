@@ -51,7 +51,7 @@
 
         <p class="c-sans-serif mt0 mb1 f7">{{ comment.createdTime | date: "%-d %b, %Y %H:%M" }}</p>
 
-        <div class="c-collapse-top-margin">{{ comment.fields.comment | strip_html | markdownify }}</div>
+        <div class="c-collapse-top-margin c-serif">{{ comment.fields.comment | strip_html | markdownify }}</div>
 
       </article>
 
@@ -99,7 +99,7 @@
 
     <p class="c-sans-serif mt0 mb1 f7"><a rel="nofollow" href="{{ webmention.data.url }}"><time>{{ webmention.data.published | date: "%-d %b, %Y %H:%M" }}</time></a>{% if webmention.activity.type == 'like' %} {{ webmention.activity.sentence_html }}{% endif %}</p>
 
-    {% if webmention.data.content %}<div class="c-collapse-top-margin">{{ webmention.data.content | markdownify }}</div>{% endif %}
+    {% if webmention.data.content %}<div class="c-collapse-top-margin c-serif">{{ webmention.data.content | markdownify }}</div>{% endif %}
 
   </article>
 

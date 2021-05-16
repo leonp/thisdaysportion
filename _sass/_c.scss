@@ -7,12 +7,15 @@
     --measure: 36rem;
     --lh-copy: 1.3125;
     --lh-copy-m: 1.375;
-    --lh-copy-l: 1.4375;
+    --lh-copy-l: 1.5;
     --lh-title: 1.1;
     --lh-title-m: 1.2;
     --lh-title-l: 1.2;
+    --font-size: 118.75%;
+    --font-size-m: 118.75%;
+    --font-size-l: 118.75%;
     --sans-serif: -apple-system, BlinkMacSystemFont, "segoe ui", "helvetica neue", helvetica, ubuntu, roboto, noto, sans-serif;
-    --serif: "Source Serif Pro", georgia, serif;
+    --serif: georgia, "Source Serif Pro", serif;
     --monospace: "IBM Plex Mono", "Fira Code", "Menlo", "Courier New", monospace;
     --accent: #000;  // Tachyons black
     --link: #357EDD; // International browser blue
@@ -54,19 +57,19 @@
 }
 
 html {
-    font-size: 118.75%;
+    font-size: var(--font-size);
     scroll-behavior: smooth;
 }
 
 @media #{$breakpoint-not-small} {
     html {
-        font-size: 125%;
+        font-size: var(--font-size-m);
     }
 }
 
 @media #{$breakpoint-large} {
     html {
-        font-size: 131.25%;
+        font-size: var(--font-size-l);
     }
 }
 
