@@ -11,19 +11,19 @@
     --lh-title: 1.1;
     --lh-title-m: 1.2;
     --lh-title-l: 1.2;
-    --font-size: 118.75%;
-    --font-size-m: 125%;
-    --font-size-l: 131.25%;
+    --font-size: 112.5%;
+    --font-size-m: 118.75%;
+    --font-size-l: 118.75%;
     --sans-serif: -apple-system, BlinkMacSystemFont, "segoe ui", "helvetica neue", helvetica, ubuntu, roboto, noto, sans-serif;
-    --serif: Newsreader, serif;
+    --serif: Literata, georgia, serif;
     --monospace: "IBM Plex Mono", "Fira Code", "Menlo", "Courier New", monospace;
     --accent: #000;  // Tachyons black
-    --link: #357EDD; // International browser blue
-    --hover: #357EDD; // International browser black
+    --link: #E7040F; // dark-red
+    --hover: #E7040F; // dark-red
     --visited: #555; // Tachyons mid-gray
     --focus: #FFB700; // Tachyons gold
-    --selected: #357EDD; // International browser blue
-    --background: #FFF; // My v light gray blue
+    --selected: #E7040F; // International browser blue
+    --background: #E3E4DF; // Swansdown
     --foreground: #222; // My dark gray
     --secondary-foreground: #777; // My secondary gray
     --secondary-background: #CCC; // Tachyons moon-gray
@@ -233,7 +233,7 @@ h4,
 h5,
 h6 {
     line-height: var(--lh-title);
-    font-family: var(--sans-serif);
+    font-family: var(--serif);
 }
 
 @media #{$breakpoint-medium} {
@@ -290,30 +290,38 @@ article dt,
 .c-headings dt {
     margin-top: 2.25rem;
     margin-bottom: 0;
-    font-family: var(--sans-serif);
+    font-family: var(--serif);
+    font-weight: normal;
+    font-style: italic;
 }
 
 article h2,
 .c-headings h2 {
-    font-size: 1.25rem;
+    font-size: 1rem;
 }
 
 @media #{$breakpoint-not-small} {
     article h2,
     .c-headings h2 {
-        font-size: 1.5rem;
+        font-size: 1.25rem;
     }
 }
 
 article h3,
 .c-headings h3 {
     font-size: 1rem;
+    font-variant: small-caps;
+    text-transform: lowercase;
+    letter-spacing: 1px;
 }
 
 @media #{$breakpoint-not-small} {
     article h3,
     .c-headings h3 {
-        font-size: 1.25rem;
+        font-size: 1rem;
+        font-variant: small-caps;
+        text-transform: lowercase;
+        letter-spacing: 1px;
     }
 }
 

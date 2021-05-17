@@ -6,9 +6,9 @@
 
       {% if item.is_post %}
 
-        <header class="c-sans-serif flex flex-column-reverse">
+        <header class="flex flex-column-reverse">
 
-          <h2 class="c-sans-serif f5 c-lh-title mt1 mb2"><a class="db" href="{{ item.url }}">{{ item.title }}</a></h2>
+          <h2 class="f5 c-lh-title mt1 mb2"><a class="db" href="{{ item.url }}">{{ item.title }}</a></h2>
 
           <p class="ma0 f6"><time datetime="{{ item.date | date: "%Y-%m-%d" }}">{{ item.date | date: "%-d %b, %Y" }}</time>{% if page.is_home %} &middot; <a href="/posts">Post</a>{% endif %}</p>
 
@@ -26,9 +26,9 @@
 
       {% elsif item.is_note %}
 
-        <header class="c-sans-serif">
+        <header>
 
-          <h2 class="clip c-sans-serif f5 c-lh-title mt1 mb2"><a class="db" href="{{ item.url }}">{{ item.title }}</a></h2>
+          <h2 class="clip f5 c-lh-title mt1 mb2"><a class="db" href="{{ item.url }}">{{ item.title }}</a></h2>
 
           <p class="mt0 mb1 f6"><a href="{{ item.url }}"><time datetime="{{ item.date | date: "%Y-%m-%d" }}">{{ item.date | date: "%-d %b, %Y" }}</time></a>{% if page.is_home %} &middot; <a href="/notes">Note</a>{% endif %}</p>
 
@@ -38,7 +38,7 @@
 
       {% else %}
 
-        <header class="c-sans-serif flex flex-column-reverse">
+        <header class="flex flex-column-reverse">
 
           <h2 class="f5 c-lh-title mt1 mb2"><a class="db" href="{{ item.url }}">{{ item.title }}</a></h2>
 
@@ -56,9 +56,9 @@
 
 {% if paginator.total_pages > 1 %}
 
-<footer class="pt4 c-sans-serif">
+<footer class="pt4">
 
-    <div class="flex justify-between b">
+    <div class="flex justify-between i">
 
         {% if paginator.next_page %}
 
