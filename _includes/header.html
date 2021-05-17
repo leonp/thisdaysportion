@@ -117,9 +117,9 @@
 
             <div class="c-ph bb c-border">
 
-                <nav class="flex-ns justify-between-ns center c-measure">
+                <nav class="flex justify-between center c-measure">
 
-                    <a href="/" class="f7 pt2 pv2-ns normal i flex flex-wrap items-center no-underline">
+                    <a href="/" class="f7 pv2 normal i flex flex-wrap items-center no-underline">
 
                         <img class="mw1 mw2-ns br-100 mr2" src="/images/mr-leon-paternoster-400.jpg" alt="">
 
@@ -135,7 +135,7 @@
 
                             {% unless this_page.url contains "page" %}
 
-                            <a href="{{ this_page.url }}" class="f7 dib pv2 mr3 mr0-ns ml3-ns no-underline{% if this_page.url == page.url %} c-selected{% endif %}">{{ this_page.title }}</a>
+                            <a href="{{ this_page.url }}" class="f7 dib pv2 ml2 ml3-ns no-underline{% if this_page.url == page.url %} c-selected{% endif %}">{{ this_page.title }}</a>
 
                             {% endunless %}
 
