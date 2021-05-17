@@ -5,9 +5,9 @@
     --pr: 7.5vw;
     --pl: 7.5vw;
     --measure: 32rem;
-    --lh-copy: 1.3125;
-    --lh-copy-m: 1.375;
-    --lh-copy-l: 1.4375;
+    --lh-copy: 1.375;
+    --lh-copy-m: 1.4375;
+    --lh-copy-l: 1.5;
     --lh-title: 1.1;
     --lh-title-m: 1.2;
     --lh-title-l: 1.2;
@@ -295,17 +295,12 @@ article dt,
     font-style: italic;
 }
 
+
 article h2,
 .c-headings h2 {
-    font-size: 1rem;
+    font-size: 1.25rem;
 }
 
-@media #{$breakpoint-not-small} {
-    article h2,
-    .c-headings h2 {
-        font-size: 1.25rem;
-    }
-}
 
 article h3,
 .c-headings h3 {
@@ -313,16 +308,6 @@ article h3,
     font-variant: small-caps;
     text-transform: lowercase;
     letter-spacing: 1px;
-}
-
-@media #{$breakpoint-not-small} {
-    article h3,
-    .c-headings h3 {
-        font-size: 1rem;
-        font-variant: small-caps;
-        text-transform: lowercase;
-        letter-spacing: 1px;
-    }
 }
 
 article h4,
