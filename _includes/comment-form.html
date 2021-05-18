@@ -6,7 +6,7 @@
 
   </div>
 
-  <form class="c-serif" name="comments" method="POST" netlify-honeypot="bot-field" data-netlify="true" action="/thanks/">
+  <form class="c-sans-serif" name="comments" method="POST" netlify-honeypot="bot-field" data-netlify="true" action="/thanks/">
 
     <p class="lh-title f7"><strong>Required fields marked <span class="dark-red">*</span></strong>. I won’t publish or share your email address.</p>
 
@@ -55,9 +55,9 @@
 
       <article class="mb4">
 
-        <h3 id="{{ comment.id }}" class="f6 mt0 mb1 normal">{% if comment.fields.website %}<a href="{{ comment.fields.website }}">{% endif %}{{ comment.fields.Name }}{% if comment.fields.website %}</a>{% endif %}</h3>
+        <h3 id="{{ comment.id }}" class="f6 mt0 mb1">{% if comment.fields.website %}<a href="{{ comment.fields.website }}">{% endif %}{{ comment.fields.Name }}{% if comment.fields.website %}</a>{% endif %}</h3>
 
-        <p class="c-serif mt0 mb1 f7">{{ comment.createdTime | date: "%-d %b, %Y %H:%M" }}</p>
+        <p class="c-sans-serif mv1 f7">{{ comment.createdTime | date: "%-d %b, %Y %H:%M" }}</p>
 
         <div class="c-collapse-top-margin c-serif">{{ comment.fields.comment | strip_html | markdownify }}</div>
 
@@ -107,9 +107,9 @@
 
   <article class="mb4">
 
-    <h3 id="{{ webmention.id }}" class="f6 mt0 mb1 flex items-center normal">{% if webmention.data.author.url %}<a rel="nofollow" href="{{ webmention.data.author.url }}">{% endif %}{% if webmention.data.author.photo %}<img class="v-mid dib h-auto w2 br-100 mr2" src="{{ webmention.data.author.photo }}" alt="{{ webmention.data.author.name }}">{% endif %}{{ webmention.data.author.name }}{% if webmention.data.author.url %}</a>{% endif %}</h3>
+    <h3 id="{{ webmention.id }}" class="f6 mt0 mb1 flex items-center c-sans-serif">{% if webmention.data.author.url %}<a rel="nofollow" href="{{ webmention.data.author.url }}">{% endif %}{% if webmention.data.author.photo %}<img class="v-mid dib h-auto w2 br-100 mr2" src="{{ webmention.data.author.photo }}" alt="{{ webmention.data.author.name }}">{% endif %}{{ webmention.data.author.name }}{% if webmention.data.author.url %}</a>{% endif %}</h3>
 
-    <p class="c-serif mt0 mb1 f7"><a rel="nofollow" href="{{ webmention.data.url }}"><time>{{ webmention.data.published | date: "%-d %b, %Y %H:%M" }}</time></a>{% if webmention.activity.type == 'like' %} {{ webmention.activity.sentence_html }}{% endif %}</p>
+    <p class="c-sans-serif mt0 mv1 f7"><a rel="nofollow" href="{{ webmention.data.url }}"><time>{{ webmention.data.published | date: "%-d %b, %Y %H:%M" }}</time></a>{% if webmention.activity.type == 'like' %} {{ webmention.activity.sentence_html }}{% endif %}</p>
 
     {% if webmention.data.content %}<div class="c-collapse-top-margin c-serif">{{ webmention.data.content | markdownify }}</div>{% endif %}
 

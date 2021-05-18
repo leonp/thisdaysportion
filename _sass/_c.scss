@@ -233,7 +233,7 @@ h4,
 h5,
 h6 {
     line-height: var(--lh-title);
-    font-family: var(--serif);
+    font-family: var(--sans-serif);
 }
 
 @media #{$breakpoint-medium} {
@@ -284,9 +284,7 @@ article {
 .c-headings dt {
     margin-top: 2.25rem;
     margin-bottom: 0;
-    font-family: var(--serif);
-    font-weight: normal;
-    font-style: italic;
+    font-family: var(--sans-serif);
     color: var(--accent);
 }
 
@@ -301,6 +299,7 @@ article {
     font-variant: small-caps;
     text-transform: lowercase;
     letter-spacing: 1px;
+    font-weight: normal;
 }
 
 .c-headings h4 {
