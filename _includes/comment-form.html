@@ -1,6 +1,10 @@
 {% if site.comments_enabled or page.comments_enabled %}
 
-  <h2 id="commentary" class="mt0 f4">Add a comment</h2>
+  <div class="c-headings">
+
+    <h2 id="commentary" class="mt0 f4">Add a comment</h2>
+
+  </div>
 
   <form class="c-serif" name="comments" method="POST" netlify-honeypot="bot-field" data-netlify="true" action="/thanks/">
 
@@ -26,7 +30,7 @@
     <input name="slug" hidden class="dn" value="{{ page.slug }}">
 
     <input name="uri" hidden class="dn" value="https://www.thisdaysportion.com{{ page.url }}">
-    
+
     <button class="shadow-4 c-serif f6 b pa2 ba b--moon-gray c-field-border-color bg-blue hover-bg-dark-blue white pointer c-remove-ios-borders" type="submit">Submit comment</button>
 
   </form>
