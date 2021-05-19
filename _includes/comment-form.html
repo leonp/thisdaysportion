@@ -111,7 +111,7 @@
 
     <p class="mt0 mv1 f7"><a rel="nofollow" href="{{ webmention.data.url }}"><time>{{ webmention.data.published | date: "%-d %b, %Y %H:%M" }}</time></a>{% if webmention.activity.type == 'like' %} {{ webmention.activity.sentence_html }}{% endif %}</p>
 
-    {% if webmention.data.content %}<div class="c-collapse-top-margin">{{ webmention.data.content | markdownify }}</div>{% endif %}
+    {% if webmention.data.content %}<div class="c-collapse-top-margin">{{ webmention.data.content | strip_html | markdownify }}</div>{% endif %}
 
   </article>
 
