@@ -2,7 +2,7 @@
 
     <img src='{% unless jekyll.environment == "development" %}{{ site.url }}{% endunless %}/images/{{ include.url }}' alt="{{ include.alt }}" class="{% unless include.unbleed %}c-bleed {% endunless %}db border-box mb2 shadow-2" loading="lazy">
 
-    <figcaption class="s-sans-serif">
+    <figcaption>
 
         <p class="f6 ma0 lh-title">{{ include.caption }}</p>
 

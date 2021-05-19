@@ -4,9 +4,9 @@
 
     {% unless page.hide-title %}
 
-    <div class="mb4 c-sans-serif">
+    <div class="mb4">
 
-        <h1 class="f3 mt0 mb3 p-name c-accent ">{% if page.display-title %}{{ page.display-title }}{% else %}{{ page.title }}{% endif %}</h1>
+        <h1 class="f3 f2-ns mt0 mb3 p-name c-accent ">{% if page.display-title %}{{ page.display-title }}{% else %}{{ page.title }}{% endif %}</h1>
 
         {% if page.sub %}
 
@@ -18,7 +18,7 @@
 
     {% endunless %}
 
-    <div class="e-content c-serif c-headings c-hyphens">
+    <div class="e-content c-headings c-hyphens">
 
         {{ content }}
 

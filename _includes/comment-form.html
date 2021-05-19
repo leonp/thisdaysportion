@@ -16,22 +16,22 @@
     </div>
 
     <label for="name" class="db f7 lh-title mb1">Name <span class="dark-red">*</span></label>
-    <input autocorrect="off" required class="border-box pa1 c-serif ba b--moon-gray c-field-border-color db mb3 w-100" type="text" name="name" id="name">
+    <input autocorrect="off" required class="border-box pa1 ba b--moon-gray c-field-border-color db mb3 w-100" type="text" name="name" id="name">
 
     <label for="email" class="db f7 lh-title mb1">Email <span class="dark-red">*</span></label>
-    <input required autocapitalize="none" class="border-box pa1 c-serif ba b--moon-gray c-field-border-color db mb3 w-100" type="email" name="email" id="email">
+    <input required autocapitalize="none" class="border-box pa1 ba b--moon-gray c-field-border-color db mb3 w-100" type="email" name="email" id="email">
 
     <label for="website" class="db f7 lh-title mb1">Your website</label>
-    <input autocapitalize="none" class="border-box pa1 c-serif ba b--moon-gray c-field-border-color db mb3 w-100" type="text" name="website" id="website">
+    <input autocapitalize="none" class="border-box pa1 ba b--moon-gray c-field-border-color db mb3 w-100" type="text" name="website" id="website">
 
     <label for="comment" class="db f7 lh-title mb1">Comment <span class="dark-red">*</span> (use <a href="https://www.markdownguide.org/cheat-sheet/">Markdown</a> to format text)</label>
-    <textarea required class="border-box pa1 ba b--moon-gray c-field-border-color db mb2 vh-50 w-100 c-monospace f7" name="comment" id="comment"></textarea>
+    <textarea required class="border-box pa1 ba b--moon-gray c-field-border-color db mb2 vh-50 w-100 c-monospace f6" name="comment" id="comment"></textarea>
 
     <input name="slug" hidden class="dn" value="{{ page.slug }}">
 
     <input name="uri" hidden class="dn" value="https://www.thisdaysportion.com{{ page.url }}">
 
-    <button class="shadow-4 c-serif f6 b pa2 ba b--moon-gray c-field-border-color bg-blue hover-bg-dark-blue white pointer c-remove-ios-borders" type="submit">Submit comment</button>
+    <button class="shadow-4 c-sans-serif f6 b pa2 ba b--moon-gray c-field-border-color bg-blue hover-bg-dark-blue white pointer c-remove-ios-borders" type="submit">Submit comment</button>
 
   </form>
 
@@ -57,9 +57,9 @@
 
         <h3 id="{{ comment.id }}" class="f6 mt0 mb1">{% if comment.fields.website %}<a href="{{ comment.fields.website }}">{% endif %}{{ comment.fields.Name }}{% if comment.fields.website %}</a>{% endif %}</h3>
 
-        <p class="c-sans-serif mv1 f7">{{ comment.createdTime | date: "%-d %b, %Y %H:%M" }}</p>
+        <p class="mv1 f7">{{ comment.createdTime | date: "%-d %b, %Y %H:%M" }}</p>
 
-        <div class="c-collapse-top-margin c-serif">{{ comment.fields.comment | strip_html | markdownify }}</div>
+        <div class="c-collapse-top-margin">{{ comment.fields.comment | strip_html | markdownify }}</div>
 
       </article>
 
@@ -107,11 +107,11 @@
 
   <article class="mb4">
 
-    <h3 id="{{ webmention.id }}" class="f6 mt0 mb1 flex items-center c-sans-serif">{% if webmention.data.author.url %}<a rel="nofollow" href="{{ webmention.data.author.url }}">{% endif %}{% if webmention.data.author.photo %}<img class="v-mid dib h-auto w2 br-100 mr2" src="{{ webmention.data.author.photo }}" alt="{{ webmention.data.author.name }}">{% endif %}{{ webmention.data.author.name }}{% if webmention.data.author.url %}</a>{% endif %}</h3>
+    <h3 id="{{ webmention.id }}" class="f6 mt0 mb1 flex items-center">{% if webmention.data.author.url %}<a rel="nofollow" href="{{ webmention.data.author.url }}">{% endif %}{% if webmention.data.author.photo %}<img class="v-mid dib h-auto w2 br-100 mr2" src="{{ webmention.data.author.photo }}" alt="{{ webmention.data.author.name }}">{% endif %}{{ webmention.data.author.name }}{% if webmention.data.author.url %}</a>{% endif %}</h3>
 
-    <p class="c-sans-serif mt0 mv1 f7"><a rel="nofollow" href="{{ webmention.data.url }}"><time>{{ webmention.data.published | date: "%-d %b, %Y %H:%M" }}</time></a>{% if webmention.activity.type == 'like' %} {{ webmention.activity.sentence_html }}{% endif %}</p>
+    <p class="mt0 mv1 f7"><a rel="nofollow" href="{{ webmention.data.url }}"><time>{{ webmention.data.published | date: "%-d %b, %Y %H:%M" }}</time></a>{% if webmention.activity.type == 'like' %} {{ webmention.activity.sentence_html }}{% endif %}</p>
 
-    {% if webmention.data.content %}<div class="c-collapse-top-margin c-serif">{{ webmention.data.content | markdownify }}</div>{% endif %}
+    {% if webmention.data.content %}<div class="c-collapse-top-margin">{{ webmention.data.content | markdownify }}</div>{% endif %}
 
   </article>
 

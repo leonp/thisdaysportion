@@ -6,7 +6,7 @@
 
       {% if item.is_post %}
 
-        <header class="flex flex-column-reverse c-sans-serif">
+        <header class="flex flex-column-reverse">
 
           <h2 class="f5 c-lh-title mt1 mb2"><a class="db" href="{{ item.url }}">{{ item.title }}</a></h2>
 
@@ -16,17 +16,17 @@
 
         {% if item.sub %}
 
-        <p class="ma0 c-serif">{{ item.sub }}</p>
+        <p class="ma0">{{ item.sub }}</p>
 
         {% else %}
 
-        <p class="ma0 c-serif">{{ item.excerpt | strip_html | strip_newlines }}</p>
+        <p class="ma0">{{ item.excerpt | strip_html | strip_newlines }}</p>
 
         {% endif %}
 
       {% elsif item.is_note %}
 
-        <header class="c-sans-serif">
+        <header>
 
           <h2 class="clip f5 c-lh-title mt1 mb2"><a class="db" href="{{ item.url }}">{{ item.title }}</a></h2>
 
@@ -34,11 +34,11 @@
 
         </header>
 
-        <div class="c-serif">{{ item.content }}</div>
+        <div>{{ item.content }}</div>
 
       {% else %}
 
-        <header class="flex flex-column-reverse c-sans-serif">
+        <header class="flex flex-column-reverse">
 
           <h2 class="f5 c-lh-title mt1 mb2"><a class="db" href="{{ item.url }}">{{ item.title }}</a></h2>
 
@@ -46,7 +46,7 @@
 
         </header>
 
-        <p class="ma0 c-serif">{{ item.content | strip_html | strip_newlines | truncatewords: 40 }}</p>
+        <p class="ma0">{{ item.content | strip_html | strip_newlines | truncatewords: 40 }}</p>
 
       {% endif %}
 
@@ -58,7 +58,7 @@
 
 <footer class="pt4">
 
-    <div class="flex justify-between c-sans-serif">
+    <div class="flex justify-between">
 
         {% if paginator.next_page %}
 
