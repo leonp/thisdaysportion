@@ -36,6 +36,11 @@ fields:
   type: boolean
   label: Hide from Twitter?
   description: Don’t send this to the Twitter RSS feed
+- name: is_reply
+  type: boolean
+  label: Is a reply to a post?
+  description: Check this if you’re replying to a post on another blog, or a tweet
+    or similar. Will use the link URL as the reply to URL.
 pages:
 - _links/after-the-apocalypse.md
 - _links/an-open-letter-to-jason-and-david.md
