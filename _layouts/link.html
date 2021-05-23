@@ -4,11 +4,9 @@
 
   <header class="mb3 mb4-ns flex flex-column-reverse">
 
-    <h1 class="f5 ma0 p-name c-accent"><a {% if page.is_like %}class="u-like-of" {% endif %}{% if page.is_reply %}class="u-in-reply-to" {% endif %}href="{{ page.link-url }}">{{ page.title }} &rarr;</a></h1>
+    <h1 class="f5 ma0 p-name c-accent"><a href="{{ page.link-url }}">{{ page.title }} &rarr;</a></h1>
 
     <p class="f6 mb3"><time class="dt-published" datetime="{{ page.date | date: "%Y-%m-%d" }}">{{ page.date | date: "%-d %b, %Y" }}</time> &middot; <a href="/links">Link</a>{% if page.link-author %} by {{ page.link-author }}{% endif %}{% if site.comments_enabled or page.comments_enabled %} &middot; <a href="#commentary" class="pv1">Commentary</a>{% endif %}</p>
-
-    <a class="clip u-url" href="{{ site.url }}{{ page.url }}">{{ site.url }}{{ page.url }}</a>
 
   </header>
 

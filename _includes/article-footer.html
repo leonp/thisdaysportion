@@ -2,6 +2,34 @@
 
   <footer class="f6 mt3 pt3 pt4-ns">
 
+  	<div class="clip" id="webmention-classes">
+
+  		{% if page.in_reply_to %}
+
+  		<a href="{{ page.in_reply_to }}" class="u-in-reply-to">{{ page.in_reply_to }}</a>
+
+  		{% endif %}
+
+  		{% if page.is_reply %}
+
+  		<a class="u-in-reply-to" href="{{ page.link-url }}">{{ page.link-url }}</a>
+
+  		{% endif %}
+
+  		<a class="u-url" href="{{ site.url }}{{ page.url }}">{{ site.url }}{{ page.url }}</a>
+
+  		{% if site.author %}<span class="u-author p-author">{{ site.author }}</span>{% endif %}
+
+  		{% if site.author-image %}<img class="u-photo" alt="{{ site.author }}" src="{{ site.url }}/images/{{ site.author-image }}">{% endif %}
+
+  		{% if page.is_like %}
+
+  		<a href="{{ page.link-url }}" class="u-like-of">{{ page.link-url }}</a>
+
+  		{% endif %}
+
+  	</div>
+
     {% include comment-form.html %}
 
   </footer>
