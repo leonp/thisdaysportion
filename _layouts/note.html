@@ -8,6 +8,8 @@
 
     <p class="f6 ma0"><time class="dt-published" datetime="{{ page.date | date: "%Y-%m-%d" }}">{{ page.date | date: "%-d %b, %Y" }}</time> &middot; <a href="/notes">Note</a>{% if site.comments_enabled or page.comments_enabled %} &middot; <a href="#commentary" class="pv1">Commentary</a>{% endif %}</p>
 
+    <a class="clip u-url" href="{{ site.url }}{{ page.url }}">{{ site.url }}{{ page.url }}</a>
+
   </header>
 
   <div class="e-content c-hyphens">
