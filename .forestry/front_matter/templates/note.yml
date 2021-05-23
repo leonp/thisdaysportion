@@ -22,6 +22,12 @@ fields:
   type: boolean
   label: Hide from Twitter?
   description: Don’t send this to the Twitter RSS feed
+- name: in_reply_to
+  type: text
+  config:
+    required: false
+  label: Replying to...
+  description: If you’re replying to a blog post, tweet etc. enter its URL here
 pages:
 - _notes/automated-builds-and-charges.md
 - _notes/back-to-the-gym.md
