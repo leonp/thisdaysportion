@@ -116,11 +116,11 @@
 
                 <nav class="flex justify-between center c-measure">
 
-                    <a href="/" class="f7 pv2 b flex flex-wrap items-center no-underline">
+                    <a href="/" class="f7 f6-ns f5-l pv2 b no-underline">
 
-                        <img class="mw1 mw2-ns br-100 mr2" src="/images/mr-leon-paternoster-400.jpg" alt="">
+                        <span role="img" class="c-icon c-accent mr1 lh-solid" aria-label="Red Star">⭐️</span>
 
-                        <div>This Day’s Portion</div>
+                        <span>This Day’s Portion</span>
 
                     </a>
 
@@ -132,7 +132,7 @@
 
                             {% unless this_page.url contains "page" %}
 
-                            <a href="{{ this_page.url }}" class="f7 dib pv2 ml2 ml3-ns no-underline{% if this_page.url == page.url %} c-selected{% endif %}">{{ this_page.title }}</a>
+                            <a href="{{ this_page.url }}" class="f7 f6-ns f5-l dib pv2 ml2 ml3-ns no-underline{% if this_page.url == page.url %} c-selected{% endif %}">{{ this_page.title }}</a>
 
                             {% endunless %}
 
