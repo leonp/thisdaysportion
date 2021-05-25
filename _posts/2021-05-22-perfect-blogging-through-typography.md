@@ -15,7 +15,7 @@ Unlike WordPress, I think the perfect blogging platform should avoid theming. Th
 
 (Of course, some of us like the coding part of our blogging platforms, but I’m sure we are in the minority.)
 
-Without theming configuration and self-hosting would be more simple, although it’ll always involve some degree of technical expertise that’s beyond the remit of the platform. I envisage uploading a folder to a PHP-enabled server and visting the website one time to enter a few settings: no control panel or database required, and after this no further configuration to get up and running.
+Without theming, configuration and self-hosting would be more simple, although it’ll always involve some degree of technical expertise that’s beyond the remit of the platform. I envisage uploading a folder to a PHP-enabled server and visting the website one time to enter a few settings: no control panel or database required, and after this no further configuration to get up and running.
 
 However, we do want authors to have some control over what their blogs look like. This is about more than expressing something through choice of fonts, colour, logo etc. The blog format should influence its typography. For example, a blog consisting of long form essays will perhaps require a different typeface, layout, measure and leading than a photoblog.
 
