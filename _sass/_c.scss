@@ -234,6 +234,7 @@ h5,
 h6 {
     line-height: var(--lh-title);
     font-family: var(--sans-serif);
+    font-weight: 600;
 }
 
 @media #{$breakpoint-medium} {
@@ -286,6 +287,13 @@ article {
     margin-bottom: 0;
     font-family: var(--sans-serif);
     color: var(--accent);
+    font-weight: 600;
+}
+
+strong,
+b,
+.b {
+    font-weight: 600;
 }
 
 

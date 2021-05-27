@@ -29,6 +29,8 @@ Handily, we already have examples of the UI controls we could use in our bloggin
 
 We’d offer more options, but you get the idea. By controlling typography and limiting the site’s purpose to a blog, we can offer all the customisation that normally requires theming. Writers won’t have to code.
 
+(Alternatively, we could offer a set of simpler “packages” of settings that look good out of the box, similar to [Typetura](https://typetura.com/). Thanks to [Florens](https://fvsch.com) for this idea.)
+
 ## What controls will we offer?
 
 ### Typeface

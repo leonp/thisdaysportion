@@ -116,7 +116,7 @@
 
                 <nav class="flex justify-between center c-measure">
 
-                    <a href="/" class="f7 f6-ns pv2 no-underline">
+                    <a href="/" class="f7 pv2 no-underline">
 
                         <span role="img" class="c-icon c-accent mr1 lh-solid" aria-label="Red Star">⭐️</span>
 
@@ -132,7 +132,7 @@
 
                             {% unless this_page.url contains "page" %}
 
-                            <a href="{{ this_page.url }}" class="f7 f6-ns dib pv2 ml2 ml3-ns no-underline{% if this_page.url == page.url %} c-selected{% endif %}">{{ this_page.title }}</a>
+                            <a href="{{ this_page.url }}" class="f7 dib pv2 ml2 ml3-ns no-underline{% if this_page.url == page.url %} c-selected{% endif %}">{{ this_page.title }}</a>
 
                             {% endunless %}
 
