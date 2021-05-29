@@ -14,9 +14,7 @@ Note, this is about _writing_ links in Markdown, and I don’t have any strong o
 
 It is also possible to _render_ links in a Markdown document as what I’ll call _reference hyperlinks_. You don’t see many reference hyperlinks in the wild. They mimic academic footnotes – a number in brackets after some text which links to a footnote at the bottom of your web page, which in turn will link to a source.
 
-[This is an inline hyperlink](https://en.wikipedia.org/wiki/Hyperlink). You see hundreds of them every day.
-
-They’re also more usable – and readable – than reference links, an epochal development in the construction of texts, possibly the main reason hypertext is more powerful than print.
+[This is an inline hyperlink](https://en.wikipedia.org/wiki/Hyperlink). You see hundreds of them every day. They’re more usable – and readable – than reference links, an epochal development in the construction of texts, possibly the main reason hypertext is more powerful than print.
 
 Why? Well...
 
