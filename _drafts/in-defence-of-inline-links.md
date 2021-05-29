@@ -1,6 +1,6 @@
 ---
 date: 2021-05-29 06:14:24 +0000
-title: Inline links are better than academic style reference links on the web
+title: Some thoughts on why inline hyperlinks are better than print style references
 category: web
 sub: ''
 mb-cat: "\U0001F58B"
