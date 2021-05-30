@@ -382,17 +382,17 @@ article a:focus {
     max-width: 100%;
 }
 
-.c-constrain-most .c-bleed {
+.c-bleed {
     max-width: calc(100% + var(--ph) * 2);
     margin-left: calc(var(--ph) - (var(--ph) * 2));
 }
 
-@media #{$breakpoint-large} {
-    .c-constrain-most .c-bleed {
-        max-width: 100%;
-        margin-left: 0;
+/* @media #{$breakpoint-large} {
+    .c-bleed {
+        max-width: 60erm;
+        margin-left: -15rem;
     }
-}
+} */
 
 .c-bleed-full {
   margin-left: calc(var(--ph) - (var(--ph) * 2));
