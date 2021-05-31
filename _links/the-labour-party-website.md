@@ -10,6 +10,4 @@ is_reply: false
 is_like: false
 
 ---
-My god, the absolute state of a Labour party that is supposed to be _competent_ and on point with its comms.
-
-Still, Keir Starmer is about to appear on Piers Morgan’s show, so that’s all very good indeed.
+My god, the absolute state of a Labour party that is supposed to be _competent_ and on point with its comms. Still, Keir Starmer is about to appear on Piers Morgan’s show, so that’s all very good indeed.
