@@ -100,6 +100,9 @@
         <link href="/css/style.css" rel="stylesheet">
         {% endif %}
 
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+
         <link rel="prefetch" href="/search">
 
         <!-- ~ Hullo. I would make this a Liquid include if I wanted to preload some fonts 🦉 -->
@@ -114,7 +117,7 @@
 
             <div class="c-ph bb c-border">
 
-                <nav class="flex justify-between center c-measure">
+                <nav class="flex items-center center c-measure">
 
                     <a href="/" class="f7 pv2 no-underline">
 
@@ -132,7 +135,7 @@
 
                             {% unless this_page.url contains "page" %}
 
-                            <a href="{{ this_page.url }}" class="f7 dib pv2 ml2 ml3-ns no-underline{% if this_page.url == page.url %} c-selected{% endif %}">{{ this_page.title }}</a>
+                            <a href="{{ this_page.url }}" class="f7 dib pv2 ml3 ml4-ns no-underline{% if this_page.url == page.url %} c-selected{% endif %}">{{ this_page.title }}</a>
 
                             {% endunless %}
 

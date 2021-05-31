@@ -7,22 +7,22 @@
     --measure: 30rem;
     --lh-copy: 1.375;
     --lh-copy-m: 1.4375;
-    --lh-copy-l: 1.4375;
+    --lh-copy-l: 1.55;
     --lh-title: 1.1;
     --lh-title-m: 1.2;
     --lh-title-l: 1.2;
     --font-size: 112.5%;
     --font-size-m: 118.75%;
     --font-size-l: 118.75%;
-    --sans-serif: -apple-system, BlinkMacSystemFont, "segoe ui", "helvetica neue", helvetica, ubuntu, roboto, noto, sans-serif;
-    --serif: Literata, georgia, serif;
+    --sans-serif: "Fira Sans", -apple-system, BlinkMacSystemFont, "segoe ui", "helvetica neue", helvetica, ubuntu, roboto, noto, sans-serif;
+    --serif: georgia, serif;
     --monospace: "IBM Plex Mono", "Fira Code", "Menlo", "Courier New", monospace;
     --accent: #000;  // Tachyons black
-    --link: #000; // dark-red
-    --hover: #E7040F; // Tachyons dark red
+    --link: #0000EE; // dark-red
+    --hover: #0000EE; // Tachyons dark red
     --visited: #555; // Tachyons mid-gray
     --focus: #FFB700; // Tachyons gold
-    --selected: #E7040F; // Tachyons dark red
+    --selected: #0000EE; // Tachyons dark red
     --background: #FFF; // Swansdown is E3E4DF
     --foreground: #222; // My dark gray
     --secondary-foreground: #777; // My secondary gray
@@ -234,7 +234,6 @@ h5,
 h6 {
     line-height: var(--lh-title);
     font-family: var(--sans-serif);
-    font-weight: 600;
 }
 
 @media #{$breakpoint-medium} {
@@ -287,13 +286,6 @@ article {
     margin-bottom: 0;
     font-family: var(--sans-serif);
     color: var(--accent);
-    font-weight: 600;
-}
-
-strong,
-b,
-.b {
-    font-weight: 600;
 }
 
 

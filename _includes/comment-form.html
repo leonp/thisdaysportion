@@ -59,7 +59,7 @@
 
         <p class="mv1 f7">{{ comment.createdTime | date: "%-d %b, %Y %H:%M" }}</p>
 
-        <div class="c-collapse-top-margin">{{ comment.fields.comment | strip_html | markdownify }}</div>
+        <div class="c-collapse-top-margin c-serif">{{ comment.fields.comment | strip_html | markdownify }}</div>
 
       </article>
 
@@ -69,7 +69,7 @@
 
   {% if comments_present == false %}
 
-    <p class="mt1">None <span role="img" aria-label="An owl, wise">🦉</span>.</p>
+    <p class="mt1 c-serif">None <span role="img" aria-label="An owl, wise">🦉</span>.</p>
 
   {% endif %}
 
@@ -111,7 +111,7 @@
 
     <p class="mt0 mv1 f7"><a rel="nofollow" href="{{ webmention.data.url }}"><time>{{ webmention.data.published | date: "%-d %b, %Y %H:%M" }}</time></a>{% if webmention.activity.type == 'like' %} {{ webmention.activity.sentence_html }}{% endif %}</p>
 
-    {% if webmention.data.content %}<div class="c-collapse-top-margin">{{ webmention.data.content | strip_html | markdownify }}</div>{% endif %}
+    {% if webmention.data.content %}<div class="c-collapse-top-margin c-serif">{{ webmention.data.content | strip_html | markdownify }}</div>{% endif %}
 
   </article>
 
