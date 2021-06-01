@@ -1,34 +1,32 @@
-        </main>
+            </main>
+
+        </div>
 
         <footer class="c-ph c-no-print bt c-border c-sans-serif">
 
-        	<div class="c-measure center">
+            <nav class="flex nowrap overflow-x-auto items-center">
 
-                <nav class="flex nowrap overflow-x-auto items-center c-measure center">
+                <a href="/" class="f7 dib pv2 pv3-ns mr3 no-underline{% if page.title == "Home" %} c-selected{% endif %}">Home</a>
 
-                    <a href="/" class="f7 dib pv2 pv3-ns mr3 no-underline{% if page.title == "Home" %} c-selected{% endif %}">Home</a>
+                {% assign pages = site.pages | where: "in_nav", true | sort: "order" %}
 
-                    {% assign pages = site.pages | where: "in_nav", true | sort: "order" %}
+                {% for this_page in pages %}
 
-                    {% for this_page in pages %}
+                    {% unless this_page.url contains "page" %}
 
-                        {% unless this_page.url contains "page" %}
+                    <a href="{{ this_page.url }}" class="f7 dib pv2 pv3-ns mr3 no-underline{% if this_page.url == page.url %} c-selected{% endif %}">{{ this_page.title }}</a>
 
-                        <a href="{{ this_page.url }}" class="f7 dib pv2 pv3-ns mr3 no-underline{% if this_page.url == page.url %} c-selected{% endif %}">{{ this_page.title }}</a>
+                    {% endunless %}
 
-                        {% endunless %}
+                {% endfor %}
 
-                    {% endfor %}
+                <a href="/feed/index.xml" class="f7 dib pv2 pv3-ns no-underline mr3">RSS</a>
 
-                    <a href="/feed/index.xml" class="f7 dib pv2 pv3-ns no-underline mr3">RSS</a>
+                <a href="/search" class="f7 dib pv2 pv3-ns no-underline">Search</a>
 
-                    <a href="/search" class="f7 dib pv2 pv3-ns no-underline">Search</a>
+            </nav>
 
-                </nav>
-
-		        <div class="lh-solid clip"><a href="mailto:mail@thisdaysportion.com" rel="me">mail@thisdaysportion.com</a></div>
-
-		     </div>
+	        <div class="lh-solid clip"><a href="mailto:mail@thisdaysportion.com" rel="me">mail@thisdaysportion.com</a></div>
 
         </footer>
 

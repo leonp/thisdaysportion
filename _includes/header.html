@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<html lang="{{ site.lang }}">
+<html lang="{{ site.lang }}" class="min-vh-100">
 
     <head>
 
@@ -106,25 +106,25 @@
 
     </head>
 
-    <body onload="document.getElementById('home').classList.remove('c-no-js');" id="home" class="c-no-js ma0 pa0 c-background c-foreground c-sans-serif {% if page.is_home %}🦉{% else %}{{ page.slug }}{% endif %}">
+    <body onload="document.getElementById('home').classList.remove('c-no-js');" id="home" class="c-no-js min-vh-100 ma0 pa0 c-background c-foreground c-sans-serif {% if page.is_home %}🦉{% else %}{{ page.slug }}{% endif %}">
 
         <a class="clip dib pa2 c-target" href="#content">Skip to content</a>
 
-        <header class="c-no-print c-header-background">
+        <div class="flex-l flex-wrap-l flex-row-reverse-l">
 
-            <div class="c-ph bb c-border">
+            <header class="c-no-print c-header-background w-third-l pv5-l">
 
-                <nav class="flex items-center center c-measure">
+                <div class="c-ph bb c-border bn-l">
 
-                    <a href="/" class="f7 pv2 no-underline">
+                    <nav>
 
-                        <span role="img" class="c-icon c-accent mr1" aria-label="Star">⭐️</span>
+                        <a href="/" class="f7 dib pv2 pv1-l no-underline db-l mb3-l">
 
-                        <span class="b">This Day’s Portion</span>
+                            <span role="img" class="c-icon c-accent mr1" aria-label="Star">⭐️</span>
 
-                    </a>
+                            <span class="b">This Day’s Portion</span>
 
-                    <div class="flex items-center c-sans-serif">
+                        </a>
 
                         {% assign pages = site.pages | where: "in_primary_nav", true | sort: "order" %}
 
@@ -132,18 +132,24 @@
 
                             {% unless this_page.url contains "page" %}
 
-                            <a href="{{ this_page.url }}" class="f7 dib pv2 ml3 ml4-ns no-underline{% if this_page.url == page.url %} c-selected{% endif %}">{{ this_page.title }}</a>
+                            <a href="{{ this_page.url }}" class="f7 dib db-l pv2 pv1-l ml2 ml4-ns ml0-l no-underline{% if this_page.url == page.url %} c-selected{% endif %}">{{ this_page.title }}</a>
 
                             {% endunless %}
 
                         {% endfor %}
 
-                    </div>
+                         <a href="/feed/index.xml" class="f7 dib pv2 pv1-l no-underline ml2 ml4-ns ml0-l db-l">RSS</a>
 
-                </nav>
+                    </nav>
 
-            </div>
+                    {% unless page.is_home %}
 
-        </header>
+                        <p class="c-sans-serif f7 c-lh-title dn db-l">If you like what you’re reading, do Subscribe to the <a href="/feed/index.xml">RSS feed</a> and/or <a href="https://micro.blog/leonp">follow me on micro.blog</a>. You can also contact me directly at <strong>mail@thisdaysportion.com</strong></p>
 
-        <main id="content" class="c-ph mv4 mv5-ns">
+                    {% endunless %}
+
+                </div>
+
+            </header>
+
+            <main id="content" class="br-l c-border min-vh-100 c-ph pv4 pv5-ns w-two-thirds-l">
