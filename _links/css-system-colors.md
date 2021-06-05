@@ -16,6 +16,6 @@ I’d not heard of CSS system colors and I’ve been looking at implementing the
 
 Firstly, I couldn’t actually get `color-scheme: light dark;` to work in Firefox 89.0, but it was fine in Safari 14.1.1. Secondly, Safari only seems to have a single set of link colours, so if you’re in dark mode you’ll struggle to see links as they’ll render in the default blue you see on white backgrounds. [The spec says](https://drafts.csswg.org/css-color/#css-system-colors):
 
-> To maintain legibility, the [<system-color>](https://drafts.csswg.org/css-color/#typedef-system-color "Expands to: activetext | buttonborder | buttonface | buttontext | canvas | canvastext | field | fieldtext | graytext | highlight | highlighttext | linktext | mark | marktext | visitedtext") keywords also respond to light mode or dark mode changes... the browser should ensure that [matching foreground/background pairs](https://drafts.csswg.org/css-color/#system-color-pairs) have a minimum of WCAG AA contrast.
+> To maintain legibility, the <system-color> keywords also respond to light mode or dark mode changes... the browser should ensure that matching foreground/background pairs have a minimum of WCAG AA contrast.
 
 So I guess it’s just not been fully implemented yet.
