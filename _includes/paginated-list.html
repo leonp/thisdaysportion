@@ -2,13 +2,13 @@
 
 {% for item in items %}
 
-    <article class="mv4 mv5-ns">
+    <article class="mv5">
 
       {% if item.is_post %}
 
         <header class="flex flex-column-reverse">
 
-          <h2 class="f5 c-lh-title mt1 mb2"><a class="db" href="{{ item.url }}">{{ item.title }}</a></h2>
+          <h2 class="f4 c-lh-title mt1 mb2"><a class="db no-underline" href="{{ item.url }}">{{ item.title }}</a></h2>
 
           <p class="ma0 f6"><time datetime="{{ item.date | date: "%Y-%m-%d" }}">{{ item.date | date: "%-d %b, %Y" }}</time>{% if page.is_home %} &middot; <a href="/posts">Post</a>{% endif %}</p>
 
@@ -16,11 +16,11 @@
 
         {% if item.sub %}
 
-        <p class="ma0 c-serif">{{ item.sub }}</p>
+        <p class="ma0">{{ item.sub }}</p>
 
         {% else %}
 
-        <p class="ma0 c-serif">{{ item.excerpt | strip_html | strip_newlines }}</p>
+        <p class="ma0">{{ item.excerpt | strip_html | strip_newlines }}</p>
 
         {% endif %}
 
@@ -28,25 +28,25 @@
 
         <header>
 
-          <h2 class="clip f5 c-lh-title mt1 mb2"><a class="db" href="{{ item.url }}">{{ item.title }}</a></h2>
+          <h2 class="clip f5 c-lh-title mt1 mb2"><a class="db no-underline" href="{{ item.url }}">{{ item.title }}</a></h2>
 
           <p class="mt0 mb1 f6"><a href="{{ item.url }}"><time datetime="{{ item.date | date: "%Y-%m-%d" }}">{{ item.date | date: "%-d %b, %Y" }}</time></a>{% if page.is_home %} &middot; <a href="/notes">Note</a>{% endif %}</p>
 
         </header>
 
-        <div class="c-serif">{{ item.content }}</div>
+        <div>{{ item.content }}</div>
 
       {% else %}
 
         <header class="flex flex-column-reverse">
 
-          <h2 class="f5 c-lh-title mt1 mb2"><a class="db" href="{{ item.url }}">{{ item.title }}</a></h2>
+          <h2 class="f4 c-lh-title mt1 mb2"><a class="db no-underline" href="{{ item.url }}">{{ item.title }}</a></h2>
 
           <p class="ma0 f6"><time datetime="{{ item.date | date: "%Y-%m-%d" }}">{{ item.date | date: "%-d %b, %Y" }}</time>{% if page.is_home %} &middot; <a href="/links">Link</a>{% endif %}</p>
 
         </header>
 
-        <p class="ma0 c-serif">{{ item.content | strip_html | strip_newlines | truncatewords: 40 }}</p>
+        <p class="ma0">{{ item.content | strip_html | strip_newlines | truncatewords: 40 }}</p>
 
       {% endif %}
 
@@ -64,7 +64,7 @@
 
             <div>
 
-              <a href="{{ paginator.next_page_path | prepend: site.baseurl }}">&larr; Older</a>
+              <a class="b" href="{{ paginator.next_page_path | prepend: site.baseurl }}">&larr; Older</a>
 
             </div>
 
@@ -74,7 +74,7 @@
 
           <div>
 
-            <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}">Newer &rarr;</a>
+            <a class="b" href="{{ paginator.previous_page_path | prepend: site.baseurl }}">Newer &rarr;</a>
 
           </div>
 

@@ -2,21 +2,21 @@
 
 <div class="c-measure center">
 
-    {% unless page.hide-title %}
-
     <div class="mb3 mb4-ns">
 
-        <h1 class="f3 f2-ns mt0 mb3 p-name c-accent">{% if page.display-title %}{{ page.display-title }}{% else %}{{ page.title }}{% endif %}</h1>
+        {% unless page.hide-title %}
+
+        <h1 class="f3 mt0 mb3 p-name c-accent">{% if page.display-title %}{{ page.display-title }}{% else %}{{ page.title }}{% endif %}</h1>
+
+        {% endunless %}
 
         {% if page.sub %}
 
-        <p class="f4 c-serif">{{ page.sub }}</p>
+        <p class="f4">{{ page.sub }}</p>
 
         {% endif %}
 
     </div>
-
-    {% endunless %}
 
 	{{ content}}
 

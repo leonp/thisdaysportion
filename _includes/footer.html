@@ -1,12 +1,12 @@
-            </main>
+            </div>
 
-        </div>
+        </main>
 
-        <footer class="c-ph c-no-print bt c-border c-sans-serif">
+        <footer class="c-ph c-no-print tc">
 
-            <nav class="flex nowrap overflow-x-auto items-center">
+            <nav class="tc">
 
-                <a href="/" class="f7 dib pv2 pv3-ns mr3 no-underline{% if page.title == "Home" %} c-selected{% endif %}">Home</a>
+                <a href="/" class="f7 dib pv2 pv3-ns ph1 ph2-ns no-underline{% if page.title == "Home" %} c-selected{% endif %}">Home</a>
 
                 {% assign pages = site.pages | where: "in_nav", true | sort: "order" %}
 
@@ -14,15 +14,15 @@
 
                     {% unless this_page.url contains "page" %}
 
-                    <a href="{{ this_page.url }}" class="f7 dib pv2 pv3-ns mr3 no-underline{% if this_page.url == page.url %} c-selected{% endif %}">{{ this_page.title }}</a>
+                    <a href="{{ this_page.url }}" class="f7 dib pv2 pv3-ns ph1 ph2-ns no-underline{% if this_page.url == page.url %} c-selected{% endif %}">{{ this_page.title }}</a>
 
                     {% endunless %}
 
                 {% endfor %}
 
-                <a href="/feed/index.xml" class="f7 dib pv2 pv3-ns no-underline mr3">RSS</a>
+                <a href="/feed/index.xml" class="f7 dib pv2 pv3-ns ph1 ph2-ns no-underline">RSS</a>
 
-                <a href="/search" class="f7 dib pv2 pv3-ns no-underline">Search</a>
+                <a href="/search" class="f7 dib pv2 pv3-ns no-underline ph1 ph2-ns">Search</a>
 
             </nav>
 

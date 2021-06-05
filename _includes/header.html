@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<html lang="{{ site.lang }}" class="min-vh-100">
+<html lang="{{ site.lang }}">
 
     <head>
 
@@ -108,48 +108,16 @@
 
     <body onload="document.getElementById('home').classList.remove('c-no-js');" id="home" class="c-no-js min-vh-100 ma0 pa0 c-background c-foreground c-sans-serif {% if page.is_home %}🦉{% else %}{{ page.slug }}{% endif %}">
 
-        <a class="clip dib pa2 c-target" href="#content">Skip to content</a>
+        <a class="clip db pa2 c-target tc" href="#content">Skip to content</a>
 
-        <div class="flex-l flex-wrap-l flex-row-reverse-l">
+        <a href="/" class="pv3 db tc c-accent no-underline">
 
-            <header class="c-no-print c-header-background w-third-l pv5-l">
+            <img src="/images/blur.svg" alt="" class="mw2 mb1 db center">
 
-                <div class="c-ph bb c-border bn-l">
+            <span>{{ site.title }}</span>
 
-                    <nav>
+        </a>
 
-                        <a href="/" class="f7 f6-l dib pv2 pv0-l no-underline db-l mv3-l">
+        <main id="content" class="mv4 mv5-ns c-ph">
 
-                            <span role="img" class="c-icon c-accent mr1" aria-label="Star">⭐️</span>
-
-                            <span class="b">This Day’s Portion</span>
-
-                        </a>
-
-                        {% assign pages = site.pages | where: "in_primary_nav", true | sort: "order" %}
-
-                        {% for this_page in pages %}
-
-                            {% unless this_page.url contains "page" %}
-
-                            <a href="{{ this_page.url }}" class="f7 dib db-l pv2 pv1-l ml2 ml4-ns ml0-l no-underline{% if this_page.url == page.url %} c-selected{% endif %}">{{ this_page.title }}</a>
-
-                            {% endunless %}
-
-                        {% endfor %}
-
-                         <a href="/feed/index.xml" class="f7 pv2 pv1-l no-underline ml2 ml4-ns ml0-l dn db-l">RSS feed</a>
-
-                    </nav>
-
-                    {% unless page.is_home %}
-
-                        <p class="f7 dn db-l">If you like what you’re reading, do Subscribe to the <a href="/feed/index.xml">RSS feed</a> and/or <a href="https://micro.blog/leonp">follow me on micro.blog</a>. You can also contact me directly at <strong>mail@thisdaysportion.com</strong></p>
-
-                    {% endunless %}
-
-                </div>
-
-            </header>
-
-            <main id="content" class="br-l c-border min-vh-100 c-ph pv4 pv5-ns w-two-thirds-l">
+            <div class="c-measure center">
