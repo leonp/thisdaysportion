@@ -6,6 +6,7 @@ hide-from-twitter: true
 in_reply_to: ''
 
 ---
-![Two Mac apps in full screen mode next to each other.](https://www.thisdaysportion.com/images/blogging-screens.jpg "Typora and Firefox")
 
-My blogging “set up”. Typora on the left and Firefox on the right, taking half a screen each. Typora heading styles have been set up to mimic the website. (Jekyll serving the site in the background.)
+<img class="c-bleed db mb3" src="https://www.thisdaysportion.com/images/blogging-screens.jpg" alt="Two Mac apps in full screen mode next to each other.">
+
+My blogging “set up”. MacOS in full screen mode, Typora on the left and Firefox on the right. You can edit Typora themes with CSS, and I’ve set the heading styles so they mimic the website. Jekyll serves the site with an `incremental` switch, which means saves to the markdown file are reflected _fairly_ quickly (about 2-3s at the moment).

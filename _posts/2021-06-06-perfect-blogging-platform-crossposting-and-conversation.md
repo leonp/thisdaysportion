@@ -29,23 +29,23 @@ In practice that would mean a few things:
 
 ## Conversation
 
-Crossposting itself is _relatively_ simple, but conversation could get tricky.
+Crossposting itself is _relatively_ simple, but conversation can get tricky.
 
-At this point it may be worth taking a step back and asking _What is the fucking point of all this?_ If we’re so keen to extricate ourselves from the grasp of the social media leviathans, why don’t we just have done with it and _not use Twitter_?
+At this point it may be worth taking a step back and asking _What is the fucking point of all this?_ If we’re so keen to extricate ourselves from the clutch of the social media leviathans, why don’t we just have done with it and _not use Twitter_? And if we’re happy chatting with people on Twitter then just carry on as before.
 
 That is an entirely fair enough point, but we’re going to plough on and try and plot a way through not only posting to Twitter, but replying to other people’s posts, and then holding some form of threaded conversation. No-one said this was going to be easy.
 
 ### Replying to, retweeting or liking a tweet
 
-Actually, this bit _is_ easy. Webmentions and microformats already allow for `reply` and `like` mentions, which we could add to our post editor along with a field for the tweet URI.
+Actually, this bit _is_ easy. Webmentions and microformats already allow for `replies` and `likes`, and adding the appropriate buttons to our post editor along with a field for the tweet URI seems sensible. Mark the post as a reply, write your pithy comments, enter the tweet address and hit publish.
 
-For replies, use the above publishing guidelines to decide how they look in Twitter and have the platform send the reponse. Likes and retweets are even easier – they don’t even need content.
+Likes and retweets are even easier – they don’t require a comment.
 
 ### Replying to a reply to your reply
 
 Things become a bit more complex when we try and deal with Twitter conversation threads (although to be fair Twitter doesn’t deal with Twitter conversation threads particularly well).
 
-Take this scenario: you post a short note that gets sent to Twitter. @leonpaternoster and @paternoster reply. What happens then?
+Take this scenario: you post a short note that gets sent to Twitter. @leonpaternoster and @paternoster reply on Twitter. You’d like to respond to them. What happens next?
 
 Our platform has three things to deal with:
 
@@ -53,15 +53,21 @@ Our platform has three things to deal with:
 - Displaying the reponses on your blog.
 - Allowing you to reply from your blog.
 
-Luckily, we do have a means of dealing with conversations on blogs, and that’s [threaded comments](https://demo.studiopress.com/genesis/threaded-comments.htm), which WordPress has supported for over a decade. In fact, the simple process of indenting replies makes a thread more readable than it is on Twitter. We could even argue that this abstraction and distance might make social media calmer and clearer, allowing for better, more considered conversations. 
+Luckily, we do have a means of dealing with conversations on blogs, and that’s **[threaded comments](https://demo.studiopress.com/genesis/threaded-comments.htm)**, which WordPress has supported for over a decade. In fact, the simple process of grouping replies on a single page and indenting them makes threads more readable than they are on Twitter. We could even argue that this abstraction and distance might make social media calmer and clearer, allowing for better, more considered conversations.
 
-Our platform should therefore – in theory – send comments to Twitter and receive replies, rendering them all on the initial post page as a formatted, indented list. Bloggers benefit from a better formatted conversation while readers on social media don’t see any difference.
+So in our example, you’ll reply on your website. Here’s some example UI:
+
+{% include figure.html url="threaded-conversation.jpg" alt="Screenshot of a threaded conversation." caption="Some WordPress themes let you respond to a comment in the thread itself. This approach could work well." %}
+
+**Our platform should therefore send comments to Twitter and receive replies, rendering them all on the initial post page as a formatted, indented list**. Bloggers benefit from a better formatted conversation while readers on social media don’t see any difference.
 
 While this may _work_, we could envisage it soon becoming problematic. What if you’re really active on Twitter, Facebook and Instagram and holding dozens of conversations a day? Are we expecting our platform to handle and mirror three social media networks. To go back to our original question – _what’s the fucking point?_
 
-It’s at this point we might consider how we pay for this platform, how we might _monetise_ (urgh) it. True, it’ll never be built, but here’s the idea for bloggers...
+Now we might start thinking about how we pay for this platform if it does so much; how we might _monetise_ (urgh) it. True, it’ll never be built, but here’s an idea for prospective bloggers.
 
-You get to publish and own all your content while on a flexible platform where you control how your blog looks. Your readers don’t have to notice the difference; you can reply, like and retweet just as before, and talk to your audience wherever you please. “Premium” features, such as nested conversations and “advanced” typography,  cost, while the basics – blogging itself, sending replies and limited typographical control – are free. No advertising or tracking, of course.
+You get to publish – and own – all your content on a flexible platform where you control how your blog looks and the format of what you publish. If you’ve been using Twitter or Facebook, your readers won’t notice the difference; to them, you’ll reply, like and retweet just as before. Best of all, you’re not tracking them or selling ads for some shady third party.
+
+“Premium” features, such as nested conversations and “advanced” typography, cost, while the basics – blogging itself, sending replies and limited typographical control – are free.
 
 
 
