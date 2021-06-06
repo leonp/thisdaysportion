@@ -12,4 +12,4 @@ The answer is no, which is heartening, part of the ongoing process of demystifyi
 
 It’s not just the current Labour leadership that decided to treat “the North” as a stereotypical, illiberal whole – in Starmer’s case by hoiking flags to every available surface in Hartlepool.
 
-Seeing voters in terms of their and their community’s economic interests rather than some Facebook-inflated cultural war has potential – a step in the front foor with the people who didn’t vote for you last time round.
+Seeing voters in terms of their and their community’s economic interests rather than some Facebook-inflated cultural war has potential – a step in the front door with the people who didn’t vote for you last time round.
