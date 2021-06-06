@@ -10,7 +10,7 @@ is_reply: true
 is_like: true
 
 ---
-I’m really enjoying Jim Neilsen’s blog at the moment, where he’s exploring what HTML is really for, and what it can do. It’s quite inspiring, and has got me reaching for a “purer” approach that focuses on accessibility and interoperability rather than decoration (not that I’ve ever gone in for decoration, of course).
+I’m really enjoying Jim Neilsen’s blog at the moment, where he’s exploring what HTML is for, and what it can do. It’s quite inspiring, and has got me reaching for a “purer” approach that focuses on accessibility and interoperability rather than decoration (not that I’ve ever gone in for decoration, of course).
 
 I’d not heard of CSS system colors and I’ve been looking at implementing them on my site this afternoon. Alas, there are a few problems which I haven’t been able to fathom. This is a shame as it would leave light and dark mode settings to the browser, which in turn would mimic the OS’s colour choices. Apart from being very cool, it’d save a fair few `prefers-color-scheme` declarations in my stylesheet.
 
