@@ -40,7 +40,7 @@
 
         <header class="flex flex-column-reverse">
 
-          <h2 class="f4 c-lh-title mt1 mb2"><a class="db no-underline" href="{{ item.url }}">{{ item.title }}</a></h2>
+          <h2 class="f5 c-lh-title mt1 mb2"><a class="db no-underline" href="{{ item.url }}">{{ item.title }}</a></h2>
 
           <p class="ma0 f6"><time datetime="{{ item.date | date: "%Y-%m-%d" }}">{{ item.date | date: "%-d %b, %Y" }}</time>{% if page.is_home %} &middot; <a href="/links">Link</a>{% endif %}</p>
 
