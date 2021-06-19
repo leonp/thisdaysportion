@@ -10,4 +10,4 @@ is_reply: false
 is_like: true
 
 ---
-This is an interesting delve into the history of (mainly French and low land) immigration into 16/17th C London and East Anglia, xenophobia and _The Stragers’ Speech_.
+This is an interesting delve into the history of (mainly French and low land) immigration into 16/17th C London and East Anglia, xenophobia and _The Strangers’ Speech_.
