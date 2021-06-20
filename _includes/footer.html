@@ -4,7 +4,7 @@
 
         <footer class="c-ph c-no-print">
 
-            <nav class="c-measure center">
+            <nav class="{% if page.is_wide %}c-measure-wide{% else %}c-measure{% endif %} center">
 
                 <a href="/" class="f7 db dib-ns pv1 pv3-ns mr3-ns no-underline{% if page.title == "Home" %} c-selected{% endif %}">Home</a>
 

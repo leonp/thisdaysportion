@@ -5,6 +5,7 @@
     --pr: 7.5vw;
     --pl: 7.5vw;
     --measure: 38rem;
+    --measure-wide: 60rem;
     --lh-copy: 1.375;
     --lh-copy-m: 1.4375;
     --lh-copy-l: 1.4375;
@@ -156,6 +157,10 @@ body {
 
 .c-measure {
     max-width: var(--measure);
+}
+
+.c-measure-wide {
+    max-width: var(--measure-wide);
 }
 
 .c-border {

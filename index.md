@@ -12,62 +12,84 @@ pagination:
    collection: posts, links, notes
 ---
 
-## Posts
+<div class="flex-l">
 
-<div class="mt3">
+   <div class="w-two-thirds-l pr4-l">
 
-{% for post in site.posts limit:10 %}
+      <h2>Latest posts</h2>
 
-<div class="mb3">
+      <div class="mt3">
 
-   <time class="db f6" datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%-d %b, %Y" }}</time>
+      {% for post in site.posts limit:10 %}
 
-   <div><a href="{{ post.url }}" class="db">{{ post.title }}</a></div>
+         <div class="mb3 mb4-l">
+
+            <time class="db f7 mb1" datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%-d %b, %Y" }}</time>
+
+            <div class="b c-lh-title mb1"><a href="{{ post.url }}" class="db">{{ post.title }}</a></div>
+
+            {% if post.sub %}
+
+            <p class="f6 ma0">{{ post.sub }}</p>
+
+            {% else %}
+
+            <p class="f6 ma0">{{ post.excerpt | strip_html }}</p>
+
+            {% endif %}
+
+         </div>
+
+      {% endfor %}
+
+      </div>
+
+      <p><strong><a href="/posts">All posts</a></strong></p>
+
+   </div>
+
+   <aside class="w-third-l pl4-l">
+
+      <h2>Links</h2>
+
+      <div class="mt3 f6">
+
+      {% assign links = site.links | reverse %}
+
+      {% for link in links limit:10 %}
+
+         <div class="mb3">
+
+            <time class="db f7" datetime="{{ link.date | date: "%Y-%m-%d" }}">{{ link.date | date: "%-d %b, %Y" }}</time>
+
+            <div><a href="{{ link.url }}" class="db">{{ link.title }}</a></div>
+
+         </div>
+
+      {% endfor %}
+
+      </div>
+
+      <p><strong><a href="/links">All links</a></strong></p>
+
+      <h2>Notes</h2>
+
+      <div class="mt3 f6">
+
+      {% assign notes = site.notes | reverse %}
+
+      {% for note in notes limit:10 %}
+
+         <div><a href="{{ note.url }}" class="db pv1">{{ note.content | strip_html | truncatewords: 10 }}</a></div>
+
+      {% endfor %}
+
+      </div>
+
+      <p><strong><a href="/notes">All notes</a></strong></p>
+
+   </aside>
 
 </div>
-
-{% endfor %}
-
-</div>
-
-**[All posts](/posts)**
-
-## Links
-
-<div class="mt3">
-
-{% assign links = site.links | reverse %}
-
-{% for link in links limit:10 %}
-
-<div class="mb3">
-
-   <time class="db f6" datetime="{{ link.date | date: "%Y-%m-%d" }}">{{ link.date | date: "%-d %b, %Y" }}</time>
-
-   <div><a href="{{ link.url }}" class="db">{{ link.title }}</a></div>
-
-</div>
-
-{% endfor %}
-
-</div>
-
-**[All links](/links)**
-
-## Notes
-
-<div class="mt3">
-
-{% assign notes = site.notes | reverse %}
-
-{% for note in notes limit:10 %}
-
-<div><a href="{{ note.url }}" class="db pv1 f6">{{ note.content | strip_html | truncatewords: 10 }}</a></div>
-
-{% endfor %}
-
-</div>
-
-**[All notes](/notes)**
 
 
