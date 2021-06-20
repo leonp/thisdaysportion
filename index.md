@@ -70,7 +70,7 @@ pagination:
 
       </div>
 
-      <p><strong><a href="/links">All links</a></strong></p>
+      <p class="f6"><strong><a href="/links">All links</a></strong></p>
 
       <h2>Notes</h2>
 
@@ -86,7 +86,7 @@ pagination:
 
       </div>
 
-      <p><strong><a href="/notes">All notes</a></strong></p>
+      <p class="f6"><strong><a href="/notes">All notes</a></strong></p>
 
    </aside>
 
