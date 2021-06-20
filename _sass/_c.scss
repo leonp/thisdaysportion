@@ -290,7 +290,7 @@ article {
 
 
 .c-headings h2 {
-    font-size: 1.25rem;
+    font-size: 1rem;
 }
 
 
@@ -303,11 +303,11 @@ article {
 }
 
 .c-headings h4 {
-    font-size: 1rem;
+    font-size: 0.875rem;
 }
 
 .c-headings h5 {
-    font-size: 0.875rem;
+    font-size: 0.75rem;
 }
 
 
@@ -379,12 +379,12 @@ article a:focus {
     margin-left: calc(var(--ph) - (var(--ph) * 2));
 }
 
-/* @media #{$breakpoint-large} {
+@media #{$breakpoint-large} {
     .c-bleed {
-        max-width: 60erm;
-        margin-left: -15rem;
+        max-width: 100%;
+        margin-left: 0;
     }
-} */
+}
 
 .c-bleed-full {
   margin-left: calc(var(--ph) - (var(--ph) * 2));
