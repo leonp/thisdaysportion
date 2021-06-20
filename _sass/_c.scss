@@ -18,11 +18,12 @@
     --serif: georgia, serif;
     --monospace: "IBM Plex Mono", "Fira Code", "Menlo", "Courier New", monospace;
     --accent: #000;  // Tachyons black
-    --link: #000; // Browser blue
+    --link: #0000EE; // Browser blue
     --hover: #0000EE; // Browser blue
     --visited: #555; // Tachyons mid-gray
     --focus: #FFB700; // Tachyons gold
     --selected: #0000EE; // Tachyons dark red
+    --text-decoration-thickness: 1px;
     --background: #FFF; // Swansdown is E3E4DF
     --foreground: #222; // My dark gray
     --secondary-foreground: #777; // My secondary gray
@@ -217,7 +218,7 @@ c-min-vh-90 {
 a,
 summary {
     color: var(--accent);
-    text-decoration-thickness: 2px;
+    text-decoration-thickness: var(--text-decoration-thickness);
     text-decoration-color: var(--link);
 }
 
