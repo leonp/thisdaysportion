@@ -1,29 +1,25 @@
 {% include header.html %}
 
-<article class="h-entry">
+<div class="mb4">
 
-    <div class="mb4">
+    {% unless page.hide-title %}
 
-        {% unless page.hide-title %}
+    <h1 class="f4 mt0 mb3 p-name">{% if page.display-title %}{{ page.display-title }}{% else %}{{ page.title }}{% endif %}</h1>
 
-        <h1 class="f4 mt0 mb3 p-name c-accent">{% if page.display-title %}{{ page.display-title }}{% else %}{{ page.title }}{% endif %}</h1>
+    {% endunless %}
 
-        {% endunless %}
+    {% if page.sub %}
 
-        {% if page.sub %}
+    <p>{{ page.sub }}</p>
 
-        <p class="f4">{{ page.sub }}</p>
+    {% endif %}
 
-        {% endif %}
+</div>
 
-    </div>
+<div>
 
-    <div class="e-content c-headings c-hyphens">
+    {{ content }}
 
-        {{ content }}
-
-    </div>
-
-</article>
+</div>
 
 {% include footer.html %}

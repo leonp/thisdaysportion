@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: article
 title: About
 footer: true
 order: "5"

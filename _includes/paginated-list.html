@@ -30,7 +30,7 @@
 
           <h2 class="clip f5 c-lh-title mt1 mb2"><a class="db no-underline" href="{{ item.url }}">{{ item.title }}</a></h2>
 
-          <p class="mt0 mb1 f6"><a href="{{ item.url }}"><time datetime="{{ item.date | date: "%Y-%m-%d" }}">{{ item.date | date: "%-d %b, %Y" }}</time></a>{% if page.is_home %} &middot; <a href="/notes">Note</a>{% endif %}</p>
+          <p class="mt0 mb1 f6"><a class="no-underline" href="{{ item.url }}"><time datetime="{{ item.date | date: "%Y-%m-%d" }}">{{ item.date | date: "%-d %b, %Y" }}</time></a>{% if page.is_home %} &middot; <a href="/notes">Note</a>{% endif %}</p>
 
         </header>
 
@@ -40,7 +40,7 @@
 
         <header class="flex flex-column-reverse">
 
-          <h2 class="f5 c-lh-title mt1 mb2 normal"><a href="{{ item.url }}">{{ item.title }}</a></h2>
+          <h2 class="f5 c-lh-title mt1 mb2 normal"><a class="no-underline" href="{{ item.url }}">{{ item.title }}</a></h2>
 
           <p class="ma0 f6"><time datetime="{{ item.date | date: "%Y-%m-%d" }}">{{ item.date | date: "%-d %b, %Y" }}</time>{% if page.is_home %} &middot; <a href="/links">Link</a>{% endif %}</p>
 
@@ -64,7 +64,7 @@
 
             <div>
 
-              <a class="b" href="{{ paginator.next_page_path | prepend: site.baseurl }}">&larr; Older</a>
+              <a class=" no-underline b" href="{{ paginator.next_page_path | prepend: site.baseurl }}">&larr; Older</a>
 
             </div>
 
@@ -74,7 +74,7 @@
 
           <div>
 
-            <a class="b" href="{{ paginator.previous_page_path | prepend: site.baseurl }}">Newer &rarr;</a>
+            <a class="no-underline b" href="{{ paginator.previous_page_path | prepend: site.baseurl }}">Newer &rarr;</a>
 
           </div>
 

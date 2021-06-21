@@ -1,8 +1,8 @@
 {% include header.html %}
 
-<div class="c-measure center">
+<article class="h-entry">
 
-    <div class="mb3 mb4-ns">
+    <div class="mb4">
 
         {% unless page.hide-title %}
 
@@ -18,18 +18,12 @@
 
     </div>
 
-	{{ content}}
+    <div class="e-content c-headings c-hyphens">
 
-	{% if page.pagination %}
+        {{ content }}
 
-	    {% include paginated-list.html %}
+    </div>
 
-	{% else %}
-
-	    {% include list.html %}
-
-	{% endif %}
-
-</div>
+</article>
 
 {% include footer.html %}

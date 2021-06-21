@@ -115,16 +115,14 @@
 
     <body onload="document.getElementById('home').classList.remove('c-no-js');" id="home" class="c-no-js min-vh-100 ma0 pa0 c-background c-foreground c-sans-serif {% if page.is_home %}🦉{% else %}{{ page.slug }}{% endif %}">
 
-        <a class="clip db pa2 c-target tc" href="#content">Skip to content</a>
+        <a class="clip db pa2 c-target" href="#content">Skip to content</a>
 
-        <a href="/" class="pv3 db tc c-accent no-underline">
+        <div class="c-ph">
 
-            <img src="/images/blur.svg" alt="" class="mw2 mb1 db center">
+            <a href="/" class="b db c-accent no-underline c-measure center pv2 pv3-ns"><span class="f6">{{ site.title }}</span></a>
 
-            <span>{{ site.title }}</span>
-
-        </a>
+        </div>
 
         <main id="content" class="mv4 mv5-ns c-ph">
 
-            <div class="{% if page.is_wide %}c-measure-wide{% else %}c-measure{% endif %} center">
+            <div class="c-measure center">
