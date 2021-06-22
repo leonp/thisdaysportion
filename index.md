@@ -12,6 +12,8 @@ pagination:
    collection: posts, links, notes
 ---
 
+<p class="f6">There are also <a href="/links">links</a> and <a href="/notes">notes</a>.</p>
+
 {% for post in site.posts limit:10 %}
 
 <article class="mv4 mv5-ns">
@@ -37,5 +39,8 @@ pagination:
 </article>
 
 {% endfor %}
+
+**[All posts &rarr;](/posts)**
+
 
 
