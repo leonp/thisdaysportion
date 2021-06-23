@@ -12,15 +12,17 @@ pagination:
    collection: posts, links, notes
 ---
 
+<h2 class="mt5-ns f5 ttl small-caps tracked c-lh-title normal c-secondary-foreground">Latest posts</h2>
+
 <p class="f6">There are also <a href="/links">links</a> and <a href="/notes">notes</a>.</p>
 
 {% for post in site.posts limit:10 %}
 
-<article class="mv4 mv5-ns">
+<article class="mv4 mb5-ns">
 
    <header class="mb1 flex flex-column flex-column-reverse">
 
-      <h2 class="f5 c-lh-title ma0"><a href="{{ post.url }}" class="no-underline">{{ post.title }}</a></h2>
+      <h3 class="f5 c-lh-title ma0"><a href="{{ post.url }}" class="no-underline">{{ post.title }}</a></h3>
 
       <time class="db c-secondary-foreground f6 mb1" datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%-d %b, %Y" }}</time>
 
