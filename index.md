@@ -14,9 +14,9 @@ pagination:
 
 <p class="f6">There are <a href="/posts">posts</a>, <a href="/links">links</a> and <a href="/notes">notes</a>.</p>
 
-<h2 class="mt5-ns f5 ttl small-caps tracked c-lh-title normal c-secondary-foreground">Latest posts</h2>
+<h2 class="mt4 mt5-ns f5 ttl small-caps tracked c-lh-title normal c-secondary-foreground">Latest posts</h2>
 
-<ul class="list ph0">
+<ul class="list ph0 mb4">
 
 {% for post in site.posts limit:10 %}
 

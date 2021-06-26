@@ -117,11 +117,43 @@
 
         <a class="clip db pa2 c-target" href="#content">Skip to content</a>
 
-        <div class="c-ph">
+        <header class="c-ph">
 
-            <a href="/" class="b db c-accent no-underline c-measure center pv2 pv3-ns"><span class="f6">{{ site.title }}</span></a>
+            <div class="c-measure center flex justify-between">
 
-        </div>
+                <a href="/" class="f6 b db c-accent no-underline pv2 pv3-ns">{{ site.title }}</a>
+
+                <details class="tr">
+
+                    <summary class="b f6 pv2 pv3-ns pointer">Menu</summary>
+
+                    <nav role="navigation">
+
+                        <a role="link" href="/" class="db pv1 underline-hover no-underline{% if page.title == "Home" %} c-selected{% endif %}">Home</a>
+
+                        {% assign pages = site.pages | where: "in_nav", true | sort: "order" %}
+
+                        {% for this_page in pages %}
+
+                        {% unless this_page.url contains "page" %}
+
+                        <a role="link" href="{{ this_page.url }}" class="db pv1 underline-hover no-underline{% if this_page.url == page.url %} c-selected{% endif %}">{{ this_page.title }}</a>
+
+                        {% endunless %}
+
+                        {% endfor %}
+
+                        <a role="link" href="/feed/index.xml" class="db pv1 no-underline underline-hover">RSS</a>
+
+                        <a role="link" href="/search" class="db pv1 no-underline underline-hover">Search</a>
+
+                    </nav>
+
+                </details>
+
+            </div>
+
+        </header>
 
         <main id="content" class="mv4 mv5-ns c-ph">
 
