@@ -6,7 +6,7 @@
 
             <nav class="{% if page.is_wide %}c-measure-wide{% else %}c-measure{% endif %} center">
 
-                <a href="/" class="f7 db dib-ns pv1 pv3-ns mr3-ns no-underline{% if page.title == "Home" %} c-selected{% endif %}">Home</a>
+                <a href="/" class="f7 db dib-ns pv1 pv3-ns mr3-ns underline-hover no-underline{% if page.title == "Home" %} c-selected{% endif %}">Home</a>
 
                 {% assign pages = site.pages | where: "in_nav", true | sort: "order" %}
 
@@ -14,15 +14,15 @@
 
                     {% unless this_page.url contains "page" %}
 
-                    <a href="{{ this_page.url }}" class="f7 db dib-ns pv1 pv3-ns mr3-ns no-underline{% if this_page.url == page.url %} c-selected{% endif %}">{{ this_page.title }}</a>
+                    <a href="{{ this_page.url }}" class="f7 db dib-ns pv1 pv3-ns mr3-ns underline-hover no-underline{% if this_page.url == page.url %} c-selected{% endif %}">{{ this_page.title }}</a>
 
                     {% endunless %}
 
                 {% endfor %}
 
-                <a href="/feed/index.xml" class="f7 db dib-ns pv1 pv3-ns mr3-ns no-underline">RSS</a>
+                <a href="/feed/index.xml" class="f7 db dib-ns pv1 pv3-ns mr3-ns no-underline underline-hover">RSS</a>
 
-                <a href="/search" class="f7 db dib-ns pv1 pv3-ns no-underline mr3-ns">Search</a>
+                <a href="/search" class="f7 db dib-ns pv1 pv3-ns no-underline underline-hover mr3-ns">Search</a>
 
             </nav>
 

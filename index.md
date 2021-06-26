@@ -12,35 +12,22 @@ pagination:
    collection: posts, links, notes
 ---
 
+<p class="f6">There are <a href="/posts">posts</a>, <a href="/links">links</a> and <a href="/notes">notes</a>.</p>
+
 <h2 class="mt5-ns f5 ttl small-caps tracked c-lh-title normal c-secondary-foreground">Latest posts</h2>
 
-<p class="f6">There are also <a href="/links">links</a> and <a href="/notes">notes</a>.</p>
+<ul class="list ph0">
 
 {% for post in site.posts limit:10 %}
 
-<article class="mv4 mb5-ns">
-
-   <header class="mb1 flex flex-column flex-column-reverse">
-
-      <h3 class="f5 c-lh-title ma0"><a href="{{ post.url }}" class="no-underline">{{ post.title }}</a></h3>
-
-      <time class="db c-secondary-foreground f6 mb1" datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%-d %b, %Y" }}</time>
-
-   </header>
-
-   {% if post.sub %}
-
-   <p class="ma0">{{ post.sub }}</p>
-
-   {% else %}
-
-   <p class="ma0">{{ post.excerpt | strip_html }}</p>
-
-   {% endif %}
-
-</article>
+   <li class="mb3">
+      <a href="{{ post.url }}" class="no-underline underline-hover db">{{ post.title }}</a>
+      <time class="db c-secondary-foreground f6" datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%-d %b, %Y" }}</time>
+   </li>
 
 {% endfor %}
+
+</ul>
 
 **[All posts &rarr;](/posts)**
 

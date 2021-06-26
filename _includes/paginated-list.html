@@ -8,7 +8,7 @@
 
         <header class="flex flex-column-reverse">
 
-          <h2 class="f5 c-lh-title mt1 mb2"><a class="db no-underline" href="{{ item.url }}">{{ item.title }}</a></h2>
+          <h2 class="f5 c-lh-title mt1 mb2"><a class="db no-underline underline-hover" href="{{ item.url }}">{{ item.title }}</a></h2>
 
           <p class="ma0 f6"><time datetime="{{ item.date | date: "%Y-%m-%d" }}">{{ item.date | date: "%-d %b, %Y" }}</time>{% if page.is_home %} &middot; <a href="/posts">Post</a>{% endif %}</p>
 
@@ -28,9 +28,9 @@
 
         <header>
 
-          <h2 class="clip f5 c-lh-title mt1 mb2"><a class="db no-underline" href="{{ item.url }}">{{ item.title }}</a></h2>
+          <h2 class="clip f5 c-lh-title mt1 mb2"><a class="db no-underline underline-hover" href="{{ item.url }}">{{ item.title }}</a></h2>
 
-          <p class="mt0 mb1 f6"><a class="no-underline" href="{{ item.url }}"><time datetime="{{ item.date | date: "%Y-%m-%d" }}">{{ item.date | date: "%-d %b, %Y" }}</time></a>{% if page.is_home %} &middot; <a href="/notes">Note</a>{% endif %}</p>
+          <p class="mt0 mb1 f6"><a class="no-underline underline-hover" href="{{ item.url }}"><time datetime="{{ item.date | date: "%Y-%m-%d" }}">{{ item.date | date: "%-d %b, %Y" }}</time></a>{% if page.is_home %} &middot; <a href="/notes">Note</a>{% endif %}</p>
 
         </header>
 
@@ -40,7 +40,7 @@
 
         <header class="flex flex-column-reverse">
 
-          <h2 class="f5 c-lh-title mt1 mb2 normal"><a class="no-underline" href="{{ item.url }}">{{ item.title }}</a></h2>
+          <h2 class="f5 c-lh-title mt1 mb2 normal"><a class="no-underline underline-hover" href="{{ item.url }}">{{ item.title }}</a></h2>
 
           <p class="ma0 f6"><time datetime="{{ item.date | date: "%Y-%m-%d" }}">{{ item.date | date: "%-d %b, %Y" }}</time>{% if page.is_home %} &middot; <a href="/links">Link</a>{% endif %}</p>
 
