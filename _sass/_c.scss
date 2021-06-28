@@ -389,12 +389,12 @@ article a:focus {
     margin-left: calc(var(--ph) - (var(--ph) * 2));
 }
 
-/* @media #{$breakpoint-large} {
+@media #{$breakpoint-large} {
     .c-bleed {
         max-width: 100%;
         margin-left: 0;
     }
-} */
+}
 
 .c-bleed-full {
   margin-left: calc(var(--ph) - (var(--ph) * 2));
