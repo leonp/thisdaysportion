@@ -12,21 +12,40 @@ pagination:
    collection: posts, links, notes
 ---
 
-<p class="f6">There are <a href="/posts">posts</a>, <a href="/links">links</a> and <a href="/notes">notes</a>.</p>
+<h2 class="mt4 mt5-ns f5 ttl small-caps tracked c-lh-title normal c-secondary-foreground">Latest post</h2>
 
-<h2 class="mt4 mt5-ns f5 ttl small-caps tracked c-lh-title normal c-secondary-foreground">Latest posts</h2>
+{% for post in site.posts limit:1 %}
 
-<ul class="list ph0 mb4">
+<article>
 
-{% for post in site.posts limit:10 %}
+  <header class="mb4 flex flex-column-reverse">
 
-   <li class="mb3">
-      <a href="{{ post.url }}" class="no-underline underline-hover db">{{ post.title }}</a>
-      <time class="c-sans-serif db c-secondary-foreground f6" datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%-d %b, %Y" }}</time>
-   </li>
+    <h3 class="f4 f3-ns f2-l ma0 p-name"><a href="{{ post.url }}" class="c-link no-underline">{{ post.title }}</a></h3>
+
+    <p class="f6 mb2"><time class="dt-published" datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%-d %b, %Y" }}</time></p>
+
+  </header>
+
+  <div class="e-content c-headings c-hyphens">
+
+  {% if post.sub %}
+
+  {{ post.sub }}
+
+  {% else %}
+
+  {{ post.excerpt }}
+
+  {% endif %}
+
+  </div>
+
+  <footer>
+
+    <p><a href="{{ post.url }}" class="b" aria-label="Continue reading {{ post.title }}">Continue reading &rarr;</a></p>
+
+  </footer>
+
+</article>
 
 {% endfor %}
-
-</ul>
-
-**[All posts &rarr;](/posts)**
