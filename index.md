@@ -20,7 +20,7 @@ pagination:
 
   <header class="mb4 flex flex-column-reverse">
 
-    <h3 class="f4 f3-ns f2-l ma0 p-name"><a href="{{ post.url }}" class="c-link no-underline">{{ post.title }}</a></h3>
+    <h3 class="f4 f3-ns ma0 p-name"><a href="{{ post.url }}" class="c-link no-underline">{{ post.title }}</a></h3>
 
     <p class="f6 mb2"><time class="dt-published" datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%-d %b, %Y" }}</time></p>
 
