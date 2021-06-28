@@ -113,43 +113,37 @@
 
     </head>
 
-    <body onload="document.getElementById('home').classList.remove('c-no-js');" id="home" class="c-no-js min-vh-100 ma0 pa0 c-background c-foreground c-sans-serif {% if page.is_home %}🦉{% else %}{{ page.slug }}{% endif %}">
+    <body onload="document.getElementById('home').classList.remove('c-no-js');" id="home" class="c-no-js min-vh-100 ma0 pa0 c-background c-foreground c-serif {% if page.is_home %}🦉{% else %}{{ page.slug }}{% endif %}">
 
         <a class="clip db pa2 c-target" href="#content">Skip to content</a>
 
-        <header class="c-ph">
+        <header class="c-ph c-sans-serif">
 
-            <div class="c-measure center flex justify-between">
+            <div class="c-measure center flex justify-between items-center">
 
-                <a href="/" class="f6 b db c-accent no-underline pv2 pv3-ns">{{ site.title }}</a>
+                <a href="/" class="f7 f6-ns b db c-accent no-underline pv2 pv3-ns">{{ site.title }}</a>
 
-                <details class="tr">
+                  <nav id="header-nav" class="tr flex f7 f6-ns">
 
-                    <summary class="b f6 pv2 pv3-ns pointer">Menu</summary>
+                      <a href="/" class="dib pv1 no-underline{% if page.title == "Home" %} bb bw2{% endif %} ml2 ml3-ns">Home</a>
 
-                    <nav role="navigation">
+                      {% assign pages = site.pages | where: "in_nav", true | sort: "order" %}
 
-                        <a role="link" href="/" class="db pv1 underline-hover no-underline{% if page.title == "Home" %} c-selected{% endif %}">Home</a>
+                      {% for this_page in pages %}
 
-                        {% assign pages = site.pages | where: "in_nav", true | sort: "order" %}
+                      {% unless this_page.url contains "page" %}
 
-                        {% for this_page in pages %}
+                      <a href="{{ this_page.url }}" class="db pv1 no-underline{% if this_page.url == page.url %} bb bw2{% endif %} ml2 ml3-ns">{{ this_page.title }}</a>
 
-                        {% unless this_page.url contains "page" %}
+                      {% endunless %}
 
-                        <a role="link" href="{{ this_page.url }}" class="db pv1 underline-hover no-underline{% if this_page.url == page.url %} c-selected{% endif %}">{{ this_page.title }}</a>
+                      {% endfor %}
 
-                        {% endunless %}
+                      <!-- <a role="link" href="/feed/index.xml" class="db pv1 no-underline underline-hover">RSS</a>
 
-                        {% endfor %}
+                      <a role="link" href="/search" class="db pv1 no-underline underline-hover">Search</a> -->
 
-                        <a role="link" href="/feed/index.xml" class="db pv1 no-underline underline-hover">RSS</a>
-
-                        <a role="link" href="/search" class="db pv1 no-underline underline-hover">Search</a>
-
-                    </nav>
-
-                </details>
+                  </nav>
 
             </div>
 

@@ -2,7 +2,7 @@
 layout: default
 title: Contact
 footer: true
-in_nav: true
+in_nav: false
 order: 6
 visited-links: true
 prose-headings: true
