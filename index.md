@@ -22,7 +22,7 @@ pagination:
 
    <li class="mb3">
       <a href="{{ post.url }}" class="no-underline underline-hover db">{{ post.title }}</a>
-      <time class="db c-secondary-foreground f6" datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%-d %b, %Y" }}</time>
+      <time class="c-sans-serif db c-secondary-foreground f6" datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%-d %b, %Y" }}</time>
    </li>
 
 {% endfor %}
@@ -30,6 +30,3 @@ pagination:
 </ul>
 
 **[All posts &rarr;](/posts)**
-
-
-

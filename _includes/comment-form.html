@@ -59,7 +59,7 @@
 
         <p class="mv1 f6 c-secondary-foreground">{{ comment.createdTime | date: "%-d %b, %Y %H:%M" }}</p>
 
-        <div class="c-collapse-top-margin">{{ comment.fields.comment | strip_html | markdownify }}</div>
+        <div class="c-collapse-top-margin c-serif">{{ comment.fields.comment | strip_html | markdownify }}</div>
 
       </article>
 
@@ -111,7 +111,7 @@
 
     <p class="mt0 mv1 f6"><a class="no-underline underline-hover" rel="nofollow" href="{{ webmention.data.url }}"><time>{{ webmention.data.published | date: "%-d %b, %Y %H:%M" }}</time></a>{% if webmention.activity.type == 'like' %} {{ webmention.activity.sentence_html }}{% endif %}</p>
 
-    {% if webmention.data.content %}<div class="c-collapse-top-margin">{{ webmention.data.content | strip_html | markdownify }}</div>{% endif %}
+    {% if webmention.data.content %}<div class="c-collapse-top-margin c-serif">{{ webmention.data.content | strip_html | markdownify }}</div>{% endif %}
 
   </article>
 

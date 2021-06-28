@@ -125,7 +125,7 @@
 
                   <nav id="header-nav" class="tr flex f7 f6-ns">
 
-                      <a href="/" class="dib pv1 no-underline{% if page.title == "Home" %} bb bw2{% endif %} ml2 ml3-ns">Home</a>
+                      <a href="/" class="br1 dib pa1 hover-black no-underline{% if page.title == "Home" %} c-secondary-background{% endif %} ml2 ml3-ns">Home</a>
 
                       {% assign pages = site.pages | where: "in_nav", true | sort: "order" %}
 
@@ -133,7 +133,7 @@
 
                       {% unless this_page.url contains "page" %}
 
-                      <a href="{{ this_page.url }}" class="db pv1 no-underline{% if this_page.url == page.url %} bb bw2{% endif %} ml2 ml3-ns">{{ this_page.title }}</a>
+                      <a href="{{ this_page.url }}" class="br1 dib pa1 hover-black no-underline{% if this_page.url == page.url %} c-secondary-background{% endif %} ml2 ml3-ns">{{ this_page.title }}</a>
 
                       {% endunless %}
 
