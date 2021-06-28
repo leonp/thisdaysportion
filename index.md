@@ -18,7 +18,7 @@ pagination:
 
 <article>
 
-  <header class="mb4 flex flex-column-reverse">
+  <header class="mb3 flex flex-column-reverse">
 
     <h3 class="f4 f3-ns ma0 p-name"><a href="{{ post.url }}" class="c-link no-underline">{{ post.title }}</a></h3>
 
