@@ -12,11 +12,11 @@ pagination:
    collection: posts, links, notes
 ---
 
-<h2 class="mt4 mt5-ns f5 ttl small-caps tracked c-lh-title normal c-secondary-foreground">Latest post</h2>
+<h2 class="mt4 mt5-ns f5 ttl small-caps tracked c-lh-title normal c-secondary-foreground">Latest posts</h2>
 
-{% for post in site.posts limit:1 %}
+{% for post in site.posts limit:10 %}
 
-<article>
+<article class="mb4 mb5-ns">
 
   <header class="mb3 flex flex-column-reverse">
 
@@ -39,12 +39,6 @@ pagination:
   {% endif %}
 
   </div>
-
-  <footer>
-
-    <p><a href="{{ post.url }}" class="b" aria-label="Continue reading {{ post.title }}">Continue reading &rarr;</a></p>
-
-  </footer>
 
 </article>
 
