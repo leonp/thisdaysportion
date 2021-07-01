@@ -3,7 +3,7 @@ title: The state of the Labour Party in 2021
 category: politics
 date: 2021-05-05 18:50:00 +0000
 hide-from-twitter: true
-sub: I don’t write abut politics much anymore, but this seems a good time to think about the state of the Labour Party. Labour will do badly in tomorrow’s elections due to a number of factors outside its control, but the current leadership is catastrophically wrong in its strategy.
+sub: I don’t write about politics much anymore, but this seems a good time to think about the state of the Labour Party. Labour will do badly in tomorrow’s elections due to a number of factors outside its control, but the current leadership is catastrophically wrong in its strategy.
 ---
 
 First of all, [happy birthday to the old man](https://en.wikipedia.org/wiki/Karl_Marx), 202 today and still going strong <span role="img" aria-label='Strong'>💪🏼</span>.
