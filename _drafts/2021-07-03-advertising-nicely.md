@@ -4,9 +4,9 @@ title: Advertising online, but nicely
 
 I place ads on Facebook.
 
-There you have it, the unexpurgated truth, my dark places revealed. My name is Leon and it was very nice knowing you.
+There you have it. The unexpurgated truth. My dark places revealed.
 
-I work in marketing. What did you expect? I will add that Facebook _works_, better than Google search ads and a _lot_ better than LinkedIn ads. They’re cheap and measurable, unlike, say, press or bus ads. I’ll also add I’m marketing a library service – not sugary drinks, libidinous concoctions, bitcoin or neo-Nazism. And I’m also balancing my evil self by extricating us from Google Analytics.
+I work in marketing. What did you expect? I will add that Facebook ads _work_, better than Google search ads and a _lot_ better than LinkedIn ads. They’re cheap and measurable, unlike, say, press or bus ads. I’ll also add I’m marketing a library service – not sugary drinks, libidinous concoctions, bitcoin or neo-Nazism. And I’m also balancing my evil self by extricating us from Google Analytics.
 
 OK.
 
@@ -29,9 +29,9 @@ Ethically, this is a lot healthier than targeting users directly. How effective 
 
 ## An extremely brief history of advertising
 
-Pre-internet you saw (or heard) ads either in print (or on other physical surfaces such as billboards and buses) or on TV and radio. Print ads were divided into two categories: <i>display</i> – large, visual ads which appeared in the main part of a newspaper and broadly (but not exclusively) communicated some form of brand, and <i>classified</i> – small, textual ads whch appeared in their own, discrete section, offering things like second hand mowers, or other less salubrious services. (Sex has always provided a profitable strand of advertising.)
+Pre-internet you saw (or heard) ads either in print (or on other physical surfaces such as billboards and buses) or on TV and radio. Print ads were divided into two categories: <i>display</i> – large, visual ads which appeared in the popular bits of a publication and broadly (but not exclusively) communicated some form of brand, and <i>classified</i> – small, textual ads whch appeared in their own, discrete section towards the back of the newspaper or magazine, offering things like second hand lawnmowers, or less salubrious services. (Sex has always provided a profitable strand of advertising.)
 
-Note, the two could sometimes cross over; for example, Tesco could place display ads pointing customers to an offer on washing powder, while companies could advertise things like journalism courses in the classified section of the newspaper, mainly because a small classified ad was a lot cheaper than a full page display ad. (Misdirection has always provided a profitable strand of advertising.)
+Note, the two could sometimes cross over; for example, Tesco could place display ads pointing customers to an offer on washing powder, while universities could advertise in the classified section of the newspaper around [clearing](https://www.gov.uk/university-clearing-through-ucas), mainly because a classified ad was a lot cheaper than a full page display ad.
 
 This more or less worked, especially in print, as adverts weren’t intrusive – they didn’t get in the way of whatever it was you were trying to read. If you wanted to find a second hand mower, you’d have to seek out the classified section and spend time trawling through it.
 
@@ -49,7 +49,7 @@ Banners were – and in fact still are – a thing. Literally no-one likes them 
 
 The problem for contextual adverts is that digital screens are single, self-contained canvases. There are no pages or discrete spaces for adverts. Furthermore, users have far more control of what they see; you can only invoke a page by clicking on a link to it. When I click that link I don’t want to be presented with an advert.
 
-There have been attempts to get round this by displaying ads in a “tasteful”, classified manner, most notably through The Deck network, and, of course, Google Ads placed on websites. Neither has worked – The Deck relied on a small coterie of fairly “trendy” sites that readers would be more inclined to accept, and no-one clicks on Google Ads on websites. In fact, when was the last time you saw a Google Ad on a website?
+There have been attempts to get round this by displaying ads in a “tasteful”, classified manner, most notably through The Deck network, and, of course, Google Ads placed on websites. Neither has worked – The Deck relied on a small coterie of fairly “trendy”, trusted sites that readers would be more inclined to accept ads from, and no-one clicks on Google Ads on websites. In fact, when was the last time you saw a Google Ad on a website?
 
 And we haven’t even mentioned mobile. There is nowhere to place ads on a phone screen without enraging users.
 
@@ -59,9 +59,17 @@ We can again refer to print advertising to find a way to get people to look at a
 
 Newspapers and, to a lesser degree, magazines profess to maintain a strict line between editorial and advertising. It should be obvious to the reader what is an advert and what is journalism.
 
-The idea of “advertorial” has been around for decades. It’s a somewhat murky area. An advertiser will pay a publication to publish a “journalistic” piece written or dictated by them. It _should_ be clearly marked as advert.
+However, the idea of “advertorial” has been around for a long time. It’s a somewhat murky area. An advertiser will pay a publication to publish a “journalistic” piece written or dictated by them. It _should_ be clearly marked as an advert.
 
-Examples are everywhere (and in fact we’ve paid for these pieces in the local press). <cite>The Guardian</cite> 
+Examples are everywhere (and in fact we’ve paid for these pieces in the local press). Here’s an example from <cite>The Guardian</cite>, paid for by Metro Bank:
+
+Facebook – being Facebook – has taken this further by simply not bothering to mark adverts as adverts. Instead, an ad will appear in a user’s timeline just like any other post does. While this may be good for advertisers – my ad isn’t relegated to some part of the screen that will be ignored – it’s not good for democracy that not only is it difficult to tell _who_ is really posting, but it’s also difficult to tell that what I’m reading is in fact a paid-for ad.
+
+
+
+
+
+
 
 
 
