@@ -37,6 +37,8 @@ This more or less worked, especially in print, as adverts weren’t intrusive �
 
 Indeed, there was perhaps a “golden age” of display advertising, where ads directly appealed to the aspirations of a wealthy post-war generation. This is the <cite>Mad Men</cite> era, which wage stagnation and increased media and environmental literacy put paid to. In my 80s childhood, you’d often hear the (incorrect) claim that “the adverts are better than the programmes”, as a yuppie couple performed [a dismal courtship while drinking lots of instant coffee](https://www.youtube.com/watch?v=Oqz6bHIV_tU).
 
+{% include figure.html url="rolls.jpg" alt="A 1959 advert for a Rolls Royce." caption="A classic advert from 1959 – image, caption, headline and lots of copy." %}
+
 You do, of course, still see these types of ads – Nespresso and George Clooney spring to mind, but they feel quaint and ineffective. Nespresso pods are very bad for the environment and the company is worse than Apple for locking you into their product. Nespresso is suing Espresso for using a Clooney lookalike to flog their own proprietary pod. We can see all the gruesome stage machinery behind the shots of George Clooney twinkling at the camera. 
 
 ## Display ads don’t work online
@@ -49,7 +51,7 @@ Banners were – and in fact still are – a thing. Literally no-one likes them 
 
 The problem for contextual adverts is that digital screens are single, self-contained canvases. There are no pages or discrete spaces for adverts. Furthermore, users have far more control of what they see; you can only invoke a page by clicking on a link to it. When I click that link I don’t want to be presented with an advert.
 
-There have been attempts to get round this by displaying ads in a “tasteful”, classified manner, most notably through The Deck network, and, of course, Google Ads placed on websites. Neither has worked – The Deck relied on a small coterie of fairly “trendy”, trusted sites that readers would be more inclined to accept ads from, and no-one clicks on Google Ads on websites. In fact, when was the last time you saw a Google Ad on a website?
+There have been attempts to get round this by displaying ads in a “tasteful”, classified manner, most notably through The Deck network, and, of course, Google Ads placed on websites. [Neither has worked](/posts/the-deck-and-designers/) – The Deck relied on a small coterie of fairly “trendy”, trusted sites that readers would be more inclined to accept ads from, and no-one clicks on Google Ads on websites. In fact, when was the last time you saw a Google Ad on a website?
 
 And we haven’t even mentioned mobile. There is nowhere to place ads on a phone screen without enraging users.
 
@@ -63,7 +65,18 @@ However, the idea of “advertorial” has been around for a long time. It’s a
 
 Examples are everywhere (and in fact we’ve paid for these pieces in the local press). Here’s an example from <cite>The Guardian</cite>, paid for by Metro Bank:
 
-Facebook – being Facebook – has taken this further by simply not bothering to mark adverts as adverts. Instead, an ad will appear in a user’s timeline just like any other post does. While this may be good for advertisers – my ad isn’t relegated to some part of the screen that will be ignored – it’s not good for democracy that not only is it difficult to tell _who_ is really posting, but it’s also difficult to tell that what I’m reading is in fact a paid-for ad.
+{% include figure.html url="guardian-paid-for-ads.jpg" alt="Screenshot of a list of sponsored articles in The Guardian." caption="An example of advertorial." %}
+
+Facebook – being Facebook – has taken this further by barely marking ads as ads. Instead, an ad will appear in a user’s timeline just like any other post does, but with the word <i>Sponsored</i> placed above it in gray, small text. While this may be good for advertisers – my ad isn’t relegated to some part of the screen that will be ignored – it’s not good for democracy that not only is it difficult to tell _who_ is really posting, but it’s also difficult to tell that what I’m reading is in fact a paid-for ad.
+
+![Screenshot of a Facebook advert.](/images/fb-ad.jpg)
+
+## Classified advertising to the rescue (not really)
+
+I was planning to end this article by suggesting that good old fashioned, honest(!) classified ads could solve both our problems with advertising online. It couldn’t be more contextual – you go to a website and search for whatever you want to find – and the ads aren’t getting in the way of the content because they are the content.
+
+Classified advertising is more or less honest. I go to some form of marketplace looking for a service or product   
+
 
 
 
