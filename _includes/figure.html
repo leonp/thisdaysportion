@@ -1,10 +1,10 @@
-<figure class="pa0 mv4 c-sans-serif">
+<figure class="pa0 mv4">
 
     <img src='{% unless jekyll.environment == "development" %}{{ site.url }}{% endunless %}/images/{{ include.url }}' alt="{{ include.alt }}" class="{% unless include.unbleed %}c-bleed {% endunless %}db tc border-box mb2 shadow-4" loading="lazy">
 
     <figcaption>
 
-        <p class="f6 ma0 lh-title">{{ include.caption }}</p>
+        <p class="f6 ma0">{{ include.caption }}</p>
 
     </figcaption>
 

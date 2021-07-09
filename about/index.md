@@ -3,7 +3,7 @@ layout: article
 title: About
 footer: true
 order: "5"
-in_nav: false
+in_nav: true
 visited-links: true
 prose-headings: true
 underlined-links: true

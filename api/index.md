@@ -5,6 +5,7 @@ visited-links: true
 prose-headings: true
 underlined-links: true
 hyphens: true
+in-nav: true
 ---
 
 This site has a very simple <abbr title="Application Programming Interface">API</abbr> which enables you to access its content in <abbr title="JavaScript Object Natation">JSON</abbr>.

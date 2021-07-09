@@ -6,6 +6,28 @@
 
 	        <div class="lh-solid clip"><a href="mailto:mail@thisdaysportion.com" rel="me">mail@thisdaysportion.com</a></div>
 
+	        <nav id="nav" class="flex-ns f6">
+
+		          <a href="/" class="db dib-ns pv1 mr3-ns no-underline{% if page.title == "Home" %} bb-ns bw3 c-border{% endif %}">Home</a>
+
+		          {% assign pages = site.pages | where: "in_nav", true | sort: "order" %}
+
+		          {% for this_page in pages %}
+
+		          {% unless this_page.url contains "page" %}
+
+		          <a href="{{ this_page.url }}" class="db dib-ns pv1 mr3-ns  no-underline{% if this_page.url == page.url %} bb-ns bw3 c-border{% endif %}">{{ this_page.title }}</a>
+
+		          {% endunless %}
+
+		          {% endfor %}
+
+		          <a href="/feed/index.xml" class="db dib-ns pv1 mr3-ns no-underline">RSS</a>
+
+		          <a role="link" href="/search" class="db dib-ns pv1 mr3-ns no-underline">Search</a>
+
+		      </nav>
+
         </footer>
 
         {% if page.is_search %}
@@ -16,8 +38,8 @@
 			searchInput: document.getElementById('search-input'),
 			resultsContainer: document.getElementById('results-container'),
 			json: '/search.json',
-			searchResultTemplate: '<div role="option" class="f6 c-secondary-background bt b--light-silver"><a class="db pv1 ph2" href="{url}">{title}</a><time class="f7 db ph2 pb2">{date}</time></div>',
-			noResultsText: '<div class="c-secondary-background pa2">No results, I’m afraid. Check your spelling or try a different word or phrase.</div>',
+			searchResultTemplate: '<div role="option" class="f6 c-link bt b--light-silver"><a class="db pv1 ph2" href="{url}">{title}</a><time class="f7 db ph2 pb2">{date}</time></div>',
+			noResultsText: '<div class="c-link pa2">No results, I’m afraid. Check your spelling or try a different word or phrase.</div>',
 			limit: '20'
 			})
 		</script>

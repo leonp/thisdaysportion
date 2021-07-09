@@ -4,7 +4,7 @@
     --ph: 7.5vw;
     --pr: 7.5vw;
     --pl: 7.5vw;
-    --measure: 36rem;
+    --measure: 34rem;
     --measure-wide: 60rem;
     --lh-copy: 1.375;
     --lh-copy-m: 1.5;
@@ -12,13 +12,13 @@
     --lh-title: 1.1;
     --lh-title-m: 1.2;
     --lh-title-l: 1.2;
-    --font-size: 118.75%;
-    --font-size-m: 118.75%;
-    --font-size-l: 118.75%;
+    --font-size: 125%;
+    --font-size-m: 125%;
+    --font-size-l: 125%;
     --sans-serif: -apple-system, BlinkMacSystemFont, "segoe ui", "helvetica neue", helvetica, ubuntu, roboto, noto, sans-serif;
-    --serif: georgia, serif;
+    --serif: Newsreader, georgia, serif;
     --monospace: "IBM Plex Mono", "Fira Code", "Menlo", "Courier New", monospace;
-    --accent: #000;  // Browser blue
+    --accent: #000;  // Black
     --link: #000; // Black
     --hover: #0000EE; // Browser blue
     --visited: #666; // Tachyons mid-gray
@@ -32,6 +32,9 @@
     --header-background: #FFF; // White
     --rule-color: #CCC; // Tachyons moon-gray
     --field-border-color: #CCC; // Tachyons moon-gray
+    --brand-bg: #D5008F;
+    --brand-foreground: #FFF;
+    --brand-border: #D5008F;
     --grid-margin: 0.75rem;
     --grid-gutter: -0.75rem; // This should be -value of grid-margin
 }
@@ -51,6 +54,9 @@
         --header-background: #2C3437; // Hague blue
         --rule-color: #555; // Tachyons mid-gray
         --field-border-color: #777; // Tachyons gray
+        --brand-bg: #FBF1A9;
+        --brand-foreground: #000;
+        --brand-border: #FBF1A9;
     }
     html {
         osx-font-smoothing: grayscale;
@@ -147,6 +153,20 @@ body {
     color: var(--accent);
 }
 
+.c-brand-bg {
+    background-color: var(--brand-bg);
+}
+
+.c-brand-foreground,
+.c-brand-foreground:hover {
+    color: var(--brand-foreground);
+}
+
+
+.c-brand-border {
+    border-color: var(--brand-border);
+}
+
 .c-selected {
     color: var(--selected);
 }
@@ -232,9 +252,10 @@ a:active {
     color: var(--hover);
 }
 
-header,
-footer {
-  font-family: var(--sans-serif);
+strong,
+b {
+    font-weight: 500;
+    color: var(--accent);
 }
 
 h1,
@@ -244,7 +265,9 @@ h4,
 h5,
 h6 {
     line-height: var(--lh-title);
-    font-family: var(--sans-serif);
+    font-family: var(--serif);
+    color: var(--accent);
+    font-weight: normal;
 }
 
 @media #{$breakpoint-medium} {
@@ -295,21 +318,17 @@ article {
 .c-headings dt {
     margin-top: 2.25rem;
     margin-bottom: 0;
-    font-family: var(--sans-serif);
 }
 
 
 .c-headings h2 {
-    font-size: 1rem;
+    font-size: 1.25rem;
 }
 
 
 .c-headings h3 {
     font-size: 1rem;
-    font-variant: small-caps;
-    text-transform: lowercase;
-    letter-spacing: 1px;
-    font-weight: normal;
+    font-style: italic;
 }
 
 .c-headings h4 {
@@ -389,12 +408,12 @@ article a:focus {
     margin-left: calc(var(--ph) - (var(--ph) * 2));
 }
 
-@media #{$breakpoint-large} {
+/* @media #{$breakpoint-large} {
     .c-bleed {
         max-width: 100%;
         margin-left: 0;
     }
-}
+} */
 
 .c-bleed-full {
   margin-left: calc(var(--ph) - (var(--ph) * 2));
