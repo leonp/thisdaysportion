@@ -1,5 +1,6 @@
 ---
 title: Advertising online, but nicely
+category: web
 ---
 
 I place ads on Facebook.
@@ -81,11 +82,25 @@ While this may be good for advertisers – my ad isn’t relegated to some part 
 
 I was planning to end this article by suggesting that good old fashioned, honest(!) classified ads could solve both our problems with advertising online. It couldn’t be more contextual – you go to a website and search for whatever you want to find – and the ads aren’t getting in the way of the content because they are the content.
 
-Except that’s not quite true. Classified advertising can also be misleading whenever there’s a middleman looking to make money from serving ads. Indeed, Google search started as a pure classified advertising service that tried to match its results with whatever you were looking for. But once it started selling search results slots, the results become less trustworthy, and more difficult to navigate.
+Except that’s not quite true. Classified advertising can also be misleading whenever there’s a middleman looking to make money from serving ads. Indeed, Google search started as a pure classified service that tried to match its results with whatever you were looking for. But once it started selling search results slots, the results become less trustworthy, and more difficult to navigate.
 
 There’s nothing to stop bad faith actors flogging you something that isn’t what they claim it to be, although direct, peer to peer services such as Craigslist can of course work really well. It’s perhaps no coincidence that these types of sites tend have the plainest, clearest interfaces.
 
-But the main problem with classified sites is that they can only real sell you a very specific item that you know you want. What if you’re looking for a pair of trainers, but don’t know which brand would be best? Nike won’t be advertising on Craigslist.
+But the main problem with classified sites is that they can only real sell you a specific item that you know you want. What if you’re looking for a pair of trainers, but don’t know which brand would be best? Nike won’t be advertising on Craigslist. I could advertise our Harry Potter event on a local listings site, but how would I publish a display ad?
+
+## Everything on the web is advertising
+
+It occurred to me that this way of looking at online advertising is mistaken. Placing separate adverts next to or within content only annoys. Contextual ads may be more ethical, but do they work?
+
+Facebook and, to a lesser extent, Google get round this problem by blurring the line between adverts and content. Your stream or search results become more homogenised, and advertisers get more value for their money.
+
+As to how Nike advertise their shoes. Why place adverts next to content when the content can do the selling for you:
+
+[![Cristiano Ronaldo advertising Nike football boots on Twitter.](/images/cr.jpg)](https://twitter.com/Cristiano/status/1408863983084478474)
+
+
+
+
 
 
 
