@@ -253,7 +253,8 @@ a:active {
 }
 
 strong,
-b {
+b,
+.b {
     font-weight: 500;
     color: var(--accent);
 }

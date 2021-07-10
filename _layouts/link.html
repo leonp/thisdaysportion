@@ -12,7 +12,9 @@
 
     </div>
 
-    <p><a class="b db" href="{{ page.link-url }}">{{ page.link-url }}</a></p>
+    {% if page.link-published %}<p class="f6 mb0">Originally published <time>{{ page.link-published | date: "%-d %b, %Y" }}</time></p>{% endif %}
+
+    <p class="mt0"><a class="b db" href="{{ page.link-url }}">{{ page.link-url }}</a></p>
 
   </header>
 
