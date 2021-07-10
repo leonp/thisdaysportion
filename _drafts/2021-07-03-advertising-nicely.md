@@ -39,7 +39,7 @@ Indeed, there was perhaps a “golden age” of display advertising, where ads d
 
 {% include figure.html url="rolls.jpg" alt="A 1959 advert for a Rolls Royce." caption="A classic advert from 1959 – image, caption, headline and lots of copy." %}
 
-You do, of course, still see these types of ads – Nespresso and George Clooney spring to mind, but they feel quaint and ineffective. Nespresso pods are very bad for the environment and the company is worse than Apple for locking you into their product. Nespresso is suing Espresso for using a Clooney lookalike to flog their own proprietary pod. We can see all the gruesome stage machinery behind the shots of George Clooney twinkling at the camera. 
+You do, of course, still see these types of ads – Nespresso and George Clooney spring to mind, but they feel quaint and ineffective. We know Nespresso pods clog up the oceans and the company is worse than Apple for locking you into their product. They’re suing a competitor – Espresso – for using a Clooney lookalike to flog its own proprietary pod. Consumers can see the gruesome stage machinery behind the shots of George Clooney twinkling at the camera. 
 
 ## Display ads don’t work online
 
@@ -57,7 +57,7 @@ And we haven’t even mentioned mobile. There is nowhere to place ads on a phone
 
 ## Solving the no-one wants to look at adverts problem
 
-We can again refer to print advertising to find a way to get people to look at adverts. As I said, misdirection and obfuscation have always been a part of advertising.
+We can look to print advertising to see how the Twitters, Facebooks and Googles of this world get people to look at adverts. Pre-online marketing wasn’t inherently more ethical than online marketing – it’s just less intrusive and can’t gather any data on the people looking at it.
 
 Newspapers and, to a lesser degree, magazines profess to maintain a strict line between editorial and advertising. It should be obvious to the reader what is an advert and what is journalism.
 
@@ -67,18 +67,29 @@ Examples are everywhere (and in fact we’ve paid for these pieces in the local 
 
 {% include figure.html url="guardian-paid-for-ads.jpg" alt="Screenshot of a list of sponsored articles in The Guardian." caption="An example of advertorial." %}
 
-Facebook – being Facebook – has taken this further by barely marking ads as ads. Instead, an ad will appear in a user’s timeline just like any other post does, but with the word <i>Sponsored</i> placed above it in gray, small text. While this may be good for advertisers – my ad isn’t relegated to some part of the screen that will be ignored – it’s not good for democracy that not only is it difficult to tell _who_ is really posting, but it’s also difficult to tell that what I’m reading is in fact a paid-for ad.
+The idea is that this somehow looks like “proper”, journalistic content, rather than actual adverts.
 
-![Screenshot of a Facebook advert.](/images/fb-ad.jpg)
+The history of Google search is the story of how it has tried to merge paid for adverts with what it calls “organic” (i.e. not paid for) results. It’s a fascinating example of how very minor typographical changes can have a major effect on customer experience, and on whether advertising works.
+
+Facebook – being Facebook – has taken a more direct approach to blurring the line between content and advertising. Facebook ads appear in a user’s timeline just like any other post does, but with the word <i>Sponsored</i> placed below the poster’s name in small, low contrast text. This would prove an effective way of misdirecting readers on its own – combine it with the absolute mess of the average Facebook page and timeline and it becomes even more difficult to separate from the noise.
+
+While this may be good for advertisers – my ad isn’t relegated to some part of the screen that will be ignored – it’s not good for democracy when not only is it difficult to tell _who_ is really posting something; it’s also difficult to tell that _what_ I’m reading is an advert at all.
+
+{% include figure.html url="fb-ad.jpg" alt="Screenshot of a Facebook ad for marketing services." caption="Facebook serves me adverts about marketing, even though I’ve never shared my job and last posted in 2016." %}
 
 ## Classified advertising to the rescue (not really)
 
 I was planning to end this article by suggesting that good old fashioned, honest(!) classified ads could solve both our problems with advertising online. It couldn’t be more contextual – you go to a website and search for whatever you want to find – and the ads aren’t getting in the way of the content because they are the content.
 
-Classified advertising is more or less honest. I go to some form of marketplace looking for a service or product   
+Except that’s not quite true. Classified advertising can also be misleading whenever there’s a middleman looking to make money from serving ads. Indeed, Google search started as a pure classified advertising service that tried to match its results with whatever you were looking for. But once it started selling search results slots, the results become less trustworthy, and more difficult to navigate.
+
+There’s nothing to stop bad faith actors flogging you something that isn’t what they claim it to be, although direct, peer to peer services such as Craigslist can of course work really well. It’s perhaps no coincidence that these types of sites tend have the plainest, clearest interfaces.
+
+But the main problem with classified sites is that they can only real sell you a very specific item that you know you want. What if you’re looking for a pair of trainers, but don’t know which brand would be best? Nike won’t be advertising on Craigslist.
 
 
 
+ 
 
 
 
