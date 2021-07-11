@@ -1,6 +1,8 @@
 ---
 title: Focusing your writing with a simple scaffolding technique
 category: thinking
+date: 2021-07-11 11:18:00 +0000
+sub: "When I’m trying to write a well argued article using this simple scaffolding technique helps me focus the writing."
 ---
 
 I’ve been writing an article about advertising online over the last couple of weekends. It’s a subject I’ve been interested in for years, and I can offer some perspective as we place lots of Facebook ads at work (spoiler: they work really well).
