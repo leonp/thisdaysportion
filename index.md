@@ -5,7 +5,7 @@ order: 1
 display-title: "This day’s portion."
 is_home: true
 is_wide: false
-sub: 'A blog. <a href="/feed/index.xml">Subscribe to the RSS feed</a> and/or <a href="https://micro.blog/leonp/">follow me on micro.blog</a>. <br>Or, <a href="/contact">contact me</a> directly.'
+sub: 'A blog. <a href="/feed/index.xml">Subscribe to the RSS feed</a> and/or <a href="https://micro.blog/leonp/">follow me on micro.blog</a>. <br>Or, <a href="/contact">contact me</a> directly. <br>Or, <a href="/about">find out more</a>.'
 hide-title: false
 pagination:
    enabled: true
