@@ -2,7 +2,7 @@
 title: Focusing your writing with a simple scaffolding technique
 category: thinking
 date: 2021-07-11 11:18:00 +0000
-sub: "When I’m trying to write a well argued article using this simple scaffolding technique helps me focus the writing."
+sub: "When I’m trying to write an article, using this simple scaffolding technique helps keep it focused."
 ---
 
 I’ve been writing an article about advertising online over the last couple of weekends. It’s a subject I’ve been interested in for years, and I can offer some perspective as we place lots of Facebook ads at work (spoiler: they work really well).
@@ -61,7 +61,7 @@ The order of sections and sub-sections may shift as the argument develops.
 
 ## Writing’s a fluid process
 
-You can use this scaffolding technique at any point in the writing process. Sometimes it’s useful to dump your thoughts onto the page before trying to structure them better, sometimes you might want to start with a scaffold. You might switch between the scaffold and your draft at various points.
+You can use this scaffolding technique at any point in the writing process. Sometimes it’s useful to dump your thoughts onto the page before trying to structure them better, sometimes you might want to start with a scaffold. You can switch between the scaffold and your draft at any time.
 
 Not every article needs a scaffold. I tend to use one when I hit 1000+ words. Often, I’m not looking to write a well-reasoned argument when I post to my website.
 
