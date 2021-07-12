@@ -6,7 +6,8 @@
 
 $breakpoint-not-small: 'screen and (min-width: 30em)' !default;
 $breakpoint-medium: 'screen and (min-width: 30em) and (max-width: 60em)' !default;
-$breakpoint-large: 'screen and (min-width: 60em)' !default;
+$breakpoint-large: 'screen and (min-width: 60em) and (max-width: 80em)' !default;
+$breakpoint-very-large: 'screen and (min-width: 80em)' !default;
 
 /*
 

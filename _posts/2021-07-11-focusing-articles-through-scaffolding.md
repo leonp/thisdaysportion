@@ -27,7 +27,7 @@ The elements are:
 
 Don’t sweat this too much in the beginning as you’ll probably edit it several times as you build your scaffold.
 
-It should be the final element you edit before publishing, as it will exist in its own little world on social media or in your readers’ RSS feeds or inboxes. You’ll need to think about how it works on its own.
+It should be the final element you edit before publishing, as it will exist in its own little world on social media or in your readers’ RSS feeds or inboxes. You’ll need to think about how it works away from your website.
 
 At this stage it’s the briefest expression of your argument, which you’ll expand in the next element.
 

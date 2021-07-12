@@ -15,6 +15,7 @@
     --font-size: 125%;
     --font-size-m: 125%;
     --font-size-l: 125%;
+    --font-size-vl: 150%;
     --sans-serif: -apple-system, BlinkMacSystemFont, "segoe ui", "helvetica neue", helvetica, ubuntu, roboto, noto, sans-serif;
     --serif: Newsreader, georgia, serif;
     --monospace: "IBM Plex Mono", "Fira Code", "Menlo", "Courier New", monospace;
@@ -81,6 +82,12 @@ html {
     }
 }
 
+@media #{$breakpoint-very-large} {
+    html {
+        font-size: var(--font-size-vl);
+    }
+}
+
 body {
     line-height: var(--lh-copy);
 }
@@ -92,6 +99,12 @@ body {
 }
 
 @media #{$breakpoint-large} {
+    body {
+        line-height: var(--lh-copy-l);
+    }
+}
+
+@media #{$breakpoint-very-large} {
     body {
         line-height: var(--lh-copy-l);
     }
